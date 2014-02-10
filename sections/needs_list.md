@@ -130,26 +130,6 @@ offline donations and also(!) external donations)
   </table>
 </table>
 
-## Response Links
-
-<table>
-  <tr>
-    <th>Linkname</th>
-    <th>Description</th>
-  </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="need_details.md">need details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">project</th>
-      <td>Link to the related <a href="project_details.md">project's details</a>
-</td>
-    </tr>
-</table>
-
 ## Response Example
 
 ```json

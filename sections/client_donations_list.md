@@ -103,22 +103,6 @@ that is associated with this donation.
   </table>
 </table>
 
-## Response Links
-
-<table>
-  <tr>
-    <th>Linkname</th>
-    <th>Description</th>
-  </tr>
-    <tr>
-      <th align="left">receiver</th>
-      <td>Link to the <a href="project_details.md">project details</a>
-or <a href="need_details.md">project need details</a>
-that is associated with this donation.
-</td>
-    </tr>
-</table>
-
 ## Response Example
 
 ```json

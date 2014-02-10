@@ -127,34 +127,6 @@ A list of betterplace.org matching funds.
   </table>
 </table>
 
-## Response Links
-
-<table>
-  <tr>
-    <th>Linkname</th>
-    <th>Description</th>
-  </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="matching_fund_details.md">matching fund details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
-    </tr>
-    <tr>
-      <th align="left">projects</th>
-      <td>Link to the list of projects belonging to this matching fund</td>
-    </tr>
-    <tr>
-      <th align="left">documentation</th>
-      <td>Link to this resource in the documentation
-</td>
-    </tr>
-</table>
-
 ## Response Example
 
 ```json

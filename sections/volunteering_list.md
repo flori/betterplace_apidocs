@@ -657,61 +657,6 @@ betterplace.
   </table>
 </table>
 
-## Response Links
-
-<table>
-  <tr>
-    <th>Linkname</th>
-    <th>Description</th>
-  </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="volunteering_details.md">volunteering details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.logo</th>
-      <td>Thumbnail size</td>
-    </tr>
-    <tr>
-      <th align="left">image.original</th>
-      <td>Original size</td>
-    </tr>
-    <tr>
-      <th align="left">image.thumb</th>
-      <td>Thumbnail size</td>
-    </tr>
-    <tr>
-      <th align="left">image.medium</th>
-      <td>Medium size</td>
-    </tr>
-    <tr>
-      <th align="left">image.regular</th>
-      <td>Regular size</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.original</th>
-      <td>Original size as uploaded by the user</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.large_attention_deprecated</th>
-      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.profile_attention_deprecated</th>
-      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.thumb_attention_deprecated</th>
-      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-</table>
-
 ## Response Example
 
 ```json

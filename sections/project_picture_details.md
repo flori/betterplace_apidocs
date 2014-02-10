@@ -107,27 +107,6 @@ projects, the API will return a `404` HTTP code.
   </table>
 </table>
 
-## Response Links
-
-<table>
-  <tr>
-    <th>Linkname</th>
-    <th>Description</th>
-  </tr>
-    <tr>
-      <th align="left">image</th>
-      <td>Link to the original image as uploaded by the user</td>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>The single resource for this picture</td>
-    </tr>
-    <tr>
-      <th align="left">parent</th>
-      <td>The parent object of this picture.</td>
-    </tr>
-</table>
-
 ## Response Example
 
 ```json

@@ -132,30 +132,6 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
   </table>
 </table>
 
-## Response Links
-
-<table>
-  <tr>
-    <th>Linkname</th>
-    <th>Description</th>
-  </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="blog_post_details.md">blog post details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
-    </tr>
-    <tr>
-      <th align="left">documentation</th>
-      <td>Link to this resource in the documentation
-</td>
-    </tr>
-</table>
-
 ## Response Example
 
 ```json
