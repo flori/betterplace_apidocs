@@ -235,6 +235,25 @@ was indeed imported.
       <td>Contact data for the organisation</td>
     </tr>
   </table>
+  <table>
+    <tr>
+      <th colspan="4">Links</th>
+    </tr>
+    <tr>
+      <th>Linkname</th>
+      <th colspan="3">Description</th>
+    </tr>
+    <tr>
+      <th align="left">self</th>
+      <td colspan="3">Link to this resource itself
+(<a href="volunteering_details.md">volunteering details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td colspan="3">Permalink to betterplace.org</td>
+    </tr>
+  </table>
 ### <a name="image" href="#image-ref">↑Nested Attributes: image</a>
 
   <table>
@@ -249,6 +268,25 @@ was indeed imported.
       <td>string</td>
       <td></td>
       <td>Image description</td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <th colspan="4">Links</th>
+    </tr>
+    <tr>
+      <th>Linkname</th>
+      <th colspan="3">Description</th>
+    </tr>
+    <tr>
+      <th align="left">self</th>
+      <td colspan="3">Link to this resource itself
+(<a href="volunteering_details.md">volunteering details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td colspan="3">Permalink to betterplace.org</td>
     </tr>
   </table>
 ### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
@@ -289,6 +327,25 @@ No validations on input apply.
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <th colspan="4">Links</th>
+    </tr>
+    <tr>
+      <th>Linkname</th>
+      <th colspan="3">Description</th>
+    </tr>
+    <tr>
+      <th align="left">self</th>
+      <td colspan="3">Link to this resource itself
+(<a href="volunteering_details.md">volunteering details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td colspan="3">Permalink to betterplace.org</td>
     </tr>
   </table>
 ### <a name="import_information" href="#import_information-ref">↑Nested Attributes: import_information</a>

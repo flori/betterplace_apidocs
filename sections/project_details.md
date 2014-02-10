@@ -248,6 +248,50 @@ like "Payback User" or empty/null for anonymous donations.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
+  <table>
+    <tr>
+      <th colspan="4">Links</th>
+    </tr>
+    <tr>
+      <th>Linkname</th>
+      <th colspan="3">Description</th>
+    </tr>
+    <tr>
+      <th align="left">self</th>
+      <td colspan="3">Link to this resource itself
+(<a href="project_details.md">project details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td colspan="3">Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">opinions</th>
+      <td colspan="3">Link to <a href="opinions_list.md">opinion list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">pictures</th>
+      <td colspan="3">Link to <a href="picture_list.md">project picture list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">needs</th>
+      <td colspan="3">Link to <a href="needs_list.md">project need list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">blog_posts</th>
+      <td colspan="3">Link to <a href="blog_posts_list.md">blog post list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">matching_funds</th>
+      <td colspan="3">Link to <a href="manager_details.md">matching funds list</a>
+</td>
+    </tr>
+  </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
 
   <table>
@@ -268,6 +312,50 @@ like "Payback User" or empty/null for anonymous donations.
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>The organisation logo, user profile picture or a fallback image</td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <th colspan="4">Links</th>
+    </tr>
+    <tr>
+      <th>Linkname</th>
+      <th colspan="3">Description</th>
+    </tr>
+    <tr>
+      <th align="left">self</th>
+      <td colspan="3">Link to this resource itself
+(<a href="project_details.md">project details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td colspan="3">Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">opinions</th>
+      <td colspan="3">Link to <a href="opinions_list.md">opinion list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">pictures</th>
+      <td colspan="3">Link to <a href="picture_list.md">project picture list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">needs</th>
+      <td colspan="3">Link to <a href="needs_list.md">project need list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">blog_posts</th>
+      <td colspan="3">Link to <a href="blog_posts_list.md">blog post list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">matching_funds</th>
+      <td colspan="3">Link to <a href="manager_details.md">matching funds list</a>
+</td>
     </tr>
   </table>
 ### <a name="active_matching_fund" href="#active_matching_fund-ref">↑Nested Attributes: active_matching_fund</a>
