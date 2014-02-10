@@ -252,42 +252,6 @@ was indeed imported.
       <th align="left">platform</th>
       <td colspan="3">Permalink to betterplace.org</td>
     </tr>
-    <tr>
-      <th align="left">carrier.logo</th>
-      <td colspan="3">Thumbnail size</td>
-    </tr>
-    <tr>
-      <th align="left">image.original</th>
-      <td colspan="3">Original size</td>
-    </tr>
-    <tr>
-      <th align="left">image.thumb</th>
-      <td colspan="3">Thumbnail size</td>
-    </tr>
-    <tr>
-      <th align="left">image.medium</th>
-      <td colspan="3">Medium size</td>
-    </tr>
-    <tr>
-      <th align="left">image.regular</th>
-      <td colspan="3">Regular size</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.original</th>
-      <td colspan="3">Original size as uploaded by the user</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.large_attention_deprecated</th>
-      <td colspan="3">Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.profile_attention_deprecated</th>
-      <td colspan="3">Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.thumb_attention_deprecated</th>
-      <td colspan="3">Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
   </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
 
@@ -357,42 +321,6 @@ was indeed imported.
       <th align="left">platform</th>
       <td colspan="3">Permalink to betterplace.org</td>
     </tr>
-    <tr>
-      <th align="left">carrier.logo</th>
-      <td colspan="3">Thumbnail size</td>
-    </tr>
-    <tr>
-      <th align="left">image.original</th>
-      <td colspan="3">Original size</td>
-    </tr>
-    <tr>
-      <th align="left">image.thumb</th>
-      <td colspan="3">Thumbnail size</td>
-    </tr>
-    <tr>
-      <th align="left">image.medium</th>
-      <td colspan="3">Medium size</td>
-    </tr>
-    <tr>
-      <th align="left">image.regular</th>
-      <td colspan="3">Regular size</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.original</th>
-      <td colspan="3">Original size as uploaded by the user</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.large_attention_deprecated</th>
-      <td colspan="3">Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.profile_attention_deprecated</th>
-      <td colspan="3">Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.thumb_attention_deprecated</th>
-      <td colspan="3">Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
   </table>
 ### <a name="image" href="#image-ref">↑Nested Attributes: image</a>
 
@@ -425,42 +353,6 @@ was indeed imported.
     <tr>
       <th align="left">platform</th>
       <td colspan="3">Permalink to betterplace.org</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.logo</th>
-      <td colspan="3">Thumbnail size</td>
-    </tr>
-    <tr>
-      <th align="left">image.original</th>
-      <td colspan="3">Original size</td>
-    </tr>
-    <tr>
-      <th align="left">image.thumb</th>
-      <td colspan="3">Thumbnail size</td>
-    </tr>
-    <tr>
-      <th align="left">image.medium</th>
-      <td colspan="3">Medium size</td>
-    </tr>
-    <tr>
-      <th align="left">image.regular</th>
-      <td colspan="3">Regular size</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.original</th>
-      <td colspan="3">Original size as uploaded by the user</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.large_attention_deprecated</th>
-      <td colspan="3">Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.profile_attention_deprecated</th>
-      <td colspan="3">Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.thumb_attention_deprecated</th>
-      <td colspan="3">Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
   </table>
 ### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
@@ -518,42 +410,6 @@ No validations on input apply.
     <tr>
       <th align="left">platform</th>
       <td colspan="3">Permalink to betterplace.org</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.logo</th>
-      <td colspan="3">Thumbnail size</td>
-    </tr>
-    <tr>
-      <th align="left">image.original</th>
-      <td colspan="3">Original size</td>
-    </tr>
-    <tr>
-      <th align="left">image.thumb</th>
-      <td colspan="3">Thumbnail size</td>
-    </tr>
-    <tr>
-      <th align="left">image.medium</th>
-      <td colspan="3">Medium size</td>
-    </tr>
-    <tr>
-      <th align="left">image.regular</th>
-      <td colspan="3">Regular size</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.original</th>
-      <td colspan="3">Original size as uploaded by the user</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.large_attention_deprecated</th>
-      <td colspan="3">Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.profile_attention_deprecated</th>
-      <td colspan="3">Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.thumb_attention_deprecated</th>
-      <td colspan="3">Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
   </table>
 ### <a name="import_information" href="#import_information-ref">↑Nested Attributes: import_information</a>
@@ -617,42 +473,6 @@ betterplace.
     <tr>
       <th align="left">platform</th>
       <td colspan="3">Permalink to betterplace.org</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.logo</th>
-      <td colspan="3">Thumbnail size</td>
-    </tr>
-    <tr>
-      <th align="left">image.original</th>
-      <td colspan="3">Original size</td>
-    </tr>
-    <tr>
-      <th align="left">image.thumb</th>
-      <td colspan="3">Thumbnail size</td>
-    </tr>
-    <tr>
-      <th align="left">image.medium</th>
-      <td colspan="3">Medium size</td>
-    </tr>
-    <tr>
-      <th align="left">image.regular</th>
-      <td colspan="3">Regular size</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.original</th>
-      <td colspan="3">Original size as uploaded by the user</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.large_attention_deprecated</th>
-      <td colspan="3">Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.profile_attention_deprecated</th>
-      <td colspan="3">Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.thumb_attention_deprecated</th>
-      <td colspan="3">Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
   </table>
 </table>
