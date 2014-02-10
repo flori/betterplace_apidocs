@@ -86,27 +86,6 @@ projects, the API will return a `404` HTTP code.
       <td>DateTime (ISO8601 with Timezone) of last update</td>
     </tr>
   </table>
-  <table>
-    <tr>
-      <th colspan="4">Links</th>
-    </tr>
-    <tr>
-      <th>Linkname</th>
-      <th colspan="3">Description</th>
-    </tr>
-    <tr>
-      <th align="left">image</th>
-      <td colspan="3">Link to the original image as uploaded by the user</td>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td colspan="3">The single resource for this picture</td>
-    </tr>
-    <tr>
-      <th align="left">parent</th>
-      <td colspan="3">The parent object of this picture.</td>
-    </tr>
-  </table>
 </table>
 
 ## Response Example

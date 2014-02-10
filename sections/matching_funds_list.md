@@ -99,34 +99,6 @@ A list of betterplace.org matching funds.
       <td>The URL of the logo image.</td>
     </tr>
   </table>
-  <table>
-    <tr>
-      <th colspan="4">Links</th>
-    </tr>
-    <tr>
-      <th>Linkname</th>
-      <th colspan="3">Description</th>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td colspan="3">Link to this resource itself
-(<a href="matching_fund_details.md">matching fund details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">platform</th>
-      <td colspan="3">Permalink to betterplace.org</td>
-    </tr>
-    <tr>
-      <th align="left">projects</th>
-      <td colspan="3">Link to the list of projects belonging to this matching fund</td>
-    </tr>
-    <tr>
-      <th align="left">documentation</th>
-      <td colspan="3">Link to this resource in the documentation
-</td>
-    </tr>
-  </table>
 </table>
 
 ## Response Example
