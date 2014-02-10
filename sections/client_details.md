@@ -96,6 +96,8 @@ This is also calculated based on the sum of all
       <td>The number of <a href="client_donations_list.md">client donations</a> for this client
 </td>
     </tr>
+  </table>
+  <table>
     <tr>
       <th colspan="4">Links</th>
     </tr>

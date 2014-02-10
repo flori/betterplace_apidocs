@@ -60,6 +60,8 @@ A list of betterplace.org matching fund projects.
       <td></td>
       <td>Max 50 character</td>
     </tr>
+  </table>
+  <table>
     <tr>
       <th colspan="4">Links</th>
     </tr>

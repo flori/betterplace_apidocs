@@ -55,6 +55,8 @@ Results are contained in a *data* attribute.
 that where tagged with this tag.
 </td>
     </tr>
+  </table>
+  <table>
     <tr>
       <th colspan="4">Links</th>
     </tr>
@@ -171,6 +173,8 @@ Results are contains in a *data* attribute.
 that where tagged with this tag.
 </td>
     </tr>
+  </table>
+  <table>
     <tr>
       <th colspan="4">Links</th>
     </tr>

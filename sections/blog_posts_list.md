@@ -107,6 +107,8 @@ what you plan to do with the money.
 Possible formats: "Till B.", "T. Behnke", "Till Behnke"
 </td>
     </tr>
+  </table>
+  <table>
     <tr>
       <th colspan="4">Links</th>
     </tr>

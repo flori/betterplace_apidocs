@@ -116,25 +116,6 @@ PlainOpinions and VisitorOpinion require a logged in user.
 why they like or dislike this project
 </td>
     </tr>
-    <tr>
-      <th colspan="4">Links</th>
-    </tr>
-    <tr>
-      <th>Linkname</th>
-      <th colspan="3">Description</th>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td colspan="3">Link to this resource itself
-(<a href="opinion_details.md">opinion details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">project</th>
-      <td colspan="3">Link to the project this opinion belongs to
-(<a href="project_details.md">project details</a>)
-</td>
-    </tr>
   </table>
 ### <a name="author" href="#author-ref">↑Nested Attributes: author</a>
 
@@ -161,6 +142,8 @@ like "Payback User" or empty/null for anonymous donations.
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>
     </tr>
+  </table>
+  <table>
     <tr>
       <th colspan="4">Links</th>
     </tr>

@@ -114,6 +114,8 @@ offline donations and also(!) external donations)
       <td>12382</td>
       <td>How much money is needed in total</td>
     </tr>
+  </table>
+  <table>
     <tr>
       <th colspan="4">Links</th>
     </tr>

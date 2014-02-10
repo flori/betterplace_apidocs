@@ -85,6 +85,8 @@ projects, the API will return a `404` HTTP code.
       <td>"1994-11-05T13:15:30Z"</td>
       <td>DateTime (ISO8601 with Timezone) of last update</td>
     </tr>
+  </table>
+  <table>
     <tr>
       <th colspan="4">Links</th>
     </tr>

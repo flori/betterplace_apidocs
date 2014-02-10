@@ -98,6 +98,8 @@ A list of betterplace.org matching funds.
       <td>http://example.com/images/logo.png</td>
       <td>The URL of the logo image.</td>
     </tr>
+  </table>
+  <table>
     <tr>
       <th colspan="4">Links</th>
     </tr>

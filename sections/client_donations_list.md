@@ -86,6 +86,8 @@ Project <code>Element</code>, <code>FundraisingEvent</code>.
       <td>"Skateistan Afghanistan"</td>
       <td>The title of the project, project element or fundraising event.</td>
     </tr>
+  </table>
+  <table>
     <tr>
       <th colspan="4">Links</th>
     </tr>
