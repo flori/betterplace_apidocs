@@ -69,7 +69,7 @@ A list of betterplace.org matching fund projects.
     </tr>
     <tr>
       <th align="left">self</th>
-      <td>Link to this resource itself
+      <td colspan="3">Link to this resource itself
 (<a href="project_details.md">project details</a>)
 </td>
     </tr>
@@ -83,7 +83,6 @@ A list of betterplace.org matching fund projects.
     <th>Linkname</th>
     <th>Description</th>
   </tr>
-
     <tr>
       <th align="left">self</th>
       <td>Link to this resource itself

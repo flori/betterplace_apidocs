@@ -97,7 +97,7 @@ Project <code>Element</code>, <code>FundraisingEvent</code>.
     </tr>
     <tr>
       <th align="left">receiver</th>
-      <td>Link to the <a href="project_details.md">project details</a>
+      <td colspan="3">Link to the <a href="project_details.md">project details</a>
 or <a href="need_details.md">project need details</a>
 that is associated with this donation.
 </td>
@@ -112,7 +112,6 @@ that is associated with this donation.
     <th>Linkname</th>
     <th>Description</th>
   </tr>
-
     <tr>
       <th align="left">receiver</th>
       <td>Link to the <a href="project_details.md">project details</a>

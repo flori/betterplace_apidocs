@@ -116,17 +116,17 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
     </tr>
     <tr>
       <th align="left">self</th>
-      <td>Link to this resource itself
+      <td colspan="3">Link to this resource itself
 (<a href="blog_post_details.md">blog post details</a>)
 </td>
     </tr>
     <tr>
       <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
+      <td colspan="3">Permalink to betterplace.org</td>
     </tr>
     <tr>
       <th align="left">documentation</th>
-      <td>Link to this resource in the documentation
+      <td colspan="3">Link to this resource in the documentation
 </td>
     </tr>
   </table>
@@ -139,7 +139,6 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
     <th>Linkname</th>
     <th>Description</th>
   </tr>
-
     <tr>
       <th align="left">self</th>
       <td>Link to this resource itself

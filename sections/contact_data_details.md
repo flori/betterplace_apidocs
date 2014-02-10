@@ -66,7 +66,6 @@ Name and email for the given user.
     <th>Linkname</th>
     <th>Description</th>
   </tr>
-
   <th colspan="2">No response example defined</th>
 </table>
 

@@ -64,7 +64,7 @@ that where tagged with this tag.
     </tr>
     <tr>
       <th align="left">projects</th>
-      <td>Link to the <a href="projects_list.md">project list</a> of all tagged projects for the current client.
+      <td colspan="3">Link to the <a href="projects_list.md">project list</a> of all tagged projects for the current client.
 </td>
     </tr>
   </table>
@@ -77,7 +77,6 @@ that where tagged with this tag.
     <th>Linkname</th>
     <th>Description</th>
   </tr>
-
     <tr>
       <th align="left">projects</th>
       <td>Link to the <a href="projects_list.md">project list</a> of all tagged projects for the current client.
@@ -195,7 +194,7 @@ that where tagged with this tag.
     </tr>
     <tr>
       <th align="left">projects</th>
-      <td>Link to the <a href="projects_list.md">project list</a> of all tagged projects for the current client.
+      <td colspan="3">Link to the <a href="projects_list.md">project list</a> of all tagged projects for the current client.
 </td>
     </tr>
   </table>
@@ -208,7 +207,6 @@ that where tagged with this tag.
     <th>Linkname</th>
     <th>Description</th>
   </tr>
-
     <tr>
       <th align="left">projects</th>
       <td>Link to the <a href="projects_list.md">project list</a> of all tagged projects for the current client.

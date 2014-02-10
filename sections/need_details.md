@@ -123,13 +123,13 @@ offline donations and also(!) external donations)
     </tr>
     <tr>
       <th align="left">self</th>
-      <td>Link to this resource itself
+      <td colspan="3">Link to this resource itself
 (<a href="need_details.md">need details</a>)
 </td>
     </tr>
     <tr>
       <th align="left">project</th>
-      <td>Link to the related <a href="project_details.md">project's details</a>
+      <td colspan="3">Link to the related <a href="project_details.md">project's details</a>
 </td>
     </tr>
   </table>
@@ -142,7 +142,6 @@ offline donations and also(!) external donations)
     <th>Linkname</th>
     <th>Description</th>
   </tr>
-
     <tr>
       <th align="left">self</th>
       <td>Link to this resource itself

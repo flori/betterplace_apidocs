@@ -150,22 +150,22 @@ If so, Users can request a tax-receipt for donations to that organisation.
     </tr>
     <tr>
       <th align="left">self</th>
-      <td>Link to this resource itself
+      <td colspan="3">Link to this resource itself
 (<a href="organisation_details.md">organisation details</a>)
 </td>
     </tr>
     <tr>
       <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
+      <td colspan="3">Permalink to betterplace.org</td>
     </tr>
     <tr>
       <th align="left">projects</th>
-      <td>Link to the <a href="projects_list.md">project list</a> of this organisation
+      <td colspan="3">Link to the <a href="projects_list.md">project list</a> of this organisation
 </td>
     </tr>
     <tr>
       <th align="left">contact.platform</th>
-      <td>The user's profile on betterplace.org.
+      <td colspan="3">The user's profile on betterplace.org.
 To view a user profile you have to be logged in.
 This array is empty if the user has no useraccount
 with betterplace.org but donated via one of our partner.
@@ -173,42 +173,42 @@ with betterplace.org but donated via one of our partner.
     </tr>
     <tr>
       <th align="left">contact.contact_data</th>
-      <td>The user's contact data. Please note that you need to be
+      <td colspan="3">The user's contact data. Please note that you need to be
 <a href="../README.md#client-authentication">authenticated as a client</a> with matching
 access rights in order to see this information.
 </td>
     </tr>
     <tr>
       <th align="left">contact.picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td colspan="3">Original size as uploaded by the user</td>
     </tr>
     <tr>
       <th align="left">contact.picture.large_attention_deprecated</th>
-      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+      <td colspan="3">Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
     </tr>
     <tr>
       <th align="left">contact.picture.profile_attention_deprecated</th>
-      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
+      <td colspan="3">Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
     <tr>
       <th align="left">contact.picture.thumb_attention_deprecated</th>
-      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
+      <td colspan="3">Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
     <tr>
       <th align="left">picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td colspan="3">Original size as uploaded by the user</td>
     </tr>
     <tr>
       <th align="left">picture.large_attention_deprecated</th>
-      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+      <td colspan="3">Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
     </tr>
     <tr>
       <th align="left">picture.profile_attention_deprecated</th>
-      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
+      <td colspan="3">Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
     <tr>
       <th align="left">picture.thumb_attention_deprecated</th>
-      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
+      <td colspan="3">Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
   </table>
 ### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
@@ -245,22 +245,22 @@ like "Payback User" or empty/null for anonymous donations.
     </tr>
     <tr>
       <th align="left">self</th>
-      <td>Link to this resource itself
+      <td colspan="3">Link to this resource itself
 (<a href="organisation_details.md">organisation details</a>)
 </td>
     </tr>
     <tr>
       <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
+      <td colspan="3">Permalink to betterplace.org</td>
     </tr>
     <tr>
       <th align="left">projects</th>
-      <td>Link to the <a href="projects_list.md">project list</a> of this organisation
+      <td colspan="3">Link to the <a href="projects_list.md">project list</a> of this organisation
 </td>
     </tr>
     <tr>
       <th align="left">contact.platform</th>
-      <td>The user's profile on betterplace.org.
+      <td colspan="3">The user's profile on betterplace.org.
 To view a user profile you have to be logged in.
 This array is empty if the user has no useraccount
 with betterplace.org but donated via one of our partner.
@@ -268,42 +268,42 @@ with betterplace.org but donated via one of our partner.
     </tr>
     <tr>
       <th align="left">contact.contact_data</th>
-      <td>The user's contact data. Please note that you need to be
+      <td colspan="3">The user's contact data. Please note that you need to be
 <a href="../README.md#client-authentication">authenticated as a client</a> with matching
 access rights in order to see this information.
 </td>
     </tr>
     <tr>
       <th align="left">contact.picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td colspan="3">Original size as uploaded by the user</td>
     </tr>
     <tr>
       <th align="left">contact.picture.large_attention_deprecated</th>
-      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+      <td colspan="3">Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
     </tr>
     <tr>
       <th align="left">contact.picture.profile_attention_deprecated</th>
-      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
+      <td colspan="3">Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
     <tr>
       <th align="left">contact.picture.thumb_attention_deprecated</th>
-      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
+      <td colspan="3">Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
     <tr>
       <th align="left">picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td colspan="3">Original size as uploaded by the user</td>
     </tr>
     <tr>
       <th align="left">picture.large_attention_deprecated</th>
-      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+      <td colspan="3">Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
     </tr>
     <tr>
       <th align="left">picture.profile_attention_deprecated</th>
-      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
+      <td colspan="3">Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
     <tr>
       <th align="left">picture.thumb_attention_deprecated</th>
-      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
+      <td colspan="3">Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
   </table>
 </table>
@@ -315,7 +315,6 @@ access rights in order to see this information.
     <th>Linkname</th>
     <th>Description</th>
   </tr>
-
     <tr>
       <th align="left">self</th>
       <td>Link to this resource itself
