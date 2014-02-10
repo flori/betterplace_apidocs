@@ -146,7 +146,7 @@ If so, Users can request a tax-receipt for donations to that organisation.
     </tr>
     <tr>
       <th>Linkname</th>
-      <th>Description</th>
+      <th colspan="3">Description</th>
     </tr>
     <tr>
       <th align="left">self</th>
@@ -194,7 +194,7 @@ like "Payback User" or empty/null for anonymous donations.
     </tr>
     <tr>
       <th>Linkname</th>
-      <th>Description</th>
+      <th colspan="3">Description</th>
     </tr>
     <tr>
       <th align="left">self</th>

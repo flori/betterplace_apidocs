@@ -187,7 +187,7 @@ was indeed imported.
     </tr>
     <tr>
       <th>Linkname</th>
-      <th>Description</th>
+      <th colspan="3">Description</th>
     </tr>
     <tr>
       <th align="left">self</th>
@@ -256,7 +256,7 @@ was indeed imported.
     </tr>
     <tr>
       <th>Linkname</th>
-      <th>Description</th>
+      <th colspan="3">Description</th>
     </tr>
     <tr>
       <th align="left">self</th>
@@ -289,7 +289,7 @@ was indeed imported.
     </tr>
     <tr>
       <th>Linkname</th>
-      <th>Description</th>
+      <th colspan="3">Description</th>
     </tr>
     <tr>
       <th align="left">self</th>
@@ -346,7 +346,7 @@ No validations on input apply.
     </tr>
     <tr>
       <th>Linkname</th>
-      <th>Description</th>
+      <th colspan="3">Description</th>
     </tr>
     <tr>
       <th align="left">self</th>
@@ -409,7 +409,7 @@ betterplace.
     </tr>
     <tr>
       <th>Linkname</th>
-      <th>Description</th>
+      <th colspan="3">Description</th>
     </tr>
     <tr>
       <th align="left">self</th>

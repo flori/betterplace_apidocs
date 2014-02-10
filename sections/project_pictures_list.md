@@ -97,7 +97,7 @@ projects, the API will return a `404` HTTP code.
     </tr>
     <tr>
       <th>Linkname</th>
-      <th>Description</th>
+      <th colspan="3">Description</th>
     </tr>
     <tr>
       <th align="left">image</th>

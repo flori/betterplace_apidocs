@@ -101,7 +101,7 @@ This is also calculated based on the sum of all
     </tr>
     <tr>
       <th>Linkname</th>
-      <th>Description</th>
+      <th colspan="3">Description</th>
     </tr>
     <tr>
       <th align="left">projects</th>

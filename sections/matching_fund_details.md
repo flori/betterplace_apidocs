@@ -96,7 +96,7 @@ The details and list view show the same data.
     </tr>
     <tr>
       <th>Linkname</th>
-      <th>Description</th>
+      <th colspan="3">Description</th>
     </tr>
     <tr>
       <th align="left">self</th>

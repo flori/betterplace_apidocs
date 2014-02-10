@@ -91,7 +91,7 @@ Project <code>Element</code>, <code>FundraisingEvent</code>.
     </tr>
     <tr>
       <th>Linkname</th>
-      <th>Description</th>
+      <th colspan="3">Description</th>
     </tr>
     <tr>
       <th align="left">receiver</th>

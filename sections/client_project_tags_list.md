@@ -60,7 +60,7 @@ that where tagged with this tag.
     </tr>
     <tr>
       <th>Linkname</th>
-      <th>Description</th>
+      <th colspan="3">Description</th>
     </tr>
     <tr>
       <th align="left">projects</th>
@@ -176,7 +176,7 @@ that where tagged with this tag.
     </tr>
     <tr>
       <th>Linkname</th>
-      <th>Description</th>
+      <th colspan="3">Description</th>
     </tr>
     <tr>
       <th align="left">projects</th>
