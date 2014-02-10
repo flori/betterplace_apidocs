@@ -92,10 +92,8 @@ The details and list view show the same data.
       <td>The URL of the logo image.</td>
     </tr>
   </table>
+#### Links
   <table>
-    <tr>
-      <th colspan="4">Links</th>
-    </tr>
     <tr>
       <th>Linkname</th>
       <th colspan="3">Description</th>

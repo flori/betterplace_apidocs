@@ -183,10 +183,8 @@ was indeed imported.
 </td>
     </tr>
   </table>
+#### Links
   <table>
-    <tr>
-      <th colspan="4">Links</th>
-    </tr>
     <tr>
       <th>Linkname</th>
       <th colspan="3">Description</th>
