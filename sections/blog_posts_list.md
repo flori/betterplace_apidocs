@@ -112,25 +112,24 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
   <table>
     <tr>
       <th>Linkname</th>
-      <th colspan="3">Description</th>
+      <th>Description</th>
     </tr>
     <tr>
       <th align="left">self</th>
-      <td colspan="3">Link to this resource itself
+      <td>Link to this resource itself
 (<a href="blog_post_details.md">blog post details</a>)
 </td>
     </tr>
     <tr>
       <th align="left">platform</th>
-      <td colspan="3">Permalink to betterplace.org</td>
+      <td>Permalink to betterplace.org</td>
     </tr>
     <tr>
       <th align="left">documentation</th>
-      <td colspan="3">Link to this resource in the documentation
+      <td>Link to this resource in the documentation
 </td>
     </tr>
   </table>
-</table>
 
 ## Response Example
 

@@ -57,7 +57,6 @@ Name and email for the given user.
       <td>The email address of the user</td>
     </tr>
   </table>
-</table>
 
 ## Response Example
 

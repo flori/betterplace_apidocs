@@ -93,17 +93,16 @@ Project <code>Element</code>, <code>FundraisingEvent</code>.
   <table>
     <tr>
       <th>Linkname</th>
-      <th colspan="3">Description</th>
+      <th>Description</th>
     </tr>
     <tr>
       <th align="left">receiver</th>
-      <td colspan="3">Link to the <a href="project_details.md">project details</a>
+      <td>Link to the <a href="project_details.md">project details</a>
 or <a href="need_details.md">project need details</a>
 that is associated with this donation.
 </td>
     </tr>
   </table>
-</table>
 
 ## Response Example
 

@@ -226,41 +226,41 @@ donation needs. This percentage includes those needs.
   <table>
     <tr>
       <th>Linkname</th>
-      <th colspan="3">Description</th>
+      <th>Description</th>
     </tr>
     <tr>
       <th align="left">self</th>
-      <td colspan="3">Link to this resource itself
+      <td>Link to this resource itself
 (<a href="project_details.md">project details</a>)
 </td>
     </tr>
     <tr>
       <th align="left">platform</th>
-      <td colspan="3">Permalink to betterplace.org</td>
+      <td>Permalink to betterplace.org</td>
     </tr>
     <tr>
       <th align="left">opinions</th>
-      <td colspan="3">Link to <a href="opinions_list.md">opinion list</a>
+      <td>Link to <a href="opinions_list.md">opinion list</a>
 </td>
     </tr>
     <tr>
       <th align="left">pictures</th>
-      <td colspan="3">Link to <a href="picture_list.md">project picture list</a>
+      <td>Link to <a href="picture_list.md">project picture list</a>
 </td>
     </tr>
     <tr>
       <th align="left">needs</th>
-      <td colspan="3">Link to <a href="needs_list.md">project need list</a>
+      <td>Link to <a href="needs_list.md">project need list</a>
 </td>
     </tr>
     <tr>
       <th align="left">blog_posts</th>
-      <td colspan="3">Link to <a href="blog_posts_list.md">blog post list</a>
+      <td>Link to <a href="blog_posts_list.md">blog post list</a>
 </td>
     </tr>
     <tr>
       <th align="left">matching_funds</th>
-      <td colspan="3">Link to <a href="manager_details.md">matching funds list</a>
+      <td>Link to <a href="manager_details.md">matching funds list</a>
 </td>
     </tr>
   </table>
@@ -294,23 +294,23 @@ like "Payback User" or empty/null for anonymous donations.
   <table>
     <tr>
       <th>Linkname</th>
-      <th colspan="3">Description</th>
+      <th>Description</th>
     </tr>
     <tr>
       <th align="left">contact.original</th>
-      <td colspan="3">Original size as uploaded by the user</td>
+      <td>Original size as uploaded by the user</td>
     </tr>
     <tr>
       <th align="left">contact.large_attention_deprecated</th>
-      <td colspan="3">Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
     </tr>
     <tr>
       <th align="left">contact.profile_attention_deprecated</th>
-      <td colspan="3">Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
+      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
     <tr>
       <th align="left">contact.thumb_attention_deprecated</th>
-      <td colspan="3">Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
+      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
   </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
@@ -339,23 +339,23 @@ like "Payback User" or empty/null for anonymous donations.
   <table>
     <tr>
       <th>Linkname</th>
-      <th colspan="3">Description</th>
+      <th>Description</th>
     </tr>
     <tr>
       <th align="left">carrier.original</th>
-      <td colspan="3">Original size as uploaded by the user</td>
+      <td>Original size as uploaded by the user</td>
     </tr>
     <tr>
       <th align="left">carrier.large_attention_deprecated</th>
-      <td colspan="3">Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
     </tr>
     <tr>
       <th align="left">carrier.profile_attention_deprecated</th>
-      <td colspan="3">Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
+      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
     <tr>
       <th align="left">carrier.thumb_attention_deprecated</th>
-      <td colspan="3">Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
+      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
   </table>
 ### <a name="active_matching_fund" href="#active_matching_fund-ref">↑Nested Attributes: active_matching_fund</a>
@@ -422,7 +422,6 @@ like "Payback User" or empty/null for anonymous donations.
       <td>The URL of the logo image.</td>
     </tr>
   </table>
-</table>
 
 ## Response Example
 

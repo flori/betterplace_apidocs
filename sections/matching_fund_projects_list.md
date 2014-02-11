@@ -65,16 +65,15 @@ A list of betterplace.org matching fund projects.
   <table>
     <tr>
       <th>Linkname</th>
-      <th colspan="3">Description</th>
+      <th>Description</th>
     </tr>
     <tr>
       <th align="left">self</th>
-      <td colspan="3">Link to this resource itself
+      <td>Link to this resource itself
 (<a href="project_details.md">project details</a>)
 </td>
     </tr>
   </table>
-</table>
 
 ## Response Example
 

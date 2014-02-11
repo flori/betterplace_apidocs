@@ -60,15 +60,14 @@ that where tagged with this tag.
   <table>
     <tr>
       <th>Linkname</th>
-      <th colspan="3">Description</th>
+      <th>Description</th>
     </tr>
     <tr>
       <th align="left">projects</th>
-      <td colspan="3">Link to the <a href="projects_list.md">project list</a> of all tagged projects for the current client.
+      <td>Link to the <a href="projects_list.md">project list</a> of all tagged projects for the current client.
 </td>
     </tr>
   </table>
-</table>
 
 ## Response Example
 
@@ -176,15 +175,14 @@ that where tagged with this tag.
   <table>
     <tr>
       <th>Linkname</th>
-      <th colspan="3">Description</th>
+      <th>Description</th>
     </tr>
     <tr>
       <th align="left">projects</th>
-      <td colspan="3">Link to the <a href="projects_list.md">project list</a> of all tagged projects for the current client.
+      <td>Link to the <a href="projects_list.md">project list</a> of all tagged projects for the current client.
 </td>
     </tr>
   </table>
-</table>
 
 ## Response Example
 

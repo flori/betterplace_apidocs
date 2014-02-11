@@ -187,17 +187,17 @@ was indeed imported.
   <table>
     <tr>
       <th>Linkname</th>
-      <th colspan="3">Description</th>
+      <th>Description</th>
     </tr>
     <tr>
       <th align="left">self</th>
-      <td colspan="3">Link to this resource itself
+      <td>Link to this resource itself
 (<a href="volunteering_details.md">volunteering details</a>)
 </td>
     </tr>
     <tr>
       <th align="left">platform</th>
-      <td colspan="3">Permalink to betterplace.org</td>
+      <td>Permalink to betterplace.org</td>
     </tr>
   </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
@@ -312,23 +312,23 @@ No validations on input apply.
   <table>
     <tr>
       <th>Linkname</th>
-      <th colspan="3">Description</th>
+      <th>Description</th>
     </tr>
     <tr>
       <th align="left">contact.original</th>
-      <td colspan="3">Original size as uploaded by the user</td>
+      <td>Original size as uploaded by the user</td>
     </tr>
     <tr>
       <th align="left">contact.large_attention_deprecated</th>
-      <td colspan="3">Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
     </tr>
     <tr>
       <th align="left">contact.profile_attention_deprecated</th>
-      <td colspan="3">Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
+      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
     <tr>
       <th align="left">contact.thumb_attention_deprecated</th>
-      <td colspan="3">Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
+      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
   </table>
 ### <a name="import_information" href="#import_information-ref">↑Nested Attributes: import_information</a>
@@ -377,7 +377,6 @@ betterplace.
 </td>
     </tr>
   </table>
-</table>
 
 ## Response Example
 

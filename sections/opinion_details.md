@@ -102,17 +102,17 @@ why they like or dislike this project
   <table>
     <tr>
       <th>Linkname</th>
-      <th colspan="3">Description</th>
+      <th>Description</th>
     </tr>
     <tr>
       <th align="left">self</th>
-      <td colspan="3">Link to this resource itself
+      <td>Link to this resource itself
 (<a href="opinion_details.md">opinion details</a>)
 </td>
     </tr>
     <tr>
       <th align="left">project</th>
-      <td colspan="3">Link to the project this opinion belongs to
+      <td>Link to the project this opinion belongs to
 (<a href="project_details.md">project details</a>)
 </td>
     </tr>
@@ -147,26 +147,25 @@ like "Payback User" or empty/null for anonymous donations.
   <table>
     <tr>
       <th>Linkname</th>
-      <th colspan="3">Description</th>
+      <th>Description</th>
     </tr>
     <tr>
       <th align="left">author.original</th>
-      <td colspan="3">Original size as uploaded by the user</td>
+      <td>Original size as uploaded by the user</td>
     </tr>
     <tr>
       <th align="left">author.large_attention_deprecated</th>
-      <td colspan="3">Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
     </tr>
     <tr>
       <th align="left">author.profile_attention_deprecated</th>
-      <td colspan="3">Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
+      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
     <tr>
       <th align="left">author.thumb_attention_deprecated</th>
-      <td colspan="3">Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
+      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
   </table>
-</table>
 
 ## Response Example
 
