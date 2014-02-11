@@ -142,6 +142,28 @@ If so, Users can request a tax-receipt for donations to that organisation.
       <td>TODO</td>
     </tr>
   </table>
+#### Links
+  <table>
+    <tr>
+      <th>Linkname</th>
+      <th colspan="3">Description</th>
+    </tr>
+    <tr>
+      <th align="left">self</th>
+      <td colspan="3">Link to this resource itself
+(<a href="organisation_details.md">organisation details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td colspan="3">Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">projects</th>
+      <td colspan="3">Link to the <a href="projects_list.md">project list</a> of this organisation
+</td>
+    </tr>
+  </table>
 ### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
 
   <table>

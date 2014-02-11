@@ -183,6 +183,23 @@ was indeed imported.
 </td>
     </tr>
   </table>
+#### Links
+  <table>
+    <tr>
+      <th>Linkname</th>
+      <th colspan="3">Description</th>
+    </tr>
+    <tr>
+      <th align="left">self</th>
+      <td colspan="3">Link to this resource itself
+(<a href="volunteering_details.md">volunteering details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td colspan="3">Permalink to betterplace.org</td>
+    </tr>
+  </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
 
   <table>

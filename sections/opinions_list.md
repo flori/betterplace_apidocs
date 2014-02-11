@@ -117,6 +117,25 @@ why they like or dislike this project
 </td>
     </tr>
   </table>
+#### Links
+  <table>
+    <tr>
+      <th>Linkname</th>
+      <th colspan="3">Description</th>
+    </tr>
+    <tr>
+      <th align="left">self</th>
+      <td colspan="3">Link to this resource itself
+(<a href="opinion_details.md">opinion details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">project</th>
+      <td colspan="3">Link to the project this opinion belongs to
+(<a href="project_details.md">project details</a>)
+</td>
+    </tr>
+  </table>
 ### <a name="author" href="#author-ref">↑Nested Attributes: author</a>
 
   <table>

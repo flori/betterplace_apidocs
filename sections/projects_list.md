@@ -288,6 +288,48 @@ donation needs. This percentage includes those needs.
       <td>TODO</td>
     </tr>
   </table>
+#### Links
+  <table>
+    <tr>
+      <th>Linkname</th>
+      <th colspan="3">Description</th>
+    </tr>
+    <tr>
+      <th align="left">self</th>
+      <td colspan="3">Link to this resource itself
+(<a href="project_details.md">project details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td colspan="3">Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">opinions</th>
+      <td colspan="3">Link to <a href="opinions_list.md">opinion list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">pictures</th>
+      <td colspan="3">Link to <a href="picture_list.md">project picture list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">needs</th>
+      <td colspan="3">Link to <a href="needs_list.md">project need list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">blog_posts</th>
+      <td colspan="3">Link to <a href="blog_posts_list.md">blog post list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">matching_funds</th>
+      <td colspan="3">Link to <a href="manager_details.md">matching funds list</a>
+</td>
+    </tr>
+  </table>
 ### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
 
   <table>
