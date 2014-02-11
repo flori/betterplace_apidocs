@@ -150,19 +150,19 @@ like "Payback User" or empty/null for anonymous donations.
       <th colspan="3">Description</th>
     </tr>
     <tr>
-      <th align="left">original</th>
+      <th align="left">author.original</th>
       <td colspan="3">Original size as uploaded by the user</td>
     </tr>
     <tr>
-      <th align="left">large_attention_deprecated</th>
+      <th align="left">author.large_attention_deprecated</th>
       <td colspan="3">Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
     </tr>
     <tr>
-      <th align="left">profile_attention_deprecated</th>
+      <th align="left">author.profile_attention_deprecated</th>
       <td colspan="3">Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
     <tr>
-      <th align="left">thumb_attention_deprecated</th>
+      <th align="left">author.thumb_attention_deprecated</th>
       <td colspan="3">Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
   </table>
