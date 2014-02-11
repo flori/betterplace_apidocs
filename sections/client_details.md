@@ -97,33 +97,6 @@ This is also calculated based on the sum of all
 </td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th colspan="3">Description</th>
-    </tr>
-    <tr>
-      <th align="left">projects</th>
-      <td colspan="3">Link to the <a href="projects_list.md">project list</a> of this client
-</td>
-    </tr>
-    <tr>
-      <th align="left">client_donations</th>
-      <td colspan="3">Link to the <a href="client_donations_list.md">client donations list</a> of this client
-</td>
-    </tr>
-    <tr>
-      <th align="left">client_project_tags</th>
-      <td colspan="3">Link to the <a href="client_project_tags_list.md">client project-tags list</a> of this client
-</td>
-    </tr>
-    <tr>
-      <th align="left">opinions</th>
-      <td colspan="3">Link to the <a href="opinions_list.md">opinions list</a> of this client
-</td>
-    </tr>
-  </table>
 </table>
 
 ## Response Example

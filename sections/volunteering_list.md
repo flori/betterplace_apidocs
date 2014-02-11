@@ -236,23 +236,6 @@ was indeed imported.
 </td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th colspan="3">Description</th>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td colspan="3">Link to this resource itself
-(<a href="volunteering_details.md">volunteering details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">platform</th>
-      <td colspan="3">Permalink to betterplace.org</td>
-    </tr>
-  </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
 
   <table>
@@ -359,6 +342,29 @@ No validations on input apply.
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+#### Links
+  <table>
+    <tr>
+      <th>Linkname</th>
+      <th colspan="3">Description</th>
+    </tr>
+    <tr>
+      <th align="left">original</th>
+      <td colspan="3">Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">large_attention_deprecated</th>
+      <td colspan="3">Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    </tr>
+    <tr>
+      <th align="left">profile_attention_deprecated</th>
+      <td colspan="3">Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
+    </tr>
+    <tr>
+      <th align="left">thumb_attention_deprecated</th>
+      <td colspan="3">Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
   </table>
 ### <a name="import_information" href="#import_information-ref">↑Nested Attributes: import_information</a>

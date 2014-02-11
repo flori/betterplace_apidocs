@@ -135,28 +135,6 @@ If so, Users can request a tax-receipt for donations to that organisation.
       <td>TODO</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th colspan="3">Description</th>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td colspan="3">Link to this resource itself
-(<a href="organisation_details.md">organisation details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">platform</th>
-      <td colspan="3">Permalink to betterplace.org</td>
-    </tr>
-    <tr>
-      <th align="left">projects</th>
-      <td colspan="3">Link to the <a href="projects_list.md">project list</a> of this organisation
-</td>
-    </tr>
-  </table>
 ### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
 
   <table>
@@ -181,6 +159,29 @@ like "Payback User" or empty/null for anonymous donations.
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+#### Links
+  <table>
+    <tr>
+      <th>Linkname</th>
+      <th colspan="3">Description</th>
+    </tr>
+    <tr>
+      <th align="left">original</th>
+      <td colspan="3">Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">large_attention_deprecated</th>
+      <td colspan="3">Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+    </tr>
+    <tr>
+      <th align="left">profile_attention_deprecated</th>
+      <td colspan="3">Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
+    </tr>
+    <tr>
+      <th align="left">thumb_attention_deprecated</th>
+      <td colspan="3">Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
   </table>
 </table>
