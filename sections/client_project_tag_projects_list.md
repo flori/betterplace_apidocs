@@ -492,7 +492,7 @@ set for organisations.
           "links": [
             {
               "rel": "original",
-              "href": "/paperclip/000/176/415/original_Foto1__Manda__1_.jpg"
+              "href": "https://asset1.betterplace.org/paperclip/000/176/415/original_Foto1__Manda__1_.jpg"
             }
           ]
         },
@@ -513,7 +513,7 @@ set for organisations.
           "links": [
             {
               "rel": "original",
-              "href": "/uploads/organisation/profile_picture/5044/original_original_Akipa_LOGO_1_.jpg"
+              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/5044/original_original_Akipa_LOGO_1_.jpg"
             }
           ]
         },
@@ -528,7 +528,7 @@ set for organisations.
         "links": [
           {
             "rel": "original",
-            "href": "/paperclip/000/264/083/original_P1000771.JPG"
+            "href": "https://asset1.betterplace.org/paperclip/000/264/083/original_P1000771.JPG"
           }
         ]
       },
@@ -591,7 +591,7 @@ set for organisations.
           "links": [
             {
               "rel": "original",
-              "href": "/paperclip/000/263/237/original_Management-Ewertz-G%C3%BCnter.jpg"
+              "href": "https://asset1.betterplace.org/paperclip/000/263/237/original_Management-Ewertz-G%C3%BCnter.jpg"
             }
           ]
         },
@@ -612,7 +612,7 @@ set for organisations.
           "links": [
             {
               "rel": "original",
-              "href": "/uploads/organisation/profile_picture/4634/original_original_ROLLIS-Logo_pagenumber.001.jpg"
+              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/4634/original_original_ROLLIS-Logo_pagenumber.001.jpg"
             }
           ]
         },
@@ -627,7 +627,7 @@ set for organisations.
         "links": [
           {
             "rel": "original",
-            "href": "/paperclip/000/265/994/original_IMG00929-20111028-1403.jpg"
+            "href": "https://asset1.betterplace.org/paperclip/000/265/994/original_IMG00929-20111028-1403.jpg"
           }
         ]
       },

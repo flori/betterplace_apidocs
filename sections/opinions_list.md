@@ -235,7 +235,7 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "original",
-              "href": "/paperclip/000/047/224/original_CIMG4253.JPG"
+              "href": "https://asset1.betterplace.org/paperclip/000/047/224/original_CIMG4253.JPG"
             }
           ]
         },
@@ -272,7 +272,7 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "original",
-              "href": "/paperclip/000/058/762/original_Mirwais_Mohsen_image.jpg"
+              "href": "https://asset1.betterplace.org/paperclip/000/058/762/original_Mirwais_Mohsen_image.jpg"
             }
           ]
         },

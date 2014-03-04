@@ -122,7 +122,7 @@ projects, the API will return a `404` HTTP code.
   "links": [
     {
       "rel": "image",
-      "href": "/paperclip/000/286/505/original_fazilla.jpg"
+      "href": "https://asset1.betterplace.org/paperclip/000/286/505/original_fazilla.jpg"
     },
     {
       "rel": "self",

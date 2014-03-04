@@ -252,7 +252,7 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "original",
-            "href": "/assets/default/default_collective.jpg"
+            "href": "https://asset1.betterplace.org/assets/default/default_collective.jpg"
           }
         ]
       },
@@ -289,7 +289,7 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "original",
-              "href": "/paperclip/000/276/122/original_alim3111.jpg"
+              "href": "https://asset1.betterplace.org/paperclip/000/276/122/original_alim3111.jpg"
             }
           ]
         },
@@ -308,7 +308,7 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "original",
-            "href": "/uploads/organisation/profile_picture/10120/original_profile_thumb_ALIM5576.png"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/10120/original_profile_thumb_ALIM5576.png"
           }
         ]
       },

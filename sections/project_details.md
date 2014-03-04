@@ -466,7 +466,7 @@ set for organisations.
       "links": [
         {
           "rel": "original",
-          "href": "/paperclip/000/330/773/original_Picture_023.jpg"
+          "href": "https://asset1.betterplace.org/paperclip/000/330/773/original_Picture_023.jpg"
         }
       ]
     },
@@ -487,7 +487,7 @@ set for organisations.
       "links": [
         {
           "rel": "original",
-          "href": "/uploads/organisation/profile_picture/1054/original_original_betterplace-logo.png"
+          "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/1054/original_original_betterplace-logo.png"
         }
       ]
     },
@@ -502,7 +502,7 @@ set for organisations.
     "links": [
       {
         "rel": "original",
-        "href": "/paperclip/000/289/158/original_girls-merza-sm.jpg"
+        "href": "https://asset1.betterplace.org/paperclip/000/289/158/original_girls-merza-sm.jpg"
       }
     ]
   },

@@ -241,7 +241,7 @@ access rights in order to see this information.
       "links": [
         {
           "rel": "original",
-          "href": "/paperclip/000/007/084/original_Fidel.jpg"
+          "href": "https://asset1.betterplace.org/paperclip/000/007/084/original_Fidel.jpg"
         }
       ]
     },
@@ -260,7 +260,7 @@ access rights in order to see this information.
     "links": [
       {
         "rel": "original",
-        "href": "/uploads/organisation/profile_picture/125/original_VcA_Projektlogo.jpg"
+        "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/125/original_VcA_Projektlogo.jpg"
       }
     ]
   },

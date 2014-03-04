@@ -136,7 +136,7 @@ projects, the API will return a `404` HTTP code.
       "links": [
         {
           "rel": "image",
-          "href": "/paperclip/000/286/511/original_skateistan%20print_37.jpg"
+          "href": "https://asset1.betterplace.org/paperclip/000/286/511/original_skateistan%20print_37.jpg"
         },
         {
           "rel": "self",
@@ -157,7 +157,7 @@ projects, the API will return a `404` HTTP code.
       "links": [
         {
           "rel": "image",
-          "href": "/paperclip/000/286/512/original_wais%20ollies%20into%20the%20empty%20pool.jpg"
+          "href": "https://asset1.betterplace.org/paperclip/000/286/512/original_wais%20ollies%20into%20the%20empty%20pool.jpg"
         },
         {
           "rel": "self",
@@ -177,7 +177,7 @@ projects, the API will return a `404` HTTP code.
       "links": [
         {
           "rel": "image",
-          "href": "/paperclip/000/286/515/original_IMG_1462.JPG"
+          "href": "https://asset1.betterplace.org/paperclip/000/286/515/original_IMG_1462.JPG"
         },
         {
           "rel": "self",

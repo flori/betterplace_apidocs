@@ -159,7 +159,7 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
           "links": [
             {
               "rel": "original",
-              "href": "/paperclip/000/041/702/original_maxn_skate.jpg"
+              "href": "https://asset1.betterplace.org/paperclip/000/041/702/original_maxn_skate.jpg"
             }
           ]
         },
@@ -203,7 +203,7 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
           "links": [
             {
               "rel": "original",
-              "href": "/paperclip/000/041/702/original_maxn_skate.jpg"
+              "href": "https://asset1.betterplace.org/paperclip/000/041/702/original_maxn_skate.jpg"
             }
           ]
         },
