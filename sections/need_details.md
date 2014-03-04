@@ -115,12 +115,16 @@ offline donations and also(!) external donations)
       <td>How much money is needed in total</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
       <th align="left">self</th>
       <td>Link to this resource itself
@@ -132,26 +136,26 @@ offline donations and also(!) external donations)
       <td>Link to the related <a href="project_details.md">project's details</a>
 </td>
     </tr>
-  </table>
+</table>
 
 ## Response Example
 
 ```json
 {
-  "id": 76625,
-  "created_at": "2014-01-03T10:41:44Z",
-  "updated_at": "2014-02-04T20:17:46Z",
-  "title": "Kabul Skatepark Food",
-  "description": "Equivalent to providing food for the Kabul skatepark for 1 month including the Back-To-School program which runs 5 days/week. The Back-To-School program aims to give children the support they need to return to public school in Afghanistan.",
+  "id": 79124,
+  "created_at": "2014-02-17T16:01:17Z",
+  "updated_at": "2014-02-24T14:33:47Z",
+  "title": "Clean Water for the Skateparks in Kabul and MeS",
+  "description": "The equivalent of supplying clean drinking water for all of our staff and students in both the Kabul and Mazar-e-Sharif Skateparks. ",
   "completed": false,
-  "progress_percentage": 90.46,
-  "donated_amount_in_cents": 66944,
-  "open_amount_in_cents": 7056,
-  "requested_amount_in_cents": 74000,
+  "progress_percentage": 3.38,
+  "donated_amount_in_cents": 6060,
+  "open_amount_in_cents": 173440,
+  "requested_amount_in_cents": 179500,
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs/76625.json"
+      "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs/79124.json"
     },
     {
       "rel": "project",

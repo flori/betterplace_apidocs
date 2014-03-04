@@ -98,25 +98,6 @@ why they like or dislike this project
 </td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="opinion_details.md">opinion details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">project</th>
-      <td>Link to the project this opinion belongs to
-(<a href="project_details.md">project details</a>)
-</td>
-    </tr>
-  </table>
 ### <a name="author" href="#author-ref">↑Nested Attributes: author</a>
 
   <table>
@@ -143,29 +124,48 @@ like "Payback User" or empty/null for anonymous donations.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-#### Links
-  <table>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
-      <th>Linkname</th>
-      <th>Description</th>
+      <th align="left">self</th>
+      <td>Link to this resource itself
+(<a href="opinion_details.md">opinion details</a>)
+</td>
     </tr>
     <tr>
-      <th align="left">author.original</th>
+      <th align="left">project</th>
+      <td>Link to the project this opinion belongs to
+(<a href="project_details.md">project details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">author.platform</th>
+      <td>The user's profile on betterplace.org.
+To view a user profile you have to be logged in.
+This array is empty if the user has no useraccount
+with betterplace.org but donated via one of our partner.
+</td>
+    </tr>
+    <tr>
+      <th align="left">author.contact_data</th>
+      <td>The user's contact data. Please note that you need to be
+<a href="../README.md#client-authentication">authenticated as a client</a> with matching
+access rights in order to see this information.
+</td>
+    </tr>
+    <tr>
+      <th align="left">author.picture.original</th>
       <td>Original size as uploaded by the user</td>
     </tr>
-    <tr>
-      <th align="left">author.large_attention_deprecated</th>
-      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-    </tr>
-    <tr>
-      <th align="left">author.profile_attention_deprecated</th>
-      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-    <tr>
-      <th align="left">author.thumb_attention_deprecated</th>
-      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-  </table>
+</table>
 
 ## Response Example
 
@@ -181,18 +181,6 @@ like "Payback User" or empty/null for anonymous donations.
         {
           "rel": "original",
           "href": "/paperclip/000/004/520/original_Schule_Leutersdorf_2.JPG"
-        },
-        {
-          "rel": "large_attention_deprecated",
-          "href": "/paperclip/000/004/520/default_Schule_Leutersdorf_2.jpg"
-        },
-        {
-          "rel": "profile_attention_deprecated",
-          "href": "/paperclip/000/004/520/profile_Schule_Leutersdorf_2.jpg"
-        },
-        {
-          "rel": "thumb_attention_deprecated",
-          "href": "/paperclip/000/004/520/thumb_Schule_Leutersdorf_2.png"
         }
       ]
     },

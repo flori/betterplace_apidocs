@@ -183,23 +183,6 @@ was indeed imported.
 </td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="volunteering_details.md">volunteering details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
-    </tr>
-  </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
 
   <table>
@@ -308,29 +291,6 @@ No validations on input apply.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">contact.original</th>
-      <td>Original size as uploaded by the user</td>
-    </tr>
-    <tr>
-      <th align="left">contact.large_attention_deprecated</th>
-      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-    </tr>
-    <tr>
-      <th align="left">contact.profile_attention_deprecated</th>
-      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-    <tr>
-      <th align="left">contact.thumb_attention_deprecated</th>
-      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-  </table>
 ### <a name="import_information" href="#import_information-ref">↑Nested Attributes: import_information</a>
 
   <table>
@@ -377,6 +337,51 @@ betterplace.
 </td>
     </tr>
   </table>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
+    <tr>
+      <th align="left">self</th>
+      <td>Link to this resource itself
+(<a href="volunteering_details.md">volunteering details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.logo</th>
+      <td>Thumbnail size</td>
+    </tr>
+    <tr>
+      <th align="left">image.original</th>
+      <td>Original size</td>
+    </tr>
+    <tr>
+      <th align="left">image.thumb</th>
+      <td>Thumbnail size</td>
+    </tr>
+    <tr>
+      <th align="left">image.medium</th>
+      <td>Medium size</td>
+    </tr>
+    <tr>
+      <th align="left">image.regular</th>
+      <td>Regular size</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+</table>
 
 ## Response Example
 

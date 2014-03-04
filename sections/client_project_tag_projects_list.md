@@ -243,48 +243,6 @@ donation needs. This percentage includes those needs.
       <td>TODO</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="project_details.md">project details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
-    </tr>
-    <tr>
-      <th align="left">opinions</th>
-      <td>Link to <a href="opinions_list.md">opinion list</a>
-</td>
-    </tr>
-    <tr>
-      <th align="left">pictures</th>
-      <td>Link to <a href="picture_list.md">project picture list</a>
-</td>
-    </tr>
-    <tr>
-      <th align="left">needs</th>
-      <td>Link to <a href="needs_list.md">project need list</a>
-</td>
-    </tr>
-    <tr>
-      <th align="left">blog_posts</th>
-      <td>Link to <a href="blog_posts_list.md">blog post list</a>
-</td>
-    </tr>
-    <tr>
-      <th align="left">matching_funds</th>
-      <td>Link to <a href="manager_details.md">matching funds list</a>
-</td>
-    </tr>
-  </table>
 ### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
 
   <table>
@@ -311,29 +269,6 @@ like "Payback User" or empty/null for anonymous donations.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">contact.original</th>
-      <td>Original size as uploaded by the user</td>
-    </tr>
-    <tr>
-      <th align="left">contact.large_attention_deprecated</th>
-      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-    </tr>
-    <tr>
-      <th align="left">contact.profile_attention_deprecated</th>
-      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-    <tr>
-      <th align="left">contact.thumb_attention_deprecated</th>
-      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-  </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
 
   <table>
@@ -354,29 +289,6 @@ like "Payback User" or empty/null for anonymous donations.
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>The organisation logo, user profile picture or a fallback image</td>
-    </tr>
-  </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">carrier.original</th>
-      <td>Original size as uploaded by the user</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.large_attention_deprecated</th>
-      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.profile_attention_deprecated</th>
-      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.thumb_attention_deprecated</th>
-      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
   </table>
 ### <a name="active_matching_fund" href="#active_matching_fund-ref">↑Nested Attributes: active_matching_fund</a>
@@ -443,21 +355,121 @@ like "Payback User" or empty/null for anonymous donations.
       <td>The URL of the logo image.</td>
     </tr>
   </table>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
+    <tr>
+      <th align="left">self</th>
+      <td>Link to this resource itself
+(<a href="project_details.md">project details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">opinions</th>
+      <td>Link to <a href="opinions_list.md">opinion list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">pictures</th>
+      <td>Link to <a href="picture_list.md">project picture list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">needs</th>
+      <td>Link to <a href="needs_list.md">project need list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">blog_posts</th>
+      <td>Link to <a href="blog_posts_list.md">blog post list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">matching_funds</th>
+      <td>Link to <a href="manager_details.md">matching funds list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.platform</th>
+      <td>The user's profile on betterplace.org.
+To view a user profile you have to be logged in.
+This array is empty if the user has no useraccount
+with betterplace.org but donated via one of our partner.
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.contact_data</th>
+      <td>The user's contact data. Please note that you need to be
+<a href="../README.md#client-authentication">authenticated as a client</a> with matching
+access rights in order to see this information.
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.self</th>
+      <td>Link to this resource itself
+(<a href="organisation_details.md">organisation details</a>)
+Note: Since the there is no api for users yet, this is only
+set for organisations.
+</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.self</th>
+      <td>Link to this resource itself
+(<a href="matching_fund_details.md">matching fund details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.projects</th>
+      <td>Link to the list of projects belonging to this matching fund</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.documentation</th>
+      <td>Link to this resource in the documentation
+</td>
+    </tr>
+</table>
 
 ## Response Example
 
 ```json
 {
-  "total_entries": 31,
+  "total_entries": 30,
   "offset": 0,
-  "total_pages": 16,
+  "total_pages": 15,
   "current_page": 1,
   "per_page": 2,
   "data": [
     {
       "id": 7551,
       "created_at": "2011-08-28T22:19:43Z",
-      "updated_at": "2014-02-03T01:17:32Z",
+      "updated_at": "2014-02-12T16:07:50Z",
       "latitude": -4.0347900390625,
       "longitude": 21.75629997253418,
       "city": "Kinshasa",
@@ -466,10 +478,10 @@ like "Payback User" or empty/null for anonymous donations.
       "description": "Unsere Projektnummer: 7551 - In der Demokratische Republik Kongo sind sehr viele Kinder durch Armut und Krieg zu den Straßenkindern geworden. Unter ihnen zählen ehemalige Kindersoldaten, Waisenkinder und Kinder aus sehr armen Familien. Um sich das Brot zu verdienen, sind viele Jungenmädchen zur Straßenprostitution geworden und die meisten Jungs sind Straßendieb und kriminellen. Die schwächten Kinder die sich nicht zu helfen wissen erkranken meistens an Marasmus und sterben anschließend. Diesen Kindern fehlt jegliche Hilfe zum Überleben. Der kongolesische Staat hat bisher keinerlei Hilfsmaßnahmen für diese Kindergrupe unternommen. Ohne Hilfe von außen haben diesen Kinder keiner Zukunft. <br /><br />Seit 2007 haben wir uns auf die Arbeit gemacht und unterstützen heute 40 Kinder aus Kinshasa und Bukavu mit Patenschaft und Spenden. In Zusammenarbeit mit unseren Partner Vorort verteilen wir Nahrungsmittel und sorgen für die nötige medizinische Versorgung, damit die Kleinen erst einmal zu Kräften kommen. Im Weiteren kümmern wir uns um ihre Schulbildung; wir verteilen Schulmaterialien und übernehmen die Schulgebühren für sie. Denn nachdem der Hunger gestillt ist, braucht jedes Kind Bildung, um sich aus seinem Schicksal befreien zu können.<br /><br />Viele von den Kinder die wir seit 4 Jahren den Besuch der Schule ermöglicht haben könnten mit unserer Hilfe die sekundären Schulabschluss absolvieren bzw. erlangen. Mit nur diesem Abschluss ist es leider nicht möglich eine Zukunftssichere Arbeitsstelle zu finden. Eine weitführende Schule und/oder ein Studium zu besuchen kostet viele Geld und ist nicht erfolgssprechend. Da diese Kinder nach ihrer Schulabschlusse keine Arbeit haben und wir sie bisher nichts Weiteres anbieten könnten, sind einige von ihnen wieder dahin gelangt wo sie herkamen; sie sind wieder zu Straßenkindern geworden und laufen Gefahr wieder in der Prostitution und in der Kriminalität zu gelangen.<br /><br />Mit einer abgeschlossenen Ausbildung sehen wir eine große Chance diese Kinder sowie weitere hilfsbedürftige Kinder eine Arbeitsplatz zu vermitteln. Ziel ist, sie auf eigene Füße zu stellen um zu verhindern dass sie nicht wieder auf die Straße gelangen. Genau gesagt: Hauptziel ist, sie dauerhaft aus der Armut zu holen. <br /><br />Geplant ist den Bau einer Ausbildungswerkstatt (für Schneiderei, Schreinerei, KFZ-Mechaniker und EDV) und eine medizinische Notfallstation. <br />Für den Anfang wollen wir erstmals eine Schneidereiwerkstatt für ca. 20 Kinder in der Hauptstadt Kinshasa bauen. Dort sollen in erste Linie Mädchen als Schneiderin ausgebildet werden. Nach erfolgreichen abgeschlossen Ausbildung von 1,5 Jahre werden sie die Möglichkeit haben sich selbständig zu machen oder auf freie Markt einen Arbeitsplatz zu bekommen.<br /><br />Um diese Maßnahme realisieren zu können, benötigen wir finanzielle und/oder materielle Hilfe!",
       "tax_deductible": true,
       "donations_prohibited": false,
-      "open_amount_in_cents": 2337000,
-      "positive_opinions_count": 39,
+      "open_amount_in_cents": 2322000,
+      "positive_opinions_count": 41,
       "negative_opinions_count": 0,
-      "donor_count": 29,
+      "donor_count": 30,
       "progress_percentage": 13,
       "incomplete_need_count": 10,
       "completed_need_count": 6,
@@ -481,18 +493,6 @@ like "Payback User" or empty/null for anonymous donations.
             {
               "rel": "original",
               "href": "/paperclip/000/176/415/original_Foto1__Manda__1_.jpg"
-            },
-            {
-              "rel": "large_attention_deprecated",
-              "href": "/paperclip/000/176/415/default_Foto1__Manda__1_.jpg"
-            },
-            {
-              "rel": "profile_attention_deprecated",
-              "href": "/paperclip/000/176/415/profile_Foto1__Manda__1_.jpg"
-            },
-            {
-              "rel": "thumb_attention_deprecated",
-              "href": "/paperclip/000/176/415/thumb_Foto1__Manda__1_.png"
             }
           ]
         },
@@ -514,18 +514,6 @@ like "Payback User" or empty/null for anonymous donations.
             {
               "rel": "original",
               "href": "/uploads/organisation/profile_picture/5044/original_original_Akipa_LOGO_1_.jpg"
-            },
-            {
-              "rel": "large_attention_deprecated",
-              "href": "/uploads/organisation/profile_picture/5044/default_original_Akipa_LOGO_1_.jpg"
-            },
-            {
-              "rel": "profile_attention_deprecated",
-              "href": "/uploads/organisation/profile_picture/5044/profile_original_Akipa_LOGO_1_.jpg"
-            },
-            {
-              "rel": "thumb_attention_deprecated",
-              "href": "/uploads/organisation/profile_picture/5044/thumb_original_Akipa_LOGO_1_.jpg"
             }
           ]
         },
@@ -541,18 +529,6 @@ like "Payback User" or empty/null for anonymous donations.
           {
             "rel": "original",
             "href": "/paperclip/000/264/083/original_P1000771.JPG"
-          },
-          {
-            "rel": "large_attention_deprecated",
-            "href": "/paperclip/000/264/083/default_P1000771.jpg"
-          },
-          {
-            "rel": "profile_attention_deprecated",
-            "href": "/paperclip/000/264/083/profile_P1000771.jpg"
-          },
-          {
-            "rel": "thumb_attention_deprecated",
-            "href": "/paperclip/000/264/083/thumb_P1000771.png"
           }
         ]
       },
@@ -616,18 +592,6 @@ like "Payback User" or empty/null for anonymous donations.
             {
               "rel": "original",
               "href": "/paperclip/000/263/237/original_Management-Ewertz-G%C3%BCnter.jpg"
-            },
-            {
-              "rel": "large_attention_deprecated",
-              "href": "/paperclip/000/263/237/default_Management-Ewertz-G%C3%BCnter.jpg"
-            },
-            {
-              "rel": "profile_attention_deprecated",
-              "href": "/paperclip/000/263/237/profile_Management-Ewertz-G%C3%BCnter.jpg"
-            },
-            {
-              "rel": "thumb_attention_deprecated",
-              "href": "/paperclip/000/263/237/thumb_Management-Ewertz-G%C3%BCnter.png"
             }
           ]
         },
@@ -649,18 +613,6 @@ like "Payback User" or empty/null for anonymous donations.
             {
               "rel": "original",
               "href": "/uploads/organisation/profile_picture/4634/original_original_ROLLIS-Logo_pagenumber.001.jpg"
-            },
-            {
-              "rel": "large_attention_deprecated",
-              "href": "/uploads/organisation/profile_picture/4634/default_original_ROLLIS-Logo_pagenumber.001.jpg"
-            },
-            {
-              "rel": "profile_attention_deprecated",
-              "href": "/uploads/organisation/profile_picture/4634/profile_original_ROLLIS-Logo_pagenumber.001.jpg"
-            },
-            {
-              "rel": "thumb_attention_deprecated",
-              "href": "/uploads/organisation/profile_picture/4634/thumb_original_ROLLIS-Logo_pagenumber.001.jpg"
             }
           ]
         },
@@ -676,18 +628,6 @@ like "Payback User" or empty/null for anonymous donations.
           {
             "rel": "original",
             "href": "/paperclip/000/265/994/original_IMG00929-20111028-1403.jpg"
-          },
-          {
-            "rel": "large_attention_deprecated",
-            "href": "/paperclip/000/265/994/default_IMG00929-20111028-1403.jpg"
-          },
-          {
-            "rel": "profile_attention_deprecated",
-            "href": "/paperclip/000/265/994/profile_IMG00929-20111028-1403.jpg"
-          },
-          {
-            "rel": "thumb_attention_deprecated",
-            "href": "/paperclip/000/265/994/thumb_IMG00929-20111028-1403.png"
           }
         ]
       },

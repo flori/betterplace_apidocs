@@ -117,25 +117,6 @@ why they like or dislike this project
 </td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="opinion_details.md">opinion details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">project</th>
-      <td>Link to the project this opinion belongs to
-(<a href="project_details.md">project details</a>)
-</td>
-    </tr>
-  </table>
 ### <a name="author" href="#author-ref">↑Nested Attributes: author</a>
 
   <table>
@@ -162,41 +143,162 @@ like "Payback User" or empty/null for anonymous donations.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-#### Links
-  <table>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
-      <th>Linkname</th>
-      <th>Description</th>
+      <th align="left">self</th>
+      <td>Link to this resource itself
+(<a href="opinion_details.md">opinion details</a>)
+</td>
     </tr>
     <tr>
-      <th align="left">author.original</th>
+      <th align="left">project</th>
+      <td>Link to the project this opinion belongs to
+(<a href="project_details.md">project details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">author.platform</th>
+      <td>The user's profile on betterplace.org.
+To view a user profile you have to be logged in.
+This array is empty if the user has no useraccount
+with betterplace.org but donated via one of our partner.
+</td>
+    </tr>
+    <tr>
+      <th align="left">author.contact_data</th>
+      <td>The user's contact data. Please note that you need to be
+<a href="../README.md#client-authentication">authenticated as a client</a> with matching
+access rights in order to see this information.
+</td>
+    </tr>
+    <tr>
+      <th align="left">author.picture.original</th>
       <td>Original size as uploaded by the user</td>
     </tr>
-    <tr>
-      <th align="left">author.large_attention_deprecated</th>
-      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-    </tr>
-    <tr>
-      <th align="left">author.profile_attention_deprecated</th>
-      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-    <tr>
-      <th align="left">author.thumb_attention_deprecated</th>
-      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-  </table>
+</table>
 
 ## Response Example
 
 ```json
 {
-  "total_entries": 0,
+  "total_entries": 626,
   "offset": 0,
-  "total_pages": 0,
+  "total_pages": 209,
   "current_page": 1,
   "per_page": 3,
   "data": [
-
+    {
+      "id": 964,
+      "created_at": "2009-03-18T16:34:37Z",
+      "score": "positive",
+      "author": {
+        "name": "A. Bald",
+        "links": [
+          {
+            "rel": "platform",
+            "href": "http://www.betterplace.org/en/users/alexandra_b"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/en/api_v4/users/2763/contact_data.json"
+          }
+        ]
+      },
+      "message": "Ich unterstütze Skateistan weil: <br />a) ich die Projektleiter Oliver uns Max kenne und von ihnen überzeugt bin,<br />b) ich durch alles, was ich (auch durch meine Arbeit als Designerin) aus Kabul mitbekommen habe sehr berührt wurde,<br />c) ich persönlich als Designerin für Skateistan involviert bin!",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/964.json"
+        },
+        {
+          "rel": "project",
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+        }
+      ]
+    },
+    {
+      "id": 1024,
+      "created_at": "2009-03-31T18:21:52Z",
+      "score": "positive",
+      "author": {
+        "name": "d. habibi",
+        "picture": {
+          "links": [
+            {
+              "rel": "original",
+              "href": "/paperclip/000/047/224/original_CIMG4253.JPG"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "http://www.betterplace.org/en/users/omar_a"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/en/api_v4/users/10834/contact_data.json"
+          }
+        ]
+      },
+      "message": "ich bin Fürsprecher dieses Projektes, da ich in Kabul geboren bin und meine Kindheit dort verbracht habe, in Deutschland dann als Jugendlicher selbst geskatet habe, jetzt hier studiere und das Thema meiner Diplomarbeit \"Leben in Kabul\" heisst.<br />Ich bin begeistert von dieser Idee \"Skateistan\". Nicht nur wegen der direkten Hilfe vor Ort in Kabul, sondern auch wegen dem großen Presseecho überall in der Welt, wo man sonst nur Nachrichten aus Afghanistan hört, wenn mal wieder ein Attentat verübt wurde, oder nach Bin Laden gesucht wird.",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/1024.json"
+        },
+        {
+          "rel": "project",
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+        }
+      ]
+    },
+    {
+      "id": 1323,
+      "created_at": "2009-06-14T08:58:06Z",
+      "score": "positive",
+      "author": {
+        "name": "m. mohsen",
+        "picture": {
+          "links": [
+            {
+              "rel": "original",
+              "href": "/paperclip/000/058/762/original_Mirwais_Mohsen_image.jpg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "http://www.betterplace.org/en/users/mirwais_m"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/en/api_v4/users/11827/contact_data.json"
+          }
+        ]
+      },
+      "message": "In my point of view, Skateistan is the key to changing the lives of children in Afghanistan. Helping my brothers and sisters  will change  our country because these children are the future of Afghanistan. Providing them with education, health care and teaching them respect for each other and their families will help them be productive and responsible members of our community.  They have learned a lot from skating, and I work for Skateistan in order to make the dreams of these children come true, and break these nationalism ethnic barriers.",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/1323.json"
+        },
+        {
+          "rel": "project",
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+        }
+      ]
+    }
   ]
 }
 ```

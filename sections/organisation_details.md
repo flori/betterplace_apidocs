@@ -142,28 +142,6 @@ If so, Users can request a tax-receipt for donations to that organisation.
       <td>TODO</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="organisation_details.md">organisation details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
-    </tr>
-    <tr>
-      <th align="left">projects</th>
-      <td>Link to the <a href="projects_list.md">project list</a> of this organisation
-</td>
-    </tr>
-  </table>
 ### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
 
   <table>
@@ -190,29 +168,55 @@ like "Payback User" or empty/null for anonymous donations.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-#### Links
-  <table>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
-      <th>Linkname</th>
-      <th>Description</th>
+      <th align="left">self</th>
+      <td>Link to this resource itself
+(<a href="organisation_details.md">organisation details</a>)
+</td>
     </tr>
     <tr>
-      <th align="left">contact.original</th>
+      <th align="left">platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">projects</th>
+      <td>Link to the <a href="projects_list.md">project list</a> of this organisation
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.platform</th>
+      <td>The user's profile on betterplace.org.
+To view a user profile you have to be logged in.
+This array is empty if the user has no useraccount
+with betterplace.org but donated via one of our partner.
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.contact_data</th>
+      <td>The user's contact data. Please note that you need to be
+<a href="../README.md#client-authentication">authenticated as a client</a> with matching
+access rights in order to see this information.
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.original</th>
       <td>Original size as uploaded by the user</td>
     </tr>
     <tr>
-      <th align="left">contact.large_attention_deprecated</th>
-      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
+      <th align="left">picture.original</th>
+      <td>Original size as uploaded by the user</td>
     </tr>
-    <tr>
-      <th align="left">contact.profile_attention_deprecated</th>
-      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-    <tr>
-      <th align="left">contact.thumb_attention_deprecated</th>
-      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-  </table>
+</table>
 
 ## Response Example
 
@@ -221,7 +225,7 @@ like "Payback User" or empty/null for anonymous donations.
   "id": 125,
   "slug": "vivaconagua",
   "created_at": "2008-02-06T16:10:42Z",
-  "updated_at": "2014-02-05T07:43:13Z",
+  "updated_at": "2014-02-24T10:43:40Z",
   "latitude": 53.55759811401367,
   "longitude": 9.96815967559815,
   "street": "Neuer Kamp 32",
@@ -238,18 +242,6 @@ like "Payback User" or empty/null for anonymous donations.
         {
           "rel": "original",
           "href": "/paperclip/000/007/084/original_Fidel.jpg"
-        },
-        {
-          "rel": "large_attention_deprecated",
-          "href": "/paperclip/000/007/084/default_Fidel.jpg"
-        },
-        {
-          "rel": "profile_attention_deprecated",
-          "href": "/paperclip/000/007/084/profile_Fidel.jpg"
-        },
-        {
-          "rel": "thumb_attention_deprecated",
-          "href": "/paperclip/000/007/084/thumb_Fidel.png"
         }
       ]
     },
@@ -269,18 +261,6 @@ like "Payback User" or empty/null for anonymous donations.
       {
         "rel": "original",
         "href": "/uploads/organisation/profile_picture/125/original_VcA_Projektlogo.jpg"
-      },
-      {
-        "rel": "large_attention_deprecated",
-        "href": "/uploads/organisation/profile_picture/125/default_VcA_Projektlogo.jpg"
-      },
-      {
-        "rel": "profile_attention_deprecated",
-        "href": "/uploads/organisation/profile_picture/125/profile_VcA_Projektlogo.jpg"
-      },
-      {
-        "rel": "thumb_attention_deprecated",
-        "href": "/uploads/organisation/profile_picture/125/thumb_VcA_Projektlogo.jpg"
       }
     ]
   },

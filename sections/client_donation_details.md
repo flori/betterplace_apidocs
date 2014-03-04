@@ -89,12 +89,16 @@ Project <code>Element</code>, <code>FundraisingEvent</code>.
       <td>The title of the project, project element or fundraising event.</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
       <th align="left">receiver</th>
       <td>Link to the <a href="project_details.md">project details</a>
@@ -102,7 +106,7 @@ or <a href="need_details.md">project need details</a>
 that is associated with this donation.
 </td>
     </tr>
-  </table>
+</table>
 
 ## Response Example
 

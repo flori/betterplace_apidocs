@@ -93,12 +93,16 @@ projects, the API will return a `404` HTTP code.
       <td>DateTime (ISO8601 with Timezone) of last update</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
       <th align="left">image</th>
       <td>Link to the original image as uploaded by the user</td>
@@ -111,7 +115,7 @@ projects, the API will return a `404` HTTP code.
       <th align="left">parent</th>
       <td>The parent object of this picture.</td>
     </tr>
-  </table>
+</table>
 
 ## Response Example
 

@@ -222,48 +222,6 @@ donation needs. This percentage includes those needs.
       <td>TODO</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="project_details.md">project details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
-    </tr>
-    <tr>
-      <th align="left">opinions</th>
-      <td>Link to <a href="opinions_list.md">opinion list</a>
-</td>
-    </tr>
-    <tr>
-      <th align="left">pictures</th>
-      <td>Link to <a href="picture_list.md">project picture list</a>
-</td>
-    </tr>
-    <tr>
-      <th align="left">needs</th>
-      <td>Link to <a href="needs_list.md">project need list</a>
-</td>
-    </tr>
-    <tr>
-      <th align="left">blog_posts</th>
-      <td>Link to <a href="blog_posts_list.md">blog post list</a>
-</td>
-    </tr>
-    <tr>
-      <th align="left">matching_funds</th>
-      <td>Link to <a href="manager_details.md">matching funds list</a>
-</td>
-    </tr>
-  </table>
 ### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
 
   <table>
@@ -290,29 +248,6 @@ like "Payback User" or empty/null for anonymous donations.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">contact.original</th>
-      <td>Original size as uploaded by the user</td>
-    </tr>
-    <tr>
-      <th align="left">contact.large_attention_deprecated</th>
-      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-    </tr>
-    <tr>
-      <th align="left">contact.profile_attention_deprecated</th>
-      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-    <tr>
-      <th align="left">contact.thumb_attention_deprecated</th>
-      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-  </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
 
   <table>
@@ -333,29 +268,6 @@ like "Payback User" or empty/null for anonymous donations.
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>The organisation logo, user profile picture or a fallback image</td>
-    </tr>
-  </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">carrier.original</th>
-      <td>Original size as uploaded by the user</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.large_attention_deprecated</th>
-      <td>Large size – ATTENTION, this feature is DEPRECATED and will be removed at the end of may 2013. Please use the orginal format. Read the project pictures-documentation at "custom image sizes" for other solutions"</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.profile_attention_deprecated</th>
-      <td>Medium size – ATTENTION, this feature is DEPRECATED. See above.</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.thumb_attention_deprecated</th>
-      <td>Thumbnail size – ATTENTION, this feature is DEPRECATED. See above.</td>
     </tr>
   </table>
 ### <a name="active_matching_fund" href="#active_matching_fund-ref">↑Nested Attributes: active_matching_fund</a>
@@ -422,6 +334,106 @@ like "Payback User" or empty/null for anonymous donations.
       <td>The URL of the logo image.</td>
     </tr>
   </table>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
+    <tr>
+      <th align="left">self</th>
+      <td>Link to this resource itself
+(<a href="project_details.md">project details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">opinions</th>
+      <td>Link to <a href="opinions_list.md">opinion list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">pictures</th>
+      <td>Link to <a href="picture_list.md">project picture list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">needs</th>
+      <td>Link to <a href="needs_list.md">project need list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">blog_posts</th>
+      <td>Link to <a href="blog_posts_list.md">blog post list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">matching_funds</th>
+      <td>Link to <a href="manager_details.md">matching funds list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.platform</th>
+      <td>The user's profile on betterplace.org.
+To view a user profile you have to be logged in.
+This array is empty if the user has no useraccount
+with betterplace.org but donated via one of our partner.
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.contact_data</th>
+      <td>The user's contact data. Please note that you need to be
+<a href="../README.md#client-authentication">authenticated as a client</a> with matching
+access rights in order to see this information.
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.self</th>
+      <td>Link to this resource itself
+(<a href="organisation_details.md">organisation details</a>)
+Note: Since the there is no api for users yet, this is only
+set for organisations.
+</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.self</th>
+      <td>Link to this resource itself
+(<a href="matching_fund_details.md">matching fund details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.projects</th>
+      <td>Link to the list of projects belonging to this matching fund</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.documentation</th>
+      <td>Link to this resource in the documentation
+</td>
+    </tr>
+</table>
 
 ## Response Example
 
@@ -429,7 +441,7 @@ like "Payback User" or empty/null for anonymous donations.
 {
   "id": 1114,
   "created_at": "2009-03-10T10:12:16Z",
-  "updated_at": "2014-02-05T16:25:47Z",
+  "updated_at": "2014-03-04T09:31:06Z",
   "latitude": 34.531617284782,
   "longitude": 69.13581752939456,
   "street": "Taimani, behind Qasemi Winhouse",
@@ -440,13 +452,13 @@ like "Payback User" or empty/null for anonymous donations.
   "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important.<br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
   "tax_deductible": true,
   "donations_prohibited": false,
-  "open_amount_in_cents": 7056,
-  "positive_opinions_count": 626,
+  "open_amount_in_cents": 173440,
+  "positive_opinions_count": 631,
   "negative_opinions_count": 0,
-  "donor_count": 509,
-  "progress_percentage": 99,
+  "donor_count": 513,
+  "progress_percentage": 95,
   "incomplete_need_count": 1,
-  "completed_need_count": 79,
+  "completed_need_count": 80,
   "blog_post_count": 82,
   "contact": {
     "name": "E. Kinast",
@@ -455,18 +467,6 @@ like "Payback User" or empty/null for anonymous donations.
         {
           "rel": "original",
           "href": "/paperclip/000/330/773/original_Picture_023.jpg"
-        },
-        {
-          "rel": "large_attention_deprecated",
-          "href": "/paperclip/000/330/773/default_Picture_023.jpg"
-        },
-        {
-          "rel": "profile_attention_deprecated",
-          "href": "/paperclip/000/330/773/profile_Picture_023.jpg"
-        },
-        {
-          "rel": "thumb_attention_deprecated",
-          "href": "/paperclip/000/330/773/thumb_Picture_023.png"
         }
       ]
     },
@@ -488,18 +488,6 @@ like "Payback User" or empty/null for anonymous donations.
         {
           "rel": "original",
           "href": "/uploads/organisation/profile_picture/1054/original_original_betterplace-logo.png"
-        },
-        {
-          "rel": "large_attention_deprecated",
-          "href": "/uploads/organisation/profile_picture/1054/default_original_betterplace-logo.png"
-        },
-        {
-          "rel": "profile_attention_deprecated",
-          "href": "/uploads/organisation/profile_picture/1054/profile_original_betterplace-logo.png"
-        },
-        {
-          "rel": "thumb_attention_deprecated",
-          "href": "/uploads/organisation/profile_picture/1054/thumb_original_betterplace-logo.png"
         }
       ]
     },
@@ -515,18 +503,6 @@ like "Payback User" or empty/null for anonymous donations.
       {
         "rel": "original",
         "href": "/paperclip/000/289/158/original_girls-merza-sm.jpg"
-      },
-      {
-        "rel": "large_attention_deprecated",
-        "href": "/paperclip/000/289/158/default_girls-merza-sm.jpg"
-      },
-      {
-        "rel": "profile_attention_deprecated",
-        "href": "/paperclip/000/289/158/profile_girls-merza-sm.jpg"
-      },
-      {
-        "rel": "thumb_attention_deprecated",
-        "href": "/paperclip/000/289/158/thumb_girls-merza-sm.png"
       }
     ]
   },

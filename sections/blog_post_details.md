@@ -110,12 +110,16 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
 </td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
       <th align="left">self</th>
       <td>Link to this resource itself
@@ -131,7 +135,7 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
       <td>Link to this resource in the documentation
 </td>
     </tr>
-  </table>
+</table>
 
 ## Response Example
 
@@ -151,18 +155,6 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
         {
           "rel": "original",
           "href": "/paperclip/000/330/773/original_Picture_023.jpg"
-        },
-        {
-          "rel": "large_attention_deprecated",
-          "href": "/paperclip/000/330/773/default_Picture_023.jpg"
-        },
-        {
-          "rel": "profile_attention_deprecated",
-          "href": "/paperclip/000/330/773/profile_Picture_023.jpg"
-        },
-        {
-          "rel": "thumb_attention_deprecated",
-          "href": "/paperclip/000/330/773/thumb_Picture_023.png"
         }
       ]
     },

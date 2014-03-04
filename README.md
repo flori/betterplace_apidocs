@@ -208,7 +208,7 @@ The following HTTP result codes can be returned:
 
 
 ## Changelog
-
+* 2014-03-04: Remove all deprecated picture links from respsonses.
 * 2014-01-26: Remove the beta-flag; add matching-fund api; add code and usage examples; minor improvements
 * 2013-06-20: Add client.pool_balance_in_cents property, see doc for details
 * 2013-06-14: Add platform-link to blog_posts-details
