@@ -85,7 +85,7 @@ that where tagged with this tag.
   "data": [
     {
       "tag": "Gesundheit",
-      "projects_count": 13,
+      "projects_count": 14,
       "links": [
         {
           "rel": "projects",

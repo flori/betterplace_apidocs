@@ -243,7 +243,7 @@ Please contact developers@betterplace.org for more information
 
 ## Example apps
 
-* The "Deutsch Tansanianische Partnerschaft" uses this API to present their betterplace.org projects right on their website: [http://www.dtpev.de/unterstuetzen/projekte](Project list), [http://www.dtpev.de/unterstuetzen/projekte/one-child-one-light](Project details)
+* The "Deutsch Tansanianische Partnerschaft" uses this API to present their betterplace.org projects right on their website: [Project list](http://www.dtpev.de/unterstuetzen/projekte), [Project details](http://www.dtpev.de/unterstuetzen/projekte/one-child-one-light)
 * _Please send us your sites to developers@betterplace.org_
 
 

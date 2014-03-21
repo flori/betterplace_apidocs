@@ -215,9 +215,9 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 8758,
+  "total_entries": 8881,
   "offset": 0,
-  "total_pages": 4379,
+  "total_pages": 4441,
   "current_page": 1,
   "per_page": 2,
   "data": [
@@ -237,6 +237,14 @@ access rights in order to see this information.
       "tax_deductible": false,
       "contact": {
         "name": "A. Mehreteab",
+        "picture": {
+          "links": [
+            {
+              "rel": "original",
+              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+            }
+          ]
+        },
         "links": [
           {
             "rel": "platform",
@@ -252,7 +260,7 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "original",
-            "href": "https://asset1.betterplace.org/assets/default/default_collective.jpg"
+            "href": "http://asset1.betterplace.org/assets/default/square_profile_picture/fill_100x100_default.betterplace.jpg"
           }
         ]
       },
@@ -289,7 +297,7 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/paperclip/000/276/122/original_alim3111.jpg"
+              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
             }
           ]
         },
@@ -308,7 +316,7 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "original",
-            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/10120/original_profile_thumb_ALIM5576.png"
+            "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/profile_thumb_ALIM5576.png"
           }
         ]
       },

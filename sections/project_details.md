@@ -411,6 +411,14 @@ set for organisations.
       <td>Original size as uploaded by the user</td>
     </tr>
     <tr>
+      <th align="left">profile_picture.fill_618x322</th>
+      <td>618x322 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fill_270x141</th>
+      <td>270x141 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">profile_picture.original</th>
       <td>Original size as uploaded by the user</td>
     </tr>
@@ -441,7 +449,7 @@ set for organisations.
 {
   "id": 1114,
   "created_at": "2009-03-10T10:12:16Z",
-  "updated_at": "2014-03-04T09:31:06Z",
+  "updated_at": "2014-03-15T23:11:42Z",
   "latitude": 34.531617284782,
   "longitude": 69.13581752939456,
   "street": "Taimani, behind Qasemi Winhouse",
@@ -452,10 +460,10 @@ set for organisations.
   "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important.<br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
   "tax_deductible": true,
   "donations_prohibited": false,
-  "open_amount_in_cents": 173440,
-  "positive_opinions_count": 631,
+  "open_amount_in_cents": 169440,
+  "positive_opinions_count": 634,
   "negative_opinions_count": 0,
-  "donor_count": 513,
+  "donor_count": 515,
   "progress_percentage": 95,
   "incomplete_need_count": 1,
   "completed_need_count": 80,
@@ -466,7 +474,7 @@ set for organisations.
       "links": [
         {
           "rel": "original",
-          "href": "https://asset1.betterplace.org/paperclip/000/330/773/original_Picture_023.jpg"
+          "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
         }
       ]
     },
@@ -487,7 +495,7 @@ set for organisations.
       "links": [
         {
           "rel": "original",
-          "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/1054/original_original_betterplace-logo.png"
+          "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/1.jpeg"
         }
       ]
     },
@@ -501,8 +509,16 @@ set for organisations.
   "profile_picture": {
     "links": [
       {
+        "rel": "fill_618x322",
+        "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_618x322_default.betterplace.jpg"
+      },
+      {
+        "rel": "fill_270x141",
+        "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_270x141_default.betterplace.jpg"
+      },
+      {
         "rel": "original",
-        "href": "https://asset1.betterplace.org/paperclip/000/289/158/original_girls-merza-sm.jpg"
+        "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_618x322_default.betterplace.jpg"
       }
     ]
   },

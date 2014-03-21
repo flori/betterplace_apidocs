@@ -180,7 +180,7 @@ access rights in order to see this information.
       "links": [
         {
           "rel": "original",
-          "href": "https://asset1.betterplace.org/paperclip/000/004/520/original_Schule_Leutersdorf_2.JPG"
+          "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
         }
       ]
     },

@@ -50,24 +50,6 @@ projects, the API will return a `404` HTTP code.
       <th>Description</th>
     </tr>
     <tr>
-      <th align="left">width</th>
-      <td>number</td>
-      <td>1024</td>
-      <td>Width of the image</td>
-    </tr>
-    <tr>
-      <th align="left">height</th>
-      <td>number</td>
-      <td>768</td>
-      <td>Height of the image</td>
-    </tr>
-    <tr>
-      <th align="left">size</th>
-      <td>number</td>
-      <td>100234</td>
-      <td>Size of the image in bytes</td>
-    </tr>
-    <tr>
       <th align="left">description</th>
       <td>string</td>
       <td>Yada…</td>
@@ -114,19 +96,13 @@ projects, the API will return a `404` HTTP code.
 
 ```json
 {
-  "width": 132,
-  "height": 99,
   "description": "Young Afghan Skate Instructor Fazilla sitting on her board at Mekroyan Fountain",
-  "created_at": "2012-07-23T11:45:15Z",
-  "updated_at": "2012-07-23T11:46:38Z",
+  "created_at": "2014-03-13T03:10:27Z",
+  "updated_at": "2014-03-13T03:10:27Z",
   "links": [
     {
-      "rel": "image",
-      "href": "https://asset1.betterplace.org/paperclip/000/286/505/original_fazilla.jpg"
-    },
-    {
       "rel": "self",
-      "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/286505.json"
+      "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/31766.json"
     },
     {
       "rel": "parent",

@@ -432,6 +432,14 @@ set for organisations.
       <td>Original size as uploaded by the user</td>
     </tr>
     <tr>
+      <th align="left">profile_picture.fill_618x322</th>
+      <td>618x322 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fill_270x141</th>
+      <td>270x141 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">profile_picture.original</th>
       <td>Original size as uploaded by the user</td>
     </tr>
@@ -460,9 +468,9 @@ set for organisations.
 
 ```json
 {
-  "total_entries": 30,
+  "total_entries": 31,
   "offset": 0,
-  "total_pages": 15,
+  "total_pages": 16,
   "current_page": 1,
   "per_page": 2,
   "data": [
@@ -492,7 +500,7 @@ set for organisations.
           "links": [
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/paperclip/000/176/415/original_Foto1__Manda__1_.jpg"
+              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
             }
           ]
         },
@@ -513,7 +521,7 @@ set for organisations.
           "links": [
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/5044/original_original_Akipa_LOGO_1_.jpg"
+              "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/005/044/original_Akipa_LOGO_1_.jpg"
             }
           ]
         },
@@ -527,8 +535,16 @@ set for organisations.
       "profile_picture": {
         "links": [
           {
+            "rel": "fill_618x322",
+            "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_618x322_default.betterplace.jpg"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_270x141_default.betterplace.jpg"
+          },
+          {
             "rel": "original",
-            "href": "https://asset1.betterplace.org/paperclip/000/264/083/original_P1000771.JPG"
+            "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_618x322_default.betterplace.jpg"
           }
         ]
       },
@@ -591,7 +607,7 @@ set for organisations.
           "links": [
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/paperclip/000/263/237/original_Management-Ewertz-G%C3%BCnter.jpg"
+              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
             }
           ]
         },
@@ -612,7 +628,7 @@ set for organisations.
           "links": [
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/4634/original_original_ROLLIS-Logo_pagenumber.001.jpg"
+              "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/004/634/original_ROLLIS-Logo_pagenumber.001.jpg"
             }
           ]
         },
@@ -626,8 +642,16 @@ set for organisations.
       "profile_picture": {
         "links": [
           {
+            "rel": "fill_618x322",
+            "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_618x322_default.betterplace.jpg"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_270x141_default.betterplace.jpg"
+          },
+          {
             "rel": "original",
-            "href": "https://asset1.betterplace.org/paperclip/000/265/994/original_IMG00929-20111028-1403.jpg"
+            "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_618x322_default.betterplace.jpg"
           }
         ]
       },

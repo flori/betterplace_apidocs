@@ -190,9 +190,9 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 626,
+  "total_entries": 634,
   "offset": 0,
-  "total_pages": 209,
+  "total_pages": 212,
   "current_page": 1,
   "per_page": 3,
   "data": [
@@ -202,6 +202,14 @@ access rights in order to see this information.
       "score": "positive",
       "author": {
         "name": "A. Bald",
+        "picture": {
+          "links": [
+            {
+              "rel": "original",
+              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+            }
+          ]
+        },
         "links": [
           {
             "rel": "platform",
@@ -235,7 +243,7 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/paperclip/000/047/224/original_CIMG4253.JPG"
+              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
             }
           ]
         },
@@ -272,7 +280,7 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/paperclip/000/058/762/original_Mirwais_Mohsen_image.jpg"
+              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
             }
           ]
         },

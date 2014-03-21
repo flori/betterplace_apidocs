@@ -225,7 +225,7 @@ access rights in order to see this information.
   "id": 125,
   "slug": "vivaconagua",
   "created_at": "2008-02-06T16:10:42Z",
-  "updated_at": "2014-02-24T10:43:40Z",
+  "updated_at": "2014-03-15T23:10:00Z",
   "latitude": 53.55759811401367,
   "longitude": 9.96815967559815,
   "street": "Neuer Kamp 32",
@@ -241,7 +241,7 @@ access rights in order to see this information.
       "links": [
         {
           "rel": "original",
-          "href": "https://asset1.betterplace.org/paperclip/000/007/084/original_Fidel.jpg"
+          "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
         }
       ]
     },
@@ -260,7 +260,7 @@ access rights in order to see this information.
     "links": [
       {
         "rel": "original",
-        "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/125/original_VcA_Projektlogo.jpg"
+        "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/VcA_Projektlogo.jpg"
       }
     ]
   },

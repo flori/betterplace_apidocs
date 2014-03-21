@@ -57,24 +57,6 @@ projects, the API will return a `404` HTTP code.
       <th>Description</th>
     </tr>
     <tr>
-      <th align="left">width</th>
-      <td>number</td>
-      <td>1024</td>
-      <td>Width of the image</td>
-    </tr>
-    <tr>
-      <th align="left">height</th>
-      <td>number</td>
-      <td>768</td>
-      <td>Height of the image</td>
-    </tr>
-    <tr>
-      <th align="left">size</th>
-      <td>number</td>
-      <td>100234</td>
-      <td>Size of the image in bytes</td>
-    </tr>
-    <tr>
       <th align="left">description</th>
       <td>string</td>
       <td>Yada…</td>
@@ -121,26 +103,19 @@ projects, the API will return a `404` HTTP code.
 
 ```json
 {
-  "total_entries": 18,
+  "total_entries": 8,
   "offset": 3,
-  "total_pages": 6,
+  "total_pages": 3,
   "current_page": 2,
   "per_page": 3,
   "data": [
     {
-      "width": 132,
-      "height": 99,
-      "description": "Kids practice to jump at Mekroyan Fountain, Kabul",
-      "created_at": "2012-07-23T12:25:15Z",
-      "updated_at": "2012-07-23T12:29:41Z",
+      "created_at": "2014-03-13T03:10:55Z",
+      "updated_at": "2014-03-13T03:10:55Z",
       "links": [
         {
-          "rel": "image",
-          "href": "https://asset1.betterplace.org/paperclip/000/286/511/original_skateistan%20print_37.jpg"
-        },
-        {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/286511.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/31769.json"
         },
         {
           "rel": "parent",
@@ -149,19 +124,12 @@ projects, the API will return a `404` HTTP code.
       ]
     },
     {
-      "width": 132,
-      "height": 99,
-      "description": "Afghan Skate Instructor Merza showing his skills at an old Soviet swimming pool on Bibi Maru Hill, Kabul",
-      "created_at": "2012-07-23T12:30:13Z",
-      "updated_at": "2012-07-23T12:34:05Z",
+      "created_at": "2014-03-13T03:11:03Z",
+      "updated_at": "2014-03-13T03:11:03Z",
       "links": [
         {
-          "rel": "image",
-          "href": "https://asset1.betterplace.org/paperclip/000/286/512/original_wais%20ollies%20into%20the%20empty%20pool.jpg"
-        },
-        {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/286512.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/31770.json"
         },
         {
           "rel": "parent",
@@ -170,18 +138,12 @@ projects, the API will return a `404` HTTP code.
       ]
     },
     {
-      "width": 132,
-      "height": 99,
-      "created_at": "2012-07-23T12:45:29Z",
-      "updated_at": "2012-07-23T12:45:30Z",
+      "created_at": "2014-03-13T03:11:12Z",
+      "updated_at": "2014-03-13T03:11:12Z",
       "links": [
         {
-          "rel": "image",
-          "href": "https://asset1.betterplace.org/paperclip/000/286/515/original_IMG_1462.JPG"
-        },
-        {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/286515.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/31771.json"
         },
         {
           "rel": "parent",

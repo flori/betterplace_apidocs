@@ -362,6 +362,14 @@ betterplace.
       <td>Thumbnail size</td>
     </tr>
     <tr>
+      <th align="left">image.fill_618x322</th>
+      <td>618x322 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">image.fill_270x141</th>
+      <td>270x141 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">image.original</th>
       <td>Original size</td>
     </tr>
@@ -405,6 +413,34 @@ betterplace.
     ]
   },
   "vacancies": 1,
+  "image": {
+    "links": [
+      {
+        "rel": "fill_618x322",
+        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.jpg"
+      },
+      {
+        "rel": "fill_270x141",
+        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.jpg"
+      },
+      {
+        "rel": "original",
+        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.jpg"
+      },
+      {
+        "rel": "thumb",
+        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.jpg"
+      },
+      {
+        "rel": "medium",
+        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.jpg"
+      },
+      {
+        "rel": "regular",
+        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.jpg"
+      }
+    ]
+  },
   "contact": {
     "name": "Frank Gerhold",
     "phone": "0561 - 10 24 25",
