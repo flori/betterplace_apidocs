@@ -108,16 +108,12 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
 </td>
     </tr>
   </table>
-</table>
-
-## Response Links
-
-<table>
-  <tr>
-    <th>Linkname</th>
-    <th>Description</th>
-  </tr>
-
+#### Links
+  <table>
+    <tr>
+      <th>Linkname</th>
+      <th>Description</th>
+    </tr>
     <tr>
       <th align="left">self</th>
       <td>Link to this resource itself
@@ -133,7 +129,7 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
       <td>Link to this resource in the documentation
 </td>
     </tr>
-</table>
+  </table>
 
 ## Response Example
 

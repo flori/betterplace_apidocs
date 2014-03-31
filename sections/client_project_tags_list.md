@@ -56,22 +56,18 @@ that where tagged with this tag.
 </td>
     </tr>
   </table>
-</table>
-
-## Response Links
-
-<table>
-  <tr>
-    <th>Linkname</th>
-    <th>Description</th>
-  </tr>
-
+#### Links
+  <table>
+    <tr>
+      <th>Linkname</th>
+      <th>Description</th>
+    </tr>
     <tr>
       <th align="left">projects</th>
       <td>Link to the <a href="projects_list.md">project list</a> of all tagged projects for the current client.
 </td>
     </tr>
-</table>
+  </table>
 
 ## Response Example
 
@@ -175,22 +171,18 @@ that where tagged with this tag.
 </td>
     </tr>
   </table>
-</table>
-
-## Response Links
-
-<table>
-  <tr>
-    <th>Linkname</th>
-    <th>Description</th>
-  </tr>
-
+#### Links
+  <table>
+    <tr>
+      <th>Linkname</th>
+      <th>Description</th>
+    </tr>
     <tr>
       <th align="left">projects</th>
       <td>Link to the <a href="projects_list.md">project list</a> of all tagged projects for the current client.
 </td>
     </tr>
-</table>
+  </table>
 
 ## Response Example
 

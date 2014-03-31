@@ -92,16 +92,12 @@ The details and list view show the same data.
       <td>The URL of the logo image.</td>
     </tr>
   </table>
-</table>
-
-## Response Links
-
-<table>
-  <tr>
-    <th>Linkname</th>
-    <th>Description</th>
-  </tr>
-
+#### Links
+  <table>
+    <tr>
+      <th>Linkname</th>
+      <th>Description</th>
+    </tr>
     <tr>
       <th align="left">self</th>
       <td>Link to this resource itself
@@ -121,7 +117,7 @@ The details and list view show the same data.
       <td>Link to this resource in the documentation
 </td>
     </tr>
-</table>
+  </table>
 
 ## Response Example
 

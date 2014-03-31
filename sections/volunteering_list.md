@@ -236,6 +236,23 @@ was indeed imported.
 </td>
     </tr>
   </table>
+#### Links
+  <table>
+    <tr>
+      <th>Linkname</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">self</th>
+      <td>Link to this resource itself
+(<a href="volunteering_details.md">volunteering details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+  </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
 
   <table>
@@ -344,6 +361,17 @@ No validations on input apply.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
+#### Links
+  <table>
+    <tr>
+      <th>Linkname</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">contact.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+  </table>
 ### <a name="import_information" href="#import_information-ref">↑Nested Attributes: import_information</a>
 
   <table>
@@ -390,59 +418,6 @@ betterplace.
 </td>
     </tr>
   </table>
-</table>
-
-## Response Links
-
-<table>
-  <tr>
-    <th>Linkname</th>
-    <th>Description</th>
-  </tr>
-
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="volunteering_details.md">volunteering details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.logo</th>
-      <td>Thumbnail size</td>
-    </tr>
-    <tr>
-      <th align="left">image.fill_618x322</th>
-      <td>618x322 Pixel</td>
-    </tr>
-    <tr>
-      <th align="left">image.fill_270x141</th>
-      <td>270x141 Pixel</td>
-    </tr>
-    <tr>
-      <th align="left">image.original</th>
-      <td>Original size</td>
-    </tr>
-    <tr>
-      <th align="left">image.thumb</th>
-      <td>Thumbnail size</td>
-    </tr>
-    <tr>
-      <th align="left">image.medium</th>
-      <td>Medium size</td>
-    </tr>
-    <tr>
-      <th align="left">image.regular</th>
-      <td>Regular size</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.original</th>
-      <td>Original size as uploaded by the user</td>
-    </tr>
-</table>
 
 ## Response Example
 
