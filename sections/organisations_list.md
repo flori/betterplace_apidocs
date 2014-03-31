@@ -215,9 +215,9 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 8881,
+  "total_entries": 8950,
   "offset": 0,
-  "total_pages": 4441,
+  "total_pages": 4475,
   "current_page": 1,
   "per_page": 2,
   "data": [
@@ -297,7 +297,7 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/249/795/original_alim3111.jpg"
             }
           ]
         },

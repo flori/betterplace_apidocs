@@ -146,13 +146,13 @@ offline donations and also(!) external donations)
     {
       "id": 79124,
       "created_at": "2014-02-17T16:01:17Z",
-      "updated_at": "2014-03-15T23:11:40Z",
+      "updated_at": "2014-03-21T13:35:08Z",
       "title": "Clean Water for the Skateparks in Kabul and MeS",
       "description": "The equivalent of supplying clean drinking water for all of our staff and students in both the Kabul and Mazar-e-Sharif Skateparks. ",
       "completed": false,
-      "progress_percentage": 5.6,
-      "donated_amount_in_cents": 10060,
-      "open_amount_in_cents": 169440,
+      "progress_percentage": 5.74,
+      "donated_amount_in_cents": 10298,
+      "open_amount_in_cents": 169202,
       "requested_amount_in_cents": 179500,
       "links": [
         {
@@ -168,7 +168,7 @@ offline donations and also(!) external donations)
     {
       "id": 76625,
       "created_at": "2014-01-03T10:41:44Z",
-      "updated_at": "2014-02-15T23:15:05Z",
+      "updated_at": "2014-03-21T13:35:08Z",
       "title": "Kabul Skatepark Food",
       "description": "Equivalent to providing food for the Kabul skatepark for 1 month including the Back-To-School program which runs 5 days/week. The Back-To-School program aims to give children the support they need to return to public school in Afghanistan.",
       "completed": true,

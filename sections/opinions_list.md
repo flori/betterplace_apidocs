@@ -243,7 +243,7 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/010/834/original_CIMG4253.JPG"
             }
           ]
         },
@@ -280,7 +280,7 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/011/827/original_Mirwais_Mohsen_image.jpg"
             }
           ]
         },

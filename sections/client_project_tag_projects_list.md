@@ -477,7 +477,7 @@ set for organisations.
     {
       "id": 7551,
       "created_at": "2011-08-28T22:19:43Z",
-      "updated_at": "2014-02-12T16:07:50Z",
+      "updated_at": "2014-03-19T08:01:07Z",
       "latitude": -4.0347900390625,
       "longitude": 21.75629997253418,
       "city": "Kinshasa",
@@ -500,7 +500,7 @@ set for organisations.
           "links": [
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/131/304/original_Foto1__Manda__1_.jpg"
             }
           ]
         },
@@ -536,15 +536,15 @@ set for organisations.
         "links": [
           {
             "rel": "fill_618x322",
-            "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_618x322_default.betterplace.jpg"
+            "href": "http://asset1.betterplace.org/paperclip/000/264/083/default_P1000771.jpg"
           },
           {
             "rel": "fill_270x141",
-            "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_270x141_default.betterplace.jpg"
+            "href": "http://asset1.betterplace.org/paperclip/000/264/083/profile_P1000771.jpg"
           },
           {
             "rel": "original",
-            "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_618x322_default.betterplace.jpg"
+            "href": "http://asset1.betterplace.org/paperclip/000/264/083/default_P1000771.jpg"
           }
         ]
       },
@@ -582,7 +582,7 @@ set for organisations.
     {
       "id": 7721,
       "created_at": "2011-09-19T19:34:04Z",
-      "updated_at": "2014-02-03T01:18:01Z",
+      "updated_at": "2014-03-20T08:01:17Z",
       "latitude": 49.69689178466797,
       "longitude": 6.5706901550293,
       "street": "Saarstr. 9",
@@ -607,7 +607,7 @@ set for organisations.
           "links": [
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/127/588/G_ni-2012-13.jpg"
             }
           ]
         },
@@ -643,15 +643,15 @@ set for organisations.
         "links": [
           {
             "rel": "fill_618x322",
-            "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_618x322_default.betterplace.jpg"
+            "href": "http://asset1.betterplace.org/paperclip/000/265/994/default_IMG00929-20111028-1403.jpg"
           },
           {
             "rel": "fill_270x141",
-            "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_270x141_default.betterplace.jpg"
+            "href": "http://asset1.betterplace.org/paperclip/000/265/994/profile_IMG00929-20111028-1403.jpg"
           },
           {
             "rel": "original",
-            "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_618x322_default.betterplace.jpg"
+            "href": "http://asset1.betterplace.org/paperclip/000/265/994/default_IMG00929-20111028-1403.jpg"
           }
         ]
       },

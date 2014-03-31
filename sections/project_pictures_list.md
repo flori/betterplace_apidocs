@@ -110,7 +110,7 @@ projects, the API will return a `404` HTTP code.
   "per_page": 3,
   "data": [
     {
-      "created_at": "2014-03-13T03:10:55Z",
+      "created_at": "2012-07-23T12:56:00Z",
       "updated_at": "2014-03-13T03:10:55Z",
       "links": [
         {
@@ -124,7 +124,7 @@ projects, the API will return a `404` HTTP code.
       ]
     },
     {
-      "created_at": "2014-03-13T03:11:03Z",
+      "created_at": "2012-07-23T13:05:01Z",
       "updated_at": "2014-03-13T03:11:03Z",
       "links": [
         {
@@ -138,7 +138,7 @@ projects, the API will return a `404` HTTP code.
       ]
     },
     {
-      "created_at": "2014-03-13T03:11:12Z",
+      "created_at": "2012-07-23T13:08:43Z",
       "updated_at": "2014-03-13T03:11:12Z",
       "links": [
         {

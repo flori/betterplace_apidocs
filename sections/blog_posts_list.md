@@ -159,7 +159,7 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
           "links": [
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/original_maxn_skate.jpg"
             }
           ]
         },
@@ -203,7 +203,7 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
           "links": [
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/original_maxn_skate.jpg"
             }
           ]
         },

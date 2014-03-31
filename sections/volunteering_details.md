@@ -417,27 +417,27 @@ betterplace.
     "links": [
       {
         "rel": "fill_618x322",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.jpg"
+        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
       },
       {
         "rel": "fill_270x141",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.jpg"
+        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
       },
       {
         "rel": "original",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.jpg"
+        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
       },
       {
         "rel": "thumb",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.jpg"
+        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
       },
       {
         "rel": "medium",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.jpg"
+        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
       },
       {
         "rel": "regular",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.jpg"
+        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
       }
     ]
   },

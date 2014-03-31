@@ -154,7 +154,7 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
       "links": [
         {
           "rel": "original",
-          "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/original_Picture_023.jpg"
         }
       ]
     },
