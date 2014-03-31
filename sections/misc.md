@@ -1,5 +1,5 @@
 
-# All about: index
+# test
 
 ```nginx
 GET https://api.betterplace.org/en/api_v4/client_platforms.json
