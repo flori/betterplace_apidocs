@@ -236,23 +236,6 @@ was indeed imported.
 </td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="volunteering_details.md">volunteering details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
-    </tr>
-  </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
 
   <table>
@@ -361,17 +344,6 @@ No validations on input apply.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">contact.original</th>
-      <td>Original size as uploaded by the user</td>
-    </tr>
-  </table>
 ### <a name="import_information" href="#import_information-ref">↑Nested Attributes: import_information</a>
 
   <table>
@@ -418,14 +390,67 @@ betterplace.
 </td>
     </tr>
   </table>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
+    <tr>
+      <th align="left">self</th>
+      <td>Link to this resource itself
+(<a href="volunteering_details.md">volunteering details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.logo</th>
+      <td>Thumbnail size</td>
+    </tr>
+    <tr>
+      <th align="left">image.fill_618x322</th>
+      <td>618x322 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">image.fill_270x141</th>
+      <td>270x141 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">image.original</th>
+      <td>Original size</td>
+    </tr>
+    <tr>
+      <th align="left">image.thumb</th>
+      <td>Thumbnail size</td>
+    </tr>
+    <tr>
+      <th align="left">image.medium</th>
+      <td>Medium size</td>
+    </tr>
+    <tr>
+      <th align="left">image.regular</th>
+      <td>Regular size</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+</table>
 
 ## Response Example
 
 ```json
 {
-  "total_entries": 12602,
+  "total_entries": 12536,
   "offset": 3,
-  "total_pages": 4201,
+  "total_pages": 4179,
   "current_page": 2,
   "per_page": 3,
   "data": [
@@ -450,11 +475,15 @@ betterplace.
         "latitude": 51.3171,
         "longitude": 9.49561,
         "links": [
-
+          {
+            "rel": "logo",
+            "href": ""
+          }
         ]
       },
       "vacancies": 1,
       "image": {
+        "description": null,
         "links": [
           {
             "rel": "fill_618x322",
@@ -485,7 +514,11 @@ betterplace.
       "contact": {
         "name": "Frank Gerhold",
         "phone": "0561 - 10 24 25",
-        "email": "info@freiwilligenzentrumkassel.de"
+        "email": "info@freiwilligenzentrumkassel.de",
+        "picture": null,
+        "links": [
+
+        ]
       },
       "topics": [
         "Health",
@@ -500,7 +533,10 @@ betterplace.
         "updated_at": "2013-03-15T00:00:00Z",
         "import_type": "Bettertime::AktionMensch::Import",
         "import_id": "fn-417",
-        "imported_at": "2013-05-16T15:21:00Z"
+        "imported_at": "2013-05-16T15:21:00Z",
+        "links": [
+
+        ]
       },
       "links": [
         {
@@ -517,6 +553,12 @@ betterplace.
       "id": 5,
       "created_at": "2013-01-28T09:23:09Z",
       "updated_at": "2013-05-16T15:21:00Z",
+      "latitude": null,
+      "longitude": null,
+      "street": null,
+      "zip": null,
+      "city": null,
+      "country": null,
       "title": "Patientenbesuchsdienst im Diakonissen- und Burgfeldkrankenhaus",
       "description": "<ul><li>Wir stellen den Menschen in den Mittelpunkt</li>\n    <li>Wir sind für die Patienten da</li>\n    <li>Wir begleiten Spaziergänge im Haus und draußen</li>\n    <li>Wir lesen vor aus \"Was ihr wollt\"</li>\n    <li>Wir erledigen Besorgungen</li>\n    <li>Wir bringen die Bücherei ans Bett</li>\n    <li>Wir gehen Kranken zur Hand</li>\n    <li>Wir hören zu, begleiten und betreuen</li>\n    <li>Wir helfen bei der Aufnahme ins Krankenhaus</li>\n</ul>\n\n<p>Jeder/r von uns arbeitet einen Tag pro Woche von 9:00 bis 12:00 Uhr auf einer Station. Wir treffen uns monatlich zu 2stündigen Themennachmittagen zum Gedanken- und Erfahrungsaustausch. Das Einsatzgebiet (Aufnahme, Pflege, Büchereidienst oder Dienst im Altenheim) kann nach Neigung gewählt werden.</p>\n<p>Bei all diesen Aufgaben sind wir durch das Krankenhaus pauschal unfallversichert.</p>\n<p>Es gibt einen monatlich festgelegten Einsatzplan.</p>\n<p>Wir freuen uns über Ihr Interesse und beantworten gern Ihre Fragen.</p><ul><li>Unfallversicherung</li><li>Haftpflichtversicherung</li><li>regelmäßige Informationen</li><li>Erfahrungsaustausch</li><li>Fortbildung/Qualifizierungsangebote</li><li>Anleitung durch Fachkräfte</li><li>Tätigkeitsnachweise</li><li>kostenlose Verpflegung</li><li>kostenlose Veranstaltungen</li></ul>",
       "carrier": {
@@ -528,11 +570,15 @@ betterplace.
         "latitude": 51.3171,
         "longitude": 9.49561,
         "links": [
-
+          {
+            "rel": "logo",
+            "href": ""
+          }
         ]
       },
       "vacancies": 1,
       "image": {
+        "description": null,
         "links": [
           {
             "rel": "fill_618x322",
@@ -563,7 +609,11 @@ betterplace.
       "contact": {
         "name": "Frank Gerhold",
         "phone": "0561 - 10 24 25",
-        "email": "info@freiwilligenzentrumkassel.de"
+        "email": "info@freiwilligenzentrumkassel.de",
+        "picture": null,
+        "links": [
+
+        ]
       },
       "topics": [
         "Health",
@@ -578,7 +628,10 @@ betterplace.
         "updated_at": "2013-03-15T00:00:00Z",
         "import_type": "Bettertime::AktionMensch::Import",
         "import_id": "fn-421",
-        "imported_at": "2013-05-16T15:21:00Z"
+        "imported_at": "2013-05-16T15:21:00Z",
+        "links": [
+
+        ]
       },
       "links": [
         {
@@ -612,11 +665,15 @@ betterplace.
         "latitude": 51.3171,
         "longitude": 9.49561,
         "links": [
-
+          {
+            "rel": "logo",
+            "href": ""
+          }
         ]
       },
       "vacancies": 1,
       "image": {
+        "description": null,
         "links": [
           {
             "rel": "fill_618x322",
@@ -647,7 +704,11 @@ betterplace.
       "contact": {
         "name": "Frank Gerhold",
         "phone": "0561 - 10 24 25",
-        "email": "info@freiwilligenzentrumkassel.de"
+        "email": "info@freiwilligenzentrumkassel.de",
+        "picture": null,
+        "links": [
+
+        ]
       },
       "topics": [
         "Children & youth",
@@ -663,7 +724,10 @@ betterplace.
         "updated_at": "2013-03-15T00:00:00Z",
         "import_type": "Bettertime::AktionMensch::Import",
         "import_id": "fn-423",
-        "imported_at": "2013-05-16T15:21:00Z"
+        "imported_at": "2013-05-16T15:21:00Z",
+        "links": [
+
+        ]
       },
       "links": [
         {

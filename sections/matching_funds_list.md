@@ -99,12 +99,16 @@ A list of betterplace.org matching funds.
       <td>The URL of the logo image.</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
       <th align="left">self</th>
       <td>Link to this resource itself
@@ -124,7 +128,7 @@ A list of betterplace.org matching funds.
       <td>Link to this resource in the documentation
 </td>
     </tr>
-  </table>
+</table>
 
 ## Response Example
 

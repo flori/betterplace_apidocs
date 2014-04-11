@@ -135,28 +135,6 @@ If so, Users can request a tax-receipt for donations to that organisation.
       <td>TODO</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="organisation_details.md">organisation details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
-    </tr>
-    <tr>
-      <th align="left">projects</th>
-      <td>Link to the <a href="projects_list.md">project list</a> of this organisation
-</td>
-    </tr>
-  </table>
 ### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
 
   <table>
@@ -183,25 +161,63 @@ like "Payback User" or empty/null for anonymous donations.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-#### Links
-  <table>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
-      <th>Linkname</th>
-      <th>Description</th>
+      <th align="left">self</th>
+      <td>Link to this resource itself
+(<a href="organisation_details.md">organisation details</a>)
+</td>
     </tr>
     <tr>
-      <th align="left">contact.original</th>
+      <th align="left">platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">projects</th>
+      <td>Link to the <a href="projects_list.md">project list</a> of this organisation
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.platform</th>
+      <td>The user's profile on betterplace.org.
+To view a user profile you have to be logged in.
+This array is empty if the user has no useraccount
+with betterplace.org but donated via one of our partner.
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.contact_data</th>
+      <td>The user's contact data. Please note that you need to be
+<a href="../README.md#client-authentication">authenticated as a client</a> with matching
+access rights in order to see this information.
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.original</th>
       <td>Original size as uploaded by the user</td>
     </tr>
-  </table>
+    <tr>
+      <th align="left">picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+</table>
 
 ## Response Example
 
 ```json
 {
-  "total_entries": 8950,
+  "total_entries": 8981,
   "offset": 0,
-  "total_pages": 4475,
+  "total_pages": 4491,
   "current_page": 1,
   "per_page": 2,
   "data": [
@@ -271,9 +287,11 @@ like "Payback User" or empty/null for anonymous donations.
       "latitude": -0.28333330154419,
       "longitude": 36.06666564941406,
       "street": "Nakuru,Kenya",
+      "zip": null,
       "city": "Nakuru",
       "country": "Kenya",
       "name": "AMAZING GRACE CHILDREN HOME NAKURU,KENYA",
+      "description": null,
       "tax_deductible": false,
       "contact": {
         "name": "A. Children Home",

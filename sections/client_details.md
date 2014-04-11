@@ -97,12 +97,16 @@ This is also calculated based on the sum of all
 </td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
       <th align="left">projects</th>
       <td>Link to the <a href="projects_list.md">project list</a> of this client
@@ -123,18 +127,18 @@ This is also calculated based on the sum of all
       <td>Link to the <a href="opinions_list.md">opinions list</a> of this client
 </td>
     </tr>
-  </table>
+</table>
 
 ## Response Example
 
 ```json
 {
-  "donated_amount_in_cents": 112873638,
-  "pool_balance_in_cents": 4949887,
-  "open_amount_in_cents": 19544407,
-  "requested_amount_in_cents": 132418045,
+  "donated_amount_in_cents": 114389373,
+  "pool_balance_in_cents": 5049740,
+  "open_amount_in_cents": 18240672,
+  "requested_amount_in_cents": 132630045,
   "projects_count": 278,
-  "client_donations_count": 9086,
+  "client_donations_count": 9172,
   "links": [
     {
       "rel": "projects",

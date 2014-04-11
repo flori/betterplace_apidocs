@@ -97,7 +97,7 @@ what you plan to do with the money.
     </tr>
     <tr>
       <th align="left">payout</th>
-      <td>null &#124; undefined</td>
+      <td>null &#124; object</td>
       <td>TODO</td>
       <td></td>
     </tr>
@@ -110,12 +110,16 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
 </td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
       <th align="left">self</th>
       <td>Link to this resource itself
@@ -131,7 +135,7 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
       <td>Link to this resource in the documentation
 </td>
     </tr>
-  </table>
+</table>
 
 ## Response Example
 
@@ -144,6 +148,7 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
   "type": "BlogPost",
   "title": "First Climbing Contest Held in Afghanistan",
   "body": "<p><img src=\"http://skateistan.org/sites/default/files/users/duncan.buck/1381505_10201192263663306_1801301726_n.jpeg\"><br></p>\n<p>On\r\n Saturday 28th September, Skateistan Kabul's volunteers and staff took \r\npart in the inaugural indoor climbing competition held at the facility, \r\nwith both girls and boys competing (ages 11-22). This was the 1st \r\nclimbing competition that has taken place at Skateistan and the 1st \r\nknown climbing contest held in Afghanistan!<br><br>The climbing \r\ncompetition had both female and male categories with contests that \r\nincluded speed climbing and fastest rope coil. The competition was \r\njudged by our amazing volunteer climbing teachers, including the \r\ncompetition organiser Gio Trambaiolo who has been instrumental in \r\nteaching climbing to the Skateistan volunteers. Gio has volunteered as a\r\n climbing teacher nearly each week for well over a year. Skateistan is \r\nextremely lucky to have such a wonderful team of dedicated volunteers, \r\nwho include around a dozen foreigners with certified climbing \r\nbackgrounds.</p>\n<p>\" Everyone did very well, it's amazing to\r\n see how the instructors and volunteers have progressed over the past \r\nfew months. \" - Gio, volunteer climbing teacher</p>\n<p>Each \r\nweek since June 2012, climbing lessons have been provided \r\nto Skateistan's Youth Leaders, who are Afghan staff and volunteers with \r\nthe project. They have learned climbing techniques, as well as built \r\nup trust and respect for each other through the sport. It is been \r\ninspiring to watch the volunteers develop as climbers and to see the \r\nhigh skill level our Youth Leaders have developed since the program took\r\n shape last year. Through the program, 14 young Afghans (50% girls) have\r\n received certificates to be Beginner Climbing Instructors, and they now\r\n facilitate climbing classes with more than 400 students who attend \r\nSkateistan.</p>\n<p>A brief prize ceremony was held the following week to \r\ngive the final results of the competition, as well as some prizes which \r\nwere given to everyone who participated.</p>We\r\n want to thank all the climbing volunteers who have created a hugely \r\nsuccesful sports program for our staff and students. We wish to thank \r\nGiovanni Trambaiolo, Sheilagh Henry, Kate Hughes, Mindy Visser, Colin R,\r\n Erin Blankenship, Jeffery Dow, Kelsey Noonan, Sarah-Jean \r\nCunningham, and Stephanie Faser. Your constant creativity and innovative\r\n training have made climbing one of the leading activities for the Youth\r\n Leaders at Skateistan. The development of students who attend your \r\nclasses has been a great pleasure to watch, and will benefit hundreds of\r\n children who will continue to be taught by their Afghan peers.<p><br><img src=\"http://skateistan.org/sites/default/files/users/duncan.buck/2013-09-24-peace-day-eventimg_1269.jpg\"></p>\n<p><br></p>\n<br>",
+  "payout": null,
   "author": {
     "name": "E. Kinast",
     "picture": {

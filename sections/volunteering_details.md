@@ -183,23 +183,6 @@ was indeed imported.
 </td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="volunteering_details.md">volunteering details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
-    </tr>
-  </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
 
   <table>
@@ -308,17 +291,6 @@ No validations on input apply.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">contact.original</th>
-      <td>Original size as uploaded by the user</td>
-    </tr>
-  </table>
 ### <a name="import_information" href="#import_information-ref">↑Nested Attributes: import_information</a>
 
   <table>
@@ -365,6 +337,59 @@ betterplace.
 </td>
     </tr>
   </table>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
+    <tr>
+      <th align="left">self</th>
+      <td>Link to this resource itself
+(<a href="volunteering_details.md">volunteering details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.logo</th>
+      <td>Thumbnail size</td>
+    </tr>
+    <tr>
+      <th align="left">image.fill_618x322</th>
+      <td>618x322 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">image.fill_270x141</th>
+      <td>270x141 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">image.original</th>
+      <td>Original size</td>
+    </tr>
+    <tr>
+      <th align="left">image.thumb</th>
+      <td>Thumbnail size</td>
+    </tr>
+    <tr>
+      <th align="left">image.medium</th>
+      <td>Medium size</td>
+    </tr>
+    <tr>
+      <th align="left">image.regular</th>
+      <td>Regular size</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+</table>
 
 ## Response Example
 
@@ -373,6 +398,12 @@ betterplace.
   "id": 23,
   "created_at": "2013-01-28T09:23:17Z",
   "updated_at": "2013-05-16T15:21:06Z",
+  "latitude": null,
+  "longitude": null,
+  "street": null,
+  "zip": null,
+  "city": null,
+  "country": null,
   "title": "Essensausgabe/Fahrdienst",
   "description": "<p>Die Kasseler Tafel e.V. sammelt qualitativ einwandfreie Lebensmittel, die kurz vor dem Mindesthaltbarkeitsdatum stehen, bei Firmen in der Region ein und verteilt diese gegen einen symbolischen Betrag an bedürftige Mitbürgerinnen und Mitbürger.</p>\n<p>Freiwillige können sich in folgenden Bereichen bei der Kasseler Tafel betätigen:</p>\n<p>1. Lebensmittel sortieren und ausgeben</p>\n<p>2. als Fahrer: Abholung der Lebensmittel bei den Supermärkten</p>\n\n<p>Mehr Informationen finden Sie unter: http://kasseler-tafel.de/</p>\n<p>Wir freuen uns über Ihr Interesse! </p><ul><li>Unfallversicherung</li><li>Haftpflichtversicherung</li><li>Anleitung durch Fachkräfte</li><li>Tätigkeitsnachweise</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li></ul>",
   "carrier": {
@@ -384,11 +415,15 @@ betterplace.
     "latitude": 51.3171,
     "longitude": 9.49561,
     "links": [
-
+      {
+        "rel": "logo",
+        "href": ""
+      }
     ]
   },
   "vacancies": 1,
   "image": {
+    "description": null,
     "links": [
       {
         "rel": "fill_618x322",
@@ -419,7 +454,11 @@ betterplace.
   "contact": {
     "name": "Frank Gerhold",
     "phone": "0561 - 10 24 25",
-    "email": "info@freiwilligenzentrumkassel.de"
+    "email": "info@freiwilligenzentrumkassel.de",
+    "picture": null,
+    "links": [
+
+    ]
   },
   "topics": [
 
@@ -433,7 +472,10 @@ betterplace.
     "updated_at": "2013-03-15T00:00:00Z",
     "import_type": "Bettertime::AktionMensch::Import",
     "import_id": "fn-471",
-    "imported_at": "2013-05-16T15:21:06Z"
+    "imported_at": "2013-05-16T15:21:06Z",
+    "links": [
+
+    ]
   },
   "links": [
     {

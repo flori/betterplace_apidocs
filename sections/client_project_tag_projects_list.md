@@ -243,48 +243,6 @@ donation needs. This percentage includes those needs.
       <td>TODO</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="project_details.md">project details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
-    </tr>
-    <tr>
-      <th align="left">opinions</th>
-      <td>Link to <a href="opinions_list.md">opinion list</a>
-</td>
-    </tr>
-    <tr>
-      <th align="left">pictures</th>
-      <td>Link to <a href="picture_list.md">project picture list</a>
-</td>
-    </tr>
-    <tr>
-      <th align="left">needs</th>
-      <td>Link to <a href="needs_list.md">project need list</a>
-</td>
-    </tr>
-    <tr>
-      <th align="left">blog_posts</th>
-      <td>Link to <a href="blog_posts_list.md">blog post list</a>
-</td>
-    </tr>
-    <tr>
-      <th align="left">matching_funds</th>
-      <td>Link to <a href="manager_details.md">matching funds list</a>
-</td>
-    </tr>
-  </table>
 ### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
 
   <table>
@@ -311,17 +269,6 @@ like "Payback User" or empty/null for anonymous donations.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">contact.original</th>
-      <td>Original size as uploaded by the user</td>
-    </tr>
-  </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
 
   <table>
@@ -342,17 +289,6 @@ like "Payback User" or empty/null for anonymous donations.
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>The organisation logo, user profile picture or a fallback image</td>
-    </tr>
-  </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">carrier.original</th>
-      <td>Original size as uploaded by the user</td>
     </tr>
   </table>
 ### <a name="active_matching_fund" href="#active_matching_fund-ref">↑Nested Attributes: active_matching_fund</a>
@@ -419,23 +355,134 @@ like "Payback User" or empty/null for anonymous donations.
       <td>The URL of the logo image.</td>
     </tr>
   </table>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
+    <tr>
+      <th align="left">self</th>
+      <td>Link to this resource itself
+(<a href="project_details.md">project details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">opinions</th>
+      <td>Link to <a href="opinions_list.md">opinion list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">pictures</th>
+      <td>Link to <a href="picture_list.md">project picture list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">needs</th>
+      <td>Link to <a href="needs_list.md">project need list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">blog_posts</th>
+      <td>Link to <a href="blog_posts_list.md">blog post list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">matching_funds</th>
+      <td>Link to <a href="manager_details.md">matching funds list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.platform</th>
+      <td>The user's profile on betterplace.org.
+To view a user profile you have to be logged in.
+This array is empty if the user has no useraccount
+with betterplace.org but donated via one of our partner.
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.contact_data</th>
+      <td>The user's contact data. Please note that you need to be
+<a href="../README.md#client-authentication">authenticated as a client</a> with matching
+access rights in order to see this information.
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.self</th>
+      <td>Link to this resource itself
+(<a href="organisation_details.md">organisation details</a>)
+Note: Since the there is no api for users yet, this is only
+set for organisations.
+</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fill_618x322</th>
+      <td>618x322 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fill_270x141</th>
+      <td>270x141 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.self</th>
+      <td>Link to this resource itself
+(<a href="matching_fund_details.md">matching fund details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.projects</th>
+      <td>Link to the list of projects belonging to this matching fund</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.documentation</th>
+      <td>Link to this resource in the documentation
+</td>
+    </tr>
+</table>
 
 ## Response Example
 
 ```json
 {
-  "total_entries": 31,
+  "total_entries": 30,
   "offset": 0,
-  "total_pages": 16,
+  "total_pages": 15,
   "current_page": 1,
   "per_page": 2,
   "data": [
     {
       "id": 7551,
       "created_at": "2011-08-28T22:19:43Z",
-      "updated_at": "2014-03-19T08:01:07Z",
+      "updated_at": "2014-03-26T18:45:01Z",
+      "completed_at": null,
       "latitude": -4.0347900390625,
       "longitude": 21.75629997253418,
+      "street": null,
+      "zip": null,
       "city": "Kinshasa",
       "country": "Congo (Democratic Republic)",
       "title": "Ausbildungswerkstatt für Kinder im Kongo",
@@ -504,6 +551,7 @@ like "Payback User" or empty/null for anonymous donations.
           }
         ]
       },
+      "active_matching_fund": null,
       "links": [
         {
           "rel": "self",
@@ -538,7 +586,8 @@ like "Payback User" or empty/null for anonymous donations.
     {
       "id": 7721,
       "created_at": "2011-09-19T19:34:04Z",
-      "updated_at": "2014-03-20T08:01:17Z",
+      "updated_at": "2014-03-26T18:37:22Z",
+      "completed_at": null,
       "latitude": 49.69689178466797,
       "longitude": 6.5706901550293,
       "street": "Saarstr. 9",
@@ -611,6 +660,7 @@ like "Payback User" or empty/null for anonymous donations.
           }
         ]
       },
+      "active_matching_fund": null,
       "links": [
         {
           "rel": "self",

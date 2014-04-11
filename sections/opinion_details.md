@@ -98,25 +98,6 @@ why they like or dislike this project
 </td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="opinion_details.md">opinion details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">project</th>
-      <td>Link to the project this opinion belongs to
-(<a href="project_details.md">project details</a>)
-</td>
-    </tr>
-  </table>
 ### <a name="author" href="#author-ref">↑Nested Attributes: author</a>
 
   <table>
@@ -143,17 +124,48 @@ like "Payback User" or empty/null for anonymous donations.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-#### Links
-  <table>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
-      <th>Linkname</th>
-      <th>Description</th>
+      <th align="left">self</th>
+      <td>Link to this resource itself
+(<a href="opinion_details.md">opinion details</a>)
+</td>
     </tr>
     <tr>
-      <th align="left">author.original</th>
+      <th align="left">project</th>
+      <td>Link to the project this opinion belongs to
+(<a href="project_details.md">project details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">author.platform</th>
+      <td>The user's profile on betterplace.org.
+To view a user profile you have to be logged in.
+This array is empty if the user has no useraccount
+with betterplace.org but donated via one of our partner.
+</td>
+    </tr>
+    <tr>
+      <th align="left">author.contact_data</th>
+      <td>The user's contact data. Please note that you need to be
+<a href="../README.md#client-authentication">authenticated as a client</a> with matching
+access rights in order to see this information.
+</td>
+    </tr>
+    <tr>
+      <th align="left">author.picture.original</th>
       <td>Original size as uploaded by the user</td>
     </tr>
-  </table>
+</table>
 
 ## Response Example
 
@@ -161,6 +173,7 @@ like "Payback User" or empty/null for anonymous donations.
 {
   "id": 22,
   "created_at": "2007-11-24T13:14:02Z",
+  "donated_amount_in_cents": null,
   "score": "positive",
   "author": {
     "name": "G. Krabbe",

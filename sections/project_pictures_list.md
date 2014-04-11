@@ -75,12 +75,16 @@ projects, the API will return a `404` HTTP code.
       <td>DateTime (ISO8601 with Timezone) of last update</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
       <th align="left">image</th>
       <td>Link to the original image as uploaded by the user</td>
@@ -93,25 +97,30 @@ projects, the API will return a `404` HTTP code.
       <th align="left">parent</th>
       <td>The parent object of this picture.</td>
     </tr>
-  </table>
+</table>
 
 ## Response Example
 
 ```json
 {
-  "total_entries": 8,
+  "total_entries": 18,
   "offset": 3,
-  "total_pages": 3,
+  "total_pages": 6,
   "current_page": 2,
   "per_page": 3,
   "data": [
     {
-      "created_at": "2012-07-23T12:56:00Z",
-      "updated_at": "2014-03-13T03:10:55Z",
+      "description": "Kids practice to jump at Mekroyan Fountain, Kabul",
+      "created_at": "2012-07-23T12:25:15Z",
+      "updated_at": "2014-03-26T21:13:34Z",
       "links": [
         {
+          "rel": "image",
+          "href": ""
+        },
+        {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/31769.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/68085.json"
         },
         {
           "rel": "parent",
@@ -120,12 +129,17 @@ projects, the API will return a `404` HTTP code.
       ]
     },
     {
-      "created_at": "2012-07-23T13:05:01Z",
-      "updated_at": "2014-03-13T03:11:03Z",
+      "description": "Afghan Skate Instructor Merza showing his skills at an old Soviet swimming pool on Bibi Maru Hill, Kabul",
+      "created_at": "2012-07-23T12:30:13Z",
+      "updated_at": "2014-03-26T21:13:36Z",
       "links": [
         {
+          "rel": "image",
+          "href": ""
+        },
+        {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/31770.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/68086.json"
         },
         {
           "rel": "parent",
@@ -134,12 +148,17 @@ projects, the API will return a `404` HTTP code.
       ]
     },
     {
-      "created_at": "2012-07-23T13:08:43Z",
-      "updated_at": "2014-03-13T03:11:12Z",
+      "description": null,
+      "created_at": "2012-07-23T12:45:29Z",
+      "updated_at": "2014-03-13T03:10:36Z",
       "links": [
         {
+          "rel": "image",
+          "href": ""
+        },
+        {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/31771.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/31767.json"
         },
         {
           "rel": "parent",
