@@ -449,7 +449,7 @@ set for organisations.
 {
   "id": 1114,
   "created_at": "2009-03-10T10:12:16Z",
-  "updated_at": "2014-03-26T21:30:23Z",
+  "updated_at": "2014-04-11T14:28:48Z",
   "completed_at": null,
   "latitude": 34.531617284782,
   "longitude": 69.13581752939456,
@@ -461,14 +461,14 @@ set for organisations.
   "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important.<br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
   "tax_deductible": true,
   "donations_prohibited": false,
-  "open_amount_in_cents": 169202,
-  "positive_opinions_count": 635,
+  "open_amount_in_cents": 164452,
+  "positive_opinions_count": 638,
   "negative_opinions_count": 0,
-  "donor_count": 515,
+  "donor_count": 516,
   "progress_percentage": 96,
   "incomplete_need_count": 1,
   "completed_need_count": 80,
-  "blog_post_count": 82,
+  "blog_post_count": 83,
   "contact": {
     "name": "E. Kinast",
     "picture": {

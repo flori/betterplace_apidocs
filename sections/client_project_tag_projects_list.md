@@ -468,7 +468,7 @@ set for organisations.
 
 ```json
 {
-  "total_entries": 30,
+  "total_entries": 29,
   "offset": 0,
   "total_pages": 15,
   "current_page": 1,
@@ -477,7 +477,7 @@ set for organisations.
     {
       "id": 7551,
       "created_at": "2011-08-28T22:19:43Z",
-      "updated_at": "2014-03-26T18:45:01Z",
+      "updated_at": "2014-04-04T12:51:02Z",
       "completed_at": null,
       "latitude": -4.0347900390625,
       "longitude": 21.75629997253418,
@@ -489,8 +489,8 @@ set for organisations.
       "description": "Unsere Projektnummer: 7551 - In der Demokratische Republik Kongo sind sehr viele Kinder durch Armut und Krieg zu den Straßenkindern geworden. Unter ihnen zählen ehemalige Kindersoldaten, Waisenkinder und Kinder aus sehr armen Familien. Um sich das Brot zu verdienen, sind viele Jungenmädchen zur Straßenprostitution geworden und die meisten Jungs sind Straßendieb und kriminellen. Die schwächten Kinder die sich nicht zu helfen wissen erkranken meistens an Marasmus und sterben anschließend. Diesen Kindern fehlt jegliche Hilfe zum Überleben. Der kongolesische Staat hat bisher keinerlei Hilfsmaßnahmen für diese Kindergrupe unternommen. Ohne Hilfe von außen haben diesen Kinder keiner Zukunft. <br /><br />Seit 2007 haben wir uns auf die Arbeit gemacht und unterstützen heute 40 Kinder aus Kinshasa und Bukavu mit Patenschaft und Spenden. In Zusammenarbeit mit unseren Partner Vorort verteilen wir Nahrungsmittel und sorgen für die nötige medizinische Versorgung, damit die Kleinen erst einmal zu Kräften kommen. Im Weiteren kümmern wir uns um ihre Schulbildung; wir verteilen Schulmaterialien und übernehmen die Schulgebühren für sie. Denn nachdem der Hunger gestillt ist, braucht jedes Kind Bildung, um sich aus seinem Schicksal befreien zu können.<br /><br />Viele von den Kinder die wir seit 4 Jahren den Besuch der Schule ermöglicht haben könnten mit unserer Hilfe die sekundären Schulabschluss absolvieren bzw. erlangen. Mit nur diesem Abschluss ist es leider nicht möglich eine Zukunftssichere Arbeitsstelle zu finden. Eine weitführende Schule und/oder ein Studium zu besuchen kostet viele Geld und ist nicht erfolgssprechend. Da diese Kinder nach ihrer Schulabschlusse keine Arbeit haben und wir sie bisher nichts Weiteres anbieten könnten, sind einige von ihnen wieder dahin gelangt wo sie herkamen; sie sind wieder zu Straßenkindern geworden und laufen Gefahr wieder in der Prostitution und in der Kriminalität zu gelangen.<br /><br />Mit einer abgeschlossenen Ausbildung sehen wir eine große Chance diese Kinder sowie weitere hilfsbedürftige Kinder eine Arbeitsplatz zu vermitteln. Ziel ist, sie auf eigene Füße zu stellen um zu verhindern dass sie nicht wieder auf die Straße gelangen. Genau gesagt: Hauptziel ist, sie dauerhaft aus der Armut zu holen. <br /><br />Geplant ist den Bau einer Ausbildungswerkstatt (für Schneiderei, Schreinerei, KFZ-Mechaniker und EDV) und eine medizinische Notfallstation. <br />Für den Anfang wollen wir erstmals eine Schneidereiwerkstatt für ca. 20 Kinder in der Hauptstadt Kinshasa bauen. Dort sollen in erste Linie Mädchen als Schneiderin ausgebildet werden. Nach erfolgreichen abgeschlossen Ausbildung von 1,5 Jahre werden sie die Möglichkeit haben sich selbständig zu machen oder auf freie Markt einen Arbeitsplatz zu bekommen.<br /><br />Um diese Maßnahme realisieren zu können, benötigen wir finanzielle und/oder materielle Hilfe!",
       "tax_deductible": true,
       "donations_prohibited": false,
-      "open_amount_in_cents": 2322000,
-      "positive_opinions_count": 41,
+      "open_amount_in_cents": 2317000,
+      "positive_opinions_count": 42,
       "negative_opinions_count": 0,
       "donor_count": 30,
       "progress_percentage": 13,

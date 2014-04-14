@@ -448,9 +448,9 @@ betterplace.
 
 ```json
 {
-  "total_entries": 12536,
+  "total_entries": 12465,
   "offset": 3,
-  "total_pages": 4179,
+  "total_pages": 4155,
   "current_page": 2,
   "per_page": 3,
   "data": [
