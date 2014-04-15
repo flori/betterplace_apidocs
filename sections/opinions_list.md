@@ -117,42 +117,12 @@ why they like or dislike this project
 </td>
     </tr>
   </table>
-### <a name="author" href="#author-ref">↑Nested Attributes: author</a>
-
+#### Links
   <table>
     <tr>
-      <th>Attribute</th>
-      <th>Types</th>
-      <th>Example</th>
+      <th>Linkname</th>
       <th>Description</th>
     </tr>
-    <tr>
-      <th align="left">author.name</th>
-      <td>null &#124; string</td>
-      <td>"Till B."</td>
-      <td>Display name of a betterplace.org user.
-Possible formats: "Till B.", "T. Behnke", "Till Behnke".
-In the case of donation-opinions the name might also be anonymized
-like "Payback User" or empty/null for anonymous donations.
-</td>
-    </tr>
-    <tr>
-      <th align="left">author.picture</th>
-      <td>string</td>
-      <td>//assets.betterplace.org/…</td>
-      <td>User profile picture or a fallback image</td>
-    </tr>
-  </table>
-</table>
-
-## Response Links
-
-<table>
-  <tr>
-    <th>Linkname</th>
-    <th>Description</th>
-  </tr>
-
     <tr>
       <th align="left">self</th>
       <td>Link to this resource itself
@@ -184,7 +154,44 @@ access rights in order to see this information.
       <th align="left">author.picture.original</th>
       <td>Original size as uploaded by the user</td>
     </tr>
-</table>
+  </table>
+### <a name="author" href="#author-ref">↑Nested Attributes: author</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">author.name</th>
+      <td>null &#124; string</td>
+      <td>"Till B."</td>
+      <td>Display name of a betterplace.org user.
+Possible formats: "Till B.", "T. Behnke", "Till Behnke".
+In the case of donation-opinions the name might also be anonymized
+like "Payback User" or empty/null for anonymous donations.
+</td>
+    </tr>
+    <tr>
+      <th align="left">author.picture</th>
+      <td>string</td>
+      <td>//assets.betterplace.org/…</td>
+      <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+#### Links
+  <table>
+    <tr>
+      <th>Linkname</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">author.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+  </table>
 
 ## Response Example
 

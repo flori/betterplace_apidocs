@@ -222,128 +222,12 @@ donation needs. This percentage includes those needs.
       <td>TODO</td>
     </tr>
   </table>
-### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
-
+#### Links
   <table>
     <tr>
-      <th>Attribute</th>
-      <th>Types</th>
-      <th>Example</th>
+      <th>Linkname</th>
       <th>Description</th>
     </tr>
-    <tr>
-      <th align="left">contact.name</th>
-      <td>null &#124; string</td>
-      <td>"Till B."</td>
-      <td>Display name of a betterplace.org user.
-Possible formats: "Till B.", "T. Behnke", "Till Behnke".
-In the case of donation-opinions the name might also be anonymized
-like "Payback User" or empty/null for anonymous donations.
-</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture</th>
-      <td>string</td>
-      <td>//assets.betterplace.org/…</td>
-      <td>User profile picture or a fallback image</td>
-    </tr>
-  </table>
-### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
-
-  <table>
-    <tr>
-      <th>Attribute</th>
-      <th>Types</th>
-      <th>Example</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">carrier.name</th>
-      <td>string</td>
-      <td>"Till B."</td>
-      <td>The carrier can be an organisation or user.</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.picture</th>
-      <td>string</td>
-      <td>//assets.betterplace.org/…</td>
-      <td>The organisation logo, user profile picture or a fallback image</td>
-    </tr>
-  </table>
-### <a name="active_matching_fund" href="#active_matching_fund-ref">↑Nested Attributes: active_matching_fund</a>
-
-  <table>
-    <tr>
-      <th>Attribute</th>
-      <th>Types</th>
-      <th>Example</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">active_matching_fund.id</th>
-      <td>string</td>
-      <td>53</td>
-      <td>An integer number ≥ 1</td>
-    </tr>
-    <tr>
-      <th align="left">active_matching_fund.created_at</th>
-      <td>string</td>
-      <td>"1994-11-05T13:15:30Z"</td>
-      <td>DateTime (ISO8601 with Timezone)</td>
-    </tr>
-    <tr>
-      <th align="left">active_matching_fund.updated_at</th>
-      <td>string</td>
-      <td>"1994-11-05T13:15:30Z"</td>
-      <td>DateTime (ISO8601 with Timezone)</td>
-    </tr>
-    <tr>
-      <th align="left">active_matching_fund.activated_at</th>
-      <td>null &#124; string</td>
-      <td>"1994-11-05T13:15:30Z"</td>
-      <td>DateTime (ISO8601 with Timezone)</td>
-    </tr>
-    <tr>
-      <th align="left">active_matching_fund.title</th>
-      <td>string</td>
-      <td>ACME Matching Everything</td>
-      <td>Our matching fund's name</td>
-    </tr>
-    <tr>
-      <th align="left">active_matching_fund.description</th>
-      <td>string</td>
-      <td>It's all about matching donations…</td>
-      <td>The description of the matching fund</td>
-    </tr>
-    <tr>
-      <th align="left">active_matching_fund.company_name</th>
-      <td>string</td>
-      <td>ACME</td>
-      <td>The company that supports it</td>
-    </tr>
-    <tr>
-      <th align="left">active_matching_fund.state</th>
-      <td>string</td>
-      <td>activated</td>
-      <td>Current state of this matching fund: either activated or closed</td>
-    </tr>
-    <tr>
-      <th align="left">active_matching_fund.logo_url</th>
-      <td>string</td>
-      <td>http://example.com/images/logo.png</td>
-      <td>The URL of the logo image.</td>
-    </tr>
-  </table>
-</table>
-
-## Response Links
-
-<table>
-  <tr>
-    <th>Linkname</th>
-    <th>Description</th>
-  </tr>
-
     <tr>
       <th align="left">self</th>
       <td>Link to this resource itself
@@ -441,7 +325,141 @@ set for organisations.
       <td>Link to this resource in the documentation
 </td>
     </tr>
-</table>
+  </table>
+### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">contact.name</th>
+      <td>null &#124; string</td>
+      <td>"Till B."</td>
+      <td>Display name of a betterplace.org user.
+Possible formats: "Till B.", "T. Behnke", "Till Behnke".
+In the case of donation-opinions the name might also be anonymized
+like "Payback User" or empty/null for anonymous donations.
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture</th>
+      <td>string</td>
+      <td>//assets.betterplace.org/…</td>
+      <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+#### Links
+  <table>
+    <tr>
+      <th>Linkname</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">contact.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+  </table>
+### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">carrier.name</th>
+      <td>string</td>
+      <td>"Till B."</td>
+      <td>The carrier can be an organisation or user.</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.picture</th>
+      <td>string</td>
+      <td>//assets.betterplace.org/…</td>
+      <td>The organisation logo, user profile picture or a fallback image</td>
+    </tr>
+  </table>
+#### Links
+  <table>
+    <tr>
+      <th>Linkname</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">carrier.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+  </table>
+### <a name="active_matching_fund" href="#active_matching_fund-ref">↑Nested Attributes: active_matching_fund</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.id</th>
+      <td>string</td>
+      <td>53</td>
+      <td>An integer number ≥ 1</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.created_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.updated_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.activated_at</th>
+      <td>null &#124; string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.title</th>
+      <td>string</td>
+      <td>ACME Matching Everything</td>
+      <td>Our matching fund's name</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.description</th>
+      <td>string</td>
+      <td>It's all about matching donations…</td>
+      <td>The description of the matching fund</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.company_name</th>
+      <td>string</td>
+      <td>ACME</td>
+      <td>The company that supports it</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.state</th>
+      <td>string</td>
+      <td>activated</td>
+      <td>Current state of this matching fund: either activated or closed</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.logo_url</th>
+      <td>string</td>
+      <td>http://example.com/images/logo.png</td>
+      <td>The URL of the logo image.</td>
+    </tr>
+  </table>
 
 ## Response Example
 

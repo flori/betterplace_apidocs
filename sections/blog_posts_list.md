@@ -116,6 +116,47 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
 </td>
     </tr>
   </table>
+#### Links
+  <table>
+    <tr>
+      <th>Linkname</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">self</th>
+      <td>Link to this resource itself
+(<a href="blog_post_details.md">blog post details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">documentation</th>
+      <td>Link to this resource in the documentation
+</td>
+    </tr>
+    <tr>
+      <th align="left">author.platform</th>
+      <td>The user's profile on betterplace.org.
+To view a user profile you have to be logged in.
+This array is empty if the user has no useraccount
+with betterplace.org but donated via one of our partner.
+</td>
+    </tr>
+    <tr>
+      <th align="left">author.contact_data</th>
+      <td>The user's contact data. Please note that you need to be
+<a href="../README.md#client-authentication">authenticated as a client</a> with matching
+access rights in order to see this information.
+</td>
+    </tr>
+    <tr>
+      <th align="left">author.picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+  </table>
 ### <a name="payout" href="#payout-ref">↑Nested Attributes: payout</a>
 
   <table>
@@ -184,51 +225,17 @@ like "Payback User" or empty/null for anonymous donations.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-</table>
-
-## Response Links
-
-<table>
-  <tr>
-    <th>Linkname</th>
-    <th>Description</th>
-  </tr>
-
+#### Links
+  <table>
     <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="blog_post_details.md">blog post details</a>)
-</td>
+      <th>Linkname</th>
+      <th>Description</th>
     </tr>
     <tr>
-      <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
-    </tr>
-    <tr>
-      <th align="left">documentation</th>
-      <td>Link to this resource in the documentation
-</td>
-    </tr>
-    <tr>
-      <th align="left">author.platform</th>
-      <td>The user's profile on betterplace.org.
-To view a user profile you have to be logged in.
-This array is empty if the user has no useraccount
-with betterplace.org but donated via one of our partner.
-</td>
-    </tr>
-    <tr>
-      <th align="left">author.contact_data</th>
-      <td>The user's contact data. Please note that you need to be
-<a href="../README.md#client-authentication">authenticated as a client</a> with matching
-access rights in order to see this information.
-</td>
-    </tr>
-    <tr>
-      <th align="left">author.picture.original</th>
+      <th align="left">author.original</th>
       <td>Original size as uploaded by the user</td>
     </tr>
-</table>
+  </table>
 
 ## Response Example
 
