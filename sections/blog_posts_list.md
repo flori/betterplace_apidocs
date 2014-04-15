@@ -178,7 +178,7 @@ access rights in order to see this information.
     </tr>
   </table>
 #### Links
-  No links defined for payout.
+  No links defined for **payout**.
 ### <a name="payout.needs" href="#payout.needs-ref">↑Nested Attributes: payout.needs</a>
 
   <table>
@@ -202,7 +202,7 @@ access rights in order to see this information.
     </tr>
   </table>
 #### Links
-  No links defined for payout.needs.
+  No links defined for **payout.needs**.
 ### <a name="author" href="#author-ref">↑Nested Attributes: author</a>
 
   <table>

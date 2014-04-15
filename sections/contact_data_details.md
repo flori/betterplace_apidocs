@@ -58,7 +58,7 @@ Name and email for the given user.
     </tr>
   </table>
 #### Links
-  No links defined for .
+  No links defined for ****.
 
 ## Response Example
 

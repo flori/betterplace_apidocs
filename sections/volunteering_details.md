@@ -285,7 +285,7 @@ was indeed imported.
     </tr>
   </table>
 #### Links
-  No links defined for carrier.
+  No links defined for **carrier**.
 ### <a name="image" href="#image-ref">↑Nested Attributes: image</a>
 
   <table>
@@ -303,7 +303,7 @@ was indeed imported.
     </tr>
   </table>
 #### Links
-  No links defined for image.
+  No links defined for **image**.
 ### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
 
   <table>
@@ -402,7 +402,7 @@ betterplace.
     </tr>
   </table>
 #### Links
-  No links defined for import_information.
+  No links defined for **import_information**.
 
 ## Response Example
 

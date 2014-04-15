@@ -461,7 +461,7 @@ like "Payback User" or empty/null for anonymous donations.
     </tr>
   </table>
 #### Links
-  No links defined for active_matching_fund.
+  No links defined for **active_matching_fund**.
 
 ## Response Example
 
