@@ -66,13 +66,8 @@ The details of a donation.
       <th align="left">client_reference</th>
       <td>string</td>
       <td>922ec9531b1f94add983a8ce2ebdc97b</td>
-      <td>Client Donations can be identified via a client reference. This reference needs to be present in the
-<ul>
-  <li><b>created</b> - The donation has been started, but the payment has not been processed yet</li>
-  <li><b>confirmed</b> - The donation has been made and the payment has been processed successfully</li>
-  <li><b>invalid</b> - There was some problem with this donation and the payment process never completed</li>
-  <li><b>revoked</b> - The donation was cancelled because the payment has been revoked</li>
-</ul>
+      <td>Client Donations can be identified via a custom client reference token. This reference should be url safe, e.g.
+only consist of alphanumeric symbols like a SHA-1 Hash.
 </td>
     </tr>
     <tr>
