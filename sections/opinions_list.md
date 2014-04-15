@@ -175,7 +175,11 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
-      <th align="left">author.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="author.picture-ref" href="#author.picture">
+            ↓author.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>

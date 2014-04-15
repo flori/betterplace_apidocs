@@ -129,7 +129,11 @@ If so, Users can request a tax-receipt for donations to that organisation.
       <td>The public contact person for this organisation.</td>
     </tr>
     <tr>
-      <th align="left">picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="picture-ref" href="#picture">
+            ↓picture
+          </a>
+        </th>
       <td>null &#124; object</td>
       <td></td>
       <td>TODO</td>
@@ -200,7 +204,11 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
-      <th align="left">contact.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="contact.picture-ref" href="#contact.picture">
+            ↓contact.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>

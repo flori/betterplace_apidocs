@@ -272,7 +272,11 @@ donation needs. This percentage includes those needs.
       <td>An organisation, Users will be added later</td>
     </tr>
     <tr>
-      <th align="left">profile_picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="profile_picture-ref" href="#profile_picture">
+            ↓profile_picture
+          </a>
+        </th>
       <td>null &#124; object</td>
       <td></td>
       <td>TODO</td>
@@ -412,7 +416,11 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
-      <th align="left">contact.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="contact.picture-ref" href="#contact.picture">
+            ↓contact.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>
@@ -445,7 +453,11 @@ like "Payback User" or empty/null for anonymous donations.
       <td>The carrier can be an organisation or user.</td>
     </tr>
     <tr>
-      <th align="left">carrier.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="carrier.picture-ref" href="#carrier.picture">
+            ↓carrier.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>The organisation logo, user profile picture or a fallback image</td>
