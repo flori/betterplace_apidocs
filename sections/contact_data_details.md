@@ -57,6 +57,8 @@ Name and email for the given user.
       <td>The email address of the user</td>
     </tr>
   </table>
+#### Links
+  No links defined for .
 
 ## Response Example
 

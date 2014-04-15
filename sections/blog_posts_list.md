@@ -177,6 +177,8 @@ access rights in order to see this information.
       <td>TODO</td>
     </tr>
   </table>
+#### Links
+  No links defined for payout.
 ### <a name="payout.needs" href="#payout.needs-ref">↑Nested Attributes: payout.needs</a>
 
   <table>
@@ -199,6 +201,8 @@ access rights in order to see this information.
       <td>Amount paid out to that need</td>
     </tr>
   </table>
+#### Links
+  No links defined for payout.needs.
 ### <a name="author" href="#author-ref">↑Nested Attributes: author</a>
 
   <table>

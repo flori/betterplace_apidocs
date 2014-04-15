@@ -284,6 +284,8 @@ was indeed imported.
       <td>Contact data for the organisation</td>
     </tr>
   </table>
+#### Links
+  No links defined for carrier.
 ### <a name="image" href="#image-ref">↑Nested Attributes: image</a>
 
   <table>
@@ -300,6 +302,8 @@ was indeed imported.
       <td>Image description</td>
     </tr>
   </table>
+#### Links
+  No links defined for image.
 ### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
 
   <table>
@@ -397,6 +401,8 @@ betterplace.
 </td>
     </tr>
   </table>
+#### Links
+  No links defined for import_information.
 
 ## Response Example
 

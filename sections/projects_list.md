@@ -526,6 +526,8 @@ like "Payback User" or empty/null for anonymous donations.
       <td>The URL of the logo image.</td>
     </tr>
   </table>
+#### Links
+  No links defined for active_matching_fund.
 
 ## Response Example
 
