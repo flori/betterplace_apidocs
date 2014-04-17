@@ -1,8 +1,8 @@
 
-# Client donations list
+# Client Donations List ⇄ [Details](client_donation_details.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations.json
+GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations.json?facets=client_reference%3A1234
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -26,7 +26,22 @@ Results are contained in a *data* attribute.
     <th align="left">client_id</th>
     <td><code>Volksfreund</code></td>
     <td>required</td>
-    <td>The betterplace.org-internal client permalink</td>
+    <td>The betterplace.org-internal client permalink.</td>
+  </tr>
+  <tr>
+    <th align="left">facets</th>
+    <td><code>client_reference:1234</code></td>
+    <td>optional</td>
+    <td>You can search for a specific client_reference: <code>?facets=client_reference:54</code>
+
+Example:
+<a href="https://api.betterplace.org/en/api_v4/clients/karmic_minion/client_donations?facets=client_reference:54">
+  <code>https://api.betterplace.org/en/api_v4/clients/karmic_minion/client_donations?facets=client_reference:54
+</a>
+
+This feature is only used in some cases that relate to the
+<a href="../donation_form/third_party_app_donation_form.md">ThirdPartyApp custom donation form for organisations</a>
+</td>
   </tr>
 </table>
 
@@ -63,7 +78,7 @@ Results are contained in a *data* attribute.
     <tr>
       <th align="left">client_reference</th>
       <td>string</td>
-      <td>922ec9531b1f94add983a8ce2ebdc97b</td>
+      <td>922ec9531b-etc</td>
       <td>Client Donations can be identified via a custom client reference token. This reference should be url safe, e.g.
 only consist of alphanumeric symbols like a SHA-1 Hash.
 </td>
@@ -95,12 +110,16 @@ Project <code>Element</code>, <code>FundraisingEvent</code>.
       <td>The title of the project, project element or fundraising event.</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
       <th align="left">receiver</th>
       <td>Link to the <a href="project_details.md">project details</a>
@@ -108,19 +127,81 @@ or <a href="need_details.md">project need details</a>
 that is associated with this donation.
 </td>
     </tr>
-  </table>
+    <tr>
+      <th align="left">self</th>
+      <td>Link to this resource itself
+(<a href="client_donation_details.md">client donation details</a>)
+</td>
+    </tr>
+</table>
 
 ## Response Example
 
 ```json
 {
-  "total_entries": 0,
+  "total_entries": 9267,
   "offset": 0,
-  "total_pages": 1,
+  "total_pages": 3089,
   "current_page": 1,
   "per_page": 3,
   "data": [
-
+    {
+      "amount_in_cents": 1000,
+      "state": "confirmed",
+      "client_reference": null,
+      "created_at": "2010-10-28T12:44:49Z",
+      "receiver_type": "Project",
+      "receiver_id": 4807,
+      "receiver_title": "Kleinbus für den Palais e.V. Trier",
+      "links": [
+        {
+          "rel": "receiver",
+          "href": "https://api.betterplace.org/en/api_v4/projects/4807.json"
+        },
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/client_donations/328db52eb745be52f3b5aaf0.json"
+        }
+      ]
+    },
+    {
+      "amount_in_cents": 100,
+      "state": "confirmed",
+      "client_reference": null,
+      "created_at": "2010-10-28T15:48:16Z",
+      "receiver_type": "Project",
+      "receiver_id": 4798,
+      "receiver_title": "Hilfe für Jugendliche mit krebskranken Eltern",
+      "links": [
+        {
+          "rel": "receiver",
+          "href": "https://api.betterplace.org/en/api_v4/projects/4798.json"
+        },
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/client_donations/7d775febc93584375ab07136.json"
+        }
+      ]
+    },
+    {
+      "amount_in_cents": 400,
+      "state": "confirmed",
+      "client_reference": null,
+      "created_at": "2010-10-29T07:46:25Z",
+      "receiver_type": "Project",
+      "receiver_id": 4798,
+      "receiver_title": "Hilfe für Jugendliche mit krebskranken Eltern",
+      "links": [
+        {
+          "rel": "receiver",
+          "href": "https://api.betterplace.org/en/api_v4/projects/4798.json"
+        },
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/client_donations/86be4452d4afb0f2d56f0add.json"
+        }
+      ]
+    }
   ]
 }
 ```

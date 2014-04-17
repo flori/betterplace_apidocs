@@ -57,8 +57,18 @@ Name and email for the given user.
       <td>The email address of the user</td>
     </tr>
   </table>
-#### Links
-  No links defined for ****.
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
+  <th colspan="2">No response example defined</th>
+</table>
 
 ## Response Example
 

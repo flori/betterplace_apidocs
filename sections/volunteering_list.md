@@ -236,55 +236,6 @@ was indeed imported.
 </td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">self</th>
-      <td>Link to this resource itself
-(<a href="volunteering_details.md">volunteering details</a>)
-</td>
-    </tr>
-    <tr>
-      <th align="left">platform</th>
-      <td>Permalink to betterplace.org</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.logo</th>
-      <td>Thumbnail size</td>
-    </tr>
-    <tr>
-      <th align="left">image.fill_618x322</th>
-      <td>618x322 Pixel</td>
-    </tr>
-    <tr>
-      <th align="left">image.fill_270x141</th>
-      <td>270x141 Pixel</td>
-    </tr>
-    <tr>
-      <th align="left">image.original</th>
-      <td>Original size</td>
-    </tr>
-    <tr>
-      <th align="left">image.thumb</th>
-      <td>Thumbnail size</td>
-    </tr>
-    <tr>
-      <th align="left">image.medium</th>
-      <td>Medium size</td>
-    </tr>
-    <tr>
-      <th align="left">image.regular</th>
-      <td>Regular size</td>
-    </tr>
-    <tr>
-      <th align="left">contact.picture.original</th>
-      <td>Original size as uploaded by the user</td>
-    </tr>
-  </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
 
   <table>
@@ -337,8 +288,6 @@ was indeed imported.
       <td>Contact data for the organisation</td>
     </tr>
   </table>
-#### Links
-  No links defined for **carrier**.
 ### <a name="image" href="#image-ref">↑Nested Attributes: image</a>
 
   <table>
@@ -355,8 +304,6 @@ was indeed imported.
       <td>Image description</td>
     </tr>
   </table>
-#### Links
-  No links defined for **image**.
 ### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
 
   <table>
@@ -391,25 +338,10 @@ No validations on input apply.
 </td>
     </tr>
     <tr>
-        <th align="left" style="white-space: nowrap">
-          <a name="contact.picture-ref" href="#contact.picture">
-            ↓contact.picture
-          </a>
-        </th>
+      <th align="left">contact.picture</th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>
-    </tr>
-  </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">contact.original</th>
-      <td>Original size as uploaded by the user</td>
     </tr>
   </table>
 ### <a name="import_information" href="#import_information-ref">↑Nested Attributes: import_information</a>
@@ -458,8 +390,59 @@ betterplace.
 </td>
     </tr>
   </table>
-#### Links
-  No links defined for **import_information**.
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
+    <tr>
+      <th align="left">self</th>
+      <td>Link to this resource itself
+(<a href="volunteering_details.md">volunteering details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.logo</th>
+      <td>Thumbnail size</td>
+    </tr>
+    <tr>
+      <th align="left">image.fill_618x322</th>
+      <td>618x322 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">image.fill_270x141</th>
+      <td>270x141 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">image.original</th>
+      <td>Original size</td>
+    </tr>
+    <tr>
+      <th align="left">image.thumb</th>
+      <td>Thumbnail size</td>
+    </tr>
+    <tr>
+      <th align="left">image.medium</th>
+      <td>Medium size</td>
+    </tr>
+    <tr>
+      <th align="left">image.regular</th>
+      <td>Regular size</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.original</th>
+      <td>Original size as uploaded by the user</td>
+    </tr>
+</table>
 
 ## Response Example
 

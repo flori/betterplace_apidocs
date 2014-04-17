@@ -110,12 +110,16 @@ offline donations and also(!) external donations)
       <td>How much money is needed in total</td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
       <th align="left">self</th>
       <td>Link to this resource itself
@@ -127,7 +131,7 @@ offline donations and also(!) external donations)
       <td>Link to the related <a href="project_details.md">project's details</a>
 </td>
     </tr>
-  </table>
+</table>
 
 ## Response Example
 

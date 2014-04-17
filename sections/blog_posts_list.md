@@ -116,12 +116,84 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
 </td>
     </tr>
   </table>
-#### Links
+### <a name="payout" href="#payout-ref">↑Nested Attributes: payout</a>
+
   <table>
     <tr>
-      <th>Linkname</th>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
       <th>Description</th>
     </tr>
+    <tr>
+        <th align="left" style="white-space: nowrap">
+          <a name="payout.needs-ref" href="#payout.needs">
+            ↓payout.needs
+          </a>
+        </th>
+      <td>array</td>
+      <td>TODO</td>
+      <td>TODO</td>
+    </tr>
+  </table>
+### <a name="payout.needs" href="#payout.needs-ref">↑Nested Attributes: payout.needs</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">payout.needs.need_title</th>
+      <td>string</td>
+      <td>Schoolbooks</td>
+      <td>Title of the need</td>
+    </tr>
+    <tr>
+      <th align="left">payout.needs.payout_amount_in_cents</th>
+      <td>string</td>
+      <td>2300</td>
+      <td>Amount paid out to that need</td>
+    </tr>
+  </table>
+### <a name="author" href="#author-ref">↑Nested Attributes: author</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">author.name</th>
+      <td>null &#124; string</td>
+      <td>"Till B."</td>
+      <td>Display name of a betterplace.org user.
+Possible formats: "Till B.", "T. Behnke", "Till Behnke".
+In the case of donation-opinions the name might also be anonymized
+like "Payback User" or empty/null for anonymous donations.
+</td>
+    </tr>
+    <tr>
+      <th align="left">author.picture</th>
+      <td>string</td>
+      <td>//assets.betterplace.org/…</td>
+      <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
       <th align="left">self</th>
       <td>Link to this resource itself
@@ -156,94 +228,7 @@ access rights in order to see this information.
       <th align="left">author.picture.original</th>
       <td>Original size as uploaded by the user</td>
     </tr>
-  </table>
-### <a name="payout" href="#payout-ref">↑Nested Attributes: payout</a>
-
-  <table>
-    <tr>
-      <th>Attribute</th>
-      <th>Types</th>
-      <th>Example</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-        <th align="left" style="white-space: nowrap">
-          <a name="payout.needs-ref" href="#payout.needs">
-            ↓payout.needs
-          </a>
-        </th>
-      <td>array</td>
-      <td>TODO</td>
-      <td>TODO</td>
-    </tr>
-  </table>
-#### Links
-  No links defined for **payout**.
-### <a name="payout.needs" href="#payout.needs-ref">↑Nested Attributes: payout.needs</a>
-
-  <table>
-    <tr>
-      <th>Attribute</th>
-      <th>Types</th>
-      <th>Example</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">payout.needs.need_title</th>
-      <td>string</td>
-      <td>Schoolbooks</td>
-      <td>Title of the need</td>
-    </tr>
-    <tr>
-      <th align="left">payout.needs.payout_amount_in_cents</th>
-      <td>string</td>
-      <td>2300</td>
-      <td>Amount paid out to that need</td>
-    </tr>
-  </table>
-#### Links
-  No links defined for **payout.needs**.
-### <a name="author" href="#author-ref">↑Nested Attributes: author</a>
-
-  <table>
-    <tr>
-      <th>Attribute</th>
-      <th>Types</th>
-      <th>Example</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">author.name</th>
-      <td>null &#124; string</td>
-      <td>"Till B."</td>
-      <td>Display name of a betterplace.org user.
-Possible formats: "Till B.", "T. Behnke", "Till Behnke".
-In the case of donation-opinions the name might also be anonymized
-like "Payback User" or empty/null for anonymous donations.
-</td>
-    </tr>
-    <tr>
-        <th align="left" style="white-space: nowrap">
-          <a name="author.picture-ref" href="#author.picture">
-            ↓author.picture
-          </a>
-        </th>
-      <td>string</td>
-      <td>//assets.betterplace.org/…</td>
-      <td>User profile picture or a fallback image</td>
-    </tr>
-  </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">author.original</th>
-      <td>Original size as uploaded by the user</td>
-    </tr>
-  </table>
+</table>
 
 ## Response Example
 

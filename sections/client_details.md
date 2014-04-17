@@ -97,12 +97,16 @@ This is also calculated based on the sum of all
 </td>
     </tr>
   </table>
-#### Links
-  <table>
-    <tr>
-      <th>Linkname</th>
-      <th>Description</th>
-    </tr>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
     <tr>
       <th align="left">projects</th>
       <td>Link to the <a href="projects_list.md">project list</a> of this client
@@ -123,7 +127,7 @@ This is also calculated based on the sum of all
       <td>Link to the <a href="opinions_list.md">opinions list</a> of this client
 </td>
     </tr>
-  </table>
+</table>
 
 ## Response Example
 
