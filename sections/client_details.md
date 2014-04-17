@@ -133,12 +133,12 @@ This is also calculated based on the sum of all
 
 ```json
 {
-  "donated_amount_in_cents": 115602492,
-  "pool_balance_in_cents": 4564230,
-  "open_amount_in_cents": 20734853,
+  "donated_amount_in_cents": 115800064,
+  "pool_balance_in_cents": 4570230,
+  "open_amount_in_cents": 20537281,
   "requested_amount_in_cents": 136337345,
   "projects_count": 278,
-  "client_donations_count": 9267,
+  "client_donations_count": 9289,
   "links": [
     {
       "rel": "projects",

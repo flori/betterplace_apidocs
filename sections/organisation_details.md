@@ -225,7 +225,7 @@ access rights in order to see this information.
   "id": 125,
   "slug": "vivaconagua",
   "created_at": "2008-02-06T16:10:42Z",
-  "updated_at": "2014-04-12T12:18:51Z",
+  "updated_at": "2014-04-16T14:56:23Z",
   "latitude": 53.55759811401367,
   "longitude": 9.96815967559815,
   "street": "Neuer Kamp 32",

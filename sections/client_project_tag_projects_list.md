@@ -468,7 +468,7 @@ set for organisations.
 
 ```json
 {
-  "total_entries": 29,
+  "total_entries": 30,
   "offset": 0,
   "total_pages": 15,
   "current_page": 1,
@@ -477,7 +477,7 @@ set for organisations.
     {
       "id": 7551,
       "created_at": "2011-08-28T22:19:43Z",
-      "updated_at": "2014-04-04T12:51:02Z",
+      "updated_at": "2014-04-14T10:00:57Z",
       "completed_at": null,
       "latitude": -4.0347900390625,
       "longitude": 21.75629997253418,
@@ -586,7 +586,7 @@ set for organisations.
     {
       "id": 7721,
       "created_at": "2011-09-19T19:34:04Z",
-      "updated_at": "2014-03-26T18:37:22Z",
+      "updated_at": "2014-04-14T10:01:40Z",
       "completed_at": null,
       "latitude": 49.69689178466797,
       "longitude": 6.5706901550293,
