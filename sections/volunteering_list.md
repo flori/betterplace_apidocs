@@ -439,8 +439,12 @@ betterplace.
       <td>Regular size</td>
     </tr>
     <tr>
+      <th align="left">contact.picture.fill_100x100</th>
+      <td>100x100 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">contact.picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
     </tr>
 </table>
 
@@ -448,9 +452,9 @@ betterplace.
 
 ```json
 {
-  "total_entries": 12433,
+  "total_entries": 12384,
   "offset": 3,
-  "total_pages": 4145,
+  "total_pages": 4128,
   "current_page": 2,
   "per_page": 3,
   "data": [
@@ -545,7 +549,7 @@ betterplace.
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.org/en/volunteering/4-betreuung-begleitung-im-rahmen-des-betreuungsrechts"
+          "href": "https://www.betterplace.org/en/volunteering/4-betreuung-begleitung-im-rahmen-des-betreuungsrechts"
         }
       ]
     },
@@ -640,7 +644,7 @@ betterplace.
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.org/en/volunteering/5-patientenbesuchsdienst-im-diakonissen-und-burgfeldkrankenhaus"
+          "href": "https://www.betterplace.org/en/volunteering/5-patientenbesuchsdienst-im-diakonissen-und-burgfeldkrankenhaus"
         }
       ]
     },
@@ -736,7 +740,7 @@ betterplace.
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.org/en/volunteering/6-blaue-helferin-blauer-helfer-besuchsdienst-im-klinikum-kassel"
+          "href": "https://www.betterplace.org/en/volunteering/6-blaue-helferin-blauer-helfer-besuchsdienst-im-klinikum-kassel"
         }
       ]
     }

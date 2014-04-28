@@ -401,6 +401,11 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
+      <th align="left">new_donation</th>
+      <td>Link to <a href="manager_details.md">matching funds list</a>
+</td>
+    </tr>
+    <tr>
       <th align="left">contact.platform</th>
       <td>The user's profile on betterplace.org.
 To view a user profile you have to be logged in.
@@ -416,8 +421,12 @@ access rights in order to see this information.
 </td>
     </tr>
     <tr>
+      <th align="left">contact.picture.fill_100x100</th>
+      <td>100x100 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">contact.picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
     </tr>
     <tr>
       <th align="left">carrier.self</th>
@@ -428,8 +437,16 @@ set for organisations.
 </td>
     </tr>
     <tr>
+      <th align="left">carrier.picture.fill_100x100</th>
+      <td>100x100 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">carrier.picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fill_960x500</th>
+      <td>950x500 Pixel</td>
     </tr>
     <tr>
       <th align="left">profile_picture.fill_618x322</th>
@@ -441,7 +458,7 @@ set for organisations.
     </tr>
     <tr>
       <th align="left">profile_picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
     </tr>
     <tr>
       <th align="left">active_matching_fund.self</th>
@@ -502,15 +519,19 @@ set for organisations.
         "picture": {
           "links": [
             {
+              "rel": "fill_100x100",
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/131/304/fill_100x100_original_Foto1__Manda__1_.jpg"
+            },
+            {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/131/304/original_Foto1__Manda__1_.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/131/304/crop_original_original_Foto1__Manda__1_.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.org/en/users/manda_n"
+            "href": "https://www.betterplace.org/en/users/manda_n"
           },
           {
             "rel": "contact_data",
@@ -523,8 +544,12 @@ set for organisations.
         "picture": {
           "links": [
             {
+              "rel": "fill_100x100",
+              "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/005/044/fill_100x100_original_Akipa_LOGO_1_.jpg"
+            },
+            {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/005/044/original_Akipa_LOGO_1_.jpg"
+              "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/005/044/crop_original_original_Akipa_LOGO_1_.jpg"
             }
           ]
         },
@@ -537,6 +562,10 @@ set for organisations.
       },
       "profile_picture": {
         "links": [
+          {
+            "rel": "fill_960x500",
+            "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_960x500_default.betterplace.jpg"
+          },
           {
             "rel": "fill_618x322",
             "href": "http://asset1.betterplace.org/paperclip/000/264/083/default_P1000771.jpg"
@@ -559,7 +588,7 @@ set for organisations.
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.org/en/projects/7551-ausbildungswerkstatt-fur-kinder-im-kongo"
+          "href": "https://www.betterplace.org/en/projects/7551-ausbildungswerkstatt-fur-kinder-im-kongo"
         },
         {
           "rel": "opinions",
@@ -580,6 +609,10 @@ set for organisations.
         {
           "rel": "matching_funds",
           "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=7551"
+        },
+        {
+          "rel": "new_donation",
+          "href": "https://api.betterplace.org/en/projects/7551/donations/new.json?client_id=%7Bclient_id%7D"
         }
       ]
     },
@@ -611,15 +644,19 @@ set for organisations.
         "picture": {
           "links": [
             {
+              "rel": "fill_100x100",
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/127/588/fill_100x100_G_ni-2012-13.jpg"
+            },
+            {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/127/588/G_ni-2012-13.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/127/588/crop_original_G_ni-2012-13.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.org/en/users/gnter_e"
+            "href": "https://www.betterplace.org/en/users/gnter_e"
           },
           {
             "rel": "contact_data",
@@ -632,8 +669,12 @@ set for organisations.
         "picture": {
           "links": [
             {
+              "rel": "fill_100x100",
+              "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/004/634/fill_100x100_original_ROLLIS-Logo_pagenumber.001.jpg"
+            },
+            {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/004/634/original_ROLLIS-Logo_pagenumber.001.jpg"
+              "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/004/634/crop_original_original_ROLLIS-Logo_pagenumber.001.jpg"
             }
           ]
         },
@@ -646,6 +687,10 @@ set for organisations.
       },
       "profile_picture": {
         "links": [
+          {
+            "rel": "fill_960x500",
+            "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_960x500_default.betterplace.jpg"
+          },
           {
             "rel": "fill_618x322",
             "href": "http://asset1.betterplace.org/paperclip/000/265/994/default_IMG00929-20111028-1403.jpg"
@@ -668,7 +713,7 @@ set for organisations.
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.org/en/projects/7721-den-rollis-ein-zuhause"
+          "href": "https://www.betterplace.org/en/projects/7721-den-rollis-ein-zuhause"
         },
         {
           "rel": "opinions",
@@ -689,6 +734,10 @@ set for organisations.
         {
           "rel": "matching_funds",
           "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=7721"
+        },
+        {
+          "rel": "new_donation",
+          "href": "https://api.betterplace.org/en/projects/7721/donations/new.json?client_id=%7Bclient_id%7D"
         }
       ]
     }

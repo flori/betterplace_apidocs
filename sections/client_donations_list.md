@@ -2,7 +2,7 @@
 # Client Donations List ⇄ [Details](client_donation_details.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations.json?facets=client_reference%3A1234
+GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations.json?facets=client_reference%3A922ec9b-etc
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -30,15 +30,17 @@ Results are contained in a *data* attribute.
   </tr>
   <tr>
     <th align="left">facets</th>
-    <td><code>client_reference:1234</code></td>
+    <td><code>client_reference:922ec9b-etc</code></td>
     <td>optional</td>
     <td>You can search for a specific client_reference: <code>?facets=client_reference:54</code>
 
+<br>
 Example:
 <a href="https://api.betterplace.org/en/api_v4/clients/karmic_minion/client_donations?facets=client_reference:54">
-  <code>https://api.betterplace.org/en/api_v4/clients/karmic_minion/client_donations?facets=client_reference:54
+  <code>https://api.betterplace.org/en/api_v4/ clients/karmic_minion/ client_donations?facets=client_reference:54</code>
 </a>
 
+<br>
 This feature is only used in some cases that relate to the
 <a href="../donation_form/third_party_app_donation_form.md">ThirdPartyApp custom donation form for organisations</a>
 </td>
@@ -66,21 +68,23 @@ This feature is only used in some cases that relate to the
       <th align="left">state</th>
       <td>string</td>
       <td>"confirmed"</td>
-      <td>Donations can be created, confirmed, revoked or invalid. These mean:
-<ul>
-  <li><b>created</b> - The donation has been started, but the payment has not been processed yet</li>
-  <li><b>confirmed</b> - The donation has been made and the payment has been processed successfully</li>
-  <li><b>invalid</b> - There was some problem with this donation and the payment process never completed</li>
-  <li><b>revoked</b> - The donation was cancelled because the payment has been revoked</li>
-</ul>
+      <td>At the moment, all donations that are returned by the API are "confirmed".
+Unconfirmed donations do not show up at all or disappear after they where revoked.
+Revocations usually take place during the first 14 days – but there are no guarantees.
+
+Please make sure to check for the "confirmed" state in your application explicitly since
+we might add a "revoked" state in the future.
 </td>
     </tr>
     <tr>
       <th align="left">client_reference</th>
       <td>string</td>
-      <td>922ec9531b-etc</td>
-      <td>Client Donations can be identified via a custom client reference token. This reference should be url safe, e.g.
-only consist of alphanumeric symbols like a SHA-1 Hash.
+      <td>922ec9b-etc</td>
+      <td>Client Donations can be identified via a custom client reference token.
+
+This <code>donation_client_reference</code> can be provided by users of our
+<a href="../donation_form/third_party_app_donation_form.md">
+ThirdPartyApp custom donation form for organisations</a>, for example.
 </td>
     </tr>
     <tr>
@@ -139,9 +143,9 @@ that is associated with this donation.
 
 ```json
 {
-  "total_entries": 9289,
+  "total_entries": 9319,
   "offset": 0,
-  "total_pages": 3097,
+  "total_pages": 3107,
   "current_page": 1,
   "per_page": 3,
   "data": [

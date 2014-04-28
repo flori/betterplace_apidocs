@@ -7,13 +7,13 @@ JSON for serialization.
 It incorporates some ideas from [hypermedia apis](https://www.google.de/search?q=hypermedia+api)
 like the link-strukture.
 
-**Please provide feedback:** Please don't hesitate to provide any feedback about the API and this documentation
+#### Please provide feedback
+Please don't hesitate to provide any feedback about the API and this documentation
 at developers@betterplace.org.
 
-**Mailing list for service announcements:** Please send an email to tjo@betterplace.org
-to subscribe to the api-v4-mailing list to receive service announcements about updates
-and scheduled downtimes.
-
+#### Mailing list for service announcements
+Please send an email to tjo@betterplace.org to subscribe to the api-v4-mailing list to receive service announcements
+about updates and scheduled downtimes.
 
 ## Table of content
 
@@ -175,6 +175,13 @@ The following attributes are returned in all list view responses:
     <td>20</td>
   </tr>
 </table>
+
+### Picture formats
+
+Please note that all over the API only the `original` version will always be available. There are more image versions
+for different entities, e.g. fill_960x500 for projects. You can use these versions, but they might change in the future.
+
+To avoid problems stay tuned and subscribe to the [Mailing list for service announcements ↑](#mailing-list-for-service-announcements).
 
 
 ## HTTP Result Codes and Error Messages

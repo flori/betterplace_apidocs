@@ -380,6 +380,11 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
+      <th align="left">new_donation</th>
+      <td>Link to <a href="manager_details.md">matching funds list</a>
+</td>
+    </tr>
+    <tr>
       <th align="left">contact.platform</th>
       <td>The user's profile on betterplace.org.
 To view a user profile you have to be logged in.
@@ -395,8 +400,12 @@ access rights in order to see this information.
 </td>
     </tr>
     <tr>
+      <th align="left">contact.picture.fill_100x100</th>
+      <td>100x100 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">contact.picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
     </tr>
     <tr>
       <th align="left">carrier.self</th>
@@ -407,8 +416,16 @@ set for organisations.
 </td>
     </tr>
     <tr>
+      <th align="left">carrier.picture.fill_100x100</th>
+      <td>100x100 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">carrier.picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fill_960x500</th>
+      <td>950x500 Pixel</td>
     </tr>
     <tr>
       <th align="left">profile_picture.fill_618x322</th>
@@ -420,7 +437,7 @@ set for organisations.
     </tr>
     <tr>
       <th align="left">profile_picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
     </tr>
     <tr>
       <th align="left">active_matching_fund.self</th>
@@ -449,7 +466,7 @@ set for organisations.
 {
   "id": 1114,
   "created_at": "2009-03-10T10:12:16Z",
-  "updated_at": "2014-04-15T22:10:41Z",
+  "updated_at": "2014-04-23T16:12:43Z",
   "completed_at": null,
   "latitude": 34.531617284782,
   "longitude": 69.13581752939456,
@@ -461,8 +478,8 @@ set for organisations.
   "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important.<br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
   "tax_deductible": true,
   "donations_prohibited": false,
-  "open_amount_in_cents": 161452,
-  "positive_opinions_count": 639,
+  "open_amount_in_cents": 156855,
+  "positive_opinions_count": 640,
   "negative_opinions_count": 0,
   "donor_count": 516,
   "progress_percentage": 96,
@@ -474,15 +491,19 @@ set for organisations.
     "picture": {
       "links": [
         {
+          "rel": "fill_100x100",
+          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/fill_100x100_original_Picture_023.jpg"
+        },
+        {
           "rel": "original",
-          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/original_Picture_023.jpg"
+          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/crop_original_original_Picture_023.jpg"
         }
       ]
     },
     "links": [
       {
         "rel": "platform",
-        "href": "http://www.betterplace.org/en/users/erika_k2"
+        "href": "https://www.betterplace.org/en/users/erika_k2"
       },
       {
         "rel": "contact_data",
@@ -495,8 +516,12 @@ set for organisations.
     "picture": {
       "links": [
         {
+          "rel": "fill_100x100",
+          "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/fill_100x100_original_betterplace-logo.png"
+        },
+        {
           "rel": "original",
-          "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/original_betterplace-logo.png"
+          "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/crop_original_original_betterplace-logo.png"
         }
       ]
     },
@@ -509,6 +534,10 @@ set for organisations.
   },
   "profile_picture": {
     "links": [
+      {
+        "rel": "fill_960x500",
+        "href": "http://asset1.betterplace.org/assets/default/project_profile_picture/fill_960x500_default.betterplace.jpg"
+      },
       {
         "rel": "fill_618x322",
         "href": "http://asset1.betterplace.org/paperclip/000/289/158/default_girls-merza-sm.jpg"
@@ -531,7 +560,7 @@ set for organisations.
     },
     {
       "rel": "platform",
-      "href": "http://www.betterplace.org/en/projects/1114-skateistan-afghanistan"
+      "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan"
     },
     {
       "rel": "opinions",
@@ -552,6 +581,10 @@ set for organisations.
     {
       "rel": "matching_funds",
       "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=1114"
+    },
+    {
+      "rel": "new_donation",
+      "href": "https://api.betterplace.org/en/projects/1114/donations/new.json?client_id=%7Bclient_id%7D"
     }
   ]
 }

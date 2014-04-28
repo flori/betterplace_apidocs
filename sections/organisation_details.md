@@ -209,12 +209,28 @@ access rights in order to see this information.
 </td>
     </tr>
     <tr>
+      <th align="left">contact.picture.fill_100x100</th>
+      <td>100x100 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">contact.picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
+    </tr>
+    <tr>
+      <th align="left">picture.fill_100x100</th>
+      <td>100x100 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">picture.fill_200x200</th>
+      <td>200x200 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">picture.fill_400x400</th>
+      <td>400x400 Pixel</td>
     </tr>
     <tr>
       <th align="left">picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
     </tr>
 </table>
 
@@ -225,7 +241,7 @@ access rights in order to see this information.
   "id": 125,
   "slug": "vivaconagua",
   "created_at": "2008-02-06T16:10:42Z",
-  "updated_at": "2014-04-16T14:56:23Z",
+  "updated_at": "2014-04-23T18:12:57Z",
   "latitude": 53.55759811401367,
   "longitude": 9.96815967559815,
   "street": "Neuer Kamp 32",
@@ -240,15 +256,19 @@ access rights in order to see this information.
     "picture": {
       "links": [
         {
+          "rel": "fill_100x100",
+          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/001/399/fill_100x100_original_Fidel.jpg"
+        },
+        {
           "rel": "original",
-          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/001/399/original_Fidel.jpg"
+          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/001/399/crop_original_original_Fidel.jpg"
         }
       ]
     },
     "links": [
       {
         "rel": "platform",
-        "href": "http://www.betterplace.org/en/users/christian_w"
+        "href": "https://www.betterplace.org/en/users/christian_w"
       },
       {
         "rel": "contact_data",
@@ -259,8 +279,20 @@ access rights in order to see this information.
   "picture": {
     "links": [
       {
+        "rel": "fill_100x100",
+        "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_100x100_VcA_Projektlogo.jpg"
+      },
+      {
+        "rel": "fill_200x200",
+        "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_200x200_VcA_Projektlogo.jpg"
+      },
+      {
+        "rel": "fill_400x400",
+        "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_400x400_VcA_Projektlogo.jpg"
+      },
+      {
         "rel": "original",
-        "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/VcA_Projektlogo.jpg"
+        "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/crop_original_VcA_Projektlogo.jpg"
       }
     ]
   },
@@ -271,7 +303,7 @@ access rights in order to see this information.
     },
     {
       "rel": "platform",
-      "href": "http://www.betterplace.org/en/organisations/vivaconagua"
+      "href": "https://www.betterplace.org/en/organisations/vivaconagua"
     },
     {
       "rel": "projects",

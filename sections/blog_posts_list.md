@@ -225,8 +225,12 @@ access rights in order to see this information.
 </td>
     </tr>
     <tr>
+      <th align="left">author.picture.fill_100x100</th>
+      <td>100x100 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">author.picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
     </tr>
 </table>
 
@@ -234,9 +238,9 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 19,
+  "total_entries": 28,
   "offset": 0,
-  "total_pages": 10,
+  "total_pages": 14,
   "current_page": 1,
   "per_page": 2,
   "data": [
@@ -254,15 +258,19 @@ access rights in order to see this information.
         "picture": {
           "links": [
             {
+              "rel": "fill_100x100",
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/fill_100x100_original_maxn_skate.jpg"
+            },
+            {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/original_maxn_skate.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/crop_original_original_maxn_skate.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.org/en/users/max_h2"
+            "href": "https://www.betterplace.org/en/users/max_h2"
           },
           {
             "rel": "contact_data",
@@ -277,7 +285,7 @@ access rights in order to see this information.
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.org/en/projects/1114-skateistan-afghanistan/news/3900"
+          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan/news/3900"
         },
         {
           "rel": "documentation",
@@ -299,15 +307,19 @@ access rights in order to see this information.
         "picture": {
           "links": [
             {
+              "rel": "fill_100x100",
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/fill_100x100_original_maxn_skate.jpg"
+            },
+            {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/original_maxn_skate.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/crop_original_original_maxn_skate.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.org/en/users/max_h2"
+            "href": "https://www.betterplace.org/en/users/max_h2"
           },
           {
             "rel": "contact_data",
@@ -322,7 +334,7 @@ access rights in order to see this information.
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.org/en/projects/1114-skateistan-afghanistan/news/3917"
+          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan/news/3917"
         },
         {
           "rel": "documentation",

@@ -143,7 +143,7 @@ The details and list view show the same data.
     },
     {
       "rel": "platform",
-      "href": "http://www.betterplace.org/en/matching-funds/2-otto"
+      "href": "https://www.betterplace.org/en/matching-funds/2-otto"
     },
     {
       "rel": "projects",

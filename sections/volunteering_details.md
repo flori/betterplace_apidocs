@@ -386,8 +386,12 @@ betterplace.
       <td>Regular size</td>
     </tr>
     <tr>
+      <th align="left">contact.picture.fill_100x100</th>
+      <td>100x100 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">contact.picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
     </tr>
 </table>
 
@@ -484,7 +488,7 @@ betterplace.
     },
     {
       "rel": "platform",
-      "href": "http://www.betterplace.org/en/volunteering/23-essensausgabe-fahrdienst"
+      "href": "https://www.betterplace.org/en/volunteering/23-essensausgabe-fahrdienst"
     }
   ]
 }

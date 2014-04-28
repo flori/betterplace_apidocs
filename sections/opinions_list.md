@@ -181,8 +181,12 @@ access rights in order to see this information.
 </td>
     </tr>
     <tr>
+      <th align="left">author.picture.fill_100x100</th>
+      <td>100x100 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">author.picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
     </tr>
 </table>
 
@@ -190,9 +194,9 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 634,
+  "total_entries": 639,
   "offset": 0,
-  "total_pages": 212,
+  "total_pages": 213,
   "current_page": 1,
   "per_page": 3,
   "data": [
@@ -206,6 +210,10 @@ access rights in order to see this information.
         "picture": {
           "links": [
             {
+              "rel": "fill_100x100",
+              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+            },
+            {
               "rel": "original",
               "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
             }
@@ -214,7 +222,7 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.org/en/users/alexandra_b"
+            "href": "https://www.betterplace.org/en/users/alexandra_b"
           },
           {
             "rel": "contact_data",
@@ -244,15 +252,19 @@ access rights in order to see this information.
         "picture": {
           "links": [
             {
+              "rel": "fill_100x100",
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/010/834/fill_100x100_original_CIMG4253.JPG"
+            },
+            {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/010/834/original_CIMG4253.JPG"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/010/834/crop_original_original_CIMG4253.JPG"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.org/en/users/omar_a"
+            "href": "https://www.betterplace.org/en/users/omar_a"
           },
           {
             "rel": "contact_data",
@@ -282,15 +294,19 @@ access rights in order to see this information.
         "picture": {
           "links": [
             {
+              "rel": "fill_100x100",
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/011/827/fill_100x100_original_Mirwais_Mohsen_image.jpg"
+            },
+            {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/011/827/original_Mirwais_Mohsen_image.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/011/827/crop_original_original_Mirwais_Mohsen_image.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.org/en/users/mirwais_m"
+            "href": "https://www.betterplace.org/en/users/mirwais_m"
           },
           {
             "rel": "contact_data",

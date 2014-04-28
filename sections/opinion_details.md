@@ -162,8 +162,12 @@ access rights in order to see this information.
 </td>
     </tr>
     <tr>
+      <th align="left">author.picture.fill_100x100</th>
+      <td>100x100 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">author.picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
     </tr>
 </table>
 
@@ -180,15 +184,19 @@ access rights in order to see this information.
     "picture": {
       "links": [
         {
+          "rel": "fill_100x100",
+          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/000/759/fill_100x100_original_Schule_Leutersdorf_2.JPG"
+        },
+        {
           "rel": "original",
-          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/000/759/original_Schule_Leutersdorf_2.JPG"
+          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/000/759/crop_original_original_Schule_Leutersdorf_2.JPG"
         }
       ]
     },
     "links": [
       {
         "rel": "platform",
-        "href": "http://www.betterplace.org/en/users/giesela_k"
+        "href": "https://www.betterplace.org/en/users/giesela_k"
       },
       {
         "rel": "contact_data",

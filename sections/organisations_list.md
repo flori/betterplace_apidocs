@@ -202,12 +202,28 @@ access rights in order to see this information.
 </td>
     </tr>
     <tr>
+      <th align="left">contact.picture.fill_100x100</th>
+      <td>100x100 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">contact.picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
+    </tr>
+    <tr>
+      <th align="left">picture.fill_100x100</th>
+      <td>100x100 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">picture.fill_200x200</th>
+      <td>200x200 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">picture.fill_400x400</th>
+      <td>400x400 Pixel</td>
     </tr>
     <tr>
       <th align="left">picture.original</th>
-      <td>Original size as uploaded by the user</td>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
     </tr>
 </table>
 
@@ -215,9 +231,9 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 9082,
+  "total_entries": 9118,
   "offset": 0,
-  "total_pages": 4541,
+  "total_pages": 4559,
   "current_page": 1,
   "per_page": 2,
   "data": [
@@ -240,6 +256,10 @@ access rights in order to see this information.
         "picture": {
           "links": [
             {
+              "rel": "fill_100x100",
+              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+            },
+            {
               "rel": "original",
               "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
             }
@@ -248,7 +268,7 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.org/en/users/abraham_m"
+            "href": "https://www.betterplace.org/en/users/abraham_m"
           },
           {
             "rel": "contact_data",
@@ -259,8 +279,20 @@ access rights in order to see this information.
       "picture": {
         "links": [
           {
-            "rel": "original",
+            "rel": "fill_100x100",
             "href": "http://asset1.betterplace.org/assets/default/square_profile_picture/fill_100x100_default.betterplace.jpg"
+          },
+          {
+            "rel": "fill_200x200",
+            "href": "http://asset1.betterplace.org/assets/default/square_profile_picture/fill_200x200_default.betterplace.jpg"
+          },
+          {
+            "rel": "fill_400x400",
+            "href": "http://asset1.betterplace.org/assets/default/square_profile_picture/fill_400x400_default.betterplace.jpg"
+          },
+          {
+            "rel": "original",
+            "href": "http://asset1.betterplace.org/assets/default/square_profile_picture/crop_original_default.betterplace.jpg"
           }
         ]
       },
@@ -271,7 +303,7 @@ access rights in order to see this information.
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.org/en/organisations/---"
+          "href": "https://www.betterplace.org/en/organisations/---"
         },
         {
           "rel": "projects",
@@ -298,15 +330,19 @@ access rights in order to see this information.
         "picture": {
           "links": [
             {
+              "rel": "fill_100x100",
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/249/795/fill_100x100_original_alim3111.jpg"
+            },
+            {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/249/795/original_alim3111.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/249/795/crop_original_original_alim3111.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.org/en/users/amazing_c"
+            "href": "https://www.betterplace.org/en/users/amazing_c"
           },
           {
             "rel": "contact_data",
@@ -317,8 +353,20 @@ access rights in order to see this information.
       "picture": {
         "links": [
           {
+            "rel": "fill_100x100",
+            "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_100x100_profile_thumb_ALIM5576.png"
+          },
+          {
+            "rel": "fill_200x200",
+            "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_200x200_profile_thumb_ALIM5576.png"
+          },
+          {
+            "rel": "fill_400x400",
+            "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_400x400_profile_thumb_ALIM5576.png"
+          },
+          {
             "rel": "original",
-            "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/profile_thumb_ALIM5576.png"
+            "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/crop_original_profile_thumb_ALIM5576.png"
           }
         ]
       },
@@ -329,7 +377,7 @@ access rights in order to see this information.
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.org/en/organisations/--------------------"
+          "href": "https://www.betterplace.org/en/organisations/--------------------"
         },
         {
           "rel": "projects",

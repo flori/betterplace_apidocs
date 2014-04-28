@@ -146,13 +146,13 @@ offline donations and also(!) external donations)
     {
       "id": 79124,
       "created_at": "2014-02-17T16:01:17Z",
-      "updated_at": "2014-04-15T22:10:40Z",
+      "updated_at": "2014-04-23T16:12:42Z",
       "title": "Clean Water for the Skateparks in Kabul and MeS",
       "description": "The equivalent of supplying clean drinking water for all of our staff and students in both the Kabul and Mazar-e-Sharif Skateparks. ",
       "completed": false,
-      "progress_percentage": 10.05,
-      "donated_amount_in_cents": 18048,
-      "open_amount_in_cents": 161452,
+      "progress_percentage": 12.62,
+      "donated_amount_in_cents": 22645,
+      "open_amount_in_cents": 156855,
       "requested_amount_in_cents": 179500,
       "links": [
         {
