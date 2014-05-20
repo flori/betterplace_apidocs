@@ -322,6 +322,18 @@ like "Payback User" or empty/null for anonymous donations.
       <td>The company that supports it</td>
     </tr>
     <tr>
+      <th align="left">active_matching_fund.provided_amount_in_cents</th>
+      <td>number</td>
+      <td>12300</td>
+      <td>The amount in cents the company provided to be matched</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.donated_amount_in_cents</th>
+      <td>number</td>
+      <td>12300</td>
+      <td>The amount in cents the company already donated</td>
+    </tr>
+    <tr>
       <th align="left">active_matching_fund.state</th>
       <td>string</td>
       <td>activated</td>
@@ -375,13 +387,23 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
+      <th align="left">active_matching_fund</th>
+      <td>Link to <a href="matching_fund_details.md">matching fund</a>
+</td>
+    </tr>
+    <tr>
       <th align="left">matching_funds</th>
-      <td>Link to <a href="manager_details.md">matching funds list</a>
+      <td>Link to <a href="matching_funds_list.md">matching funds list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">new_client_donation</th>
+      <td>Link to the donation form. Templated, needs insertion of the client_id.
 </td>
     </tr>
     <tr>
       <th align="left">new_donation</th>
-      <td>Link to <a href="manager_details.md">matching funds list</a>
+      <td>Link to the regular donation form.
 </td>
     </tr>
     <tr>
@@ -466,7 +488,7 @@ set for organisations.
 {
   "id": 1114,
   "created_at": "2009-03-10T10:12:16Z",
-  "updated_at": "2014-04-23T16:12:43Z",
+  "updated_at": "2014-05-15T22:10:10Z",
   "completed_at": null,
   "latitude": 34.531617284782,
   "longitude": 69.13581752939456,
@@ -478,8 +500,8 @@ set for organisations.
   "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important.<br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
   "tax_deductible": true,
   "donations_prohibited": false,
-  "open_amount_in_cents": 156855,
-  "positive_opinions_count": 640,
+  "open_amount_in_cents": 151855,
+  "positive_opinions_count": 642,
   "negative_opinions_count": 0,
   "donor_count": 516,
   "progress_percentage": 96,
@@ -583,8 +605,13 @@ set for organisations.
       "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=1114"
     },
     {
+      "rel": "new_client_donation",
+      "href": "https://api.betterplace.org/en/projects/1114/client_donations/new.json?client_id=%7Bclient_id%7D",
+      "templated": true
+    },
+    {
       "rel": "new_donation",
-      "href": "https://api.betterplace.org/en/projects/1114/donations/new.json?client_id=%7Bclient_id%7D"
+      "href": "https://api.betterplace.org/en/projects/1114/donations/new.json"
     }
   ]
 }

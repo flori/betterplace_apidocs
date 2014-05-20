@@ -194,6 +194,10 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
+      <th align="left">website</th>
+      <td>Link to the website of this organisation.</td>
+    </tr>
+    <tr>
       <th align="left">contact.platform</th>
       <td>The user's profile on betterplace.org.
 To view a user profile you have to be logged in.
@@ -241,7 +245,7 @@ access rights in order to see this information.
   "id": 125,
   "slug": "vivaconagua",
   "created_at": "2008-02-06T16:10:42Z",
-  "updated_at": "2014-04-23T18:12:57Z",
+  "updated_at": "2014-05-19T11:48:54Z",
   "latitude": 53.55759811401367,
   "longitude": 9.96815967559815,
   "street": "Neuer Kamp 32",
@@ -308,6 +312,10 @@ access rights in order to see this information.
     {
       "rel": "projects",
       "href": "https://api.betterplace.org/en/api_v4/organisations/125/projects.json"
+    },
+    {
+      "rel": "website",
+      "href": "http://www.vivaconagua.org"
     }
   ]
 }

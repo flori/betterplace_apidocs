@@ -452,9 +452,9 @@ betterplace.
 
 ```json
 {
-  "total_entries": 12384,
+  "total_entries": 13082,
   "offset": 3,
-  "total_pages": 4128,
+  "total_pages": 4361,
   "current_page": 2,
   "per_page": 3,
   "data": [
@@ -556,7 +556,7 @@ betterplace.
     {
       "id": 5,
       "created_at": "2013-01-28T09:23:09Z",
-      "updated_at": "2013-05-16T15:21:00Z",
+      "updated_at": "2014-05-08T23:30:32Z",
       "latitude": null,
       "longitude": null,
       "street": null,
@@ -613,7 +613,7 @@ betterplace.
       "contact": {
         "name": "Frank Gerhold",
         "phone": "0561 - 10 24 25",
-        "email": "info@freiwilligenzentrumkassel.de",
+        "email": "fg@freiwilligenzentrumkassel.de",
         "picture": null,
         "links": [
 
@@ -629,10 +629,10 @@ betterplace.
       "imported_from": "aktion_mensch",
       "import_information": {
         "created_at": "2013-03-15T00:00:00Z",
-        "updated_at": "2013-03-15T00:00:00Z",
+        "updated_at": "2014-05-05T00:00:00Z",
         "import_type": "Bettertime::AktionMensch::Import",
         "import_id": "fn-421",
-        "imported_at": "2013-05-16T15:21:00Z",
+        "imported_at": "2014-05-08T23:30:32Z",
         "links": [
 
         ]

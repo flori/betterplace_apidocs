@@ -194,19 +194,19 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 639,
+  "total_entries": 378747,
   "offset": 0,
-  "total_pages": 213,
+  "total_pages": 126249,
   "current_page": 1,
   "per_page": 3,
   "data": [
     {
-      "id": 964,
-      "created_at": "2009-03-18T16:34:37Z",
+      "id": 8236,
+      "created_at": "2011-10-06T12:06:18Z",
       "donated_amount_in_cents": null,
       "score": "positive",
       "author": {
-        "name": "A. Bald",
+        "name": "W. Watermann",
         "picture": {
           "links": [
             {
@@ -222,107 +222,107 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/alexandra_b"
+            "href": "https://www.betterplace.org/en/users/winfried_w3"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/2763/contact_data.json"
+            "href": "https://api.betterplace.org/en/api_v4/users/224418/contact_data.json"
           }
         ]
       },
-      "message": "Ich unterstütze Skateistan weil: <br />a) ich die Projektleiter Oliver uns Max kenne und von ihnen überzeugt bin,<br />b) ich durch alles, was ich (auch durch meine Arbeit als Designerin) aus Kabul mitbekommen habe sehr berührt wurde,<br />c) ich persönlich als Designerin für Skateistan involviert bin!",
+      "message": "Also, ich kann das Projekt von Katrin nur wärmstens empfehlen, es finanziell zu unterstützen. Ich kenne Katrin aus unserer gemeinsamen Zeit bei Unicef in FFM und vertraue Ihr 100 %.<br />Katrin ist SOOOOOWAS von entschlossen zu helfen, und auch ohne das Projekt im Moment im Detail zu kennen: da ist JEDER Euro mit 100 % iger Sicherheit bestens angelegt.<br /><br />Winfried",
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/964.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/7838/opinions/8236.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/7838.json"
         }
       ]
     },
     {
-      "id": 1024,
-      "created_at": "2009-03-31T18:21:52Z",
+      "id": 8243,
+      "created_at": "2011-10-07T09:20:24Z",
       "donated_amount_in_cents": null,
       "score": "positive",
       "author": {
-        "name": "d. habibi",
+        "name": "M. Kugler",
         "picture": {
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/010/834/fill_100x100_original_CIMG4253.JPG"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/200/066/fill_100x100_original_222752_14564057157_531862157_477022_6957_n.jpg"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/010/834/crop_original_original_CIMG4253.JPG"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/200/066/crop_original_original_222752_14564057157_531862157_477022_6957_n.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/omar_a"
+            "href": "https://www.betterplace.org/en/users/michael_k72"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/10834/contact_data.json"
+            "href": "https://api.betterplace.org/en/api_v4/users/200066/contact_data.json"
           }
         ]
       },
-      "message": "ich bin Fürsprecher dieses Projektes, da ich in Kabul geboren bin und meine Kindheit dort verbracht habe, in Deutschland dann als Jugendlicher selbst geskatet habe, jetzt hier studiere und das Thema meiner Diplomarbeit \"Leben in Kabul\" heisst.<br />Ich bin begeistert von dieser Idee \"Skateistan\". Nicht nur wegen der direkten Hilfe vor Ort in Kabul, sondern auch wegen dem großen Presseecho überall in der Welt, wo man sonst nur Nachrichten aus Afghanistan hört, wenn mal wieder ein Attentat verübt wurde, oder nach Bin Laden gesucht wird.",
+      "message": "Tolle Arbeit, weiter so! LG, Michael K.",
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/1024.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/6599/opinions/8243.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/6599.json"
         }
       ]
     },
     {
-      "id": 1323,
-      "created_at": "2009-06-14T08:58:06Z",
+      "id": 8248,
+      "created_at": "2011-10-08T15:13:51Z",
       "donated_amount_in_cents": null,
       "score": "positive",
       "author": {
-        "name": "m. mohsen",
+        "name": "H. Wilde",
         "picture": {
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/011/827/fill_100x100_original_Mirwais_Mohsen_image.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/224/017/fill_100x100_original_Helmuth_Wilde2.jpg"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/011/827/crop_original_original_Mirwais_Mohsen_image.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/224/017/crop_original_original_Helmuth_Wilde2.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/mirwais_m"
+            "href": "https://www.betterplace.org/en/users/helmuth_w"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/11827/contact_data.json"
+            "href": "https://api.betterplace.org/en/api_v4/users/224017/contact_data.json"
           }
         ]
       },
-      "message": "In my point of view, Skateistan is the key to changing the lives of children in Afghanistan. Helping my brothers and sisters  will change  our country because these children are the future of Afghanistan. Providing them with education, health care and teaching them respect for each other and their families will help them be productive and responsible members of our community.  They have learned a lot from skating, and I work for Skateistan in order to make the dreams of these children come true, and break these nationalism ethnic barriers.",
+      "message": "Jahrelang hatte ich ein schlechtes Gewissen, da ich eigentlich nicht wirklich wohltätig war. Es lag aber auch zum großen Teil daran, daß mir die großen Organisationen wie z.B. W....V....., etc wegen der hohen Verwaltungskosten usw. eher suspekt waren. Als ich dann auf Harambee stieß, war ich sofort Feuer und Flamme. Besonders schätze ich den engen Kontakt zu den Patenkindern, aber auch die Transparenz der Aktivitäten. Mittlerweile bin ich ca. 2 Jahre dabei, bereits das 2. mal vor Ort und immer mehr begeistert, was da geleistet wird. Mein Lieblingsauspruch: \"Ich zahle für mein Patenkind € 25,- und in Kilifi kommen € 35,- an!\" Jambo, Jambo",
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/1323.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/7806/opinions/8248.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/7806.json"
         }
       ]
     }

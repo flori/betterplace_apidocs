@@ -187,6 +187,10 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
+      <th align="left">website</th>
+      <td>Link to the website of this organisation.</td>
+    </tr>
+    <tr>
       <th align="left">contact.platform</th>
       <td>The user's profile on betterplace.org.
 To view a user profile you have to be logged in.
@@ -231,9 +235,9 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 9118,
+  "total_entries": 9250,
   "offset": 0,
-  "total_pages": 4559,
+  "total_pages": 4625,
   "current_page": 1,
   "per_page": 2,
   "data": [
@@ -308,6 +312,10 @@ access rights in order to see this information.
         {
           "rel": "projects",
           "href": "https://api.betterplace.org/en/api_v4/organisations/7816/projects.json"
+        },
+        {
+          "rel": "website",
+          "href": "http://-----"
         }
       ]
     },
@@ -382,6 +390,10 @@ access rights in order to see this information.
         {
           "rel": "projects",
           "href": "https://api.betterplace.org/en/api_v4/organisations/10120/projects.json"
+        },
+        {
+          "rel": "website",
+          "href": "http://www.amazinggracechildrenhome.org"
         }
       ]
     }

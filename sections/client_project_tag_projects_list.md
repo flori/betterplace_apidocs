@@ -343,6 +343,18 @@ like "Payback User" or empty/null for anonymous donations.
       <td>The company that supports it</td>
     </tr>
     <tr>
+      <th align="left">active_matching_fund.provided_amount_in_cents</th>
+      <td>number</td>
+      <td>12300</td>
+      <td>The amount in cents the company provided to be matched</td>
+    </tr>
+    <tr>
+      <th align="left">active_matching_fund.donated_amount_in_cents</th>
+      <td>number</td>
+      <td>12300</td>
+      <td>The amount in cents the company already donated</td>
+    </tr>
+    <tr>
       <th align="left">active_matching_fund.state</th>
       <td>string</td>
       <td>activated</td>
@@ -396,13 +408,23 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
+      <th align="left">active_matching_fund</th>
+      <td>Link to <a href="matching_fund_details.md">matching fund</a>
+</td>
+    </tr>
+    <tr>
       <th align="left">matching_funds</th>
-      <td>Link to <a href="manager_details.md">matching funds list</a>
+      <td>Link to <a href="matching_funds_list.md">matching funds list</a>
+</td>
+    </tr>
+    <tr>
+      <th align="left">new_client_donation</th>
+      <td>Link to the donation form. Templated, needs insertion of the client_id.
 </td>
     </tr>
     <tr>
       <th align="left">new_donation</th>
-      <td>Link to <a href="manager_details.md">matching funds list</a>
+      <td>Link to the regular donation form.
 </td>
     </tr>
     <tr>
@@ -494,7 +516,7 @@ set for organisations.
     {
       "id": 7551,
       "created_at": "2011-08-28T22:19:43Z",
-      "updated_at": "2014-04-14T10:00:57Z",
+      "updated_at": "2014-05-06T10:28:55Z",
       "completed_at": null,
       "latitude": -4.0347900390625,
       "longitude": 21.75629997253418,
@@ -513,7 +535,7 @@ set for organisations.
       "progress_percentage": 13,
       "incomplete_need_count": 10,
       "completed_need_count": 6,
-      "blog_post_count": 5,
+      "blog_post_count": 6,
       "contact": {
         "name": "M. Namegabe",
         "picture": {
@@ -611,15 +633,20 @@ set for organisations.
           "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=7551"
         },
         {
+          "rel": "new_client_donation",
+          "href": "https://api.betterplace.org/en/projects/7551/client_donations/new.json?client_id=%7Bclient_id%7D",
+          "templated": true
+        },
+        {
           "rel": "new_donation",
-          "href": "https://api.betterplace.org/en/projects/7551/donations/new.json?client_id=%7Bclient_id%7D"
+          "href": "https://api.betterplace.org/en/projects/7551/donations/new.json"
         }
       ]
     },
     {
       "id": 7721,
       "created_at": "2011-09-19T19:34:04Z",
-      "updated_at": "2014-04-14T10:01:40Z",
+      "updated_at": "2014-05-16T07:01:01Z",
       "completed_at": null,
       "latitude": 49.69689178466797,
       "longitude": 6.5706901550293,
@@ -736,8 +763,13 @@ set for organisations.
           "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=7721"
         },
         {
+          "rel": "new_client_donation",
+          "href": "https://api.betterplace.org/en/projects/7721/client_donations/new.json?client_id=%7Bclient_id%7D",
+          "templated": true
+        },
+        {
           "rel": "new_donation",
-          "href": "https://api.betterplace.org/en/projects/7721/donations/new.json?client_id=%7Bclient_id%7D"
+          "href": "https://api.betterplace.org/en/projects/7721/donations/new.json"
         }
       ]
     }

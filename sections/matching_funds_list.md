@@ -87,6 +87,18 @@ A list of betterplace.org matching funds.
       <td>The company that supports it</td>
     </tr>
     <tr>
+      <th align="left">provided_amount_in_cents</th>
+      <td>number</td>
+      <td>12300</td>
+      <td>The amount in cents the company provided to be matched</td>
+    </tr>
+    <tr>
+      <th align="left">donated_amount_in_cents</th>
+      <td>number</td>
+      <td>12300</td>
+      <td>The amount in cents the company already donated</td>
+    </tr>
+    <tr>
       <th align="left">state</th>
       <td>string</td>
       <td>activated</td>
