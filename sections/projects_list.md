@@ -2,7 +2,7 @@
 # Projects List ⇄ [Details](project_details.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects.json?facets=completed%3Afalse&nelat=51.123&nelng=12.123&order=rank%3AASC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
+GET https://api.betterplace.org/en/api_v4/projects.json?facets=completed%3Afalse&nelat=51.123&nelng=12.123&order=rank%3ADESC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
 ```
 
 A list of betterplace.org projects (donate money).
@@ -44,7 +44,7 @@ Use this resource like `/clients/PERMALINK/projects.json`
   </tr>
   <tr>
     <th align="left">order</th>
-    <td><code>rank:ASC</code></td>
+    <td><code>rank:DESC</code></td>
     <td>optional</td>
     <td>Order the result by <code>score</code> (only when a query (q) is given),
 <code>rank</code>, <code>id</code>, <code>progress_percentage</code>,
@@ -55,7 +55,7 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
 <br>
 The default order is the same as for the
 <a href="http//www.betterplace.org/en/projects/list">betterplace.org project list</a>:
-<code>completed:asc| score:desc| rank:asc| last_donation_at:desc</code>
+<code>completed:asc| score:desc | rank:desc| last_donation_at:desc</code>
 </td>
   </tr>
   <tr>
