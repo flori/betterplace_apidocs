@@ -111,7 +111,10 @@ We use the same convention as the [Google Static Maps API V2](https://developers
 
 Example: `foo:bar|lorem:ipsum`
 
-This way you may specify a primary and secondaray sort order: `order=rank:DESC|created_at:DESC`
+This way you may specify a primary and secondaray sort order like this
+`order=rank:DESC|created_at:DESC`, which will cause higher ranked objects to
+come first and more recently created objects come first if they have equal
+rank.
 
 * Split key and value by a colon `:`
 * Split multiple key-value-parameter by a pipe `|` (`%7C`)
