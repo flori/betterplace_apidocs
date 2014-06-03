@@ -492,7 +492,7 @@ set for organisations.
     {
       "id": 14784,
       "created_at": "2013-09-23T14:29:10Z",
-      "updated_at": "2014-05-16T14:40:58Z",
+      "updated_at": "2014-05-22T13:20:34Z",
       "completed_at": null,
       "latitude": 53.55808469999999,
       "longitude": 10.01197890000003,
@@ -511,7 +511,7 @@ set for organisations.
       "progress_percentage": 51,
       "incomplete_need_count": 2,
       "completed_need_count": 1,
-      "blog_post_count": 11,
+      "blog_post_count": 12,
       "contact": {
         "name": "A. Jahn",
         "picture": {
@@ -1151,7 +1151,7 @@ set for organisations.
     {
       "id": 14784,
       "created_at": "2013-09-23T14:29:10Z",
-      "updated_at": "2014-05-16T14:40:58Z",
+      "updated_at": "2014-05-22T13:20:34Z",
       "completed_at": null,
       "latitude": 53.55808469999999,
       "longitude": 10.01197890000003,
@@ -1170,7 +1170,7 @@ set for organisations.
       "progress_percentage": 51,
       "incomplete_need_count": 2,
       "completed_need_count": 1,
-      "blog_post_count": 11,
+      "blog_post_count": 12,
       "contact": {
         "name": "A. Jahn",
         "picture": {

@@ -452,9 +452,9 @@ betterplace.
 
 ```json
 {
-  "total_entries": 13082,
+  "total_entries": 13150,
   "offset": 3,
-  "total_pages": 4361,
+  "total_pages": 4384,
   "current_page": 2,
   "per_page": 3,
   "data": [
@@ -651,15 +651,15 @@ betterplace.
     {
       "id": 6,
       "created_at": "2013-01-28T09:23:09Z",
-      "updated_at": "2013-05-16T15:21:00Z",
+      "updated_at": "2014-05-26T23:30:29Z",
       "latitude": 51.327,
       "longitude": 9.50938,
       "street": "Mönchebergstr. 41-43",
       "zip": "34125",
       "city": "Kassel",
       "country": "Germany",
-      "title": "Blaue Helferin/ blauer Helfer - Besuchsdienst im Klinikum Kassel",
-      "description": "<p>Sie geben Zeit, Aufmerksamkeit und Einfühlungsvermögen und bekommen Zufriedenheit und eine andere Sicht von Krankheit. Der Einsatzbereich der HelferInnen umfasst die Fürsorge um das persönliche Wohl der Kranken. Dazu gehören insbesondere die Zuwendung im Gespräch, kleine Einkäufe und Besorgungen, Begleitungen zu Untersuchungen und Spaziergänge, Vorlesen oder auch die Versorgung der Patienten mit Lesestoff mittels unseres fahrbaren Bücherwagens mit allen anfallenden Büchereiarbeiten. Wir unterhalten auch eine kleine Wäschekammer für bedürftige Patienten.</p>\n\n\n<p>Die Blauen Helferinnen suchen zur Verstärkung ihres ehrenamtlichen Teams im Klinikum Kassel aufgeschlossene Mitarbeiter, die Besuchsdienste am Krankenbett durchführen, für unsere Patientenbibliothek tätig sind oder den Lotsendienst unterstützen. Geboten werden u.a. Fortbildung, Versicherungsschutz während des Einsatzes und Fahrtkostenerstattungen. Wir arbeiten Sie in Ihre Aufgaben durch Gespräche und Begleitung umfassend ein.</p>\n<p>Suchworte: </p>\n<p>Krankenhaus, Krankenhausbesuchsdienst, Besuchsdienst, Besuch, Patient, vorlesen. Besorgung</p><ul><li>Unfallversicherung</li><li>Tätigkeitsnachweise</li><li>kostenlose Nutzung weiterer Angebote</li><li>Haftpflichtversicherung</li><li>Fortbildung/Qualifizierungsangebote</li><li>Erstattung entstandener Kosten</li><li>Erfahrungsaustausch</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li></ul>",
+      "title": "Blaue Helferin/ Blauer Helfer - Besuchsdienst im Klinikum Kassel",
+      "description": "<p>Sie geben Zeit, Aufmerksamkeit und Einfühlungsvermögen und bekommen Zufriedenheit und eine andere Sicht von Krankheit. Der Einsatzbereich der HelferInnen umfasst die Fürsorge um das persönliche Wohl der Kranken. Dazu gehören insbesondere die Zuwendung im Gespräch, kleine Einkäufe und Besorgungen, Begleitungen zu Untersuchungen und Spaziergänge, Vorlesen oder auch die Versorgung der Patienten mit Lesestoff mittels unseres fahrbaren Bücherwagens mit allen anfallenden Büchereiarbeiten. Wir unterhalten auch eine kleine Wäschekammer für bedürftige Patienten.</p>\n\n\n\n<p>Die Blauen Helferinnen suchen zur Verstärkung ihres ehrenamtlichen Teams im Klinikum Kassel aufgeschlossene Mitarbeiter, die Besuchsdienste am Krankenbett durchführen, für unsere Patientenbibliothek tätig sind oder den Lotsendienst unterstützen. Geboten werden u.a. Fortbildung, Versicherungsschutz während des Einsatzes und Fahrtkostenerstattungen. Wir arbeiten Sie in Ihre Aufgaben durch Gespräche und Begleitung umfassend ein.</p>\n\n<p>Suchworte: </p>\n\n<p>Krankenhaus, Krankenhausbesuchsdienst, Besuchsdienst, Besuch, Patient, vorlesen. Besorgung</p><ul><li>Tätigkeitsnachweise</li><li>regelmäßige Informationen</li><li>kostenlose Veranstaltungen</li><li>kostenlose Nutzung weiterer Angebote</li><li>Haftpflichtversicherung</li><li>Fortbildung/Qualifizierungsangebote</li><li>Erstattung entstandener Kosten</li><li>Erfahrungsaustausch</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li><li>Unfallversicherung</li></ul>",
       "carrier": {
         "name": "FreiwilligenZentrum Kassel",
         "street": "Spohrstraße 5",
@@ -708,14 +708,13 @@ betterplace.
       "contact": {
         "name": "Frank Gerhold",
         "phone": "0561 - 10 24 25",
-        "email": "info@freiwilligenzentrumkassel.de",
+        "email": "fg@freiwilligenzentrumkassel.de",
         "picture": null,
         "links": [
 
         ]
       },
       "topics": [
-        "Children & youth",
         "Health",
         "Elderly people"
       ],
@@ -725,10 +724,10 @@ betterplace.
       "imported_from": "aktion_mensch",
       "import_information": {
         "created_at": "2013-03-15T00:00:00Z",
-        "updated_at": "2013-03-15T00:00:00Z",
+        "updated_at": "2014-05-23T00:00:00Z",
         "import_type": "Bettertime::AktionMensch::Import",
         "import_id": "fn-423",
-        "imported_at": "2013-05-16T15:21:00Z",
+        "imported_at": "2014-05-26T23:30:29Z",
         "links": [
 
         ]

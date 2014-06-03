@@ -507,7 +507,7 @@ set for organisations.
 
 ```json
 {
-  "total_entries": 30,
+  "total_entries": 29,
   "offset": 0,
   "total_pages": 15,
   "current_page": 1,

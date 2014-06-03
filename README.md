@@ -198,7 +198,7 @@ Example:
 
 ```json
 {
-  "name": "ActiveRecord::RecordNotFound",
+  "name": "GeneralError",
   "reason": "Record Not Found",
   "backtrace": [
     "/path/to/file:23:in `method'",
