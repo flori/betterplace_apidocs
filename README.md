@@ -65,6 +65,7 @@ for more information.
 * [**Client** Blog Posts List](sections/blog_posts_list.md) – See client section
 * [**Client** Project Opinions List](sections/opinions_list.md) – See client section
 * [**Client** Project-Tags List](sections/client_project_tags_list.md) – See client section
+* [**Client** Tags List](sections/client_tags_list.md) – See client section
 * [**Client** Contact Data Details](sections/contact_data_details.md) – See client section
 
 *(⁂1) Client projects:* Clients projects are projects on betterplace.org that are
