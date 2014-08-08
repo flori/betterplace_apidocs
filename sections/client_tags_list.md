@@ -2,7 +2,7 @@
 # Client tags list
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/tags.json
+GET http://api.betterplace.dev/en/api_v4/clients/Volksfreund/tags.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -89,7 +89,7 @@ that where tagged with this tag.
       "links": [
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/clients/heidenheim/tags/Bed%C3%BCrftige/projects.json"
+          "href": "http://api.betterplace.dev/en/api_v4/clients/heidenheim/tags/Bed%C3%BCrftige/projects.json"
         }
       ]
     },
@@ -99,7 +99,7 @@ that where tagged with this tag.
       "links": [
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/clients/heidenheim/tags/Behinderte/projects.json"
+          "href": "http://api.betterplace.dev/en/api_v4/clients/heidenheim/tags/Behinderte/projects.json"
         }
       ]
     }

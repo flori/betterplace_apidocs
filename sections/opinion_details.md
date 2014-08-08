@@ -2,7 +2,7 @@
 # Project Opinion Details ⇄ [List](opinions_list.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/38/opinions/22.json
+GET http://api.betterplace.dev/en/api_v4/projects/38/opinions/22.json
 ```
 
 The details of a betterplace.org project opinion (donate money).
@@ -192,22 +192,22 @@ access rights in order to see this information.
       "links": [
         {
           "rel": "fill_100x100",
-          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/000/759/fill_100x100_original_Schule_Leutersdorf_2.JPG"
+          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/000/759/fill_100x100_original_Schule_Leutersdorf_2.JPG"
         },
         {
           "rel": "original",
-          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/000/759/crop_original_original_Schule_Leutersdorf_2.JPG"
+          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/000/759/crop_original_original_Schule_Leutersdorf_2.JPG"
         }
       ]
     },
     "links": [
       {
         "rel": "platform",
-        "href": "https://www.betterplace.org/en/users/giesela_k"
+        "href": "http://www.betterplace.dev/en/users/giesela_k"
       },
       {
         "rel": "contact_data",
-        "href": "https://api.betterplace.org/en/api_v4/users/759/contact_data.json"
+        "href": "http://api.betterplace.dev/en/api_v4/users/759/contact_data.json"
       }
     ]
   },
@@ -215,11 +215,11 @@ access rights in order to see this information.
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/en/api_v4/projects/35/opinions/22.json"
+      "href": "http://api.betterplace.dev/en/api_v4/projects/35/opinions/22.json"
     },
     {
       "rel": "project",
-      "href": "https://api.betterplace.org/en/api_v4/projects/35.json"
+      "href": "http://api.betterplace.dev/en/api_v4/projects/35.json"
     }
   ]
 }

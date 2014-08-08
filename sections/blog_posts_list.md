@@ -2,7 +2,7 @@
 # Project Blog Posts List ⇄ [Details](blog_post_details.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json
+GET http://api.betterplace.dev/en/api_v4/projects/1114/blog_posts.json
 ```
 
 A list of betterplace.org projects blog posts.
@@ -259,33 +259,33 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/fill_100x100_original_maxn_skate.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/fill_100x100_original_maxn_skate.jpg"
             },
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/crop_original_original_maxn_skate.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/crop_original_original_maxn_skate.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/max_h2"
+            "href": "http://www.betterplace.dev/en/users/max_h2"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/9238/contact_data.json"
+            "href": "http://api.betterplace.dev/en/api_v4/users/9238/contact_data.json"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/blog_posts/5703.json"
+          "href": "http://api.betterplace.dev/en/api_v4/blog_posts/5703.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan/news/5703"
+          "href": "http://www.betterplace.dev/en/projects/1114-skateistan-afghanistan/news/5703"
         },
         {
           "rel": "documentation",
@@ -308,33 +308,33 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/fill_100x100_original_maxn_skate.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/fill_100x100_original_maxn_skate.jpg"
             },
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/crop_original_original_maxn_skate.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/crop_original_original_maxn_skate.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/max_h2"
+            "href": "http://www.betterplace.dev/en/users/max_h2"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/9238/contact_data.json"
+            "href": "http://api.betterplace.dev/en/api_v4/users/9238/contact_data.json"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/blog_posts/6910.json"
+          "href": "http://api.betterplace.dev/en/api_v4/blog_posts/6910.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan/news/6910"
+          "href": "http://www.betterplace.dev/en/projects/1114-skateistan-afghanistan/news/6910"
         },
         {
           "rel": "documentation",

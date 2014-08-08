@@ -2,7 +2,7 @@
 # Tags of a project assigned by a client
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/projects/4425/tags.json?order=3
+GET http://api.betterplace.dev/en/api_v4/clients/Volksfreund/projects/4425/tags.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -35,16 +35,6 @@ Results are contains in a *data* attribute.
     <td>required</td>
     <td>The name of the client project-tag – a list of tags is provided by
 <a href="http://www.betterplace-solutions.de/#buergerzeitung">betterplace solutions</a>.
-</td>
-  </tr>
-  <tr>
-    <th align="left">order</th>
-    <td><code>3</code></td>
-    <td>optional</td>
-    <td>Use the optional <code>ASC</code> (default) or <code>DESC</code> to
-change the order of the results. <a
-href="../README.md#request-parameter-format">Learn how to format the
-parameter</a>.
 </td>
   </tr>
 </table>
@@ -109,7 +99,7 @@ that where tagged with this tag.
       "links": [
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/Trier/projects.json"
+          "href": "http://api.betterplace.dev/en/api_v4/clients/volksfreund/tags/Trier/projects.json"
         }
       ]
     },
@@ -119,7 +109,7 @@ that where tagged with this tag.
       "links": [
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/KinderJugendliche/projects.json"
+          "href": "http://api.betterplace.dev/en/api_v4/clients/volksfreund/tags/KinderJugendliche/projects.json"
         }
       ]
     },
@@ -129,7 +119,7 @@ that where tagged with this tag.
       "links": [
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/Familien/projects.json"
+          "href": "http://api.betterplace.dev/en/api_v4/clients/volksfreund/tags/Familien/projects.json"
         }
       ]
     }

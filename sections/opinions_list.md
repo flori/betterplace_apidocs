@@ -2,7 +2,7 @@
 # Project Opinions List ⇄ [Details](opinion_details.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/1114/opinions.json?facets=has_message%3Atrue&order=created_at%3AASC
+GET http://api.betterplace.dev/en/api_v4/projects/1114/opinions.json?facets=has_message%3Atrue&order=created_at%3AASC
 ```
 
 A list of betterplace.org projects opinions (donate money).
@@ -218,22 +218,22 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/015/597/fill_100x100_original_Ute_SchloGraFe.sw1.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/015/597/fill_100x100_original_Ute_SchloGraFe.sw1.jpg"
             },
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/015/597/crop_original_original_Ute_SchloGraFe.sw1.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/015/597/crop_original_original_Ute_SchloGraFe.sw1.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/ute_k2"
+            "href": "http://www.betterplace.dev/en/users/ute_k2"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/15597/contact_data.json"
+            "href": "http://api.betterplace.dev/en/api_v4/users/15597/contact_data.json"
           }
         ]
       },
@@ -241,11 +241,11 @@ access rights in order to see this information.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/1572.json"
+          "href": "http://api.betterplace.dev/en/api_v4/projects/1114/opinions/1572.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "http://api.betterplace.dev/en/api_v4/projects/1114.json"
         }
       ]
     },
@@ -261,22 +261,22 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/015/688/fill_100x100_original_Daniel1.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/015/688/fill_100x100_original_Daniel1.jpg"
             },
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/015/688/crop_original_original_Daniel1.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/015/688/crop_original_original_Daniel1.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/daniel_h14"
+            "href": "http://www.betterplace.dev/en/users/daniel_h14"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/15688/contact_data.json"
+            "href": "http://api.betterplace.dev/en/api_v4/users/15688/contact_data.json"
           }
         ]
       },
@@ -284,11 +284,11 @@ access rights in order to see this information.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/1584.json"
+          "href": "http://api.betterplace.dev/en/api_v4/projects/1114/opinions/1584.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "http://api.betterplace.dev/en/api_v4/projects/1114.json"
         }
       ]
     },
@@ -304,22 +304,22 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/018/797/fill_100x100_original_profil.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/018/797/fill_100x100_original_profil.jpg"
             },
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/018/797/crop_original_original_profil.jpg"
+              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/018/797/crop_original_original_profil.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/joel_s"
+            "href": "http://www.betterplace.dev/en/users/joel_s"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/18797/contact_data.json"
+            "href": "http://api.betterplace.dev/en/api_v4/users/18797/contact_data.json"
           }
         ]
       },
@@ -327,11 +327,11 @@ access rights in order to see this information.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/5442.json"
+          "href": "http://api.betterplace.dev/en/api_v4/projects/1114/opinions/5442.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "http://api.betterplace.dev/en/api_v4/projects/1114.json"
         }
       ]
     }

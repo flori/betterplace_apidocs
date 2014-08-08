@@ -2,7 +2,7 @@
 # Volunteering List ⇄ [Details](volunteering_details.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/volunteering.json?nelat=51.123&nelng=12.123&order=created_at%3AASC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001
+GET http://api.betterplace.dev/en/api_v4/volunteering.json?nelat=51.123&nelng=12.123&order=created_at%3AASC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001
 ```
 
 A list of betterplace.org volunteering offers (donate time).
@@ -491,27 +491,27 @@ betterplace.
         "links": [
           {
             "rel": "fill_618x322",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
           },
           {
             "rel": "fill_270x141",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
           },
           {
             "rel": "original",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
           },
           {
             "rel": "thumb",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
           },
           {
             "rel": "medium",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
           },
           {
             "rel": "regular",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
           }
         ]
       },
@@ -545,11 +545,11 @@ betterplace.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/volunteering/4.json"
+          "href": "http://api.betterplace.dev/en/api_v4/volunteering/4.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/volunteering/4-betreuung-begleitung-im-rahmen-des-betreuungsrechts"
+          "href": "http://www.betterplace.dev/en/volunteering/4-betreuung-begleitung-im-rahmen-des-betreuungsrechts"
         }
       ]
     },
@@ -586,27 +586,27 @@ betterplace.
         "links": [
           {
             "rel": "fill_618x322",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
           },
           {
             "rel": "fill_270x141",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
           },
           {
             "rel": "original",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
           },
           {
             "rel": "thumb",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
           },
           {
             "rel": "medium",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
           },
           {
             "rel": "regular",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
           }
         ]
       },
@@ -640,11 +640,11 @@ betterplace.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/volunteering/5.json"
+          "href": "http://api.betterplace.dev/en/api_v4/volunteering/5.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/volunteering/5-patientenbesuchsdienst-im-diakonissen-und-burgfeldkrankenhaus"
+          "href": "http://www.betterplace.dev/en/volunteering/5-patientenbesuchsdienst-im-diakonissen-und-burgfeldkrankenhaus"
         }
       ]
     },
@@ -681,27 +681,27 @@ betterplace.
         "links": [
           {
             "rel": "fill_618x322",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
           },
           {
             "rel": "fill_270x141",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
           },
           {
             "rel": "original",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
           },
           {
             "rel": "thumb",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
           },
           {
             "rel": "medium",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
           },
           {
             "rel": "regular",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
+            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
           }
         ]
       },
@@ -735,11 +735,11 @@ betterplace.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/volunteering/6.json"
+          "href": "http://api.betterplace.dev/en/api_v4/volunteering/6.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/volunteering/6-blaue-helferin-blauer-helfer-besuchsdienst-im-klinikum-kassel"
+          "href": "http://www.betterplace.dev/en/volunteering/6-blaue-helferin-blauer-helfer-besuchsdienst-im-klinikum-kassel"
         }
       ]
     }

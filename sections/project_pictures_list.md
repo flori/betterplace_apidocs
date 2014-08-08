@@ -2,7 +2,7 @@
 # Project Pictures List ⇄ [Details](project_picture_details.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/1114/pictures.json
+GET http://api.betterplace.dev/en/api_v4/projects/1114/pictures.json
 ```
 
 A list of pictures of a betterplace.org project (donate money).
@@ -127,11 +127,11 @@ projects, the API will return a `404` HTTP code.
         },
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/68085.json"
+          "href": "http://api.betterplace.dev/en/api_v4/projects/1114/pictures/68085.json"
         },
         {
           "rel": "parent",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "http://api.betterplace.dev/en/api_v4/projects/1114.json"
         }
       ]
     },
@@ -147,11 +147,11 @@ projects, the API will return a `404` HTTP code.
         },
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/68086.json"
+          "href": "http://api.betterplace.dev/en/api_v4/projects/1114/pictures/68086.json"
         },
         {
           "rel": "parent",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "http://api.betterplace.dev/en/api_v4/projects/1114.json"
         }
       ]
     },
@@ -167,11 +167,11 @@ projects, the API will return a `404` HTTP code.
         },
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/31767.json"
+          "href": "http://api.betterplace.dev/en/api_v4/projects/1114/pictures/31767.json"
         },
         {
           "rel": "parent",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "http://api.betterplace.dev/en/api_v4/projects/1114.json"
         }
       ]
     }

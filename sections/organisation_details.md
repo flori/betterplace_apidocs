@@ -2,7 +2,7 @@
 # Organisation Details ⇄ [List](organisations_list.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/organisations/125.json
+GET http://api.betterplace.dev/en/api_v4/organisations/125.json
 ```
 
 The details of a betterplace.org organisation.
@@ -261,22 +261,22 @@ access rights in order to see this information.
       "links": [
         {
           "rel": "fill_100x100",
-          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/001/399/fill_100x100_original_Fidel.jpg"
+          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/001/399/fill_100x100_original_Fidel.jpg"
         },
         {
           "rel": "original",
-          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/001/399/crop_original_original_Fidel.jpg"
+          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/001/399/crop_original_original_Fidel.jpg"
         }
       ]
     },
     "links": [
       {
         "rel": "platform",
-        "href": "https://www.betterplace.org/en/users/christian_w"
+        "href": "http://www.betterplace.dev/en/users/christian_w"
       },
       {
         "rel": "contact_data",
-        "href": "https://api.betterplace.org/en/api_v4/users/1399/contact_data.json"
+        "href": "http://api.betterplace.dev/en/api_v4/users/1399/contact_data.json"
       }
     ]
   },
@@ -284,34 +284,34 @@ access rights in order to see this information.
     "links": [
       {
         "rel": "fill_100x100",
-        "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_100x100_VcA_Projektlogo.jpg"
+        "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_100x100_VcA_Projektlogo.jpg"
       },
       {
         "rel": "fill_200x200",
-        "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_200x200_VcA_Projektlogo.jpg"
+        "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_200x200_VcA_Projektlogo.jpg"
       },
       {
         "rel": "fill_400x400",
-        "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_400x400_VcA_Projektlogo.jpg"
+        "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_400x400_VcA_Projektlogo.jpg"
       },
       {
         "rel": "original",
-        "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/crop_original_VcA_Projektlogo.jpg"
+        "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/crop_original_VcA_Projektlogo.jpg"
       }
     ]
   },
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/en/api_v4/organisations/125.json"
+      "href": "http://api.betterplace.dev/en/api_v4/organisations/125.json"
     },
     {
       "rel": "platform",
-      "href": "https://www.betterplace.org/en/organisations/vivaconagua"
+      "href": "http://www.betterplace.dev/en/organisations/vivaconagua"
     },
     {
       "rel": "projects",
-      "href": "https://api.betterplace.org/en/api_v4/organisations/125/projects.json"
+      "href": "http://api.betterplace.dev/en/api_v4/organisations/125/projects.json"
     },
     {
       "rel": "website",
