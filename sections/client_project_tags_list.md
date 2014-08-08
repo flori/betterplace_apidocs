@@ -2,7 +2,7 @@
 # Tags of a project assigned by a client
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/projects/4425/tags.json
+GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/projects/4425/tags.json?order=id%3ADESC
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -35,6 +35,15 @@ Results are contains in a *data* attribute.
     <td>required</td>
     <td>The name of the client project-tag – a list of tags is provided by
 <a href="http://www.betterplace-solutions.de/#buergerzeitung">betterplace solutions</a>.
+</td>
+  </tr>
+  <tr>
+    <th align="left">order</th>
+    <td><code>id:DESC</code></td>
+    <td>optional</td>
+    <td>The results are order by <code>id</code> in descending order as the default.
+Use the optional <code>ASC</code> (default) or <code>DESC</code> to change that.
+<a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
   </tr>
 </table>
@@ -94,22 +103,22 @@ that where tagged with this tag.
   "per_page": 3,
   "data": [
     {
-      "tag": "Trier",
-      "projects_count": 189,
+      "tag": "Prio2",
+      "projects_count": 200,
       "links": [
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/Trier/projects.json"
+          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/Prio2/projects.json"
         }
       ]
     },
     {
-      "tag": "KinderJugendliche",
-      "projects_count": 191,
+      "tag": "Behinderte",
+      "projects_count": 62,
       "links": [
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/KinderJugendliche/projects.json"
+          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/Behinderte/projects.json"
         }
       ]
     },
