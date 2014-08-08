@@ -42,7 +42,7 @@ Results are contains in a *data* attribute.
     <td><code>projects_count:DESC</code></td>
     <td>optional</td>
     <td>Order the result by
-<code>tag</code> or <code>projects_count</code>.
+<code>slug</code> (tag name) or <code>projects_count</code>.
 Use the optional <code>ASC</code> (default) or <code>DESC</code> to
 change the order of the results. <a
 href="../README.md#request-parameter-format">Learn how to format the
