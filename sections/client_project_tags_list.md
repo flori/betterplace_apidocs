@@ -37,6 +37,16 @@ Results are contains in a *data* attribute.
 <a href="http://www.betterplace-solutions.de/#buergerzeitung">betterplace solutions</a>.
 </td>
   </tr>
+  <tr>
+    <th align="left">order</th>
+    <td><code></code></td>
+    <td>optional</td>
+    <td>Use the optional <code>ASC</code> (default) or <code>DESC</code> to
+change the order of the results. <a
+href="../README.md#request-parameter-format">Learn how to format the
+parameter</a>.
+</td>
+  </tr>
 </table>
 
 ## Response Attributes
