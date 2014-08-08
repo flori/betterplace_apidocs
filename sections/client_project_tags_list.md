@@ -2,7 +2,7 @@
 # Tags of a project assigned by a client
 
 ```nginx
-GET https://api.betterplace.org/en/portals/11614/projects.json?client_id=Volksfreund&controller=api_v4%2Fproject_tags
+GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/projects/11614/tags.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -30,7 +30,7 @@ Results are contains in a *data* attribute.
     <td>The betterplace.org-internal client permalink</td>
   </tr>
   <tr>
-    <th align="left">id</th>
+    <th align="left">project_id</th>
     <td><code>11614</code></td>
     <td>required</td>
     <td>The name of the client project-tag – a list of tags is provided by

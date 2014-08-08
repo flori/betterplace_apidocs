@@ -65,16 +65,15 @@ for more information.
 * [**Client** Blog Posts List](sections/blog_posts_list.md) – See client section
 * [**Client** Project Opinions List](sections/opinions_list.md) – See client section
 * [**Client** Project-Tags List](sections/client_project_tags_list.md) – See client section
-* [**Client** Project-Tag Projects List](sections/client_project_tag_projects_list.md) – See client section
 * [**Client** Contact Data Details](sections/contact_data_details.md) – See client section
 
 *(⁂1) Client projects:* Clients projects are projects on betterplace.org that are
 associated with a client-user. This way clients can control what projects
 are visible on their plattform.
 
-*Request-URLs:* Clients have to prepend some requests with their client-id.
-For projects that would be `/clients/PERMALINK/projects.json` and `/clients/PERMALINK/projects/ID.json`.
-More information can be found in the description of each request.
+*Additional filters:* Some URLs are especially scoped for clients. For example `/clients/example/projects.json`
+will only show projects of the example-client and `/clients/example/tags/rainforest/projects`
+will only show projects of the example-client and tagged with "rainforest".
 
 *Error Code:* If you request data for a project that is not part of the client
 projects, the API will return a `404` HTTP code.
