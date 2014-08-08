@@ -87,11 +87,11 @@ that where tagged with this tag.
 
 ```json
 {
-  "total_entries": null,
-  "offset": null,
-  "total_pages": null,
-  "current_page": null,
-  "per_page": null,
+  "total_entries": 5,
+  "offset": 0,
+  "total_pages": 2,
+  "current_page": 1,
+  "per_page": 3,
   "data": [
     {
       "tag": "Trier",
@@ -120,26 +120,6 @@ that where tagged with this tag.
         {
           "rel": "projects",
           "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/Familien/projects.json"
-        }
-      ]
-    },
-    {
-      "tag": "Behinderte",
-      "projects_count": 62,
-      "links": [
-        {
-          "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/Behinderte/projects.json"
-        }
-      ]
-    },
-    {
-      "tag": "Prio2",
-      "projects_count": 200,
-      "links": [
-        {
-          "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/Prio2/projects.json"
         }
       ]
     }
