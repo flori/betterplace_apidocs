@@ -2,7 +2,7 @@
 # Results List
 
 ```nginx
-GET http://api.betterplace.dev/en/api_v4/contests/1/results.json
+GET https://api.betterplace.org/en/api_v4/contests/1/results.json
 ```
 
 Detailed information about each in the challenge participating project.

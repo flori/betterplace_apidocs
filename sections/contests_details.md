@@ -2,7 +2,7 @@
 # Contest Details
 
 ```nginx
-GET http://api.betterplace.dev/en/blogs.json?action=show&contest_id=1&controller=api_v4%2Fcontests
+GET https://api.betterplace.org/en/blogs.json?action=show&contest_id=1&controller=api_v4%2Fcontests
 ```
 
 Details about a fundraising challenge contest with all basic information

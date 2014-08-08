@@ -2,7 +2,7 @@
 # Organisations List ⇄ [Details](organisation_details.md)
 
 ```nginx
-GET http://api.betterplace.dev/en/api_v4/organisations.json
+GET https://api.betterplace.org/en/api_v4/organisations.json
 ```
 
 A list of betterplace.org organisations.
@@ -261,22 +261,22 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+              "href": "https://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+              "href": "https://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/users/abraham_m"
+            "href": "https://www.betterplace.org/en/users/abraham_m"
           },
           {
             "rel": "contact_data",
-            "href": "http://api.betterplace.dev/en/api_v4/users/190955/contact_data.json"
+            "href": "https://api.betterplace.org/en/api_v4/users/190955/contact_data.json"
           }
         ]
       },
@@ -284,34 +284,34 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "fill_100x100",
-            "href": "http://asset1.betterplace.org/assets/default/square_profile_picture/fill_100x100_default.betterplace.jpg"
+            "href": "https://asset1.betterplace.org/assets/default/square_profile_picture/fill_100x100_default.betterplace.jpg"
           },
           {
             "rel": "fill_200x200",
-            "href": "http://asset1.betterplace.org/assets/default/square_profile_picture/fill_200x200_default.betterplace.jpg"
+            "href": "https://asset1.betterplace.org/assets/default/square_profile_picture/fill_200x200_default.betterplace.jpg"
           },
           {
             "rel": "fill_400x400",
-            "href": "http://asset1.betterplace.org/assets/default/square_profile_picture/fill_400x400_default.betterplace.jpg"
+            "href": "https://asset1.betterplace.org/assets/default/square_profile_picture/fill_400x400_default.betterplace.jpg"
           },
           {
             "rel": "original",
-            "href": "http://asset1.betterplace.org/assets/default/square_profile_picture/crop_original_default.betterplace.jpg"
+            "href": "https://asset1.betterplace.org/assets/default/square_profile_picture/crop_original_default.betterplace.jpg"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "http://api.betterplace.dev/en/api_v4/organisations/7816.json"
+          "href": "https://api.betterplace.org/en/api_v4/organisations/7816.json"
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.dev/en/organisations/---"
+          "href": "https://www.betterplace.org/en/organisations/---"
         },
         {
           "rel": "projects",
-          "href": "http://api.betterplace.dev/en/api_v4/organisations/7816/projects.json"
+          "href": "https://api.betterplace.org/en/api_v4/organisations/7816/projects.json"
         },
         {
           "rel": "website",
@@ -339,22 +339,22 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/249/795/fill_100x100_original_alim3111.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/249/795/fill_100x100_original_alim3111.jpg"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/249/795/crop_original_original_alim3111.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/249/795/crop_original_original_alim3111.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/users/amazing_c"
+            "href": "https://www.betterplace.org/en/users/amazing_c"
           },
           {
             "rel": "contact_data",
-            "href": "http://api.betterplace.dev/en/api_v4/users/249795/contact_data.json"
+            "href": "https://api.betterplace.org/en/api_v4/users/249795/contact_data.json"
           }
         ]
       },
@@ -362,34 +362,34 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "fill_100x100",
-            "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_100x100_profile_thumb_ALIM5576.png"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_100x100_profile_thumb_ALIM5576.png"
           },
           {
             "rel": "fill_200x200",
-            "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_200x200_profile_thumb_ALIM5576.png"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_200x200_profile_thumb_ALIM5576.png"
           },
           {
             "rel": "fill_400x400",
-            "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_400x400_profile_thumb_ALIM5576.png"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_400x400_profile_thumb_ALIM5576.png"
           },
           {
             "rel": "original",
-            "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/crop_original_profile_thumb_ALIM5576.png"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/crop_original_profile_thumb_ALIM5576.png"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "http://api.betterplace.dev/en/api_v4/organisations/10120.json"
+          "href": "https://api.betterplace.org/en/api_v4/organisations/10120.json"
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.dev/en/organisations/--------------------"
+          "href": "https://www.betterplace.org/en/organisations/--------------------"
         },
         {
           "rel": "projects",
-          "href": "http://api.betterplace.dev/en/api_v4/organisations/10120/projects.json"
+          "href": "https://api.betterplace.org/en/api_v4/organisations/10120/projects.json"
         },
         {
           "rel": "website",

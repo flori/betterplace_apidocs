@@ -2,7 +2,7 @@
 # Matching Fund Details ⇄ [List](matching_funds_list.md)
 
 ```nginx
-GET http://api.betterplace.dev/en/api_v4/matching_funds/2.json
+GET https://api.betterplace.org/en/api_v4/matching_funds/2.json
 ```
 
 The details of a betterplace.org matching fund.
@@ -160,15 +160,15 @@ The details and list view show the same data.
   "links": [
     {
       "rel": "self",
-      "href": "http://api.betterplace.dev/en/api_v4/matching_funds/2.json"
+      "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
     },
     {
       "rel": "platform",
-      "href": "http://www.betterplace.dev/en/matching-funds/2-otto"
+      "href": "https://www.betterplace.org/en/matching-funds/2-otto"
     },
     {
       "rel": "projects",
-      "href": "http://api.betterplace.dev/en/api_v4/matching_funds/2/projects.json"
+      "href": "https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json"
     },
     {
       "rel": "documentation",

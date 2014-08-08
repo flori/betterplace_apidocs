@@ -2,7 +2,7 @@
 # Client Donation Details ⇄ [List](client_donations_list.md)
 
 ```nginx
-GET http://api.betterplace.dev/en/api_v4/clients/Volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk.json
+GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -68,11 +68,11 @@ The details and list view show the same data.
   "links": [
     {
       "rel": "receiver",
-      "href": "http://api.betterplace.dev/en/api_v4/projects/18417.json"
+      "href": "https://api.betterplace.org/en/api_v4/projects/18417.json"
     },
     {
       "rel": "self",
-      "href": "http://api.betterplace.dev/en/api_v4/clients/volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk.json"
+      "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk.json"
     }
   ]
 }

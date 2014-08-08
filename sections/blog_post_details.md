@@ -2,7 +2,7 @@
 # Project Blog Post Details ⇄ [List](blog_posts_list.md)
 
 ```nginx
-GET http://api.betterplace.dev/en/api_v4/projects/1114/blog_posts/88972.json
+GET https://api.betterplace.org/en/api_v4/projects/1114/blog_posts/88972.json
 ```
 
 The details of a betterplace.org project blog post.
@@ -254,33 +254,33 @@ access rights in order to see this information.
       "links": [
         {
           "rel": "fill_100x100",
-          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/fill_100x100_original_Picture_023.jpg"
+          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/fill_100x100_original_Picture_023.jpg"
         },
         {
           "rel": "original",
-          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/crop_original_original_Picture_023.jpg"
+          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/crop_original_original_Picture_023.jpg"
         }
       ]
     },
     "links": [
       {
         "rel": "platform",
-        "href": "http://www.betterplace.dev/en/users/erika_k2"
+        "href": "https://www.betterplace.org/en/users/erika_k2"
       },
       {
         "rel": "contact_data",
-        "href": "http://api.betterplace.dev/en/api_v4/users/130618/contact_data.json"
+        "href": "https://api.betterplace.org/en/api_v4/users/130618/contact_data.json"
       }
     ]
   },
   "links": [
     {
       "rel": "self",
-      "href": "http://api.betterplace.dev/en/api_v4/blog_posts/88972.json"
+      "href": "https://api.betterplace.org/en/api_v4/blog_posts/88972.json"
     },
     {
       "rel": "platform",
-      "href": "http://www.betterplace.dev/en/projects/1114-skateistan-afghanistan/news/88972"
+      "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan/news/88972"
     },
     {
       "rel": "documentation",

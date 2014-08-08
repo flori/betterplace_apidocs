@@ -2,7 +2,7 @@
 # Matching Fund Projects List
 
 ```nginx
-GET http://api.betterplace.dev/en/api_v4/matching_funds/2/projects.json
+GET https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json
 ```
 
 A list of betterplace.org matching fund projects.
@@ -524,22 +524,22 @@ set for organisations.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/fill_100x100_original_Picture_023.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/fill_100x100_original_Picture_023.jpg"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/crop_original_original_Picture_023.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/crop_original_original_Picture_023.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/users/erika_k2"
+            "href": "https://www.betterplace.org/en/users/erika_k2"
           },
           {
             "rel": "contact_data",
-            "href": "http://api.betterplace.dev/en/api_v4/users/130618/contact_data.json"
+            "href": "https://api.betterplace.org/en/api_v4/users/130618/contact_data.json"
           }
         ]
       },
@@ -549,18 +549,18 @@ set for organisations.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/fill_100x100_original_betterplace-logo.png"
+              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/fill_100x100_original_betterplace-logo.png"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/crop_original_original_betterplace-logo.png"
+              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/crop_original_original_betterplace-logo.png"
             }
           ]
         },
         "links": [
           {
             "rel": "self",
-            "href": "http://api.betterplace.dev/en/api_v4/organisations/1054.json"
+            "href": "https://api.betterplace.org/en/api_v4/organisations/1054.json"
           }
         ]
       },
@@ -568,19 +568,19 @@ set for organisations.
         "links": [
           {
             "rel": "fill_960x500",
-            "href": "http://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_960x500_original_girls-merza-sm.jpg"
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_960x500_original_girls-merza-sm.jpg"
           },
           {
             "rel": "fill_618x322",
-            "href": "http://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_618x322_original_girls-merza-sm.jpg"
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_618x322_original_girls-merza-sm.jpg"
           },
           {
             "rel": "fill_270x141",
-            "href": "http://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_270x141_original_girls-merza-sm.jpg"
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_270x141_original_girls-merza-sm.jpg"
           },
           {
             "rel": "original",
-            "href": "http://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/crop_original_original_girls-merza-sm.jpg"
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/crop_original_original_girls-merza-sm.jpg"
           }
         ]
       },
@@ -600,15 +600,15 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "http://api.betterplace.dev/en/api_v4/matching_funds/2.json"
+            "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
           },
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/matching-funds/2-otto"
+            "href": "https://www.betterplace.org/en/matching-funds/2-otto"
           },
           {
             "rel": "projects",
-            "href": "http://api.betterplace.dev/en/api_v4/matching_funds/2/projects.json"
+            "href": "https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json"
           },
           {
             "rel": "documentation",
@@ -619,44 +619,44 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.dev/en/projects/1114-skateistan-afghanistan"
+          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan"
         },
         {
           "rel": "opinions",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/1114/opinions.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/1114/pictures.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/1114/needs.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/1114/blog_posts.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json"
         },
         {
           "rel": "active_matching_fund",
-          "href": "http://api.betterplace.dev/en/api_v4/matching_funds/2.json"
+          "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
         },
         {
           "rel": "matching_funds",
-          "href": "http://api.betterplace.dev/en/api_v4/matching_funds.json?project_id=1114"
+          "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=1114"
         },
         {
           "rel": "new_client_donation",
-          "href": "http://www.betterplace.dev/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D",
+          "href": "https://www.betterplace.org/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D",
           "templated": true
         },
         {
           "rel": "new_donation",
-          "href": "http://www.betterplace.dev/en/projects/1114/donations/new"
+          "href": "https://www.betterplace.org/en/projects/1114/donations/new"
         }
       ]
     },
@@ -689,22 +689,22 @@ set for organisations.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/333/761/fill_100x100_original_P9192226.JPG"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/333/761/fill_100x100_original_P9192226.JPG"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/333/761/crop_original_original_P9192226.JPG"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/333/761/crop_original_original_P9192226.JPG"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/users/axel_j3"
+            "href": "https://www.betterplace.org/en/users/axel_j3"
           },
           {
             "rel": "contact_data",
-            "href": "http://api.betterplace.dev/en/api_v4/users/333761/contact_data.json"
+            "href": "https://api.betterplace.org/en/api_v4/users/333761/contact_data.json"
           }
         ]
       },
@@ -714,18 +714,18 @@ set for organisations.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/015/404/fill_100x100_LokiSStiftg_Logo_rgb_72_gross.jpg"
+              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/015/404/fill_100x100_LokiSStiftg_Logo_rgb_72_gross.jpg"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/015/404/crop_original_LokiSStiftg_Logo_rgb_72_gross.jpg"
+              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/015/404/crop_original_LokiSStiftg_Logo_rgb_72_gross.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "self",
-            "href": "http://api.betterplace.dev/en/api_v4/organisations/15404.json"
+            "href": "https://api.betterplace.org/en/api_v4/organisations/15404.json"
           }
         ]
       },
@@ -733,19 +733,19 @@ set for organisations.
         "links": [
           {
             "rel": "fill_960x500",
-            "href": "http://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_960x500_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_960x500_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
           },
           {
             "rel": "fill_618x322",
-            "href": "http://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_618x322_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_618x322_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
           },
           {
             "rel": "fill_270x141",
-            "href": "http://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_270x141_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_270x141_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
           },
           {
             "rel": "original",
-            "href": "http://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/crop_original_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/crop_original_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
           }
         ]
       },
@@ -765,15 +765,15 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "http://api.betterplace.dev/en/api_v4/matching_funds/2.json"
+            "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
           },
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/matching-funds/2-otto"
+            "href": "https://www.betterplace.org/en/matching-funds/2-otto"
           },
           {
             "rel": "projects",
-            "href": "http://api.betterplace.dev/en/api_v4/matching_funds/2/projects.json"
+            "href": "https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json"
           },
           {
             "rel": "documentation",
@@ -784,44 +784,44 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/14784.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/14784.json"
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.dev/en/projects/14784-mein-baum-meine-stadt"
+          "href": "https://www.betterplace.org/en/projects/14784-mein-baum-meine-stadt"
         },
         {
           "rel": "opinions",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/14784/opinions.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/14784/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/14784/pictures.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/14784/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/14784/needs.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/14784/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/14784/blog_posts.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/14784/blog_posts.json"
         },
         {
           "rel": "active_matching_fund",
-          "href": "http://api.betterplace.dev/en/api_v4/matching_funds/2.json"
+          "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
         },
         {
           "rel": "matching_funds",
-          "href": "http://api.betterplace.dev/en/api_v4/matching_funds.json?project_id=14784"
+          "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=14784"
         },
         {
           "rel": "new_client_donation",
-          "href": "http://www.betterplace.dev/en/projects/14784/client_donations/new?client_id=%7Bclient_id%7D",
+          "href": "https://www.betterplace.org/en/projects/14784/client_donations/new?client_id=%7Bclient_id%7D",
           "templated": true
         },
         {
           "rel": "new_donation",
-          "href": "http://www.betterplace.dev/en/projects/14784/donations/new"
+          "href": "https://www.betterplace.org/en/projects/14784/donations/new"
         }
       ]
     }
@@ -833,7 +833,7 @@ set for organisations.
 # Matching Fund Projects List
 
 ```nginx
-GET http://api.betterplace.dev/en/portals/2/projects.json?action=projects&controller=api_v4%2Fmatching_funds
+GET https://api.betterplace.org/en/portals/2/projects.json?action=projects&controller=api_v4%2Fmatching_funds
 ```
 
 A list of betterplace.org matching fund projects.
@@ -1355,22 +1355,22 @@ set for organisations.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/fill_100x100_original_Picture_023.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/fill_100x100_original_Picture_023.jpg"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/crop_original_original_Picture_023.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/crop_original_original_Picture_023.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/users/erika_k2"
+            "href": "https://www.betterplace.org/en/users/erika_k2"
           },
           {
             "rel": "contact_data",
-            "href": "http://api.betterplace.dev/en/api_v4/users/130618/contact_data.json"
+            "href": "https://api.betterplace.org/en/api_v4/users/130618/contact_data.json"
           }
         ]
       },
@@ -1380,18 +1380,18 @@ set for organisations.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/fill_100x100_original_betterplace-logo.png"
+              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/fill_100x100_original_betterplace-logo.png"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/crop_original_original_betterplace-logo.png"
+              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/crop_original_original_betterplace-logo.png"
             }
           ]
         },
         "links": [
           {
             "rel": "self",
-            "href": "http://api.betterplace.dev/en/api_v4/organisations/1054.json"
+            "href": "https://api.betterplace.org/en/api_v4/organisations/1054.json"
           }
         ]
       },
@@ -1399,19 +1399,19 @@ set for organisations.
         "links": [
           {
             "rel": "fill_960x500",
-            "href": "http://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_960x500_original_girls-merza-sm.jpg"
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_960x500_original_girls-merza-sm.jpg"
           },
           {
             "rel": "fill_618x322",
-            "href": "http://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_618x322_original_girls-merza-sm.jpg"
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_618x322_original_girls-merza-sm.jpg"
           },
           {
             "rel": "fill_270x141",
-            "href": "http://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_270x141_original_girls-merza-sm.jpg"
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_270x141_original_girls-merza-sm.jpg"
           },
           {
             "rel": "original",
-            "href": "http://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/crop_original_original_girls-merza-sm.jpg"
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/crop_original_original_girls-merza-sm.jpg"
           }
         ]
       },
@@ -1431,15 +1431,15 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "http://api.betterplace.dev/en/api_v4/matching_funds/2.json"
+            "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
           },
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/matching-funds/2-otto"
+            "href": "https://www.betterplace.org/en/matching-funds/2-otto"
           },
           {
             "rel": "projects",
-            "href": "http://api.betterplace.dev/en/api_v4/matching_funds/2/projects.json"
+            "href": "https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json"
           },
           {
             "rel": "documentation",
@@ -1450,44 +1450,44 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.dev/en/projects/1114-skateistan-afghanistan"
+          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan"
         },
         {
           "rel": "opinions",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/1114/opinions.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/1114/pictures.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/1114/needs.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/1114/blog_posts.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json"
         },
         {
           "rel": "active_matching_fund",
-          "href": "http://api.betterplace.dev/en/api_v4/matching_funds/2.json"
+          "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
         },
         {
           "rel": "matching_funds",
-          "href": "http://api.betterplace.dev/en/api_v4/matching_funds.json?project_id=1114"
+          "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=1114"
         },
         {
           "rel": "new_client_donation",
-          "href": "http://www.betterplace.dev/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D",
+          "href": "https://www.betterplace.org/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D",
           "templated": true
         },
         {
           "rel": "new_donation",
-          "href": "http://www.betterplace.dev/en/projects/1114/donations/new"
+          "href": "https://www.betterplace.org/en/projects/1114/donations/new"
         }
       ]
     },
@@ -1520,22 +1520,22 @@ set for organisations.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/333/761/fill_100x100_original_P9192226.JPG"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/333/761/fill_100x100_original_P9192226.JPG"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/333/761/crop_original_original_P9192226.JPG"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/333/761/crop_original_original_P9192226.JPG"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/users/axel_j3"
+            "href": "https://www.betterplace.org/en/users/axel_j3"
           },
           {
             "rel": "contact_data",
-            "href": "http://api.betterplace.dev/en/api_v4/users/333761/contact_data.json"
+            "href": "https://api.betterplace.org/en/api_v4/users/333761/contact_data.json"
           }
         ]
       },
@@ -1545,18 +1545,18 @@ set for organisations.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/015/404/fill_100x100_LokiSStiftg_Logo_rgb_72_gross.jpg"
+              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/015/404/fill_100x100_LokiSStiftg_Logo_rgb_72_gross.jpg"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/015/404/crop_original_LokiSStiftg_Logo_rgb_72_gross.jpg"
+              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/015/404/crop_original_LokiSStiftg_Logo_rgb_72_gross.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "self",
-            "href": "http://api.betterplace.dev/en/api_v4/organisations/15404.json"
+            "href": "https://api.betterplace.org/en/api_v4/organisations/15404.json"
           }
         ]
       },
@@ -1564,19 +1564,19 @@ set for organisations.
         "links": [
           {
             "rel": "fill_960x500",
-            "href": "http://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_960x500_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_960x500_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
           },
           {
             "rel": "fill_618x322",
-            "href": "http://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_618x322_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_618x322_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
           },
           {
             "rel": "fill_270x141",
-            "href": "http://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_270x141_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_270x141_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
           },
           {
             "rel": "original",
-            "href": "http://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/crop_original_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/crop_original_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
           }
         ]
       },
@@ -1596,15 +1596,15 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "http://api.betterplace.dev/en/api_v4/matching_funds/2.json"
+            "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
           },
           {
             "rel": "platform",
-            "href": "http://www.betterplace.dev/en/matching-funds/2-otto"
+            "href": "https://www.betterplace.org/en/matching-funds/2-otto"
           },
           {
             "rel": "projects",
-            "href": "http://api.betterplace.dev/en/api_v4/matching_funds/2/projects.json"
+            "href": "https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json"
           },
           {
             "rel": "documentation",
@@ -1615,44 +1615,44 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/14784.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/14784.json"
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.dev/en/projects/14784-mein-baum-meine-stadt"
+          "href": "https://www.betterplace.org/en/projects/14784-mein-baum-meine-stadt"
         },
         {
           "rel": "opinions",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/14784/opinions.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/14784/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/14784/pictures.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/14784/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/14784/needs.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/14784/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/14784/blog_posts.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/14784/blog_posts.json"
         },
         {
           "rel": "active_matching_fund",
-          "href": "http://api.betterplace.dev/en/api_v4/matching_funds/2.json"
+          "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
         },
         {
           "rel": "matching_funds",
-          "href": "http://api.betterplace.dev/en/api_v4/matching_funds.json?project_id=14784"
+          "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=14784"
         },
         {
           "rel": "new_client_donation",
-          "href": "http://www.betterplace.dev/en/projects/14784/client_donations/new?client_id=%7Bclient_id%7D",
+          "href": "https://www.betterplace.org/en/projects/14784/client_donations/new?client_id=%7Bclient_id%7D",
           "templated": true
         },
         {
           "rel": "new_donation",
-          "href": "http://www.betterplace.dev/en/projects/14784/donations/new"
+          "href": "https://www.betterplace.org/en/projects/14784/donations/new"
         }
       ]
     }

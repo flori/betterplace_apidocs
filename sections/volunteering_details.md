@@ -2,7 +2,7 @@
 # Volunteering Details ⇄ [List](volunteering_list.md)
 
 ```nginx
-GET http://api.betterplace.dev/en/api_v4/volunteering/23.json
+GET https://api.betterplace.org/en/api_v4/volunteering/23.json
 ```
 
 The details of a betterplace.org volunteering offer (donate time).
@@ -431,27 +431,27 @@ betterplace.
     "links": [
       {
         "rel": "fill_618x322",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
       },
       {
         "rel": "fill_270x141",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
       },
       {
         "rel": "original",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
       },
       {
         "rel": "thumb",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
       },
       {
         "rel": "medium",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
       },
       {
         "rel": "regular",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
       }
     ]
   },
@@ -484,11 +484,11 @@ betterplace.
   "links": [
     {
       "rel": "self",
-      "href": "http://api.betterplace.dev/en/api_v4/volunteering/23.json"
+      "href": "https://api.betterplace.org/en/api_v4/volunteering/23.json"
     },
     {
       "rel": "platform",
-      "href": "http://www.betterplace.dev/en/volunteering/23-essensausgabe-fahrdienst"
+      "href": "https://www.betterplace.org/en/volunteering/23-essensausgabe-fahrdienst"
     }
   ]
 }

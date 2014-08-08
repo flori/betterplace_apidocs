@@ -2,7 +2,7 @@
 # Client Donations List ⇄ [Details](client_donation_details.md)
 
 ```nginx
-GET http://api.betterplace.dev/en/api_v4/clients/Volksfreund/client_donations.json?facets=client_reference%3A922ec9b-etc
+GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations.json?facets=client_reference%3A922ec9b-etc
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -160,11 +160,11 @@ that is associated with this donation.
       "links": [
         {
           "rel": "receiver",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/4807.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/4807.json"
         },
         {
           "rel": "self",
-          "href": "http://api.betterplace.dev/en/api_v4/clients/volksfreund/client_donations/328db52eb745be52f3b5aaf0.json"
+          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/client_donations/328db52eb745be52f3b5aaf0.json"
         }
       ]
     },
@@ -179,11 +179,11 @@ that is associated with this donation.
       "links": [
         {
           "rel": "receiver",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/4798.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/4798.json"
         },
         {
           "rel": "self",
-          "href": "http://api.betterplace.dev/en/api_v4/clients/volksfreund/client_donations/7d775febc93584375ab07136.json"
+          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/client_donations/7d775febc93584375ab07136.json"
         }
       ]
     },
@@ -198,11 +198,11 @@ that is associated with this donation.
       "links": [
         {
           "rel": "receiver",
-          "href": "http://api.betterplace.dev/en/api_v4/projects/4798.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/4798.json"
         },
         {
           "rel": "self",
-          "href": "http://api.betterplace.dev/en/api_v4/clients/volksfreund/client_donations/86be4452d4afb0f2d56f0add.json"
+          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/client_donations/86be4452d4afb0f2d56f0add.json"
         }
       ]
     }

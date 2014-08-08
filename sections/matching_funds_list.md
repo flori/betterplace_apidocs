@@ -2,7 +2,7 @@
 # Matching Funds List ⇄ [Details](matching_fund_details.md)
 
 ```nginx
-GET http://api.betterplace.dev/en/api_v4/matching_funds.json?facets=state%3Aactivated&project_id=1114
+GET https://api.betterplace.org/en/api_v4/matching_funds.json?facets=state%3Aactivated&project_id=1114
 ```
 
 A list of betterplace.org matching funds.
@@ -174,15 +174,15 @@ A list of betterplace.org matching funds.
       "links": [
         {
           "rel": "self",
-          "href": "http://api.betterplace.dev/en/api_v4/matching_funds/2.json"
+          "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
         },
         {
           "rel": "platform",
-          "href": "http://www.betterplace.dev/en/matching-funds/2-otto"
+          "href": "https://www.betterplace.org/en/matching-funds/2-otto"
         },
         {
           "rel": "projects",
-          "href": "http://api.betterplace.dev/en/api_v4/matching_funds/2/projects.json"
+          "href": "https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json"
         },
         {
           "rel": "documentation",
