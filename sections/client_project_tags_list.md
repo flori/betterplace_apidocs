@@ -93,7 +93,56 @@ that where tagged with this tag.
   "current_page": null,
   "per_page": null,
   "data": [
-
+    {
+      "tag": "Trier",
+      "projects_count": 189,
+      "links": [
+        {
+          "rel": "projects",
+          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/Trier/projects.json"
+        }
+      ]
+    },
+    {
+      "tag": "KinderJugendliche",
+      "projects_count": 191,
+      "links": [
+        {
+          "rel": "projects",
+          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/KinderJugendliche/projects.json"
+        }
+      ]
+    },
+    {
+      "tag": "Familien",
+      "projects_count": 100,
+      "links": [
+        {
+          "rel": "projects",
+          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/Familien/projects.json"
+        }
+      ]
+    },
+    {
+      "tag": "Behinderte",
+      "projects_count": 62,
+      "links": [
+        {
+          "rel": "projects",
+          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/Behinderte/projects.json"
+        }
+      ]
+    },
+    {
+      "tag": "Prio2",
+      "projects_count": 200,
+      "links": [
+        {
+          "rel": "projects",
+          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/Prio2/projects.json"
+        }
+      ]
+    }
   ]
 }
 ```
