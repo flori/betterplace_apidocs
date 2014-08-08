@@ -43,7 +43,7 @@ Some client-statistics for a betterplace.org client. All results are cached for 
       <td>number</td>
       <td>10100</td>
       <td>How many cents are donated already to all client projects. 
-Calculated based on open_amount_in_cents and requested_amount_in_cents.
+Calculation based on open_amount_in_cents and requested_amount_in_cents.
 Therefore it includes the money of the client-pool-fundraising-event
 that still has to be forwarded to one of the client-projects-needs.
 </td>
@@ -67,7 +67,7 @@ This is the number that is include in open_amount_in_cents and donated_amount_in
       <td>number</td>
       <td>9900</td>
       <td>How many cents are still needed to complete all client projects.
-This is calculated based on the sum of all
+This calculation is based on the sum of all
 <a href="need_details.md">needs (open_amount_in_cents)</a>.
 We also substract the money of the client-pool-fundraising-event
 that still has to be forwarded to one of the client-projects-needs.
@@ -78,7 +78,7 @@ that still has to be forwarded to one of the client-projects-needs.
       <td>number</td>
       <td>11000</td>
       <td>How many cents are still needed to complete all client projects.
-This is also calculated based on the sum of all
+This calculation is based on the sum of all
 <a href="need_details.md">needs (requested_amount_in_cents)</a>.
 </td>
     </tr>
@@ -87,6 +87,20 @@ This is also calculated based on the sum of all
       <td>number</td>
       <td>100</td>
       <td>The number of <a href="projects_list.md">projects</a> of this client
+</td>
+    </tr>
+    <tr>
+      <th align="left">client_donated_amount_in_cents</th>
+      <td>number</td>
+      <td>8100</td>
+      <td>How many cents are donated through the clients donation page.
+</td>
+    </tr>
+    <tr>
+      <th align="left">client_matched_amount_in_cents</th>
+      <td>number</td>
+      <td>2500</td>
+      <td>How many cents are donated by matching donations by all matching funds of the client
 </td>
     </tr>
     <tr>
@@ -119,7 +133,7 @@ This is also calculated based on the sum of all
     </tr>
     <tr>
       <th align="left">client_project_tags</th>
-      <td>Link to the <a href="client_project_tags_list.md">client project-tags list</a> of this client
+      <td>Link to the <a href="client_tags_list.md">tags list</a> of this client
 </td>
     </tr>
     <tr>
@@ -133,12 +147,14 @@ This is also calculated based on the sum of all
 
 ```json
 {
-  "donated_amount_in_cents": 118934565,
-  "pool_balance_in_cents": 4445630,
-  "open_amount_in_cents": 20082080,
-  "requested_amount_in_cents": 139016645,
-  "projects_count": 285,
-  "client_donations_count": 9561,
+  "donated_amount_in_cents": 123206984,
+  "pool_balance_in_cents": 5031447,
+  "open_amount_in_cents": 19176661,
+  "requested_amount_in_cents": 142383645,
+  "projects_count": 293,
+  "client_donated_amount_in_cents": 92179629,
+  "client_matched_amount_in_cents": 0,
+  "client_donations_count": 9807,
   "links": [
     {
       "rel": "projects",
@@ -150,7 +166,7 @@ This is also calculated based on the sum of all
     },
     {
       "rel": "client_project_tags",
-      "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/project_tags.json"
+      "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags.json"
     },
     {
       "rel": "opinions",

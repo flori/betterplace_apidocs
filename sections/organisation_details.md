@@ -45,16 +45,8 @@ to make sure you only request data that is associated with one of your projects.
     <tr>
       <th align="left">id</th>
       <td>number</td>
-      <td>4</td>
+      <td>1</td>
       <td>An integer number ≥ 1</td>
-    </tr>
-    <tr>
-      <th align="left">slug</th>
-      <td>string</td>
-      <td>vivaconagua</td>
-      <td><a href="http://en.wikipedia.org/wiki/Clean_URL#Slug">URL slug</a>
-for the permalink
-</td>
     </tr>
     <tr>
       <th align="left">created_at</th>
@@ -84,25 +76,33 @@ for the permalink
       <th align="left">street</th>
       <td>null &#124; string</td>
       <td>"Schlesische Straße 26"</td>
-      <td>Address of the organisation</td>
+      <td>Street address</td>
     </tr>
     <tr>
       <th align="left">zip</th>
       <td>null &#124; string</td>
       <td>"10997"</td>
-      <td>Address of the organisation</td>
+      <td>ZIP code</td>
     </tr>
     <tr>
       <th align="left">city</th>
       <td>null &#124; string</td>
       <td>"Berlin"</td>
-      <td>Address of the organisation</td>
+      <td>Name of the city</td>
     </tr>
     <tr>
       <th align="left">country</th>
       <td>null &#124; string</td>
       <td>"Deutschland"</td>
-      <td>Address of the organisation, translated to the requested language</td>
+      <td>Name of the country</td>
+    </tr>
+    <tr>
+      <th align="left">slug</th>
+      <td>string</td>
+      <td>vivaconagua</td>
+      <td><a href="http://en.wikipedia.org/wiki/Clean_URL#Slug">URL slug</a>
+for the permalink
+</td>
     </tr>
     <tr>
       <th align="left">name</th>
@@ -243,15 +243,15 @@ access rights in order to see this information.
 ```json
 {
   "id": 125,
-  "slug": "vivaconagua",
   "created_at": "2008-02-06T16:10:42Z",
-  "updated_at": "2014-05-29T13:31:28Z",
+  "updated_at": "2014-08-06T18:12:08Z",
   "latitude": 53.55759811401367,
   "longitude": 9.96815967559815,
   "street": "Neuer Kamp 32",
   "zip": "20357",
   "city": "Hamburg",
   "country": "Germany",
+  "slug": "vivaconagua",
   "name": "Viva con Agua de Sankt Pauli e.V.",
   "description": "Viva con Agua de Sankt Pauli e.V. is a leading German charity dedicated to fighting global poverty by helping the world’s poorest people gain access to clean water, basic sanitation and hygiene education, and encourages people from around the world to lend support.",
   "tax_deductible": true,
@@ -261,11 +261,11 @@ access rights in order to see this information.
       "links": [
         {
           "rel": "fill_100x100",
-          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/001/399/fill_100x100_original_Fidel.jpg"
+          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/001/399/fill_100x100_original_Fidel.jpg"
         },
         {
           "rel": "original",
-          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/001/399/crop_original_original_Fidel.jpg"
+          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/001/399/crop_original_original_Fidel.jpg"
         }
       ]
     },
@@ -284,19 +284,19 @@ access rights in order to see this information.
     "links": [
       {
         "rel": "fill_100x100",
-        "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_100x100_VcA_Projektlogo.jpg"
+        "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_100x100_VcA_Projektlogo.jpg"
       },
       {
         "rel": "fill_200x200",
-        "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_200x200_VcA_Projektlogo.jpg"
+        "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_200x200_VcA_Projektlogo.jpg"
       },
       {
         "rel": "fill_400x400",
-        "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_400x400_VcA_Projektlogo.jpg"
+        "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_400x400_VcA_Projektlogo.jpg"
       },
       {
         "rel": "original",
-        "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/crop_original_VcA_Projektlogo.jpg"
+        "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/crop_original_VcA_Projektlogo.jpg"
       }
     ]
   },

@@ -38,16 +38,8 @@ This resource is not avaliable at the moment.
     <tr>
       <th align="left">id</th>
       <td>number</td>
-      <td>4</td>
+      <td>1</td>
       <td>An integer number ≥ 1</td>
-    </tr>
-    <tr>
-      <th align="left">slug</th>
-      <td>string</td>
-      <td>vivaconagua</td>
-      <td><a href="http://en.wikipedia.org/wiki/Clean_URL#Slug">URL slug</a>
-for the permalink
-</td>
     </tr>
     <tr>
       <th align="left">created_at</th>
@@ -77,25 +69,33 @@ for the permalink
       <th align="left">street</th>
       <td>null &#124; string</td>
       <td>"Schlesische Straße 26"</td>
-      <td>Address of the organisation</td>
+      <td>Street address</td>
     </tr>
     <tr>
       <th align="left">zip</th>
       <td>null &#124; string</td>
       <td>"10997"</td>
-      <td>Address of the organisation</td>
+      <td>ZIP code</td>
     </tr>
     <tr>
       <th align="left">city</th>
       <td>null &#124; string</td>
       <td>"Berlin"</td>
-      <td>Address of the organisation</td>
+      <td>Name of the city</td>
     </tr>
     <tr>
       <th align="left">country</th>
       <td>null &#124; string</td>
       <td>"Deutschland"</td>
-      <td>Address of the organisation, translated to the requested language</td>
+      <td>Name of the country</td>
+    </tr>
+    <tr>
+      <th align="left">slug</th>
+      <td>string</td>
+      <td>vivaconagua</td>
+      <td><a href="http://en.wikipedia.org/wiki/Clean_URL#Slug">URL slug</a>
+for the permalink
+</td>
     </tr>
     <tr>
       <th align="left">name</th>
@@ -235,15 +235,14 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 9313,
+  "total_entries": 9683,
   "offset": 0,
-  "total_pages": 4657,
+  "total_pages": 4842,
   "current_page": 1,
   "per_page": 2,
   "data": [
     {
       "id": 7816,
-      "slug": "---",
       "created_at": "2011-07-05T19:25:52Z",
       "updated_at": "2013-05-17T12:29:15Z",
       "latitude": 50.12379837036133,
@@ -252,6 +251,7 @@ access rights in order to see this information.
       "zip": "60138",
       "city": "Frankfurt amain",
       "country": "Germany",
+      "slug": "---",
       "name": "Individual and I work in close connetion with WRI",
       "description": "I live in Germany since 2001 as a political refugee from Eritrea. But now I am German citzen.  I studied Law in Eritrea and The Netherlands. I am a candidate for a PHD in Frankfurt Universty.  \r\nI am a member of human right organization in Germany and council member of War Resisters' International since 2010. \r\nI am a co.cordinator of Eritrean Antimilitarist Initiative (EAI) in 2005.",
       "tax_deductible": false,
@@ -261,11 +261,11 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+              "href": "https://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+              "href": "https://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
             }
           ]
         },
@@ -284,19 +284,19 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "fill_100x100",
-            "href": "http://asset1.betterplace.org/assets/default/square_profile_picture/fill_100x100_default.betterplace.jpg"
+            "href": "https://asset1.betterplace.org/assets/default/square_profile_picture/fill_100x100_default.betterplace.jpg"
           },
           {
             "rel": "fill_200x200",
-            "href": "http://asset1.betterplace.org/assets/default/square_profile_picture/fill_200x200_default.betterplace.jpg"
+            "href": "https://asset1.betterplace.org/assets/default/square_profile_picture/fill_200x200_default.betterplace.jpg"
           },
           {
             "rel": "fill_400x400",
-            "href": "http://asset1.betterplace.org/assets/default/square_profile_picture/fill_400x400_default.betterplace.jpg"
+            "href": "https://asset1.betterplace.org/assets/default/square_profile_picture/fill_400x400_default.betterplace.jpg"
           },
           {
             "rel": "original",
-            "href": "http://asset1.betterplace.org/assets/default/square_profile_picture/crop_original_default.betterplace.jpg"
+            "href": "https://asset1.betterplace.org/assets/default/square_profile_picture/crop_original_default.betterplace.jpg"
           }
         ]
       },
@@ -321,7 +321,6 @@ access rights in order to see this information.
     },
     {
       "id": 10120,
-      "slug": "--------------------",
       "created_at": "2012-03-12T11:00:49Z",
       "updated_at": "2013-09-12T20:38:00Z",
       "latitude": -0.28333330154419,
@@ -330,6 +329,7 @@ access rights in order to see this information.
       "zip": null,
       "city": "Nakuru",
       "country": "Kenya",
+      "slug": "--------------------",
       "name": "AMAZING GRACE CHILDREN HOME NAKURU,KENYA",
       "description": null,
       "tax_deductible": false,
@@ -339,11 +339,11 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/249/795/fill_100x100_original_alim3111.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/249/795/fill_100x100_original_alim3111.jpg"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/249/795/crop_original_original_alim3111.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/249/795/crop_original_original_alim3111.jpg"
             }
           ]
         },
@@ -362,19 +362,19 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "fill_100x100",
-            "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_100x100_profile_thumb_ALIM5576.png"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_100x100_profile_thumb_ALIM5576.png"
           },
           {
             "rel": "fill_200x200",
-            "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_200x200_profile_thumb_ALIM5576.png"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_200x200_profile_thumb_ALIM5576.png"
           },
           {
             "rel": "fill_400x400",
-            "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_400x400_profile_thumb_ALIM5576.png"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_400x400_profile_thumb_ALIM5576.png"
           },
           {
             "rel": "original",
-            "href": "http://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/crop_original_profile_thumb_ALIM5576.png"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/crop_original_profile_thumb_ALIM5576.png"
           }
         ]
       },

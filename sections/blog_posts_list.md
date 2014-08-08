@@ -48,8 +48,8 @@ to make sure you only request data that is associated with one of your projects.
     </tr>
     <tr>
       <th align="left">id</th>
-      <td>string</td>
-      <td>53</td>
+      <td>number</td>
+      <td>1</td>
       <td>An integer number ≥ 1</td>
     </tr>
     <tr>
@@ -238,61 +238,12 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 83,
+  "total_entries": 84,
   "offset": 0,
   "total_pages": 42,
   "current_page": 1,
   "per_page": 2,
   "data": [
-    {
-      "id": 10394,
-      "created_at": "2009-10-27T16:44:24Z",
-      "updated_at": "2009-10-27T16:44:24Z",
-      "lang": "en",
-      "type": "BlogPost",
-      "title": "SKATE HALL OPENING",
-      "body": "<p>After two years of working towards this goal, the Skateistan team is extremely pleased to announce the official opening of Kabul&rsquo;s largest indoor sports facility and skate park at 2pm on the 29th of October. This milestone has been achieved through the collaborative efforts of an Afghan and international team.</p>\r\n<p>The opening will commence with short greetings from international donors and Afghan dignitaries. Speeches will be followed by a skateboarding demonstration by Afghan girls and boys together with internationally renowned professional skateboarders on the newly built ramps and obstacles.</p>",
-      "payout": null,
-      "author": {
-        "name": "j. wardag",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/011/872/fill_100x100_original_jana.jpg"
-            },
-            {
-              "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/011/872/crop_original_original_jana.jpg"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/jana_w2"
-          },
-          {
-            "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/11872/contact_data.json"
-          }
-        ]
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/blog_posts/10394.json"
-        },
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan/news/10394"
-        },
-        {
-          "rel": "documentation",
-          "href": "https://github.com/betterplace/betterplace_apidocs/blob/master/sections/blog_post_details.md"
-        }
-      ]
-    },
     {
       "id": 5703,
       "created_at": "2009-06-15T06:21:20Z",
@@ -308,11 +259,11 @@ access rights in order to see this information.
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/fill_100x100_original_maxn_skate.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/fill_100x100_original_maxn_skate.jpg"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/crop_original_original_maxn_skate.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/crop_original_original_maxn_skate.jpg"
             }
           ]
         },
@@ -335,6 +286,55 @@ access rights in order to see this information.
         {
           "rel": "platform",
           "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan/news/5703"
+        },
+        {
+          "rel": "documentation",
+          "href": "https://github.com/betterplace/betterplace_apidocs/blob/master/sections/blog_post_details.md"
+        }
+      ]
+    },
+    {
+      "id": 6910,
+      "created_at": "2009-07-12T10:25:13Z",
+      "updated_at": "2009-07-12T10:27:16Z",
+      "lang": "en",
+      "type": "BlogPost",
+      "title": "We Skated! Kabul",
+      "body": "<p>&nbsp;</p>\r\n<p>Several news outlets have featured stories about our celebration of international Go Skateboarding Day on Monday June 21, and the laying of the cornerstone at our new skatepark next to Ghazi Stadium on Tuesday June 22. Read all about it:</p>\r\n<p><a href=\"http://www.worldchanging.com/archives/009959.html\">WorldChanging</a></p>\r\n<p><a href=\"http://axisoflogic.com/artman/publish/Article_55984.shtml\">Axis of Logic</a></p>\r\n<p><a href=\"http://jezebel.com/5299583/sk8r-gurls\">Jezebel</a></p>\r\n<p><a href=\"http://skateboarding.transworld.net/2009/06/23/go-skateboarding-day-in-kabul/\">Transworld Skateboarding</a></p>\r\n<p><a href=\"http://www.pajhwok.com/photoserv.asp\">Pajhwok Afghan News</a></p>\r\n<p><a href=\"http://www.ksdk.com/news/national/story.aspx?storyid=178412&amp;amp;amp;catid=28\">KSDK 5</a></p>\r\n<p><a href=\"http://www.nationalpost.com/news/story.html?id=1718795\">National Post</a></p>\r\n<p>&nbsp;</p>",
+      "payout": null,
+      "author": {
+        "name": "M. Henninger",
+        "picture": {
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/fill_100x100_original_maxn_skate.jpg"
+            },
+            {
+              "rel": "original",
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/crop_original_original_maxn_skate.jpg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/en/users/max_h2"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/en/api_v4/users/9238/contact_data.json"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/en/api_v4/blog_posts/6910.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan/news/6910"
         },
         {
           "rel": "documentation",

@@ -51,8 +51,8 @@ to make sure you only request data that is associated with one of your projects.
     <tr>
       <th align="left">id</th>
       <td>number</td>
-      <td>29</td>
-      <td>A integer number ≥ 1</td>
+      <td>1</td>
+      <td>An integer number ≥ 1</td>
     </tr>
     <tr>
       <th align="left">created_at</th>
@@ -136,6 +136,16 @@ offline donations and also(!) external donations)
       <td>Link to the related <a href="project_details.md">project's details</a>
 </td>
     </tr>
+    <tr>
+      <th align="left">new_client_donation</th>
+      <td>Link to the donation form. Templated, needs insertion of the client_id.
+</td>
+    </tr>
+    <tr>
+      <th align="left">new_donation</th>
+      <td>Link to the regular donation form.
+</td>
+    </tr>
 </table>
 
 ## Response Example
@@ -144,13 +154,13 @@ offline donations and also(!) external donations)
 {
   "id": 79124,
   "created_at": "2014-02-17T16:01:17Z",
-  "updated_at": "2014-05-20T10:13:29Z",
+  "updated_at": "2014-07-19T11:31:14Z",
   "title": "Clean Water for the Skateparks in Kabul and MeS",
   "description": "The equivalent of supplying clean drinking water for all of our staff and students in both the Kabul and Mazar-e-Sharif Skateparks. ",
   "completed": false,
-  "progress_percentage": 16.57,
-  "donated_amount_in_cents": 29745,
-  "open_amount_in_cents": 149755,
+  "progress_percentage": 22.87,
+  "donated_amount_in_cents": 41055,
+  "open_amount_in_cents": 138445,
   "requested_amount_in_cents": 179500,
   "links": [
     {
@@ -160,6 +170,15 @@ offline donations and also(!) external donations)
     {
       "rel": "project",
       "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+    },
+    {
+      "rel": "new_client_donation",
+      "href": "https://www.betterplace.org/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D&earmark_id=79124",
+      "templated": true
+    },
+    {
+      "rel": "new_donation",
+      "href": "https://www.betterplace.org/en/projects/1114/donations/new?earmark_id=79124"
     }
   ]
 }

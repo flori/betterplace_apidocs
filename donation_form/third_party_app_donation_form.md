@@ -123,7 +123,7 @@ https://www.betterplace.org/de/projects/480/client_donations/new?client_id=ablas
   </tr>
   <tr>
     <td>
-      PLANNED: <code>&donation_amount_readonly=true</code>
+      <code>&donation_amount_readonly=true</code>
     </td>
     <td>
       OPTIONAL: You can specify if the input field for the donation amount (the default or your pre-set amount) should be readonly. This ways users cannot change the amount (easily). –– This feature is not yet implemented!
@@ -134,7 +134,8 @@ https://www.betterplace.org/de/projects/480/client_donations/new?client_id=ablas
       <code>&donation_presenter[donation_client_reference]=123</code>
     </td>
     <td>
-      OPTIONAL – but this is basically why you would want to use the ThirdPartyApp donation form in the first place! It allows you to give each donation/donor a unique ID in your application. We will send this ID back to you via the callback url. This way you can track which donation went through. This reference should be url safe, e.g. only consist of alphanumeric symbols like a SHA-1 Hash. It should also be unique in a way that can be used to search for the donation (see <a href="#handling-the-post-donation">Handling the post donation</a>).
+      OPTIONAL – but this is basically why you would want to use the ThirdPartyApp donation form in the first place! It allows you to give each donation/donor a unique ID in your application. We will send this ID back to you via the callback url. This way you can track which donation went through. This reference should be url safe, e.g. only consist of alphanumeric symbols like a SHA-1 Hash.
+      <br/><strong>Watch out:</strong> This field must be blank or provide a <em>unique</em> identifier. Using the same identifier twice will prohibit donations. Please keep that in mind if you create sharing urls that contain parameters. If you choose to provide a client_reference, you can use this value to look up the donation afterwards (see <a href="#handling-the-post-donation">Handling the post donation</a>).
     </td>
   </tr>
 </table>

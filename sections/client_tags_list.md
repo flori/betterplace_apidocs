@@ -1,17 +1,15 @@
 
-# Tags of a project assigned by a client
+# Client tags list
 
 ```nginx
-GET https://api.betterplace.org/en/portals/11614/projects.json?client_id=Volksfreund&controller=api_v4%2Fproject_tags
+GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/tags.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
 
-This API returns all tags assigned by this client for this project.
-Client project tags are a custom client feature and andministered
-as a service of [betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung).
+This API returns all tags defined for a client.
 
-Results are contains in a *data* attribute.
+Results are contained in a *data* attribute.
 
 
 ## Input Parameter
@@ -27,15 +25,7 @@ Results are contains in a *data* attribute.
     <th align="left">client_id</th>
     <td><code>Volksfreund</code></td>
     <td>required</td>
-    <td>The betterplace.org-internal client permalink</td>
-  </tr>
-  <tr>
-    <th align="left">id</th>
-    <td><code>11614</code></td>
-    <td>required</td>
-    <td>The name of the client project-tag – a list of tags is provided by
-<a href="http://www.betterplace-solutions.de/#buergerzeitung">betterplace solutions</a>.
-</td>
+    <td>The betterplace.org-internal client id</td>
   </tr>
 </table>
 
@@ -87,13 +77,32 @@ that where tagged with this tag.
 
 ```json
 {
-  "total_entries": null,
-  "offset": null,
-  "total_pages": null,
-  "current_page": null,
-  "per_page": null,
+  "total_entries": 13,
+  "offset": 0,
+  "total_pages": 7,
+  "current_page": 1,
+  "per_page": 2,
   "data": [
-
+    {
+      "tag": "Bedürftige",
+      "projects_count": 8,
+      "links": [
+        {
+          "rel": "projects",
+          "href": "https://api.betterplace.org/en/api_v4/clients/heidenheim/tags/Bed%C3%BCrftige/projects.json"
+        }
+      ]
+    },
+    {
+      "tag": "Behinderte",
+      "projects_count": 10,
+      "links": [
+        {
+          "rel": "projects",
+          "href": "https://api.betterplace.org/en/api_v4/clients/heidenheim/tags/Behinderte/projects.json"
+        }
+      ]
+    }
   ]
 }
 ```

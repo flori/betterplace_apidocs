@@ -83,6 +83,12 @@ It is possible to set multiple facet filters.
       <td>DateTime (ISO8601 with Timezone)</td>
     </tr>
     <tr>
+      <th align="left">updated_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
       <th align="left">donated_amount_in_cents</th>
       <td>number</td>
       <td>5000</td>
@@ -194,135 +200,138 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 378747,
+  "total_entries": 651,
   "offset": 0,
-  "total_pages": 126249,
+  "total_pages": 217,
   "current_page": 1,
   "per_page": 3,
   "data": [
     {
-      "id": 8236,
-      "created_at": "2011-10-06T12:06:18Z",
+      "id": 1572,
+      "created_at": "2009-07-22T20:23:26Z",
+      "updated_at": "2009-07-22T20:23:26Z",
       "donated_amount_in_cents": null,
       "score": "positive",
       "author": {
-        "name": "W. Watermann",
+        "name": "U. Köhler",
         "picture": {
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/015/597/fill_100x100_original_Ute_SchloGraFe.sw1.jpg"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/015/597/crop_original_original_Ute_SchloGraFe.sw1.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/winfried_w3"
+            "href": "https://www.betterplace.org/en/users/ute_k2"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/224418/contact_data.json"
+            "href": "https://api.betterplace.org/en/api_v4/users/15597/contact_data.json"
           }
         ]
       },
-      "message": "Also, ich kann das Projekt von Katrin nur wärmstens empfehlen, es finanziell zu unterstützen. Ich kenne Katrin aus unserer gemeinsamen Zeit bei Unicef in FFM und vertraue Ihr 100 %.<br />Katrin ist SOOOOOWAS von entschlossen zu helfen, und auch ohne das Projekt im Moment im Detail zu kennen: da ist JEDER Euro mit 100 % iger Sicherheit bestens angelegt.<br /><br />Winfried",
+      "message": "Ich bin Fürsprecherin des Projekts Skateistan, weil ich den Projektverantwortlichen Max Henninger letztes Jahr im Zuge meines Studiums kennengelernt habe und er uns über seine Arbeit in Afghanistan berichtet hat. <br />Ich bin begeistert von seiner Überzeugung, seiner Tatkraft und seinem Mut, Kindern in einem vom Krieg erschütterten Land ein bisschen Lebensfreude zu geben!",
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/7838/opinions/8236.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/1572.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/7838.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
         }
       ]
     },
     {
-      "id": 8243,
-      "created_at": "2011-10-07T09:20:24Z",
+      "id": 1584,
+      "created_at": "2009-07-24T13:52:27Z",
+      "updated_at": "2009-07-24T13:52:27Z",
       "donated_amount_in_cents": null,
       "score": "positive",
       "author": {
-        "name": "M. Kugler",
+        "name": "D. Habenicht",
         "picture": {
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/200/066/fill_100x100_original_222752_14564057157_531862157_477022_6957_n.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/015/688/fill_100x100_original_Daniel1.jpg"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/200/066/crop_original_original_222752_14564057157_531862157_477022_6957_n.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/015/688/crop_original_original_Daniel1.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/michael_k72"
+            "href": "https://www.betterplace.org/en/users/daniel_h14"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/200066/contact_data.json"
+            "href": "https://api.betterplace.org/en/api_v4/users/15688/contact_data.json"
           }
         ]
       },
-      "message": "Tolle Arbeit, weiter so! LG, Michael K.",
+      "message": "Ich verlege seit 2007 das Buch von Boris Barschow: \"Kabul, ich komme wieder\". Mittlerweile ist er zum dritten mal in Afghanistan. Da ich durch ihn ein wenig mit der Problematik des Landes vertraut wurde, habe ich auch ein Auge für andere schöne Aktionen für Frieden und Völkerverständigung. Skateistan ist eine unglaubliche Brücke zum Menschen. Die Skate-Community hat die Kraft diese Brücke zu stärken und das ich möchte tatkräftig unterstützen.<br /><br />bless<br />Daniel",
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/6599/opinions/8243.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/1584.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/6599.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
         }
       ]
     },
     {
-      "id": 8248,
-      "created_at": "2011-10-08T15:13:51Z",
+      "id": 5442,
+      "created_at": "2010-11-14T08:43:17Z",
+      "updated_at": "2010-11-14T08:43:17Z",
       "donated_amount_in_cents": null,
       "score": "positive",
       "author": {
-        "name": "H. Wilde",
+        "name": "J. S.",
         "picture": {
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/224/017/fill_100x100_original_Helmuth_Wilde2.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/018/797/fill_100x100_original_profil.jpg"
             },
             {
               "rel": "original",
-              "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/224/017/crop_original_original_Helmuth_Wilde2.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/018/797/crop_original_original_profil.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/helmuth_w"
+            "href": "https://www.betterplace.org/en/users/joel_s"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/224017/contact_data.json"
+            "href": "https://api.betterplace.org/en/api_v4/users/18797/contact_data.json"
           }
         ]
       },
-      "message": "Jahrelang hatte ich ein schlechtes Gewissen, da ich eigentlich nicht wirklich wohltätig war. Es lag aber auch zum großen Teil daran, daß mir die großen Organisationen wie z.B. W....V....., etc wegen der hohen Verwaltungskosten usw. eher suspekt waren. Als ich dann auf Harambee stieß, war ich sofort Feuer und Flamme. Besonders schätze ich den engen Kontakt zu den Patenkindern, aber auch die Transparenz der Aktivitäten. Mittlerweile bin ich ca. 2 Jahre dabei, bereits das 2. mal vor Ort und immer mehr begeistert, was da geleistet wird. Mein Lieblingsauspruch: \"Ich zahle für mein Patenkind € 25,- und in Kilifi kommen € 35,- an!\" Jambo, Jambo",
+      "message": "Wenig kann viel bewirken. Gerade Skateistan vermag mit einem sehr kleinen Budget - für Afghanistan  klein - wirklich ne Menge zu bewegen, und so das Leben von ner Menge Kids nachhaltig verändern.<br />Vor Ort durfte ich erfahren, wie effizient und hart die Jungs und Mädels von Skateistan in diesem schwierigen Umfeld arbeiten und wie mit den ihnen zur Verfügung stehenden Mitteln sorgsam gewirtschaftet wird.<br />Keep goin !!!",
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/7806/opinions/8248.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/5442.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/7806.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
         }
       ]
     }

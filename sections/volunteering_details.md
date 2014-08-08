@@ -73,25 +73,25 @@ This resource is not avaliable at the moment.
       <th align="left">street</th>
       <td>null &#124; string</td>
       <td>"Schlesische Straße 26"</td>
-      <td>Where the volunteering takes place</td>
+      <td>Street address</td>
     </tr>
     <tr>
       <th align="left">zip</th>
       <td>null &#124; string</td>
       <td>"10997"</td>
-      <td>Where the volunteering takes place</td>
+      <td>ZIP code</td>
     </tr>
     <tr>
       <th align="left">city</th>
       <td>null &#124; string</td>
       <td>"Berlin"</td>
-      <td>Where the volunteering takes place</td>
+      <td>Name of the city</td>
     </tr>
     <tr>
       <th align="left">country</th>
       <td>null &#124; string</td>
       <td>"Deutschland"</td>
-      <td>Where the volunteering takes place, translated to the requested language</td>
+      <td>Name of the country</td>
     </tr>
     <tr>
       <th align="left">title</th>
@@ -193,6 +193,18 @@ was indeed imported.
       <th>Description</th>
     </tr>
     <tr>
+      <th align="left">carrier.latitude</th>
+      <td>number</td>
+      <td>52.499007</td>
+      <td>Decimal degrees based on user input</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.longitude</th>
+      <td>number</td>
+      <td>13.44947</td>
+      <td>Decimal degrees based on user input</td>
+    </tr>
+    <tr>
       <th align="left">carrier.name</th>
       <td>string</td>
       <td>"Viva con Agua de Sankt Pauli e.V."</td>
@@ -220,18 +232,6 @@ was indeed imported.
       <th align="left">carrier.country</th>
       <td>string</td>
       <td>"Germany"</td>
-      <td>Contact data for the organisation</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.latitude</th>
-      <td>number</td>
-      <td>13.1234</td>
-      <td>Contact data for the organisation</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.longitude</th>
-      <td>number</td>
-      <td>54.123</td>
       <td>Contact data for the organisation</td>
     </tr>
   </table>
@@ -402,8 +402,8 @@ betterplace.
   "id": 23,
   "created_at": "2013-01-28T09:23:17Z",
   "updated_at": "2014-05-08T23:30:39Z",
-  "latitude": null,
-  "longitude": null,
+  "latitude": 51.3171,
+  "longitude": 9.49561,
   "street": null,
   "zip": null,
   "city": null,
@@ -411,13 +411,13 @@ betterplace.
   "title": "Essensausgabe/Fahrdienst",
   "description": "<p>Die Kasseler Tafel e.V. sammelt qualitativ einwandfreie Lebensmittel, die kurz vor dem Mindesthaltbarkeitsdatum stehen, bei Firmen in der Region ein und verteilt diese gegen einen symbolischen Betrag an bedürftige Mitbürgerinnen und Mitbürger.</p>\n<p>Freiwillige können sich in folgenden Bereichen bei der Kasseler Tafel betätigen:</p>\n<p>1. Lebensmittel sortieren und ausgeben</p>\n<p>2. als Fahrer: Abholung der Lebensmittel bei den Supermärkten</p>\n\n<p>Mehr Informationen finden Sie unter: http://kasseler-tafel.de/</p>\n<p>Wir freuen uns über Ihr Interesse! </p><ul><li>Unfallversicherung</li><li>Haftpflichtversicherung</li><li>Anleitung durch Fachkräfte</li><li>Tätigkeitsnachweise</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li></ul>",
   "carrier": {
+    "latitude": 51.3171,
+    "longitude": 9.49561,
     "name": "FreiwilligenZentrum Kassel",
     "street": "Spohrstraße 5",
     "city": "Kassel",
     "zip": "34117",
     "country": "Germany",
-    "latitude": 51.3171,
-    "longitude": 9.49561,
     "links": [
       {
         "rel": "logo",
@@ -431,27 +431,27 @@ betterplace.
     "links": [
       {
         "rel": "fill_618x322",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
       },
       {
         "rel": "fill_270x141",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
       },
       {
         "rel": "original",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
       },
       {
         "rel": "thumb",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
       },
       {
         "rel": "medium",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
       },
       {
         "rel": "regular",
-        "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
       }
     ]
   },

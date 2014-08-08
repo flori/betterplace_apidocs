@@ -126,25 +126,25 @@ The default order is the same as for the
       <th align="left">street</th>
       <td>null &#124; string</td>
       <td>"Schlesische Straße 26"</td>
-      <td>Where the volunteering takes place</td>
+      <td>Street address</td>
     </tr>
     <tr>
       <th align="left">zip</th>
       <td>null &#124; string</td>
       <td>"10997"</td>
-      <td>Where the volunteering takes place</td>
+      <td>ZIP code</td>
     </tr>
     <tr>
       <th align="left">city</th>
       <td>null &#124; string</td>
       <td>"Berlin"</td>
-      <td>Where the volunteering takes place</td>
+      <td>Name of the city</td>
     </tr>
     <tr>
       <th align="left">country</th>
       <td>null &#124; string</td>
       <td>"Deutschland"</td>
-      <td>Where the volunteering takes place, translated to the requested language</td>
+      <td>Name of the country</td>
     </tr>
     <tr>
       <th align="left">title</th>
@@ -246,6 +246,18 @@ was indeed imported.
       <th>Description</th>
     </tr>
     <tr>
+      <th align="left">carrier.latitude</th>
+      <td>number</td>
+      <td>52.499007</td>
+      <td>Decimal degrees based on user input</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.longitude</th>
+      <td>number</td>
+      <td>13.44947</td>
+      <td>Decimal degrees based on user input</td>
+    </tr>
+    <tr>
       <th align="left">carrier.name</th>
       <td>string</td>
       <td>"Viva con Agua de Sankt Pauli e.V."</td>
@@ -273,18 +285,6 @@ was indeed imported.
       <th align="left">carrier.country</th>
       <td>string</td>
       <td>"Germany"</td>
-      <td>Contact data for the organisation</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.latitude</th>
-      <td>number</td>
-      <td>13.1234</td>
-      <td>Contact data for the organisation</td>
-    </tr>
-    <tr>
-      <th align="left">carrier.longitude</th>
-      <td>number</td>
-      <td>54.123</td>
       <td>Contact data for the organisation</td>
     </tr>
   </table>
@@ -452,9 +452,9 @@ betterplace.
 
 ```json
 {
-  "total_entries": 13150,
+  "total_entries": 13770,
   "offset": 3,
-  "total_pages": 4384,
+  "total_pages": 4590,
   "current_page": 2,
   "per_page": 3,
   "data": [
@@ -471,13 +471,13 @@ betterplace.
       "title": "Betreuung & Begleitung im Rahmen des Betreuungsrechts",
       "description": "<p>eine Art \"ehrenamtlicher Anwalt\" sein; adminstrative Tätigkeiten: Unterstützung beim Ausfüllen von Formularen, Daueraufträge, Bankgeschäfte etc.; Behördengänge, wenn nötig Korrespondenzen mit Ämtern u.ä.; Gespräche führen, zuhören</p><ul><li>Haftpflichtversicherung</li><li>Erfahrungsaustausch</li><li>Fortbildung/Qualifizierungsangebote</li><li>kostenlose Veranstaltungen</li></ul>",
       "carrier": {
+        "latitude": 51.3171,
+        "longitude": 9.49561,
         "name": "FreiwilligenZentrum Kassel",
         "street": "Spohrstraße 5",
         "city": "Kassel",
         "zip": "34117",
         "country": "Germany",
-        "latitude": 51.3171,
-        "longitude": 9.49561,
         "links": [
           {
             "rel": "logo",
@@ -491,27 +491,27 @@ betterplace.
         "links": [
           {
             "rel": "fill_618x322",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
           },
           {
             "rel": "fill_270x141",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
           },
           {
             "rel": "original",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
           },
           {
             "rel": "thumb",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
           },
           {
             "rel": "medium",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
           },
           {
             "rel": "regular",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
           }
         ]
       },
@@ -557,8 +557,8 @@ betterplace.
       "id": 5,
       "created_at": "2013-01-28T09:23:09Z",
       "updated_at": "2014-05-08T23:30:32Z",
-      "latitude": null,
-      "longitude": null,
+      "latitude": 51.3171,
+      "longitude": 9.49561,
       "street": null,
       "zip": null,
       "city": null,
@@ -566,13 +566,13 @@ betterplace.
       "title": "Patientenbesuchsdienst im Diakonissen- und Burgfeldkrankenhaus",
       "description": "<ul><li>Wir stellen den Menschen in den Mittelpunkt</li>\n    <li>Wir sind für die Patienten da</li>\n    <li>Wir begleiten Spaziergänge im Haus und draußen</li>\n    <li>Wir lesen vor aus \"Was ihr wollt\"</li>\n    <li>Wir erledigen Besorgungen</li>\n    <li>Wir bringen die Bücherei ans Bett</li>\n    <li>Wir gehen Kranken zur Hand</li>\n    <li>Wir hören zu, begleiten und betreuen</li>\n    <li>Wir helfen bei der Aufnahme ins Krankenhaus</li>\n</ul>\n\n<p>Jeder/r von uns arbeitet einen Tag pro Woche von 9:00 bis 12:00 Uhr auf einer Station. Wir treffen uns monatlich zu 2stündigen Themennachmittagen zum Gedanken- und Erfahrungsaustausch. Das Einsatzgebiet (Aufnahme, Pflege, Büchereidienst oder Dienst im Altenheim) kann nach Neigung gewählt werden.</p>\n<p>Bei all diesen Aufgaben sind wir durch das Krankenhaus pauschal unfallversichert.</p>\n<p>Es gibt einen monatlich festgelegten Einsatzplan.</p>\n<p>Wir freuen uns über Ihr Interesse und beantworten gern Ihre Fragen.</p><ul><li>Unfallversicherung</li><li>Haftpflichtversicherung</li><li>regelmäßige Informationen</li><li>Erfahrungsaustausch</li><li>Fortbildung/Qualifizierungsangebote</li><li>Anleitung durch Fachkräfte</li><li>Tätigkeitsnachweise</li><li>kostenlose Verpflegung</li><li>kostenlose Veranstaltungen</li></ul>",
       "carrier": {
+        "latitude": 51.3171,
+        "longitude": 9.49561,
         "name": "FreiwilligenZentrum Kassel",
         "street": "Spohrstraße 5",
         "city": "Kassel",
         "zip": "34117",
         "country": "Germany",
-        "latitude": 51.3171,
-        "longitude": 9.49561,
         "links": [
           {
             "rel": "logo",
@@ -586,27 +586,27 @@ betterplace.
         "links": [
           {
             "rel": "fill_618x322",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
           },
           {
             "rel": "fill_270x141",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
           },
           {
             "rel": "original",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
           },
           {
             "rel": "thumb",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
           },
           {
             "rel": "medium",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
           },
           {
             "rel": "regular",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
           }
         ]
       },
@@ -661,13 +661,13 @@ betterplace.
       "title": "Blaue Helferin/ Blauer Helfer - Besuchsdienst im Klinikum Kassel",
       "description": "<p>Sie geben Zeit, Aufmerksamkeit und Einfühlungsvermögen und bekommen Zufriedenheit und eine andere Sicht von Krankheit. Der Einsatzbereich der HelferInnen umfasst die Fürsorge um das persönliche Wohl der Kranken. Dazu gehören insbesondere die Zuwendung im Gespräch, kleine Einkäufe und Besorgungen, Begleitungen zu Untersuchungen und Spaziergänge, Vorlesen oder auch die Versorgung der Patienten mit Lesestoff mittels unseres fahrbaren Bücherwagens mit allen anfallenden Büchereiarbeiten. Wir unterhalten auch eine kleine Wäschekammer für bedürftige Patienten.</p>\n\n\n\n<p>Die Blauen Helferinnen suchen zur Verstärkung ihres ehrenamtlichen Teams im Klinikum Kassel aufgeschlossene Mitarbeiter, die Besuchsdienste am Krankenbett durchführen, für unsere Patientenbibliothek tätig sind oder den Lotsendienst unterstützen. Geboten werden u.a. Fortbildung, Versicherungsschutz während des Einsatzes und Fahrtkostenerstattungen. Wir arbeiten Sie in Ihre Aufgaben durch Gespräche und Begleitung umfassend ein.</p>\n\n<p>Suchworte: </p>\n\n<p>Krankenhaus, Krankenhausbesuchsdienst, Besuchsdienst, Besuch, Patient, vorlesen. Besorgung</p><ul><li>Tätigkeitsnachweise</li><li>regelmäßige Informationen</li><li>kostenlose Veranstaltungen</li><li>kostenlose Nutzung weiterer Angebote</li><li>Haftpflichtversicherung</li><li>Fortbildung/Qualifizierungsangebote</li><li>Erstattung entstandener Kosten</li><li>Erfahrungsaustausch</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li><li>Unfallversicherung</li></ul>",
       "carrier": {
+        "latitude": 51.3171,
+        "longitude": 9.49561,
         "name": "FreiwilligenZentrum Kassel",
         "street": "Spohrstraße 5",
         "city": "Kassel",
         "zip": "34117",
         "country": "Germany",
-        "latitude": 51.3171,
-        "longitude": 9.49561,
         "links": [
           {
             "rel": "logo",
@@ -681,27 +681,27 @@ betterplace.
         "links": [
           {
             "rel": "fill_618x322",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
           },
           {
             "rel": "fill_270x141",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
           },
           {
             "rel": "original",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
           },
           {
             "rel": "thumb",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
           },
           {
             "rel": "medium",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
           },
           {
             "rel": "regular",
-            "href": "http://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
           }
         ]
       },

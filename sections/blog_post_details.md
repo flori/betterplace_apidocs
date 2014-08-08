@@ -50,8 +50,8 @@ to make sure you only request data that is associated with one of your projects.
     </tr>
     <tr>
       <th align="left">id</th>
-      <td>string</td>
-      <td>53</td>
+      <td>number</td>
+      <td>1</td>
       <td>An integer number ≥ 1</td>
     </tr>
     <tr>
@@ -254,11 +254,11 @@ access rights in order to see this information.
       "links": [
         {
           "rel": "fill_100x100",
-          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/fill_100x100_original_Picture_023.jpg"
+          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/fill_100x100_original_Picture_023.jpg"
         },
         {
           "rel": "original",
-          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/crop_original_original_Picture_023.jpg"
+          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/crop_original_original_Picture_023.jpg"
         }
       ]
     },

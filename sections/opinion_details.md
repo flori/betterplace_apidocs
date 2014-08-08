@@ -64,6 +64,12 @@ to make sure you only request data that is associated with one of your projects.
       <td>DateTime (ISO8601 with Timezone)</td>
     </tr>
     <tr>
+      <th align="left">updated_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
       <th align="left">donated_amount_in_cents</th>
       <td>number</td>
       <td>5000</td>
@@ -177,6 +183,7 @@ access rights in order to see this information.
 {
   "id": 22,
   "created_at": "2007-11-24T13:14:02Z",
+  "updated_at": "2007-11-24T13:14:02Z",
   "donated_amount_in_cents": null,
   "score": "positive",
   "author": {
@@ -185,11 +192,11 @@ access rights in order to see this information.
       "links": [
         {
           "rel": "fill_100x100",
-          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/000/759/fill_100x100_original_Schule_Leutersdorf_2.JPG"
+          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/000/759/fill_100x100_original_Schule_Leutersdorf_2.JPG"
         },
         {
           "rel": "original",
-          "href": "http://asset1.betterplace.org/uploads/user/profile_picture/000/000/759/crop_original_original_Schule_Leutersdorf_2.JPG"
+          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/000/759/crop_original_original_Schule_Leutersdorf_2.JPG"
         }
       ]
     },

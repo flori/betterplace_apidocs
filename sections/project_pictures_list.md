@@ -57,22 +57,28 @@ projects, the API will return a `404` HTTP code.
       <th>Description</th>
     </tr>
     <tr>
-      <th align="left">description</th>
-      <td>string</td>
-      <td>Yada…</td>
-      <td>Description of the picture</td>
+      <th align="left">id</th>
+      <td>number</td>
+      <td>1</td>
+      <td>An integer number ≥ 1</td>
     </tr>
     <tr>
       <th align="left">created_at</th>
       <td>string</td>
       <td>"1994-11-05T13:15:30Z"</td>
-      <td>DateTime (ISO8601 with Timezone) of creation</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
     </tr>
     <tr>
       <th align="left">updated_at</th>
       <td>string</td>
       <td>"1994-11-05T13:15:30Z"</td>
-      <td>DateTime (ISO8601 with Timezone) of last update</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
+      <th align="left">description</th>
+      <td>string</td>
+      <td>Yada…</td>
+      <td>Description of the picture</td>
     </tr>
   </table>
 </table>
@@ -110,9 +116,10 @@ projects, the API will return a `404` HTTP code.
   "per_page": 3,
   "data": [
     {
-      "description": "Kids practice to jump at Mekroyan Fountain, Kabul",
+      "id": 68085,
       "created_at": "2012-07-23T12:25:15Z",
       "updated_at": "2014-03-26T21:13:34Z",
+      "description": "Kids practice to jump at Mekroyan Fountain, Kabul",
       "links": [
         {
           "rel": "image",
@@ -129,9 +136,10 @@ projects, the API will return a `404` HTTP code.
       ]
     },
     {
-      "description": "Afghan Skate Instructor Merza showing his skills at an old Soviet swimming pool on Bibi Maru Hill, Kabul",
+      "id": 68086,
       "created_at": "2012-07-23T12:30:13Z",
       "updated_at": "2014-03-26T21:13:36Z",
+      "description": "Afghan Skate Instructor Merza showing his skills at an old Soviet swimming pool on Bibi Maru Hill, Kabul",
       "links": [
         {
           "rel": "image",
@@ -148,9 +156,10 @@ projects, the API will return a `404` HTTP code.
       ]
     },
     {
-      "description": null,
+      "id": 31767,
       "created_at": "2012-07-23T12:45:29Z",
       "updated_at": "2014-03-13T03:10:36Z",
+      "description": null,
       "links": [
         {
           "rel": "image",
