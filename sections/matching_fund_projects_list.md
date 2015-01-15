@@ -203,7 +203,11 @@ donation needs. This percentage includes those needs.
       <td>An organisation, Users will be added later</td>
     </tr>
     <tr>
-      <th align="left">profile_picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="profile_picture-ref" href="#profile_picture">
+            ↓profile_picture
+          </a>
+        </th>
       <td>null &#124; object</td>
       <td></td>
       <td>TODO</td>
@@ -239,10 +243,30 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
-      <th align="left">contact.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="contact.picture-ref" href="#contact.picture">
+            ↓contact.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+### <a name="contact.picture" href="#contact.picture-ref">↑Nested Attributes: contact.picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
@@ -261,10 +285,46 @@ like "Payback User" or empty/null for anonymous donations.
       <td>The carrier can be an organisation or user.</td>
     </tr>
     <tr>
-      <th align="left">carrier.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="carrier.picture-ref" href="#carrier.picture">
+            ↓carrier.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>The organisation logo, user profile picture or a fallback image</td>
+    </tr>
+  </table>
+### <a name="carrier.picture" href="#carrier.picture-ref">↑Nested Attributes: carrier.picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">carrier.picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
+    </tr>
+  </table>
+### <a name="profile_picture" href="#profile_picture-ref">↑Nested Attributes: profile_picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
 ### <a name="active_matching_fund" href="#active_matching_fund-ref">↑Nested Attributes: active_matching_fund</a>
@@ -489,181 +549,16 @@ set for organisations.
 
 ```json
 {
-  "total_entries": 2,
+  "total_entries": 1,
   "offset": 0,
   "total_pages": 1,
   "current_page": 1,
   "per_page": 2,
   "data": [
     {
-      "id": 1114,
-      "created_at": "2009-03-10T10:12:16Z",
-      "updated_at": "2014-08-05T08:17:52Z",
-      "latitude": 34.531617284782,
-      "longitude": 69.13581752939456,
-      "street": "Taimani, behind Qasemi Winhouse",
-      "zip": "",
-      "city": "Kabul",
-      "country": "Afghanistan",
-      "completed_at": null,
-      "title": "Skateistan Afghanistan",
-      "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important.<br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
-      "tax_deductible": true,
-      "donations_prohibited": false,
-      "open_amount_in_cents": 138445,
-      "positive_opinions_count": 652,
-      "negative_opinions_count": 0,
-      "donor_count": 520,
-      "progress_percentage": 96,
-      "incomplete_need_count": 1,
-      "completed_need_count": 80,
-      "blog_post_count": 84,
-      "contact": {
-        "name": "E. Kinast",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/fill_100x100_original_Picture_023.jpg"
-            },
-            {
-              "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/crop_original_original_Picture_023.jpg"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/erika_k2"
-          },
-          {
-            "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/130618/contact_data.json"
-          }
-        ]
-      },
-      "carrier": {
-        "name": "Skateistan",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/fill_100x100_original_betterplace-logo.png"
-            },
-            {
-              "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/crop_original_original_betterplace-logo.png"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "self",
-            "href": "https://api.betterplace.org/en/api_v4/organisations/1054.json"
-          }
-        ]
-      },
-      "profile_picture": {
-        "links": [
-          {
-            "rel": "fill_960x500",
-            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_960x500_original_girls-merza-sm.jpg"
-          },
-          {
-            "rel": "fill_618x322",
-            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_618x322_original_girls-merza-sm.jpg"
-          },
-          {
-            "rel": "fill_270x141",
-            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_270x141_original_girls-merza-sm.jpg"
-          },
-          {
-            "rel": "original",
-            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/crop_original_original_girls-merza-sm.jpg"
-          }
-        ]
-      },
-      "active_matching_fund": {
-        "id": 2,
-        "created_at": "2013-10-14T13:26:19Z",
-        "updated_at": "2014-07-17T10:44:27Z",
-        "activated_at": "2013-10-21T07:54:41Z",
-        "title": "Jetzt mitmachen – OTTO verdoppelt jede Spende!",
-        "description": "<br>\r\n<br>\r\n<h3>OTTO hilft Hamburgs Stadtgrün – helfen Sie mit!</h3>\r\n \r\nGemeinsam mit der Loki Schmidt Stiftung und der Stadt Hamburg schließen wir Baumlücken in strukturschwachen Stadtteilen. Diese Lücken entstehen aufgrund von Krankheiten oder mangelnder Standfestigkeit der Straßenbäume.\r\n\r\n!{height:140px}https://download.betterplace.org/matching-funds/mf_2-otto_description-logos.png! \r\n\r\nSeit 2011 sind Hamburger Bürger aufgerufen, gemeinsam mit den beiden Partner-Organisationen für neue Bäume zu spenden.\r\n \r\nBereits in diesem Jahr hat OTTO das Projekt unterstützt und mit 25.000 Euro 50 Baumlücken in Gebieten geschlossen, in denen weniger gespendet wird – nämlich in Mümmelmannsberg, Nettelnburg, Steinbek, Steilshoop und Willhelmsburg!\r\n \r\nNun wollen wir noch einmal bis zu 60 weitere Bäume pflanzen – und zwar gemeinsam mit Ihnen!\r\n \r\n<h3>Das funktioniert folgendermaßen:</h3>\r\n1.         Sie spenden einen beliebig hohen Betrag auf betterplace.org.\r\n2.         OTTO verdoppelt Ihren Betrag!\r\n3.         Sobald durch Sie und OTTO 500 Euro zusammengekommen sind, legt die Stadt Hamburg die restlichen 500 Euro drauf, die für eine Pflanzung notwendig sind.\r\n4.         Ein Baum wird gepflanzt – Hamburg wird grüner!\r\n \r\nIhr Engagement zählt – und OTTO honoriert das mit dieser Verdopplungsaktion bis zu einem Maximalbetrag von 15.000 Euro! Helfen Sie jetzt hier mit!",
-        "company_name": "OTTO",
-        "client_id": null,
-        "provided_amount_in_cents": 1500000,
-        "donated_amount_in_cents": 511500,
-        "state": "activated",
-        "logo_url": null,
-        "links": [
-          {
-            "rel": "self",
-            "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
-          },
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/en/matching-funds/2-otto"
-          },
-          {
-            "rel": "projects",
-            "href": "https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json"
-          },
-          {
-            "rel": "documentation",
-            "href": "https://github.com/betterplace/betterplace_apidocs/blob/master/sections/matching_fund_details.md"
-          }
-        ]
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
-        },
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan"
-        },
-        {
-          "rel": "opinions",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions.json"
-        },
-        {
-          "rel": "pictures",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures.json"
-        },
-        {
-          "rel": "needs",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs.json"
-        },
-        {
-          "rel": "blog_posts",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json"
-        },
-        {
-          "rel": "active_matching_fund",
-          "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
-        },
-        {
-          "rel": "matching_funds",
-          "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=1114"
-        },
-        {
-          "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D",
-          "templated": true
-        },
-        {
-          "rel": "new_donation",
-          "href": "https://www.betterplace.org/en/projects/1114/donations/new"
-        }
-      ]
-    },
-    {
       "id": 14784,
-      "created_at": "2013-09-23T14:29:10Z",
-      "updated_at": "2014-08-05T16:02:56Z",
+      "created_at": "2013-09-23T16:29:10+02:00",
+      "updated_at": "2014-12-09T09:01:30+01:00",
       "latitude": 53.55808469999999,
       "longitude": 10.01197890000003,
       "street": "",
@@ -672,20 +567,21 @@ set for organisations.
       "country": "Germany",
       "completed_at": null,
       "title": "Mein Baum – Meine Stadt",
-      "description": "Machen Sie Hamburg grüner und schließen Sie Baumlücken mit der Stadt, der Loki Schmidt Stiftung – und mit OTTO!<br />Jedes Jahr müssen Bäume wegen Krankheit oder mangelnder Standfestigkeit gefällt werden. Meist blieb in der Vergangenheit an dieser Stelle eine Lücke.<br /><br />Ein solcher Straßenbaum kostet 1000 Euro – diese Summe schließt den Baum selbst ein (speziell für die Stadt fit gemacht in der Baumschule), die Prüfung des Standorts (Kampfmittel), das Pflanzen (Grube und Stützen) und die Pflege (für drei Jahre). Mit der Aktion „Mein Baum – Meine Stadt“ sollen möglichst alle Lücken in den Reihen von Hamburgs  Straßenbäumen geschlossen werden. Im Rahmen der Aktionen zur „Umwelthauptstadt Europas 2011“ stellte der Hamburger Senat über zwei Millionen Euro zur Verfügung, um passend zur Jahreszahl exakt 2011 Bäume zu pflanzen. Außerdem waren alle Hamburger aufgerufen, sich mit einer Spende an der Kampagne zu beteiligen.<br /><br />Durch Spenden und jährlich eine halbe Million Euro von Seiten des Senats sind seitdem bereits mehr als 3000 Bäume nachgepflanzt worden.<br /><br />Und die Erfolgsstory von „Mein Baum – Meine Stadt“ geht auch 2013 weiter. Pflanzen Sie mit! <br /><br />Jeder Euro zählt. Sie können sich mit Ihrer Familie, mit Freunden, Verwandten und Bekannten, mit Nachbarn, Kollegen, Sportsfreunden, Vereinsmitgliedern und wem auch immer zu Spendengemeinschaften zusammenschließen. Sobald eine Spendensumme von 500 Euro für einen bestimmten Baum zusammenkommt, garantiert die Stadt Hamburg die Pflanzung und legt die fehlenden 500 Euro obendrauf.<br /><br />Und OTTO unterstützt Ihr Engagement für die Umwelt hier auf betterplace.org zusätzlich. Sofern Sie spenden, wird OTTO diesen Betrag verdoppeln, egal in welcher Höhe – bis zu einem Maximalbetrag von 15.000 Euro. Ziel ist es, die Baumlücken gemeinsam noch schneller zu schließen. <br />Durch OTTOs Spende von 25.000 Euro konnten bereits 50 Bäume in strukturschwachen Stadtteilen Hamburgs gepflanzt werden – die Stadt hat die gleiche Summe dazugelegt. <br /><br />Jetzt verdoppelt das Hamburger Traditionsunternehmen Ihre Spenden noch einmal. So könnten weitere Bäume gepflanzt werden. Helfen Sie mit!",
+      "description": "Wir schließen Hamburgs Baumlücken – helfen Sie mit!<br /><br />Gemeinsam mit der Loki Schmidt Stiftung und der Stadt Hamburg können Sie Baumlücken in strukturschwachen Stadtteilen schließen. Diese Lücken entstehen, wenn aufgrund von Krankheiten oder mangelnder Standfestigkeit Straßenbäume gefällt werden müssen.<br /><br />Seit 2011 sind Hamburger Bürger aufgerufen, gemeinsam mit den beiden Partner-Organisationen für neue Bäume zu spenden.<br />Bisher konnten bereits mehr als 3.500 Baumlücken geschlossen werden. Spenden über dieses Portal werden gezielt in Gebieten eingesetzt, in denen ansonsten weniger gespendet wird – z.B. in Mümmelmannsberg, Nettelnburg, Steilshoop, Veddel und Willhelmsburg!<br />Nun wollen wir weitere Bäume pflanzen – und zwar gemeinsam mit Ihnen!<br /><br />Das funktioniert folgendermaßen:<br />1. Sie spenden einen beliebig hohen Betrag auf betterplace.org.<br />2. Sobald durch Sie 500 Euro zusammengekommen sind, legt die Stadt Hamburg die restlichen mindestens 500 Euro drauf, die für eine Pflanzung notwendig sind.<br />3. Ein Baum wird gepflanzt – Hamburg wird grüner!<br /><br />Ihr Engagement zählt! Helfen Sie jetzt hier mit!",
       "tax_deductible": true,
       "donations_prohibited": false,
-      "open_amount_in_cents": 477000,
-      "positive_opinions_count": 78,
+      "open_amount_in_cents": 97000,
+      "positive_opinions_count": 82,
       "negative_opinions_count": 0,
-      "donor_count": 69,
-      "progress_percentage": 68,
-      "incomplete_need_count": 1,
-      "completed_need_count": 2,
-      "blog_post_count": 15,
+      "donor_count": 71,
+      "progress_percentage": 95,
+      "incomplete_need_count": 2,
+      "completed_need_count": 4,
+      "blog_post_count": 18,
       "contact": {
         "name": "A. Jahn",
         "picture": {
+          "fallback": true,
           "links": [
             {
               "rel": "fill_100x100",
@@ -711,6 +607,7 @@ set for organisations.
       "carrier": {
         "name": "Loki Schmidt Stiftung",
         "picture": {
+          "fallback": true,
           "links": [
             {
               "rel": "fill_100x100",
@@ -730,6 +627,7 @@ set for organisations.
         ]
       },
       "profile_picture": {
+        "fallback": true,
         "links": [
           {
             "rel": "fill_960x500",
@@ -749,38 +647,7 @@ set for organisations.
           }
         ]
       },
-      "active_matching_fund": {
-        "id": 2,
-        "created_at": "2013-10-14T13:26:19Z",
-        "updated_at": "2014-07-17T10:44:27Z",
-        "activated_at": "2013-10-21T07:54:41Z",
-        "title": "Jetzt mitmachen – OTTO verdoppelt jede Spende!",
-        "description": "<br>\r\n<br>\r\n<h3>OTTO hilft Hamburgs Stadtgrün – helfen Sie mit!</h3>\r\n \r\nGemeinsam mit der Loki Schmidt Stiftung und der Stadt Hamburg schließen wir Baumlücken in strukturschwachen Stadtteilen. Diese Lücken entstehen aufgrund von Krankheiten oder mangelnder Standfestigkeit der Straßenbäume.\r\n\r\n!{height:140px}https://download.betterplace.org/matching-funds/mf_2-otto_description-logos.png! \r\n\r\nSeit 2011 sind Hamburger Bürger aufgerufen, gemeinsam mit den beiden Partner-Organisationen für neue Bäume zu spenden.\r\n \r\nBereits in diesem Jahr hat OTTO das Projekt unterstützt und mit 25.000 Euro 50 Baumlücken in Gebieten geschlossen, in denen weniger gespendet wird – nämlich in Mümmelmannsberg, Nettelnburg, Steinbek, Steilshoop und Willhelmsburg!\r\n \r\nNun wollen wir noch einmal bis zu 60 weitere Bäume pflanzen – und zwar gemeinsam mit Ihnen!\r\n \r\n<h3>Das funktioniert folgendermaßen:</h3>\r\n1.         Sie spenden einen beliebig hohen Betrag auf betterplace.org.\r\n2.         OTTO verdoppelt Ihren Betrag!\r\n3.         Sobald durch Sie und OTTO 500 Euro zusammengekommen sind, legt die Stadt Hamburg die restlichen 500 Euro drauf, die für eine Pflanzung notwendig sind.\r\n4.         Ein Baum wird gepflanzt – Hamburg wird grüner!\r\n \r\nIhr Engagement zählt – und OTTO honoriert das mit dieser Verdopplungsaktion bis zu einem Maximalbetrag von 15.000 Euro! Helfen Sie jetzt hier mit!",
-        "company_name": "OTTO",
-        "client_id": null,
-        "provided_amount_in_cents": 1500000,
-        "donated_amount_in_cents": 511500,
-        "state": "activated",
-        "logo_url": null,
-        "links": [
-          {
-            "rel": "self",
-            "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
-          },
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/en/matching-funds/2-otto"
-          },
-          {
-            "rel": "projects",
-            "href": "https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json"
-          },
-          {
-            "rel": "documentation",
-            "href": "https://github.com/betterplace/betterplace_apidocs/blob/master/sections/matching_fund_details.md"
-          }
-        ]
-      },
+      "active_matching_fund": null,
       "links": [
         {
           "rel": "self",
@@ -805,10 +672,6 @@ set for organisations.
         {
           "rel": "blog_posts",
           "href": "https://api.betterplace.org/en/api_v4/projects/14784/blog_posts.json"
-        },
-        {
-          "rel": "active_matching_fund",
-          "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
         },
         {
           "rel": "matching_funds",
@@ -1034,7 +897,11 @@ donation needs. This percentage includes those needs.
       <td>An organisation, Users will be added later</td>
     </tr>
     <tr>
-      <th align="left">profile_picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="profile_picture-ref" href="#profile_picture">
+            ↓profile_picture
+          </a>
+        </th>
       <td>null &#124; object</td>
       <td></td>
       <td>TODO</td>
@@ -1070,10 +937,30 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
-      <th align="left">contact.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="contact.picture-ref" href="#contact.picture">
+            ↓contact.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+### <a name="contact.picture" href="#contact.picture-ref">↑Nested Attributes: contact.picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
@@ -1092,10 +979,46 @@ like "Payback User" or empty/null for anonymous donations.
       <td>The carrier can be an organisation or user.</td>
     </tr>
     <tr>
-      <th align="left">carrier.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="carrier.picture-ref" href="#carrier.picture">
+            ↓carrier.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>The organisation logo, user profile picture or a fallback image</td>
+    </tr>
+  </table>
+### <a name="carrier.picture" href="#carrier.picture-ref">↑Nested Attributes: carrier.picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">carrier.picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
+    </tr>
+  </table>
+### <a name="profile_picture" href="#profile_picture-ref">↑Nested Attributes: profile_picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
 ### <a name="active_matching_fund" href="#active_matching_fund-ref">↑Nested Attributes: active_matching_fund</a>
@@ -1320,181 +1243,16 @@ set for organisations.
 
 ```json
 {
-  "total_entries": 2,
+  "total_entries": 1,
   "offset": 0,
   "total_pages": 1,
   "current_page": 1,
   "per_page": 2,
   "data": [
     {
-      "id": 1114,
-      "created_at": "2009-03-10T10:12:16Z",
-      "updated_at": "2014-08-05T08:17:52Z",
-      "latitude": 34.531617284782,
-      "longitude": 69.13581752939456,
-      "street": "Taimani, behind Qasemi Winhouse",
-      "zip": "",
-      "city": "Kabul",
-      "country": "Afghanistan",
-      "completed_at": null,
-      "title": "Skateistan Afghanistan",
-      "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important.<br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
-      "tax_deductible": true,
-      "donations_prohibited": false,
-      "open_amount_in_cents": 138445,
-      "positive_opinions_count": 652,
-      "negative_opinions_count": 0,
-      "donor_count": 520,
-      "progress_percentage": 96,
-      "incomplete_need_count": 1,
-      "completed_need_count": 80,
-      "blog_post_count": 84,
-      "contact": {
-        "name": "E. Kinast",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/fill_100x100_original_Picture_023.jpg"
-            },
-            {
-              "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/crop_original_original_Picture_023.jpg"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/erika_k2"
-          },
-          {
-            "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/130618/contact_data.json"
-          }
-        ]
-      },
-      "carrier": {
-        "name": "Skateistan",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/fill_100x100_original_betterplace-logo.png"
-            },
-            {
-              "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/crop_original_original_betterplace-logo.png"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "self",
-            "href": "https://api.betterplace.org/en/api_v4/organisations/1054.json"
-          }
-        ]
-      },
-      "profile_picture": {
-        "links": [
-          {
-            "rel": "fill_960x500",
-            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_960x500_original_girls-merza-sm.jpg"
-          },
-          {
-            "rel": "fill_618x322",
-            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_618x322_original_girls-merza-sm.jpg"
-          },
-          {
-            "rel": "fill_270x141",
-            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_270x141_original_girls-merza-sm.jpg"
-          },
-          {
-            "rel": "original",
-            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/crop_original_original_girls-merza-sm.jpg"
-          }
-        ]
-      },
-      "active_matching_fund": {
-        "id": 2,
-        "created_at": "2013-10-14T13:26:19Z",
-        "updated_at": "2014-07-17T10:44:27Z",
-        "activated_at": "2013-10-21T07:54:41Z",
-        "title": "Jetzt mitmachen – OTTO verdoppelt jede Spende!",
-        "description": "<br>\r\n<br>\r\n<h3>OTTO hilft Hamburgs Stadtgrün – helfen Sie mit!</h3>\r\n \r\nGemeinsam mit der Loki Schmidt Stiftung und der Stadt Hamburg schließen wir Baumlücken in strukturschwachen Stadtteilen. Diese Lücken entstehen aufgrund von Krankheiten oder mangelnder Standfestigkeit der Straßenbäume.\r\n\r\n!{height:140px}https://download.betterplace.org/matching-funds/mf_2-otto_description-logos.png! \r\n\r\nSeit 2011 sind Hamburger Bürger aufgerufen, gemeinsam mit den beiden Partner-Organisationen für neue Bäume zu spenden.\r\n \r\nBereits in diesem Jahr hat OTTO das Projekt unterstützt und mit 25.000 Euro 50 Baumlücken in Gebieten geschlossen, in denen weniger gespendet wird – nämlich in Mümmelmannsberg, Nettelnburg, Steinbek, Steilshoop und Willhelmsburg!\r\n \r\nNun wollen wir noch einmal bis zu 60 weitere Bäume pflanzen – und zwar gemeinsam mit Ihnen!\r\n \r\n<h3>Das funktioniert folgendermaßen:</h3>\r\n1.         Sie spenden einen beliebig hohen Betrag auf betterplace.org.\r\n2.         OTTO verdoppelt Ihren Betrag!\r\n3.         Sobald durch Sie und OTTO 500 Euro zusammengekommen sind, legt die Stadt Hamburg die restlichen 500 Euro drauf, die für eine Pflanzung notwendig sind.\r\n4.         Ein Baum wird gepflanzt – Hamburg wird grüner!\r\n \r\nIhr Engagement zählt – und OTTO honoriert das mit dieser Verdopplungsaktion bis zu einem Maximalbetrag von 15.000 Euro! Helfen Sie jetzt hier mit!",
-        "company_name": "OTTO",
-        "client_id": null,
-        "provided_amount_in_cents": 1500000,
-        "donated_amount_in_cents": 511500,
-        "state": "activated",
-        "logo_url": null,
-        "links": [
-          {
-            "rel": "self",
-            "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
-          },
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/en/matching-funds/2-otto"
-          },
-          {
-            "rel": "projects",
-            "href": "https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json"
-          },
-          {
-            "rel": "documentation",
-            "href": "https://github.com/betterplace/betterplace_apidocs/blob/master/sections/matching_fund_details.md"
-          }
-        ]
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
-        },
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan"
-        },
-        {
-          "rel": "opinions",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions.json"
-        },
-        {
-          "rel": "pictures",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures.json"
-        },
-        {
-          "rel": "needs",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs.json"
-        },
-        {
-          "rel": "blog_posts",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json"
-        },
-        {
-          "rel": "active_matching_fund",
-          "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
-        },
-        {
-          "rel": "matching_funds",
-          "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=1114"
-        },
-        {
-          "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D",
-          "templated": true
-        },
-        {
-          "rel": "new_donation",
-          "href": "https://www.betterplace.org/en/projects/1114/donations/new"
-        }
-      ]
-    },
-    {
       "id": 14784,
-      "created_at": "2013-09-23T14:29:10Z",
-      "updated_at": "2014-08-05T16:02:56Z",
+      "created_at": "2013-09-23T16:29:10+02:00",
+      "updated_at": "2014-12-09T09:01:30+01:00",
       "latitude": 53.55808469999999,
       "longitude": 10.01197890000003,
       "street": "",
@@ -1503,20 +1261,21 @@ set for organisations.
       "country": "Germany",
       "completed_at": null,
       "title": "Mein Baum – Meine Stadt",
-      "description": "Machen Sie Hamburg grüner und schließen Sie Baumlücken mit der Stadt, der Loki Schmidt Stiftung – und mit OTTO!<br />Jedes Jahr müssen Bäume wegen Krankheit oder mangelnder Standfestigkeit gefällt werden. Meist blieb in der Vergangenheit an dieser Stelle eine Lücke.<br /><br />Ein solcher Straßenbaum kostet 1000 Euro – diese Summe schließt den Baum selbst ein (speziell für die Stadt fit gemacht in der Baumschule), die Prüfung des Standorts (Kampfmittel), das Pflanzen (Grube und Stützen) und die Pflege (für drei Jahre). Mit der Aktion „Mein Baum – Meine Stadt“ sollen möglichst alle Lücken in den Reihen von Hamburgs  Straßenbäumen geschlossen werden. Im Rahmen der Aktionen zur „Umwelthauptstadt Europas 2011“ stellte der Hamburger Senat über zwei Millionen Euro zur Verfügung, um passend zur Jahreszahl exakt 2011 Bäume zu pflanzen. Außerdem waren alle Hamburger aufgerufen, sich mit einer Spende an der Kampagne zu beteiligen.<br /><br />Durch Spenden und jährlich eine halbe Million Euro von Seiten des Senats sind seitdem bereits mehr als 3000 Bäume nachgepflanzt worden.<br /><br />Und die Erfolgsstory von „Mein Baum – Meine Stadt“ geht auch 2013 weiter. Pflanzen Sie mit! <br /><br />Jeder Euro zählt. Sie können sich mit Ihrer Familie, mit Freunden, Verwandten und Bekannten, mit Nachbarn, Kollegen, Sportsfreunden, Vereinsmitgliedern und wem auch immer zu Spendengemeinschaften zusammenschließen. Sobald eine Spendensumme von 500 Euro für einen bestimmten Baum zusammenkommt, garantiert die Stadt Hamburg die Pflanzung und legt die fehlenden 500 Euro obendrauf.<br /><br />Und OTTO unterstützt Ihr Engagement für die Umwelt hier auf betterplace.org zusätzlich. Sofern Sie spenden, wird OTTO diesen Betrag verdoppeln, egal in welcher Höhe – bis zu einem Maximalbetrag von 15.000 Euro. Ziel ist es, die Baumlücken gemeinsam noch schneller zu schließen. <br />Durch OTTOs Spende von 25.000 Euro konnten bereits 50 Bäume in strukturschwachen Stadtteilen Hamburgs gepflanzt werden – die Stadt hat die gleiche Summe dazugelegt. <br /><br />Jetzt verdoppelt das Hamburger Traditionsunternehmen Ihre Spenden noch einmal. So könnten weitere Bäume gepflanzt werden. Helfen Sie mit!",
+      "description": "Wir schließen Hamburgs Baumlücken – helfen Sie mit!<br /><br />Gemeinsam mit der Loki Schmidt Stiftung und der Stadt Hamburg können Sie Baumlücken in strukturschwachen Stadtteilen schließen. Diese Lücken entstehen, wenn aufgrund von Krankheiten oder mangelnder Standfestigkeit Straßenbäume gefällt werden müssen.<br /><br />Seit 2011 sind Hamburger Bürger aufgerufen, gemeinsam mit den beiden Partner-Organisationen für neue Bäume zu spenden.<br />Bisher konnten bereits mehr als 3.500 Baumlücken geschlossen werden. Spenden über dieses Portal werden gezielt in Gebieten eingesetzt, in denen ansonsten weniger gespendet wird – z.B. in Mümmelmannsberg, Nettelnburg, Steilshoop, Veddel und Willhelmsburg!<br />Nun wollen wir weitere Bäume pflanzen – und zwar gemeinsam mit Ihnen!<br /><br />Das funktioniert folgendermaßen:<br />1. Sie spenden einen beliebig hohen Betrag auf betterplace.org.<br />2. Sobald durch Sie 500 Euro zusammengekommen sind, legt die Stadt Hamburg die restlichen mindestens 500 Euro drauf, die für eine Pflanzung notwendig sind.<br />3. Ein Baum wird gepflanzt – Hamburg wird grüner!<br /><br />Ihr Engagement zählt! Helfen Sie jetzt hier mit!",
       "tax_deductible": true,
       "donations_prohibited": false,
-      "open_amount_in_cents": 477000,
-      "positive_opinions_count": 78,
+      "open_amount_in_cents": 97000,
+      "positive_opinions_count": 82,
       "negative_opinions_count": 0,
-      "donor_count": 69,
-      "progress_percentage": 68,
-      "incomplete_need_count": 1,
-      "completed_need_count": 2,
-      "blog_post_count": 15,
+      "donor_count": 71,
+      "progress_percentage": 95,
+      "incomplete_need_count": 2,
+      "completed_need_count": 4,
+      "blog_post_count": 18,
       "contact": {
         "name": "A. Jahn",
         "picture": {
+          "fallback": true,
           "links": [
             {
               "rel": "fill_100x100",
@@ -1542,6 +1301,7 @@ set for organisations.
       "carrier": {
         "name": "Loki Schmidt Stiftung",
         "picture": {
+          "fallback": true,
           "links": [
             {
               "rel": "fill_100x100",
@@ -1561,6 +1321,7 @@ set for organisations.
         ]
       },
       "profile_picture": {
+        "fallback": true,
         "links": [
           {
             "rel": "fill_960x500",
@@ -1580,38 +1341,7 @@ set for organisations.
           }
         ]
       },
-      "active_matching_fund": {
-        "id": 2,
-        "created_at": "2013-10-14T13:26:19Z",
-        "updated_at": "2014-07-17T10:44:27Z",
-        "activated_at": "2013-10-21T07:54:41Z",
-        "title": "Jetzt mitmachen – OTTO verdoppelt jede Spende!",
-        "description": "<br>\r\n<br>\r\n<h3>OTTO hilft Hamburgs Stadtgrün – helfen Sie mit!</h3>\r\n \r\nGemeinsam mit der Loki Schmidt Stiftung und der Stadt Hamburg schließen wir Baumlücken in strukturschwachen Stadtteilen. Diese Lücken entstehen aufgrund von Krankheiten oder mangelnder Standfestigkeit der Straßenbäume.\r\n\r\n!{height:140px}https://download.betterplace.org/matching-funds/mf_2-otto_description-logos.png! \r\n\r\nSeit 2011 sind Hamburger Bürger aufgerufen, gemeinsam mit den beiden Partner-Organisationen für neue Bäume zu spenden.\r\n \r\nBereits in diesem Jahr hat OTTO das Projekt unterstützt und mit 25.000 Euro 50 Baumlücken in Gebieten geschlossen, in denen weniger gespendet wird – nämlich in Mümmelmannsberg, Nettelnburg, Steinbek, Steilshoop und Willhelmsburg!\r\n \r\nNun wollen wir noch einmal bis zu 60 weitere Bäume pflanzen – und zwar gemeinsam mit Ihnen!\r\n \r\n<h3>Das funktioniert folgendermaßen:</h3>\r\n1.         Sie spenden einen beliebig hohen Betrag auf betterplace.org.\r\n2.         OTTO verdoppelt Ihren Betrag!\r\n3.         Sobald durch Sie und OTTO 500 Euro zusammengekommen sind, legt die Stadt Hamburg die restlichen 500 Euro drauf, die für eine Pflanzung notwendig sind.\r\n4.         Ein Baum wird gepflanzt – Hamburg wird grüner!\r\n \r\nIhr Engagement zählt – und OTTO honoriert das mit dieser Verdopplungsaktion bis zu einem Maximalbetrag von 15.000 Euro! Helfen Sie jetzt hier mit!",
-        "company_name": "OTTO",
-        "client_id": null,
-        "provided_amount_in_cents": 1500000,
-        "donated_amount_in_cents": 511500,
-        "state": "activated",
-        "logo_url": null,
-        "links": [
-          {
-            "rel": "self",
-            "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
-          },
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/en/matching-funds/2-otto"
-          },
-          {
-            "rel": "projects",
-            "href": "https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json"
-          },
-          {
-            "rel": "documentation",
-            "href": "https://github.com/betterplace/betterplace_apidocs/blob/master/sections/matching_fund_details.md"
-          }
-        ]
-      },
+      "active_matching_fund": null,
       "links": [
         {
           "rel": "self",
@@ -1636,10 +1366,6 @@ set for organisations.
         {
           "rel": "blog_posts",
           "href": "https://api.betterplace.org/en/api_v4/projects/14784/blog_posts.json"
-        },
-        {
-          "rel": "active_matching_fund",
-          "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
         },
         {
           "rel": "matching_funds",

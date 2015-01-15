@@ -285,10 +285,30 @@ No validations on input apply.
 </td>
     </tr>
     <tr>
-      <th align="left">contact.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="contact.picture-ref" href="#contact.picture">
+            ↓contact.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+### <a name="contact.picture" href="#contact.picture-ref">↑Nested Attributes: contact.picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
 ### <a name="import_information" href="#import_information-ref">↑Nested Attributes: import_information</a>
@@ -400,20 +420,20 @@ betterplace.
 ```json
 {
   "id": 23,
-  "created_at": "2013-01-28T09:23:17Z",
-  "updated_at": "2014-05-08T23:30:39Z",
-  "latitude": 51.3171,
-  "longitude": 9.49561,
-  "street": null,
-  "zip": null,
-  "city": null,
-  "country": null,
+  "created_at": "2013-01-28T10:23:17+01:00",
+  "updated_at": "2014-08-23T01:30:34+02:00",
+  "latitude": 51.3348,
+  "longitude": 9.49321,
+  "street": "Holländische Strasse 141",
+  "zip": "34128",
+  "city": "Kassel",
+  "country": "Germany",
   "title": "Essensausgabe/Fahrdienst",
-  "description": "<p>Die Kasseler Tafel e.V. sammelt qualitativ einwandfreie Lebensmittel, die kurz vor dem Mindesthaltbarkeitsdatum stehen, bei Firmen in der Region ein und verteilt diese gegen einen symbolischen Betrag an bedürftige Mitbürgerinnen und Mitbürger.</p>\n<p>Freiwillige können sich in folgenden Bereichen bei der Kasseler Tafel betätigen:</p>\n<p>1. Lebensmittel sortieren und ausgeben</p>\n<p>2. als Fahrer: Abholung der Lebensmittel bei den Supermärkten</p>\n\n<p>Mehr Informationen finden Sie unter: http://kasseler-tafel.de/</p>\n<p>Wir freuen uns über Ihr Interesse! </p><ul><li>Unfallversicherung</li><li>Haftpflichtversicherung</li><li>Anleitung durch Fachkräfte</li><li>Tätigkeitsnachweise</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li></ul>",
+  "description": "<p>Die Kasseler Tafel e.V. sammelt qualitativ einwandfreie Lebensmittel, die kurz vor dem Mindesthaltbarkeitsdatum stehen, bei Firmen in der Region ein und verteilt diese gegen einen symbolischen Betrag an bedürftige Mitbürgerinnen und Mitbürger.</p>\n\n<p>Freiwillige können sich in folgenden Bereichen bei der Kasseler Tafel betätigen:</p>\n\n<p>1. Lebensmittel sortieren und ausgeben</p>\n\n<p>2. als Fahrer: Abholung der Lebensmittel bei den Supermärkten</p>\n\n\n\n<p>Mehr Informationen finden Sie unter: http://kasseler-tafel.de/</p>\n\n<p>Wir freuen uns über Ihr Interesse! </p><ul><li>Unfallversicherung</li><li>Haftpflichtversicherung</li><li>Anleitung durch Fachkräfte</li><li>Tätigkeitsnachweise</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li></ul>",
   "carrier": {
     "latitude": 51.3171,
     "longitude": 9.49561,
-    "name": "FreiwilligenZentrum Kassel",
+    "name": "Freiwilligenzentrum",
     "street": "Spohrstraße 5",
     "city": "Kassel",
     "zip": "34117",
@@ -472,11 +492,11 @@ betterplace.
   ],
   "imported_from": "aktion_mensch",
   "import_information": {
-    "created_at": "2013-03-15T00:00:00Z",
-    "updated_at": "2014-05-05T00:00:00Z",
+    "created_at": "2013-03-15T01:00:00+01:00",
+    "updated_at": "2014-08-19T02:00:00+02:00",
     "import_type": "Bettertime::AktionMensch::Import",
     "import_id": "fn-471",
-    "imported_at": "2014-05-08T23:30:39Z",
+    "imported_at": "2014-08-23T01:30:34+02:00",
     "links": [
 
     ]

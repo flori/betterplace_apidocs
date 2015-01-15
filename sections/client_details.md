@@ -44,8 +44,13 @@ Some client-statistics for a betterplace.org client. All results are cached for 
       <td>10100</td>
       <td>How many cents are donated already to all client projects. 
 Calculation based on open_amount_in_cents and requested_amount_in_cents.
+
 Therefore it includes the money of the client-pool-fundraising-event
 that still has to be forwarded to one of the client-projects-needs.
+It also includes external donations that project manager can add to projects.
+
+Remember: This includes all donations to projects of this client even those
+that are donated via betterplace.org or other channels.
 </td>
     </tr>
     <tr>
@@ -147,14 +152,14 @@ This calculation is based on the sum of all
 
 ```json
 {
-  "donated_amount_in_cents": 123206984,
-  "pool_balance_in_cents": 5031447,
-  "open_amount_in_cents": 19176661,
-  "requested_amount_in_cents": 142383645,
-  "projects_count": 293,
-  "client_donated_amount_in_cents": 92179629,
+  "donated_amount_in_cents": 139058502,
+  "pool_balance_in_cents": 7467672,
+  "open_amount_in_cents": 23775343,
+  "requested_amount_in_cents": 162833845,
+  "projects_count": 307,
+  "client_donated_amount_in_cents": 103529054,
   "client_matched_amount_in_cents": 0,
-  "client_donations_count": 9807,
+  "client_donations_count": 11003,
   "links": [
     {
       "rel": "projects",

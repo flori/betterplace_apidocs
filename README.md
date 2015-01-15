@@ -12,8 +12,10 @@ Please don't hesitate to provide any feedback about the API and this documentati
 at developers@betterplace.org.
 
 #### Mailing list for service announcements
-Please send an email to tjo@betterplace.org to subscribe to the api-v4-mailing list to receive service announcements
+Please send an email to tjo@betterplace.org to
+subscribe to the api-v4-mailing list to receive service announcements
 about updates and scheduled downtimes.
+
 
 ## Table of content
 
@@ -21,7 +23,7 @@ about updates and scheduled downtimes.
 
 * General information [↓ below](#general-information)
 * HTTP Result Codes and Error Messages [↓ below](#http-result-codes-and-error-messages)
-* Changelog [↓ below](#changelog)
+* [Changelog](CHANGELOG.md)
 * Known issues [↓ below](#known-issues)
 * Code examples [↓ below](#code-examples)
 * Example apps [↓ below](#example-apps)
@@ -42,9 +44,10 @@ about updates and scheduled downtimes.
 * [**MatchingFunds** List](sections/matching_funds_list.md)
 * [**MatchingFund** Details](sections/matching_fund_details.md)
 * [**MatchingFund** Projects List](sections/matching_fund_projects_list.md)
-* TODO [**User** Details](sections/user_details.md)
-* TODO [**Fundraising Events** List and Search](sections/fundraising_events_list.md)
-* TODO [**Fundraising Event** Details](sections/fundraising_event_details.md)
+* [**Fundraising Challenge** Contest Details](sections/fundraising_challenge_contest_details.md)
+* [**Fundraising Challenge** Contest Results List](sections/fundraising_challenge_contest_results_list.md)
+
+*Missing in the API:* User, Fundraising Event, Companies, Portals are not part of the API at this moment.
 
 
 ### Organisations
@@ -55,7 +58,7 @@ about updates and scheduled downtimes.
 ### Client API
 
 This part of the API can only be used in agreement with betterplace.org.
-Please [contact someone at betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung)
+Please [contact Tim at betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung)
 for more information.
 
 * [**Client** Details/Statistics](sections/client_details.md)
@@ -64,15 +67,15 @@ for more information.
 * [**Client** Project Details](sections/project_details.md) – See client section and ⁂1
 * [**Client** Blog Posts List](sections/blog_posts_list.md) – See client section
 * [**Client** Project Opinions List](sections/opinions_list.md) – See client section
-* [**Client** Project-Tags List](sections/client_project_tags_list.md) – See client section
-* [**Client** Tags List](sections/client_tags_list.md) – See client section
-* [**Client** Contact Data Details](sections/contact_data_details.md) – See client section
+* [**Client** Tags List](sections/client_tags_list.md)
+* [**Client**-Project Tags List](sections/client_project_tags_list.md)
+* [**Client** Contact Data Details](sections/contact_data_details.md)
 
 *(⁂1) Client projects:* Clients projects are projects on betterplace.org that are
 associated with a client-user. This way clients can control what projects
 are visible on their plattform.
 
-*Additional filters:* Some URLs are especially scoped for clients. For example `/clients/example/projects.json`
+*Additional filters:* Some URLs have a special scope for clients. For example `/clients/example/projects.json`
 will only show projects of the example-client and `/clients/example/tags/rainforest/projects`
 will only show projects of the example-client and tagged with "rainforest".
 
@@ -224,41 +227,33 @@ The following HTTP result codes can be returned:
 * HTTP Code `403` is returned if a resource requires [client authentication](#client-authentication) but no client was authenticated.
 
 
-## Changelog
-* 2014-03-04: Remove all deprecated picture links from responses.
-* 2014-01-26: Remove the beta-flag; add matching-fund api; add code and usage examples; minor improvements
-* 2013-06-20: Add client.pool_balance_in_cents property, see doc for details
-* 2013-06-14: Add platform-link to blog_posts-details
-* 2013-05-15: Opinions have a link to the project now. All API-link are "api.betterplace.org" now (not www. anymore). Opinions have have a facets=has_message-Feature now.
-* 2013-04-19: Change the naming of api-docu-files to follow rails-pluralization-convention.
-* 2013-04-19: Added 'client project-tag list' (a list of all project-tags for a client) and 'client project-tag projects list' (a list of all projects for a client-project-tag).
-* 2013-04-18: Fixed project opinions. Add client opinions-feature. Note that many of the opinions-facets changed! Please re-read this part of the documentation.
-* 2013-04-17: Add project pictures API. Please note the DEPRICATION warning for the project- and volunteering-profilepicture (sizes large, profile and thumb are deprecated and therefore renamed.)
-* 2012-04-15: Add "Client Project-Tag Project List".
-* 2012-03-03: Add picture size 'large' and 'original' to image list for projects. Please note that the images-part of the API ist still beta and might change slightly in the future.
-* 2012-03-28: The project-list now returns the full result-set for each project. The minimal result set is gone for now but will be added later. The default-number of results changed to 20 for all lists.
-* 2012-05~15: Add known issues, improve documentation, remove opinion.with_donation, add opinion.donated_amount_in_cents, project.description returns html now
-* 2012-03-13: Update TOC, fix opinions-details and -list response, fix empty documentation (@tordans)
-* 2012-03-12: Several updates to readme, updates to descriptions for clients, updated opinions-docu, added know-issues and changelog sections (@tordans)
-* 2012-03-11: Initial version (@betterplace)
-
-
 ## Known issues
 
 Please contact developers@betterplace.org for more information
 
-1. Documentation: Not all resources have a documentation-url as part of the json
-1. Documentation: The response-table does not show the root-documentation for response-elements with sub-elements (for example carrier.name is documented but carrier is not)
-1. Blogposts: There is no way yet to filter BlogPosts from PayoutBlogPost
+* Documentation: Not all resources have a documentation-url as part of the json
+* Documentation: The response-table does not show the root-documentation for response-elements with sub-elements (for example carrier.name is documented but carrier is not)
+* Blogposts: There is no way yet to filter BlogPosts from PayoutBlogPost
 
 
-## Code examples
+## Using the API
 
-* Using the API with PHP: https://gist.github.com/svjv1160/7749784
+### API Client Libraries
+
+While we currently officially do not offer any client api libraries [Duilio Ruggiero](https://github.com/sinetris) implemented the prototypical
+ruby client [bettery](https://github.com/sinetris/bettery).
+
+We would love to hear from you if you plan to use/extend bettery or implement your own client and publish the code.
+
+
+### Code examples
+
+* [Using the API with PHP](https://gist.github.com/svjv1160/7749784)
+* [WordPress Plugin by freifunk](https://github.com/freifunk/www.freifunk.net/tree/master/wp-plugins/betterplace-project-table) which [shows the freifunk projects as a table](http://spenden.freifunk.net)
 * _Please send us your code examples to developers@betterplace.org_
 
 
-## Example apps
+### Example apps
 
 * The "Deutsch Tansanianische Partnerschaft" uses this API to present their betterplace.org projects right on their website: [Project list](http://www.dtpev.de/unterstuetzen/projekte), [Project details](http://www.dtpev.de/unterstuetzen/projekte/one-child-one-light)
 * _Please send us your sites to developers@betterplace.org_
@@ -276,3 +271,8 @@ Learn more about betterplace at http://www.betterplace.org/de/how_it_works
 ## License of this documentation
 
 See the [license file](LICENSE).
+
+## Shareable URL
+
+Share this docs with your friends and family:
+[api-docs.betterplace.org](https://api-docs.betterplace.org)

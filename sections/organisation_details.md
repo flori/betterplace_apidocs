@@ -136,7 +136,11 @@ If so, Users can request a tax-receipt for donations to that organisation.
       <td>The public contact person for this organisation.</td>
     </tr>
     <tr>
-      <th align="left">picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="picture-ref" href="#picture">
+            ↓picture
+          </a>
+        </th>
       <td>null &#124; object</td>
       <td></td>
       <td>TODO</td>
@@ -162,10 +166,46 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
-      <th align="left">contact.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="contact.picture-ref" href="#contact.picture">
+            ↓contact.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+### <a name="contact.picture" href="#contact.picture-ref">↑Nested Attributes: contact.picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
+    </tr>
+  </table>
+### <a name="picture" href="#picture-ref">↑Nested Attributes: picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
 </table>
@@ -243,8 +283,8 @@ access rights in order to see this information.
 ```json
 {
   "id": 125,
-  "created_at": "2008-02-06T16:10:42Z",
-  "updated_at": "2014-08-06T18:12:08Z",
+  "created_at": "2008-02-06T17:10:42+01:00",
+  "updated_at": "2015-01-13T14:16:08+01:00",
   "latitude": 53.55759811401367,
   "longitude": 9.96815967559815,
   "street": "Neuer Kamp 32",
@@ -256,31 +296,33 @@ access rights in order to see this information.
   "description": "Viva con Agua de Sankt Pauli e.V. is a leading German charity dedicated to fighting global poverty by helping the world’s poorest people gain access to clean water, basic sanitation and hygiene education, and encourages people from around the world to lend support.",
   "tax_deductible": true,
   "contact": {
-    "name": "C. Wiebe",
+    "name": "C. Gersdorf",
     "picture": {
+      "fallback": true,
       "links": [
         {
           "rel": "fill_100x100",
-          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/001/399/fill_100x100_original_Fidel.jpg"
+          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/399/690/fill_100x100_Felix-Rachor_mi.jpg"
         },
         {
           "rel": "original",
-          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/001/399/crop_original_original_Fidel.jpg"
+          "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/399/690/crop_original_Felix-Rachor_mi.jpg"
         }
       ]
     },
     "links": [
       {
         "rel": "platform",
-        "href": "https://www.betterplace.org/en/users/christian_w"
+        "href": "https://www.betterplace.org/en/users/claudia_g28"
       },
       {
         "rel": "contact_data",
-        "href": "https://api.betterplace.org/en/api_v4/users/1399/contact_data.json"
+        "href": "https://api.betterplace.org/en/api_v4/users/399690/contact_data.json"
       }
     ]
   },
   "picture": {
+    "fallback": true,
     "links": [
       {
         "rel": "fill_100x100",

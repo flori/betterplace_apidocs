@@ -77,6 +77,13 @@ we might add a "revoked" state in the future.
 </td>
     </tr>
     <tr>
+      <th align="left">token</th>
+      <td>string</td>
+      <td>ofMmTgfiPL-n1dDlNmFWqTQN</td>
+      <td>A token uniquely identifies a donation on the platform.
+</td>
+    </tr>
+    <tr>
       <th align="left">client_reference</th>
       <td>string</td>
       <td>922ec9b-etc</td>
@@ -143,17 +150,18 @@ that is associated with this donation.
 
 ```json
 {
-  "total_entries": 9807,
+  "total_entries": 11003,
   "offset": 0,
-  "total_pages": 3269,
+  "total_pages": 3668,
   "current_page": 1,
   "per_page": 3,
   "data": [
     {
       "amount_in_cents": 1000,
       "state": "confirmed",
+      "token": "328db52eb745be52f3b5aaf0",
       "client_reference": null,
-      "created_at": "2010-10-28T12:44:49Z",
+      "created_at": "2010-10-28T14:44:49+02:00",
       "receiver_type": "Project",
       "receiver_id": 4807,
       "receiver_title": "Kleinbus für den Palais e.V. Trier",
@@ -171,8 +179,9 @@ that is associated with this donation.
     {
       "amount_in_cents": 100,
       "state": "confirmed",
+      "token": "7d775febc93584375ab07136",
       "client_reference": null,
-      "created_at": "2010-10-28T15:48:16Z",
+      "created_at": "2010-10-28T17:48:16+02:00",
       "receiver_type": "Project",
       "receiver_id": 4798,
       "receiver_title": "Hilfe für Jugendliche mit krebskranken Eltern",
@@ -190,8 +199,9 @@ that is associated with this donation.
     {
       "amount_in_cents": 400,
       "state": "confirmed",
+      "token": "86be4452d4afb0f2d56f0add",
       "client_reference": null,
-      "created_at": "2010-10-29T07:46:25Z",
+      "created_at": "2010-10-29T09:46:25+02:00",
       "receiver_type": "Project",
       "receiver_id": 4798,
       "receiver_title": "Hilfe für Jugendliche mit krebskranken Eltern",

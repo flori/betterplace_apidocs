@@ -143,10 +143,30 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
-      <th align="left">author.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="author.picture-ref" href="#author.picture">
+            ↓author.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+### <a name="author.picture" href="#author.picture-ref">↑Nested Attributes: author.picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">author.picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
 </table>
@@ -200,48 +220,23 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 651,
+  "total_entries": 666,
   "offset": 0,
-  "total_pages": 217,
+  "total_pages": 222,
   "current_page": 1,
   "per_page": 3,
   "data": [
     {
-      "id": 1572,
-      "created_at": "2009-07-22T20:23:26Z",
-      "updated_at": "2009-07-22T20:23:26Z",
-      "donated_amount_in_cents": null,
+      "id": 27940,
+      "created_at": "2009-06-28T05:15:40+02:00",
+      "updated_at": "2011-05-19T16:12:43+02:00",
       "score": "positive",
-      "author": {
-        "name": "U. Köhler",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/015/597/fill_100x100_original_Ute_SchloGraFe.sw1.jpg"
-            },
-            {
-              "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/015/597/crop_original_original_Ute_SchloGraFe.sw1.jpg"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/ute_k2"
-          },
-          {
-            "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/15597/contact_data.json"
-          }
-        ]
-      },
-      "message": "Ich bin Fürsprecherin des Projekts Skateistan, weil ich den Projektverantwortlichen Max Henninger letztes Jahr im Zuge meines Studiums kennengelernt habe und er uns über seine Arbeit in Afghanistan berichtet hat. <br />Ich bin begeistert von seiner Überzeugung, seiner Tatkraft und seinem Mut, Kindern in einem vom Krieg erschütterten Land ein bisschen Lebensfreude zu geben!",
+      "author": null,
+      "message": "",
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/1572.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/27940.json"
         },
         {
           "rel": "project",
@@ -250,41 +245,41 @@ access rights in order to see this information.
       ]
     },
     {
-      "id": 1584,
-      "created_at": "2009-07-24T13:52:27Z",
-      "updated_at": "2009-07-24T13:52:27Z",
-      "donated_amount_in_cents": null,
+      "id": 28227,
+      "created_at": "2009-07-13T12:21:02+02:00",
+      "updated_at": "2011-05-19T16:13:38+02:00",
       "score": "positive",
       "author": {
-        "name": "D. Habenicht",
+        "name": "M. Sommeregger",
         "picture": {
+          "fallback": true,
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/015/688/fill_100x100_original_Daniel1.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/012/274/fill_100x100_original_m_x1.jpg"
             },
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/015/688/crop_original_original_Daniel1.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/012/274/crop_original_original_m_x1.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/daniel_h14"
+            "href": "https://www.betterplace.org/en/users/max_s4"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/15688/contact_data.json"
+            "href": "https://api.betterplace.org/en/api_v4/users/12274/contact_data.json"
           }
         ]
       },
-      "message": "Ich verlege seit 2007 das Buch von Boris Barschow: \"Kabul, ich komme wieder\". Mittlerweile ist er zum dritten mal in Afghanistan. Da ich durch ihn ein wenig mit der Problematik des Landes vertraut wurde, habe ich auch ein Auge für andere schöne Aktionen für Frieden und Völkerverständigung. Skateistan ist eine unglaubliche Brücke zum Menschen. Die Skate-Community hat die Kraft diese Brücke zu stärken und das ich möchte tatkräftig unterstützen.<br /><br />bless<br />Daniel",
+      "message": "",
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/1584.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/28227.json"
         },
         {
           "rel": "project",
@@ -293,41 +288,41 @@ access rights in order to see this information.
       ]
     },
     {
-      "id": 5442,
-      "created_at": "2010-11-14T08:43:17Z",
-      "updated_at": "2010-11-14T08:43:17Z",
-      "donated_amount_in_cents": null,
+      "id": 28948,
+      "created_at": "2009-08-18T22:34:13+02:00",
+      "updated_at": "2011-05-19T16:15:50+02:00",
       "score": "positive",
       "author": {
-        "name": "J. S.",
+        "name": "marc l.",
         "picture": {
+          "fallback": true,
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/018/797/fill_100x100_original_profil.jpg"
+              "href": "https://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
             },
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/018/797/crop_original_original_profil.jpg"
+              "href": "https://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/joel_s"
+            "href": "https://www.betterplace.org/en/users/marc_l1"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/18797/contact_data.json"
+            "href": "https://api.betterplace.org/en/api_v4/users/13225/contact_data.json"
           }
         ]
       },
-      "message": "Wenig kann viel bewirken. Gerade Skateistan vermag mit einem sehr kleinen Budget - für Afghanistan  klein - wirklich ne Menge zu bewegen, und so das Leben von ner Menge Kids nachhaltig verändern.<br />Vor Ort durfte ich erfahren, wie effizient und hart die Jungs und Mädels von Skateistan in diesem schwierigen Umfeld arbeiten und wie mit den ihnen zur Verfügung stehenden Mitteln sorgsam gewirtschaftet wird.<br />Keep goin !!!",
+      "message": "",
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/5442.json"
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/28948.json"
         },
         {
           "rel": "project",

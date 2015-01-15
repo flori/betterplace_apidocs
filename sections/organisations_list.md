@@ -129,7 +129,11 @@ If so, Users can request a tax-receipt for donations to that organisation.
       <td>The public contact person for this organisation.</td>
     </tr>
     <tr>
-      <th align="left">picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="picture-ref" href="#picture">
+            ↓picture
+          </a>
+        </th>
       <td>null &#124; object</td>
       <td></td>
       <td>TODO</td>
@@ -155,10 +159,46 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
-      <th align="left">contact.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="contact.picture-ref" href="#contact.picture">
+            ↓contact.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+### <a name="contact.picture" href="#contact.picture-ref">↑Nested Attributes: contact.picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
+    </tr>
+  </table>
+### <a name="picture" href="#picture-ref">↑Nested Attributes: picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
 </table>
@@ -235,165 +275,169 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 9683,
+  "total_entries": 10696,
   "offset": 0,
-  "total_pages": 4842,
+  "total_pages": 5348,
   "current_page": 1,
   "per_page": 2,
   "data": [
     {
-      "id": 7816,
-      "created_at": "2011-07-05T19:25:52Z",
-      "updated_at": "2013-05-17T12:29:15Z",
-      "latitude": 50.12379837036133,
-      "longitude": 8.68529987335205,
-      "street": "Adlerflycht Str. 8",
-      "zip": "60138",
-      "city": "Frankfurt amain",
+      "id": 2449,
+      "created_at": "2009-11-28T18:12:08+01:00",
+      "updated_at": "2013-09-23T20:19:30+02:00",
+      "latitude": 51.50659942626953,
+      "longitude": 7.45382022857666,
+      "street": "Liebigstraße 5",
+      "zip": "44139",
+      "city": "Dortmund",
       "country": "Germany",
-      "slug": "---",
-      "name": "Individual and I work in close connetion with WRI",
-      "description": "I live in Germany since 2001 as a political refugee from Eritrea. But now I am German citzen.  I studied Law in Eritrea and The Netherlands. I am a candidate for a PHD in Frankfurt Universty.  \r\nI am a member of human right organization in Germany and council member of War Resisters' International since 2010. \r\nI am a co.cordinator of Eritrean Antimilitarist Initiative (EAI) in 2005.",
+      "slug": "_blank_profile_",
+      "name": "Entfernte Organisation",
+      "description": "Diese Organisation wurde auf eigenen Wunsch entfernt.",
       "tax_deductible": false,
       "contact": {
-        "name": "A. Mehreteab",
+        "name": "U. B",
         "picture": {
+          "fallback": true,
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/022/259/fill_100x100_original_new-user.gif"
             },
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.betterplace.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/022/259/crop_original_original_new-user.gif"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/abraham_m"
+            "href": "https://www.betterplace.org/en/users/_blank_profile_"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/190955/contact_data.json"
+            "href": "https://api.betterplace.org/en/api_v4/users/22259/contact_data.json"
           }
         ]
       },
       "picture": {
+        "fallback": true,
         "links": [
           {
             "rel": "fill_100x100",
-            "href": "https://asset1.betterplace.org/assets/default/square_profile_picture/fill_100x100_default.betterplace.jpg"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/002/449/fill_100x100_original_new-organisation.jpg"
           },
           {
             "rel": "fill_200x200",
-            "href": "https://asset1.betterplace.org/assets/default/square_profile_picture/fill_200x200_default.betterplace.jpg"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/002/449/fill_200x200_original_new-organisation.jpg"
           },
           {
             "rel": "fill_400x400",
-            "href": "https://asset1.betterplace.org/assets/default/square_profile_picture/fill_400x400_default.betterplace.jpg"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/002/449/fill_400x400_original_new-organisation.jpg"
           },
           {
             "rel": "original",
-            "href": "https://asset1.betterplace.org/assets/default/square_profile_picture/crop_original_default.betterplace.jpg"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/002/449/crop_original_original_new-organisation.jpg"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/organisations/7816.json"
+          "href": "https://api.betterplace.org/en/api_v4/organisations/2449.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/organisations/---"
+          "href": "https://www.betterplace.org/en/organisations/_blank_profile_"
         },
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/organisations/7816/projects.json"
+          "href": "https://api.betterplace.org/en/api_v4/organisations/2449/projects.json"
         },
         {
           "rel": "website",
-          "href": "http://-----"
+          "href": ""
         }
       ]
     },
     {
-      "id": 10120,
-      "created_at": "2012-03-12T11:00:49Z",
-      "updated_at": "2013-09-12T20:38:00Z",
-      "latitude": -0.28333330154419,
-      "longitude": 36.06666564941406,
-      "street": "Nakuru,Kenya",
-      "zip": null,
-      "city": "Nakuru",
-      "country": "Kenya",
-      "slug": "--------------------",
-      "name": "AMAZING GRACE CHILDREN HOME NAKURU,KENYA",
-      "description": null,
+      "id": 457,
+      "created_at": "2008-10-06T22:00:18+02:00",
+      "updated_at": "2013-12-03T17:48:37+01:00",
+      "latitude": -23.60400009155273,
+      "longitude": -46.43099975585938,
+      "street": "Rua Ribeiro Baião, 111",
+      "zip": "CEP: 08381",
+      "city": "São Paulo - SP",
+      "country": "Brazil",
+      "slug": "_cidadessemfome",
+      "name": "STÄDTE OHNE HUNGER - CIDADES SEM FOME",
+      "description": "CITIES WITHOUT HUNGER - Cidades sem Fome (CsF) is a non-governmental organization (NGO) which has set up sustainable agrarian projects based on organic farming. The aim is to help and teach people to manage their own business and become financially independent. Community Gardens, School Gardens and Agricultural Greenhouses have been developed on unused and neglected public and private areas within social focal points to provide jobs and improve the diets of adults and children. \r\nIn 2009 the Small Family Farms Project, the organizations fourth project, has been set up in Rio Grande do Sul, to train farmers in multiple cropping as an alternative to monoculture and help them starting new businesses in organic farming. \r\nCITIES WITHOUT HUNGER was founded in 2004 in São Paulo by Hans Dieter Temp, who has a degree in Business Administration, and is a Technician for Agriculture and Environmental Policies. In 2013 Hans Dieter Temp was selected and awarded with the title Social Entrepreneur “Changemaker” by Ashoka. \r\nCITIES WITHOUT HUNGER has received numerous national and international awards, such as the FINEP Award 2011 for Technological Innovation, Dubai International Award for Best Practices 2010 (UN-HABITAT), and AEA-Award for Environmental Responsibility in 2009. In 2012 CITIES WITHOUT HUNGER was selected by Caixa Econômica Federal for its commitment to the realization of the UN-Millennium Goals. \r\n",
       "tax_deductible": false,
       "contact": {
-        "name": "A. Children Home",
+        "name": "H. Temp",
         "picture": {
+          "fallback": true,
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/249/795/fill_100x100_original_alim3111.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/004/326/fill_100x100_original_CsF_Team_Hans_Dieter_Temp.jpg"
             },
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/249/795/crop_original_original_alim3111.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/004/326/crop_original_original_CsF_Team_Hans_Dieter_Temp.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/amazing_c"
+            "href": "https://www.betterplace.org/en/users/hans_t"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/249795/contact_data.json"
+            "href": "https://api.betterplace.org/en/api_v4/users/4326/contact_data.json"
           }
         ]
       },
       "picture": {
+        "fallback": true,
         "links": [
           {
             "rel": "fill_100x100",
-            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_100x100_profile_thumb_ALIM5576.png"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/457/fill_100x100_original_Logotipo_-_Cidades_Sem_Fome__1_.jpg"
           },
           {
             "rel": "fill_200x200",
-            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_200x200_profile_thumb_ALIM5576.png"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/457/fill_200x200_original_Logotipo_-_Cidades_Sem_Fome__1_.jpg"
           },
           {
             "rel": "fill_400x400",
-            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/fill_400x400_profile_thumb_ALIM5576.png"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/457/fill_400x400_original_Logotipo_-_Cidades_Sem_Fome__1_.jpg"
           },
           {
             "rel": "original",
-            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/010/120/crop_original_profile_thumb_ALIM5576.png"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/457/crop_original_original_Logotipo_-_Cidades_Sem_Fome__1_.jpg"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/organisations/10120.json"
+          "href": "https://api.betterplace.org/en/api_v4/organisations/457.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/organisations/--------------------"
+          "href": "https://www.betterplace.org/en/organisations/_cidadessemfome"
         },
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/organisations/10120/projects.json"
+          "href": "https://api.betterplace.org/en/api_v4/organisations/457/projects.json"
         },
         {
           "rel": "website",
-          "href": "http://www.amazinggracechildrenhome.org"
+          "href": "http://www.cidadessemfome.com.br"
         }
       ]
     }

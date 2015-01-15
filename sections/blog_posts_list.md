@@ -178,10 +178,30 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
-      <th align="left">author.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="author.picture-ref" href="#author.picture">
+            ↓author.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+### <a name="author.picture" href="#author.picture-ref">↑Nested Attributes: author.picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">author.picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
 </table>
@@ -246,8 +266,8 @@ access rights in order to see this information.
   "data": [
     {
       "id": 5703,
-      "created_at": "2009-06-15T06:21:20Z",
-      "updated_at": "2009-06-15T06:21:20Z",
+      "created_at": "2009-06-15T08:21:20+02:00",
+      "updated_at": "2009-06-15T08:21:20+02:00",
       "lang": "en",
       "type": "BlogPost",
       "title": "Go Skateboarding Day Kabul",
@@ -256,6 +276,7 @@ access rights in order to see this information.
       "author": {
         "name": "M. Henninger",
         "picture": {
+          "fallback": true,
           "links": [
             {
               "rel": "fill_100x100",
@@ -295,8 +316,8 @@ access rights in order to see this information.
     },
     {
       "id": 6910,
-      "created_at": "2009-07-12T10:25:13Z",
-      "updated_at": "2009-07-12T10:27:16Z",
+      "created_at": "2009-07-12T12:25:13+02:00",
+      "updated_at": "2009-07-12T12:27:16+02:00",
       "lang": "en",
       "type": "BlogPost",
       "title": "We Skated! Kabul",
@@ -305,6 +326,7 @@ access rights in order to see this information.
       "author": {
         "name": "M. Henninger",
         "picture": {
+          "fallback": true,
           "links": [
             {
               "rel": "fill_100x100",

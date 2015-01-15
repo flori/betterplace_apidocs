@@ -103,8 +103,8 @@ projects, the API will return a `404` HTTP code.
 ```json
 {
   "id": 31766,
-  "created_at": "2012-07-23T11:45:15Z",
-  "updated_at": "2014-03-13T03:10:27Z",
+  "created_at": "2012-07-23T13:45:15+02:00",
+  "updated_at": "2014-03-13T04:10:27+01:00",
   "description": "Young Afghan Skate Instructor Fazilla sitting on her board at Mekroyan Fountain",
   "links": [
     {

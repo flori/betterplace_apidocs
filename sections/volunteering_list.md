@@ -2,7 +2,7 @@
 # Volunteering List ⇄ [Details](volunteering_details.md)
 
 ```nginx
-GET https://api.betterplace.org/en/api_v4/volunteering.json?nelat=51.123&nelng=12.123&order=created_at%3AASC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001
+GET https://api.betterplace.org/en/api_v4/volunteering.json?around=10997+Berlin%2C+Germany&nelat=51.123&nelng=12.123&order=created_at%3AASC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001
 ```
 
 A list of betterplace.org volunteering offers (donate time).
@@ -53,6 +53,15 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
 The default order is the same as for the
 <a href="http//www.betterplace.org/en/volunteering/list">betterplace.org volunteering list</a>:
 <code>has_image:desc| carrier_has_image:desc| created_at:desc</code>
+</td>
+  </tr>
+  <tr>
+    <th align="left">around</th>
+    <td><code>10997 Berlin, Germany</code></td>
+    <td>optional</td>
+    <td>Order the results by the distance to the location given via the
+<code>around</code> paramater, from near to far. If this value is a ZIP
+code the centre of the ZIP code area is used.
 </td>
   </tr>
   <tr>
@@ -338,10 +347,30 @@ No validations on input apply.
 </td>
     </tr>
     <tr>
-      <th align="left">contact.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="contact.picture-ref" href="#contact.picture">
+            ↓contact.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+### <a name="contact.picture" href="#contact.picture-ref">↑Nested Attributes: contact.picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
 ### <a name="import_information" href="#import_information-ref">↑Nested Attributes: import_information</a>
@@ -452,123 +481,218 @@ betterplace.
 
 ```json
 {
-  "total_entries": 13770,
+  "total_entries": 4897,
   "offset": 3,
-  "total_pages": 4590,
+  "total_pages": 1633,
   "current_page": 2,
   "per_page": 3,
   "data": [
     {
-      "id": 4,
-      "created_at": "2013-01-28T09:23:08Z",
-      "updated_at": "2013-05-16T15:21:00Z",
+      "id": 18,
+      "created_at": "2013-01-28T10:23:14+01:00",
+      "updated_at": "2015-01-14T01:30:26+01:00",
+      "latitude": 51.3022,
+      "longitude": 9.48039,
+      "street": "",
+      "zip": "34121",
+      "city": "Kassel",
+      "country": "Germany",
+      "title": "Awo Büro Aktiv  Kassel- Besuchsdienst für Senioren im Käthe-Richterhaus",
+      "description": "<p>Wir suchen Ehrenamtliche, die den alten Menschen in liebevoller Weise den Kontakt zum normalen Leben und Alltag vermitteln. Sie helfen mit, die Lebensqualität der Altenheimbewohner wesentlich zu verbessern, in dem Sie einen Bewohner regelmäßig besuchen oder Unterhaltung für eine Gruppe von alten Menschen anbieten. Sie können sich in folgenden Häusern engagieren.</p>\n\n<p>Sie sollten kommunikativ sein und gut zuhören können, musikalisch sein oder leidenschaftlich gerne spielen. Vielleicht haben Sie einen lieben Hund und</p>\n\n<p>möchten mit diesem gerne pflegebedürftige Menschen besuchen oder Sie haben andere eigene Ideen. Für jeden wird sich hier das Richtige finden!</p>\n\n<p><strong>- Unterstützung bzw selbstständige Durchführung von Gruppenangeboten</strong></p>\n\n<p><strong>- Unterstützung bei der Gartenarbeit</strong></p>\n\n<p><strong>- regelmässiger Besuchsdienst (Einzelbesuche)</strong></p>\n\n<p><strong>- Unterstützung in der Nähstube (1xim Monat)</strong></p>\n\n<p><strong>Bitte wenden Sie sich an unser Awo Büro Aktiv in Kassel Telefon 0561/9284-238 </strong></p>\n\n<p><strong>Bürozeiten: DI und Do von 09:00h -12:00h ansonsten Anrufbeantworter.(Wir rufen Sie umgehend zurück)</strong></p><ul><li>Unfallversicherung</li><li>regelmäßige Informationen</li><li>kostenlose Veranstaltungen</li><li>Fortbildung/Qualifizierungsangebote</li><li>Erstattung entstandener Kosten</li><li>Anleitung durch Fachkräfte</li></ul>",
+      "carrier": {
+        "latitude": 51.3171,
+        "longitude": 9.49561,
+        "name": "Freiwilligenzentrum",
+        "street": "Spohrstraße 5",
+        "city": "Kassel",
+        "zip": "34117",
+        "country": "Germany",
+        "links": [
+          {
+            "rel": "logo",
+            "href": ""
+          }
+        ]
+      },
+      "vacancies": 1,
+      "image": {
+        "description": null,
+        "links": [
+          {
+            "rel": "fill_618x322",
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
+          },
+          {
+            "rel": "original",
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+          },
+          {
+            "rel": "thumb",
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
+          },
+          {
+            "rel": "medium",
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
+          },
+          {
+            "rel": "regular",
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
+          }
+        ]
+      },
+      "contact": {
+        "name": "Frank Gerhold",
+        "phone": "0561 - 10 24 25",
+        "email": "fg@freiwilligenzentrumkassel.de",
+        "picture": null,
+        "links": [
+
+        ]
+      },
+      "topics": [
+        "Health",
+        "Disabled",
+        "Elderly people"
+      ],
+      "activities": [
+
+      ],
+      "imported_from": "aktion_mensch",
+      "import_information": {
+        "created_at": "2013-03-15T00:00:00+01:00",
+        "updated_at": "2015-01-13T00:00:00+01:00",
+        "import_type": "Bettertime::AktionMensch::Import",
+        "import_id": "fn-452",
+        "imported_at": "2015-01-14T01:30:26+01:00",
+        "links": [
+
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/en/api_v4/volunteering/18.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/en/volunteering/18-awo-buro-aktiv-kassel-besuchsdienst-fur-senioren-im-kathe-richterhaus"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "created_at": "2013-01-28T10:23:15+01:00",
+      "updated_at": "2014-08-22T01:30:31+02:00",
+      "latitude": 51.3126,
+      "longitude": 9.44618,
+      "street": "Willy-Brandt-Platz 1",
+      "zip": "34131",
+      "city": "Kassel",
+      "country": "Germany",
+      "title": "Betreuung von Reisenden und Besuchern",
+      "description": "<p><strong>Wir bieten Ihnen ein Stückchen zu Hause für unterwegs!</strong></p>\n\n<ul><li>Ein-, Aus- und Umsteigehilfen, Auskünfte und kleine praktische Hilfen</li>\n\t<li>Gelegenheit, in gemütlicher Atmosphäre einen Tee oder Kaffee zu trinken</li>\n\t<li>Mutter-Kind-Raum mit Gelegenheit zum Stillen, Wickeln und Ausruhen</li>\n\t<li>Raum für ältere Kinder, um die Wartezeit mit Spielen oder Lesen zu verkürzen</li>\n\t<li>Bei Bedarf gezielte soziale Hilfen und Vermittlung an andere Institutionen.</li>\n\t<li>Kontaktaufnahme mit Angehörigen (z.B. Hinterlegung von Fahrkarten)</li>\n\t<li>Vermittlung von Hilfen an Ihren nächsten Aufenthaltsort.</li>\n</ul>\n\n<p><strong>Die Bahnhofsmission ist an 365 Tagen im Jahr für Sie da:</strong><br/><br/>\nSie finden uns im Bahnhof Wilhelmshöhe, eine Etage über dem Eingangs- und Geschäftsbereich an den Gleisen 7 - 10 (Aufzug vorhanden).<br/><br/>\nTelefon: 05 61 - 3 71 07<br/><br/>\nGerne können Sie auch einen Termin für Ihre Umsteigehilfe vereinbaren oder mit uns absprechen, wann Sie am Bahnhof ankommen. Wir holen Sie am Bahnsteig ab und führen Sie zu unseren Räumen.<br/><br/><strong>Hier finden Sie alle deutschen Bahnhofsmissionen:</strong><br/><br/>www.bahnhofsmission.de</p><ul><li>Tätigkeitsnachweise</li><li>Haftpflichtversicherung</li><li>Fortbildung/Qualifizierungsangebote</li><li>Erstattung entstandener Kosten</li><li>Dienstbesprechungen</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li><li>Anleitung durch Fachkräfte</li><li>Unfallversicherung</li></ul>",
+      "carrier": {
+        "latitude": 51.3171,
+        "longitude": 9.49561,
+        "name": "Freiwilligenzentrum",
+        "street": "Spohrstraße 5",
+        "city": "Kassel",
+        "zip": "34117",
+        "country": "Germany",
+        "links": [
+          {
+            "rel": "logo",
+            "href": ""
+          }
+        ]
+      },
+      "vacancies": 1,
+      "image": {
+        "description": null,
+        "links": [
+          {
+            "rel": "fill_618x322",
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
+          },
+          {
+            "rel": "original",
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+          },
+          {
+            "rel": "thumb",
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
+          },
+          {
+            "rel": "medium",
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
+          },
+          {
+            "rel": "regular",
+            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
+          }
+        ]
+      },
+      "contact": {
+        "name": "Frank Gerhold",
+        "phone": "0561 - 10 24 25",
+        "email": "fg@freiwilligenzentrumkassel.de",
+        "picture": null,
+        "links": [
+
+        ]
+      },
+      "topics": [
+        "Health"
+      ],
+      "activities": [
+
+      ],
+      "imported_from": "aktion_mensch",
+      "import_information": {
+        "created_at": "2013-03-15T01:00:00+01:00",
+        "updated_at": "2014-08-18T02:00:00+02:00",
+        "import_type": "Bettertime::AktionMensch::Import",
+        "import_id": "fn-457",
+        "imported_at": "2014-08-22T01:30:31+02:00",
+        "links": [
+
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/en/api_v4/volunteering/19.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/en/volunteering/19-betreuung-von-reisenden-und-besuchern"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "created_at": "2013-01-28T10:23:15+01:00",
+      "updated_at": "2014-08-23T01:30:34+02:00",
       "latitude": 51.3171,
-      "longitude": 9.49246,
-      "street": "Rathaus Obere Königstrasse F 405 a 4. St.",
+      "longitude": 9.49561,
+      "street": "",
       "zip": "34117",
       "city": "Kassel",
       "country": "Germany",
-      "title": "Betreuung & Begleitung im Rahmen des Betreuungsrechts",
-      "description": "<p>eine Art \"ehrenamtlicher Anwalt\" sein; adminstrative Tätigkeiten: Unterstützung beim Ausfüllen von Formularen, Daueraufträge, Bankgeschäfte etc.; Behördengänge, wenn nötig Korrespondenzen mit Ämtern u.ä.; Gespräche führen, zuhören</p><ul><li>Haftpflichtversicherung</li><li>Erfahrungsaustausch</li><li>Fortbildung/Qualifizierungsangebote</li><li>kostenlose Veranstaltungen</li></ul>",
+      "title": "Begleitung schwerkranker und sterbender Menschen und deren Angehöriger",
+      "description": "<p>Die Tätigkeit ehrenamtlich Mitarbeitender ist ein wesentlicher Bestandteil des Hospizangebotes, entweder patientennah durch die unmittelbare Begleitung schwerstkranker und sterbender Menschen, die Unterstützung Angehöriger und die Trauerbegleitung.</p>\n<p>Voraussetzung hierfür ist die Teilnahme am Vorbereitungskurs (4 Wochenenden, 6 Abende, Praktikum), sowie die monatlichen Gruppentreffen.</p>\n<p>Patientenferne Einsatzfelder finden sich in den Bereichen Öffentlichkeitsarbeit (Vereinszeitschrift und Fundraising) und Bürotätigkeitsunterstützung.</p>\n\n<p><strong>Was wir bieten:</strong></p>\n<ul style=\"list-style-type:disc;\"><li>einen in sich geschlossenen Grund- und Aufbaukurs<br/></li>\n    <li>einen Lernprozess in der Gruppe für den Einzelnen </li>\n    <li>einen geschützten Raum, in dem Gefühle, Erinnerungen,      Ideen, Eindrücke etc. ihren Platz haben und Vertrauen wachsen kann<br/></li>\n    <li>die Gruppe als tragfähige Gemeinschaft<br/></li>\n    <li>eine Auseinandersetzung mit der eigenen Biographie, der      eigenen Spiritualität, aber auch Schwerem in unserem Leben </li>\n</ul>\n\n\n<p> <strong>Der/die Bewerber/in soll die Bereitschaft mitbringen: </strong></p>\n\n<ul style=\"list-style-type:disc;\"><li>sich auf unterschiedliche Weltanschauungen einzulassen<br/></li>\n    <li>sich mit sich selbst auseinanderzusetzen<br/></li>\n    <li>sich der praxisbegleitenden Reflexion zu stellen<br/></li>\n    <li>sich auf das Lernen in der Gruppe einzulassen (Partner-      und Kleingruppenarbeit)<br/></li>\n    <li>regelmäßig und verbindlich an den Veranstaltungen      teilzunehmen<br/></li>\n    <li>nach Abschluss der Schulung als ehrenamtliche/r      Helfer/in für den Verein tätig zu sein - d.h. insbesondere über      dementsprechende Zeitressourcen zu verfügen.</li>\n    <li>psychische Belastbarkeit in der Auseinandersetzung mit dem Thema Krankheit, Trauer und Tod</li>\n    <li>Empathie</li>\n</ul>\n\n<p><strong>Einsatzort:</strong> Stadtgebiet Kassel</p>\n\n<p><strong><br/></strong></p><ul><li>Supervision</li><li>kostenlose Veranstaltungen</li><li>Haftpflichtversicherung</li><li>Fortbildung/Qualifizierungsangebote</li><li>Erstattung entstandener Kosten</li><li>Erfahrungsaustausch</li><li>Anleitung durch Fachkräfte</li><li>Unfallversicherung</li></ul>",
       "carrier": {
         "latitude": 51.3171,
         "longitude": 9.49561,
-        "name": "FreiwilligenZentrum Kassel",
-        "street": "Spohrstraße 5",
-        "city": "Kassel",
-        "zip": "34117",
-        "country": "Germany",
-        "links": [
-          {
-            "rel": "logo",
-            "href": ""
-          }
-        ]
-      },
-      "vacancies": 1,
-      "image": {
-        "description": null,
-        "links": [
-          {
-            "rel": "fill_618x322",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
-          },
-          {
-            "rel": "fill_270x141",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
-          },
-          {
-            "rel": "original",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
-          },
-          {
-            "rel": "thumb",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
-          },
-          {
-            "rel": "medium",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
-          },
-          {
-            "rel": "regular",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
-          }
-        ]
-      },
-      "contact": {
-        "name": "Frank Gerhold",
-        "phone": "0561 - 10 24 25",
-        "email": "info@freiwilligenzentrumkassel.de",
-        "picture": null,
-        "links": [
-
-        ]
-      },
-      "topics": [
-        "Health",
-        "Disabled"
-      ],
-      "activities": [
-
-      ],
-      "imported_from": "aktion_mensch",
-      "import_information": {
-        "created_at": "2013-03-15T00:00:00Z",
-        "updated_at": "2013-03-15T00:00:00Z",
-        "import_type": "Bettertime::AktionMensch::Import",
-        "import_id": "fn-417",
-        "imported_at": "2013-05-16T15:21:00Z",
-        "links": [
-
-        ]
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/volunteering/4.json"
-        },
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/en/volunteering/4-betreuung-begleitung-im-rahmen-des-betreuungsrechts"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "created_at": "2013-01-28T09:23:09Z",
-      "updated_at": "2014-05-08T23:30:32Z",
-      "latitude": 51.3171,
-      "longitude": 9.49561,
-      "street": null,
-      "zip": null,
-      "city": null,
-      "country": null,
-      "title": "Patientenbesuchsdienst im Diakonissen- und Burgfeldkrankenhaus",
-      "description": "<ul><li>Wir stellen den Menschen in den Mittelpunkt</li>\n    <li>Wir sind für die Patienten da</li>\n    <li>Wir begleiten Spaziergänge im Haus und draußen</li>\n    <li>Wir lesen vor aus \"Was ihr wollt\"</li>\n    <li>Wir erledigen Besorgungen</li>\n    <li>Wir bringen die Bücherei ans Bett</li>\n    <li>Wir gehen Kranken zur Hand</li>\n    <li>Wir hören zu, begleiten und betreuen</li>\n    <li>Wir helfen bei der Aufnahme ins Krankenhaus</li>\n</ul>\n\n<p>Jeder/r von uns arbeitet einen Tag pro Woche von 9:00 bis 12:00 Uhr auf einer Station. Wir treffen uns monatlich zu 2stündigen Themennachmittagen zum Gedanken- und Erfahrungsaustausch. Das Einsatzgebiet (Aufnahme, Pflege, Büchereidienst oder Dienst im Altenheim) kann nach Neigung gewählt werden.</p>\n<p>Bei all diesen Aufgaben sind wir durch das Krankenhaus pauschal unfallversichert.</p>\n<p>Es gibt einen monatlich festgelegten Einsatzplan.</p>\n<p>Wir freuen uns über Ihr Interesse und beantworten gern Ihre Fragen.</p><ul><li>Unfallversicherung</li><li>Haftpflichtversicherung</li><li>regelmäßige Informationen</li><li>Erfahrungsaustausch</li><li>Fortbildung/Qualifizierungsangebote</li><li>Anleitung durch Fachkräfte</li><li>Tätigkeitsnachweise</li><li>kostenlose Verpflegung</li><li>kostenlose Veranstaltungen</li></ul>",
-      "carrier": {
-        "latitude": 51.3171,
-        "longitude": 9.49561,
-        "name": "FreiwilligenZentrum Kassel",
+        "name": "Freiwilligenzentrum",
         "street": "Spohrstraße 5",
         "city": "Kassel",
         "zip": "34117",
@@ -620,19 +744,18 @@ betterplace.
         ]
       },
       "topics": [
-        "Health",
-        "Elderly people"
+        "Health"
       ],
       "activities": [
 
       ],
       "imported_from": "aktion_mensch",
       "import_information": {
-        "created_at": "2013-03-15T00:00:00Z",
-        "updated_at": "2014-05-05T00:00:00Z",
+        "created_at": "2013-03-15T01:00:00+01:00",
+        "updated_at": "2014-08-19T02:00:00+02:00",
         "import_type": "Bettertime::AktionMensch::Import",
-        "import_id": "fn-421",
-        "imported_at": "2014-05-08T23:30:32Z",
+        "import_id": "fn-464",
+        "imported_at": "2014-08-23T01:30:34+02:00",
         "links": [
 
         ]
@@ -640,106 +763,11 @@ betterplace.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/volunteering/5.json"
+          "href": "https://api.betterplace.org/en/api_v4/volunteering/20.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/volunteering/5-patientenbesuchsdienst-im-diakonissen-und-burgfeldkrankenhaus"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "created_at": "2013-01-28T09:23:09Z",
-      "updated_at": "2014-05-26T23:30:29Z",
-      "latitude": 51.327,
-      "longitude": 9.50938,
-      "street": "Mönchebergstr. 41-43",
-      "zip": "34125",
-      "city": "Kassel",
-      "country": "Germany",
-      "title": "Blaue Helferin/ Blauer Helfer - Besuchsdienst im Klinikum Kassel",
-      "description": "<p>Sie geben Zeit, Aufmerksamkeit und Einfühlungsvermögen und bekommen Zufriedenheit und eine andere Sicht von Krankheit. Der Einsatzbereich der HelferInnen umfasst die Fürsorge um das persönliche Wohl der Kranken. Dazu gehören insbesondere die Zuwendung im Gespräch, kleine Einkäufe und Besorgungen, Begleitungen zu Untersuchungen und Spaziergänge, Vorlesen oder auch die Versorgung der Patienten mit Lesestoff mittels unseres fahrbaren Bücherwagens mit allen anfallenden Büchereiarbeiten. Wir unterhalten auch eine kleine Wäschekammer für bedürftige Patienten.</p>\n\n\n\n<p>Die Blauen Helferinnen suchen zur Verstärkung ihres ehrenamtlichen Teams im Klinikum Kassel aufgeschlossene Mitarbeiter, die Besuchsdienste am Krankenbett durchführen, für unsere Patientenbibliothek tätig sind oder den Lotsendienst unterstützen. Geboten werden u.a. Fortbildung, Versicherungsschutz während des Einsatzes und Fahrtkostenerstattungen. Wir arbeiten Sie in Ihre Aufgaben durch Gespräche und Begleitung umfassend ein.</p>\n\n<p>Suchworte: </p>\n\n<p>Krankenhaus, Krankenhausbesuchsdienst, Besuchsdienst, Besuch, Patient, vorlesen. Besorgung</p><ul><li>Tätigkeitsnachweise</li><li>regelmäßige Informationen</li><li>kostenlose Veranstaltungen</li><li>kostenlose Nutzung weiterer Angebote</li><li>Haftpflichtversicherung</li><li>Fortbildung/Qualifizierungsangebote</li><li>Erstattung entstandener Kosten</li><li>Erfahrungsaustausch</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li><li>Unfallversicherung</li></ul>",
-      "carrier": {
-        "latitude": 51.3171,
-        "longitude": 9.49561,
-        "name": "FreiwilligenZentrum Kassel",
-        "street": "Spohrstraße 5",
-        "city": "Kassel",
-        "zip": "34117",
-        "country": "Germany",
-        "links": [
-          {
-            "rel": "logo",
-            "href": ""
-          }
-        ]
-      },
-      "vacancies": 1,
-      "image": {
-        "description": null,
-        "links": [
-          {
-            "rel": "fill_618x322",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
-          },
-          {
-            "rel": "fill_270x141",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
-          },
-          {
-            "rel": "original",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
-          },
-          {
-            "rel": "thumb",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
-          },
-          {
-            "rel": "medium",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
-          },
-          {
-            "rel": "regular",
-            "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
-          }
-        ]
-      },
-      "contact": {
-        "name": "Frank Gerhold",
-        "phone": "0561 - 10 24 25",
-        "email": "fg@freiwilligenzentrumkassel.de",
-        "picture": null,
-        "links": [
-
-        ]
-      },
-      "topics": [
-        "Health",
-        "Elderly people"
-      ],
-      "activities": [
-
-      ],
-      "imported_from": "aktion_mensch",
-      "import_information": {
-        "created_at": "2013-03-15T00:00:00Z",
-        "updated_at": "2014-05-23T00:00:00Z",
-        "import_type": "Bettertime::AktionMensch::Import",
-        "import_id": "fn-423",
-        "imported_at": "2014-05-26T23:30:29Z",
-        "links": [
-
-        ]
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/volunteering/6.json"
-        },
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/en/volunteering/6-blaue-helferin-blauer-helfer-besuchsdienst-im-klinikum-kassel"
+          "href": "https://www.betterplace.org/en/volunteering/20-begleitung-schwerkranker-und-sterbender-menschen-und-deren-angehoriger"
         }
       ]
     }

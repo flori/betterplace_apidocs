@@ -152,44 +152,13 @@ A list of betterplace.org matching funds.
 
 ```json
 {
-  "total_entries": 1,
+  "total_entries": 0,
   "offset": 0,
   "total_pages": 1,
   "current_page": 1,
   "per_page": 2,
   "data": [
-    {
-      "id": 2,
-      "created_at": "2013-10-14T13:26:19Z",
-      "updated_at": "2014-07-17T10:44:27Z",
-      "activated_at": "2013-10-21T07:54:41Z",
-      "title": "Jetzt mitmachen – OTTO verdoppelt jede Spende!",
-      "description": "<br>\r\n<br>\r\n<h3>OTTO hilft Hamburgs Stadtgrün – helfen Sie mit!</h3>\r\n \r\nGemeinsam mit der Loki Schmidt Stiftung und der Stadt Hamburg schließen wir Baumlücken in strukturschwachen Stadtteilen. Diese Lücken entstehen aufgrund von Krankheiten oder mangelnder Standfestigkeit der Straßenbäume.\r\n\r\n!{height:140px}https://download.betterplace.org/matching-funds/mf_2-otto_description-logos.png! \r\n\r\nSeit 2011 sind Hamburger Bürger aufgerufen, gemeinsam mit den beiden Partner-Organisationen für neue Bäume zu spenden.\r\n \r\nBereits in diesem Jahr hat OTTO das Projekt unterstützt und mit 25.000 Euro 50 Baumlücken in Gebieten geschlossen, in denen weniger gespendet wird – nämlich in Mümmelmannsberg, Nettelnburg, Steinbek, Steilshoop und Willhelmsburg!\r\n \r\nNun wollen wir noch einmal bis zu 60 weitere Bäume pflanzen – und zwar gemeinsam mit Ihnen!\r\n \r\n<h3>Das funktioniert folgendermaßen:</h3>\r\n1.         Sie spenden einen beliebig hohen Betrag auf betterplace.org.\r\n2.         OTTO verdoppelt Ihren Betrag!\r\n3.         Sobald durch Sie und OTTO 500 Euro zusammengekommen sind, legt die Stadt Hamburg die restlichen 500 Euro drauf, die für eine Pflanzung notwendig sind.\r\n4.         Ein Baum wird gepflanzt – Hamburg wird grüner!\r\n \r\nIhr Engagement zählt – und OTTO honoriert das mit dieser Verdopplungsaktion bis zu einem Maximalbetrag von 15.000 Euro! Helfen Sie jetzt hier mit!",
-      "company_name": "OTTO",
-      "client_id": null,
-      "provided_amount_in_cents": 1500000,
-      "donated_amount_in_cents": 511500,
-      "state": "activated",
-      "logo_url": null,
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
-        },
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/en/matching-funds/2-otto"
-        },
-        {
-          "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json"
-        },
-        {
-          "rel": "documentation",
-          "href": "https://github.com/betterplace/betterplace_apidocs/blob/master/sections/matching_fund_details.md"
-        }
-      ]
-    }
+
   ]
 }
 ```

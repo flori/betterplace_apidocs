@@ -124,10 +124,30 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
-      <th align="left">author.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="author.picture-ref" href="#author.picture">
+            ↓author.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+### <a name="author.picture" href="#author.picture-ref">↑Nested Attributes: author.picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">author.picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
 </table>
@@ -182,13 +202,13 @@ access rights in order to see this information.
 ```json
 {
   "id": 22,
-  "created_at": "2007-11-24T13:14:02Z",
-  "updated_at": "2007-11-24T13:14:02Z",
-  "donated_amount_in_cents": null,
+  "created_at": "2007-11-24T14:14:02+01:00",
+  "updated_at": "2007-11-24T14:14:02+01:00",
   "score": "positive",
   "author": {
     "name": "G. Krabbe",
     "picture": {
+      "fallback": true,
       "links": [
         {
           "rel": "fill_100x100",

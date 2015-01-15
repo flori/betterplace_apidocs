@@ -17,6 +17,8 @@ This feature is distinct from our [json-API v4](https://github.com/betterplace/b
 
 * [Ablass App](http://www.ablass-app.de/), where you can clean your conscience
 * [Donatify me](http://donatify.me/), where you can get Edward to do stuff for you
+* [Seeds of Kindness 3](http://yoursiblings.org/portico/seeds-of-kindness-3), where you get a mp3 download link after your donation. Also there is a leader board and referrer-system
+* [MADAide](http://madaide.org/?page_id=578), where you can donate to mark a specific piece of the football field with your name
 
 
 ### UserFlow
@@ -62,7 +64,7 @@ This is a special service in testing. Nothing is final or fixed. And it's beta. 
 * All terms of use and privacy policy of betterplace.org apply
 * We will inform you about changes 7 days ahead via the e-mail address that you provided
 * Should we consider discontinuing this service we will inform you 3 month ahead
-* The code that you write to integrate this donation form in your flow has to be open sourced under Apache License 2.0 for everyonce benefit
+* The code that you write to integrate this donation form in your flow has to be open sourced under Apache License 2.0 for everyones benefit
 
 
 
@@ -239,7 +241,7 @@ You can be sure that the donation was successfully processed and is saved in the
 * Option 2: Use the [client_donations_list](../sections/client_donations_list.md) API and search for your **client_reference**
 
 The donation is (still) valid, if there is an API response with a **state:"confirmed"** attribute.
-The donatino is invalid if the API response is a 404 (donation_token) or an the search is empty (client_reference).
+The donation is invalid if the API response is a 404 (donation_token) or an the search is empty (client_reference).
 
 Usually the state of a donation will only change during the first 14 days. In some cases however the bookback might take place later. Therefore the trigger to check the donations should probably not be time-based but based on the `open_amount_in_cents` from the [projects-json api response](../sections/project_details.md). Whenever this number changes whithout you getting new donations, you need to check the reconciliation of all donation.
 

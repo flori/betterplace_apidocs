@@ -1,5 +1,5 @@
 
-# Tags of a project assigned by a client
+# Client-project tags list
 
 ```nginx
 GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/projects/4425/tags.json?order=projects_count%3ADESC
@@ -33,9 +33,7 @@ Results are contains in a *data* attribute.
     <th align="left">project_id</th>
     <td><code>4425</code></td>
     <td>required</td>
-    <td>The name of the client project-tag – a list of tags is provided by
-<a href="http://www.betterplace-solutions.de/#buergerzeitung">betterplace solutions</a>.
-</td>
+    <td>Project-id as an integer number ≥ 14.</td>
   </tr>
   <tr>
     <th align="left">order</th>
@@ -107,7 +105,7 @@ that where tagged with this tag.
   "data": [
     {
       "tag": "Trier",
-      "projects_count": 189,
+      "projects_count": 205,
       "links": [
         {
           "rel": "projects",
@@ -117,7 +115,7 @@ that where tagged with this tag.
     },
     {
       "tag": "KinderJugendliche",
-      "projects_count": 191,
+      "projects_count": 211,
       "links": [
         {
           "rel": "projects",
@@ -127,7 +125,7 @@ that where tagged with this tag.
     },
     {
       "tag": "Familien",
-      "projects_count": 100,
+      "projects_count": 109,
       "links": [
         {
           "rel": "projects",

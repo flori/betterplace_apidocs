@@ -117,8 +117,8 @@ projects, the API will return a `404` HTTP code.
   "data": [
     {
       "id": 68085,
-      "created_at": "2012-07-23T12:25:15Z",
-      "updated_at": "2014-03-26T21:13:34Z",
+      "created_at": "2012-07-23T14:25:15+02:00",
+      "updated_at": "2014-03-26T22:13:34+01:00",
       "description": "Kids practice to jump at Mekroyan Fountain, Kabul",
       "links": [
         {
@@ -137,8 +137,8 @@ projects, the API will return a `404` HTTP code.
     },
     {
       "id": 68086,
-      "created_at": "2012-07-23T12:30:13Z",
-      "updated_at": "2014-03-26T21:13:36Z",
+      "created_at": "2012-07-23T14:30:13+02:00",
+      "updated_at": "2014-03-26T22:13:36+01:00",
       "description": "Afghan Skate Instructor Merza showing his skills at an old Soviet swimming pool on Bibi Maru Hill, Kabul",
       "links": [
         {
@@ -157,8 +157,8 @@ projects, the API will return a `404` HTTP code.
     },
     {
       "id": 31767,
-      "created_at": "2012-07-23T12:45:29Z",
-      "updated_at": "2014-03-13T03:10:36Z",
+      "created_at": "2012-07-23T14:45:29+02:00",
+      "updated_at": "2014-03-13T04:10:36+01:00",
       "description": null,
       "links": [
         {

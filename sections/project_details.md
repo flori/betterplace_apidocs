@@ -206,7 +206,11 @@ donation needs. This percentage includes those needs.
       <td>An organisation, Users will be added later</td>
     </tr>
     <tr>
-      <th align="left">profile_picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="profile_picture-ref" href="#profile_picture">
+            ↓profile_picture
+          </a>
+        </th>
       <td>null &#124; object</td>
       <td></td>
       <td>TODO</td>
@@ -242,10 +246,30 @@ like "Payback User" or empty/null for anonymous donations.
 </td>
     </tr>
     <tr>
-      <th align="left">contact.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="contact.picture-ref" href="#contact.picture">
+            ↓contact.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+### <a name="contact.picture" href="#contact.picture-ref">↑Nested Attributes: contact.picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
 ### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
@@ -264,10 +288,46 @@ like "Payback User" or empty/null for anonymous donations.
       <td>The carrier can be an organisation or user.</td>
     </tr>
     <tr>
-      <th align="left">carrier.picture</th>
+        <th align="left" style="white-space: nowrap">
+          <a name="carrier.picture-ref" href="#carrier.picture">
+            ↓carrier.picture
+          </a>
+        </th>
       <td>string</td>
       <td>//assets.betterplace.org/…</td>
       <td>The organisation logo, user profile picture or a fallback image</td>
+    </tr>
+  </table>
+### <a name="carrier.picture" href="#carrier.picture-ref">↑Nested Attributes: carrier.picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">carrier.picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
+    </tr>
+  </table>
+### <a name="profile_picture" href="#profile_picture-ref">↑Nested Attributes: profile_picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
 ### <a name="active_matching_fund" href="#active_matching_fund-ref">↑Nested Attributes: active_matching_fund</a>
@@ -493,8 +553,8 @@ set for organisations.
 ```json
 {
   "id": 1114,
-  "created_at": "2009-03-10T10:12:16Z",
-  "updated_at": "2014-08-05T08:17:52Z",
+  "created_at": "2009-03-10T11:12:16+01:00",
+  "updated_at": "2015-01-12T19:42:50+01:00",
   "latitude": 34.531617284782,
   "longitude": 69.13581752939456,
   "street": "Taimani, behind Qasemi Winhouse",
@@ -506,17 +566,18 @@ set for organisations.
   "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important.<br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
   "tax_deductible": true,
   "donations_prohibited": false,
-  "open_amount_in_cents": 138445,
-  "positive_opinions_count": 652,
+  "open_amount_in_cents": 56942,
+  "positive_opinions_count": 674,
   "negative_opinions_count": 0,
-  "donor_count": 520,
-  "progress_percentage": 96,
+  "donor_count": 532,
+  "progress_percentage": 98,
   "incomplete_need_count": 1,
   "completed_need_count": 80,
-  "blog_post_count": 84,
+  "blog_post_count": 85,
   "contact": {
     "name": "E. Kinast",
     "picture": {
+      "fallback": true,
       "links": [
         {
           "rel": "fill_100x100",
@@ -542,6 +603,7 @@ set for organisations.
   "carrier": {
     "name": "Skateistan",
     "picture": {
+      "fallback": true,
       "links": [
         {
           "rel": "fill_100x100",
@@ -561,6 +623,7 @@ set for organisations.
     ]
   },
   "profile_picture": {
+    "fallback": true,
     "links": [
       {
         "rel": "fill_960x500",
@@ -580,38 +643,7 @@ set for organisations.
       }
     ]
   },
-  "active_matching_fund": {
-    "id": 2,
-    "created_at": "2013-10-14T13:26:19Z",
-    "updated_at": "2014-07-17T10:44:27Z",
-    "activated_at": "2013-10-21T07:54:41Z",
-    "title": "Jetzt mitmachen – OTTO verdoppelt jede Spende!",
-    "description": "<br>\r\n<br>\r\n<h3>OTTO hilft Hamburgs Stadtgrün – helfen Sie mit!</h3>\r\n \r\nGemeinsam mit der Loki Schmidt Stiftung und der Stadt Hamburg schließen wir Baumlücken in strukturschwachen Stadtteilen. Diese Lücken entstehen aufgrund von Krankheiten oder mangelnder Standfestigkeit der Straßenbäume.\r\n\r\n!{height:140px}https://download.betterplace.org/matching-funds/mf_2-otto_description-logos.png! \r\n\r\nSeit 2011 sind Hamburger Bürger aufgerufen, gemeinsam mit den beiden Partner-Organisationen für neue Bäume zu spenden.\r\n \r\nBereits in diesem Jahr hat OTTO das Projekt unterstützt und mit 25.000 Euro 50 Baumlücken in Gebieten geschlossen, in denen weniger gespendet wird – nämlich in Mümmelmannsberg, Nettelnburg, Steinbek, Steilshoop und Willhelmsburg!\r\n \r\nNun wollen wir noch einmal bis zu 60 weitere Bäume pflanzen – und zwar gemeinsam mit Ihnen!\r\n \r\n<h3>Das funktioniert folgendermaßen:</h3>\r\n1.         Sie spenden einen beliebig hohen Betrag auf betterplace.org.\r\n2.         OTTO verdoppelt Ihren Betrag!\r\n3.         Sobald durch Sie und OTTO 500 Euro zusammengekommen sind, legt die Stadt Hamburg die restlichen 500 Euro drauf, die für eine Pflanzung notwendig sind.\r\n4.         Ein Baum wird gepflanzt – Hamburg wird grüner!\r\n \r\nIhr Engagement zählt – und OTTO honoriert das mit dieser Verdopplungsaktion bis zu einem Maximalbetrag von 15.000 Euro! Helfen Sie jetzt hier mit!",
-    "company_name": "OTTO",
-    "client_id": null,
-    "provided_amount_in_cents": 1500000,
-    "donated_amount_in_cents": 511500,
-    "state": "activated",
-    "logo_url": null,
-    "links": [
-      {
-        "rel": "self",
-        "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
-      },
-      {
-        "rel": "platform",
-        "href": "https://www.betterplace.org/en/matching-funds/2-otto"
-      },
-      {
-        "rel": "projects",
-        "href": "https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json"
-      },
-      {
-        "rel": "documentation",
-        "href": "https://github.com/betterplace/betterplace_apidocs/blob/master/sections/matching_fund_details.md"
-      }
-    ]
-  },
+  "active_matching_fund": null,
   "links": [
     {
       "rel": "self",
@@ -636,10 +668,6 @@ set for organisations.
     {
       "rel": "blog_posts",
       "href": "https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json"
-    },
-    {
-      "rel": "active_matching_fund",
-      "href": "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
     },
     {
       "rel": "matching_funds",
