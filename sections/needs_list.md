@@ -154,37 +154,6 @@ offline donations and also(!) external donations)
   "per_page": 3,
   "data": [
     {
-      "id": 79124,
-      "created_at": "2014-02-17T17:01:17+01:00",
-      "updated_at": "2015-01-08T17:25:55+01:00",
-      "title": "Clean Water for the Skateparks in Kabul and MeS",
-      "description": "The equivalent of supplying clean drinking water for all of our staff and students in both the Kabul and Mazar-e-Sharif Skateparks. ",
-      "completed": false,
-      "progress_percentage": 68.28,
-      "donated_amount_in_cents": 122558,
-      "open_amount_in_cents": 56942,
-      "requested_amount_in_cents": 179500,
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs/79124.json"
-        },
-        {
-          "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
-        },
-        {
-          "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D&earmark_id=79124",
-          "templated": true
-        },
-        {
-          "rel": "new_donation",
-          "href": "https://www.betterplace.org/en/projects/1114/donations/new?earmark_id=79124"
-        }
-      ]
-    },
-    {
       "id": 76625,
       "created_at": "2014-01-03T11:41:44+01:00",
       "updated_at": "2014-03-21T14:35:08+01:00",
@@ -212,6 +181,37 @@ offline donations and also(!) external donations)
         {
           "rel": "new_donation",
           "href": "https://www.betterplace.org/en/projects/1114/donations/new?earmark_id=76625"
+        }
+      ]
+    },
+    {
+      "id": 79124,
+      "created_at": "2014-02-17T17:01:17+01:00",
+      "updated_at": "2015-01-21T11:57:08+01:00",
+      "title": "Clean Water for the Skateparks in Kabul and MeS",
+      "description": "The equivalent of supplying clean drinking water for all of our staff and students in both the Kabul and Mazar-e-Sharif Skateparks. ",
+      "completed": true,
+      "progress_percentage": 100.0,
+      "donated_amount_in_cents": 179500,
+      "open_amount_in_cents": 0,
+      "requested_amount_in_cents": 179500,
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs/79124.json"
+        },
+        {
+          "rel": "project",
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+        },
+        {
+          "rel": "new_client_donation",
+          "href": "https://www.betterplace.org/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D&earmark_id=79124",
+          "templated": true
+        },
+        {
+          "rel": "new_donation",
+          "href": "https://www.betterplace.org/en/projects/1114/donations/new?earmark_id=79124"
         }
       ]
     },

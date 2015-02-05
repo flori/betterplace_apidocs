@@ -30,8 +30,10 @@ This resource is not avaliable at the moment.
 <li>"no scope" (default) performs a full text search
 <li><code>human_name</code> searches only on the contact-person-fullname and carrier-fullname.
     Use this to get all volunteering offers by "Unicef" or by "Till Behnke".
-<li><code>location</code> does a reverse geocoding lookup
-    and shows results based on the lookup-bounding-box.
+<li><code>location</code> does a reverse geocoding lookup.
+    This lookup returns a bounding-box. We transform this bounding-box in a rectangle
+    that is large enough to encapsulate the whole bounding-box.
+    We then return all projects that belong to this rectangle.
 </ul>
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
@@ -59,9 +61,23 @@ The default order is the same as for the
     <th align="left">around</th>
     <td><code>10997 Berlin, Germany</code></td>
     <td>optional</td>
-    <td>Order the results by the distance to the location given via the
-<code>around</code> paramater, from near to far. If this value is a ZIP
-code the centre of the ZIP code area is used.
+    <td>Order the results by the distance to the given location from near to far.
+<br>
+Location can be provided as …
+<br>
+<em>… Lat/Lng:</em> <code>52.50,13.45</code>
+<br>
+<em>… ZIP:</em> <code>10997 Berlin, Germany</code>.
+We use the centre of the ZIP code area as center for the search.
+Please add enough context information (like the Country name)
+so google knows what place you are looking for.
+<em>… any location search:</em> All queries other than a float tuple
+are send to the google location service. For the provided response we
+take a fitting lat/lng value as center of the search. So in theory,
+you can use any search that works for google maps.
+<br>
+Check the <code>around_location</code> to see what latitude/longitude
+values have been used for the query.
 </td>
   </tr>
   <tr>
@@ -481,18 +497,18 @@ betterplace.
 
 ```json
 {
-  "total_entries": 4897,
+  "total_entries": 4840,
   "offset": 3,
-  "total_pages": 1633,
+  "total_pages": 1614,
   "current_page": 2,
   "per_page": 3,
   "data": [
     {
       "id": 18,
       "created_at": "2013-01-28T10:23:14+01:00",
-      "updated_at": "2015-01-14T01:30:26+01:00",
-      "latitude": 51.3022,
-      "longitude": 9.48039,
+      "updated_at": "2015-01-21T01:30:26+01:00",
+      "latitude": 51.3171,
+      "longitude": 9.49561,
       "street": "",
       "zip": "34121",
       "city": "Kassel",
@@ -567,7 +583,7 @@ betterplace.
         "updated_at": "2015-01-13T00:00:00+01:00",
         "import_type": "Bettertime::AktionMensch::Import",
         "import_id": "fn-452",
-        "imported_at": "2015-01-14T01:30:26+01:00",
+        "imported_at": "2015-01-21T01:30:26+01:00",
         "links": [
 
         ]

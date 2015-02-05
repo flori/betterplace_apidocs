@@ -30,8 +30,10 @@ Use this resource like `/clients/PERMALINK/projects.json`
 <li>"no scope" (default) performs a full text search
 <li><code>human_name</code> searches only on the manager-fullname and carrier-fullname.
     Use this to get all projects by "Unicef" or by "Till Behnke".
-<li><code>location</code> does a reverse geocoding lookup
-    and shows results based on the lookup-bounding-box.
+<li><code>location</code> does a reverse geocoding lookup.
+    This lookup returns a bounding-box. We transform this bounding-box in a rectangle
+    that is large enough to encapsulate the whole bounding-box.
+    We then return all projects that belong to this rectangle.
 </ul>
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
@@ -62,9 +64,23 @@ The default order is the same as for the
     <th align="left">around</th>
     <td><code>10997 Berlin, Germany</code></td>
     <td>optional</td>
-    <td>Order the results by the distance to the location given via the
-<code>around</code> paramater, from near to far. If this value is a ZIP
-code the centre of the ZIP code area is used.
+    <td>Order the results by the distance to the given location from near to far.
+<br>
+Location can be provided as …
+<br>
+<em>… Lat/Lng:</em> <code>52.50,13.45</code>
+<br>
+<em>… ZIP:</em> <code>10997 Berlin, Germany</code>.
+We use the centre of the ZIP code area as center for the search.
+Please add enough context information (like the Country name)
+so google knows what place you are looking for.
+<em>… any location search:</em> All queries other than a float tuple
+are send to the google location service. For the provided response we
+take a fitting lat/lng value as center of the search. So in theory,
+you can use any search that works for google maps.
+<br>
+Check the <code>around_location</code> to see what latitude/longitude
+values have been used for the query.
 </td>
   </tr>
   <tr>
@@ -769,25 +785,25 @@ set for organisations.
     {
       "id": 1114,
       "created_at": "2009-03-10T11:12:16+01:00",
-      "updated_at": "2015-01-12T19:42:50+01:00",
+      "updated_at": "2015-01-21T11:57:10+01:00",
       "latitude": 34.531617284782,
       "longitude": 69.13581752939456,
       "street": "Taimani, behind Qasemi Winhouse",
       "zip": "",
       "city": "Kabul",
       "country": "Afghanistan",
-      "completed_at": null,
+      "completed_at": "2015-01-21T11:57:09+01:00",
       "title": "Skateistan Afghanistan",
       "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important.<br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
       "tax_deductible": true,
       "donations_prohibited": false,
-      "open_amount_in_cents": 56942,
-      "positive_opinions_count": 674,
+      "open_amount_in_cents": 0,
+      "positive_opinions_count": 677,
       "negative_opinions_count": 0,
-      "donor_count": 532,
-      "progress_percentage": 98,
-      "incomplete_need_count": 1,
-      "completed_need_count": 80,
+      "donor_count": 534,
+      "progress_percentage": 100,
+      "incomplete_need_count": 0,
+      "completed_need_count": 81,
       "blog_post_count": 85,
       "contact": {
         "name": "E. Kinast",

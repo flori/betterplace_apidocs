@@ -284,7 +284,7 @@ access rights in order to see this information.
 {
   "id": 125,
   "created_at": "2008-02-06T17:10:42+01:00",
-  "updated_at": "2015-01-13T14:16:08+01:00",
+  "updated_at": "2015-01-16T00:08:53+01:00",
   "latitude": 53.55759811401367,
   "longitude": 9.96815967559815,
   "street": "Neuer Kamp 32",
