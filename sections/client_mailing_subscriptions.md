@@ -2,7 +2,7 @@
 # Creates/Updates a mailing subscription
 
 ```nginx
-POST https://api.betterplace.org/en/blogs.json?action=create&active=true&client_id=Volksfreund&controller=api_v4%2Fclient_mailing_subscriptions&email=peter.paul%40betterplace.org&first_name=Peter&last_name=Paul&project_id=4425
+POST https://api.betterplace.org/en/api_v4/clients/Volksfreund/projects/4425/mailing_subscriptions.json?active=%5Btrue%2C+false%5D&email=peter.paul%40betterplace.org&first_name=Peter&last_name=Paul
 ```
 
 You can create/update mailing subscriptions to projects.
@@ -51,7 +51,7 @@ You can create/update mailing subscriptions to projects.
   </tr>
   <tr>
     <th align="left">active</th>
-    <td><code>true</code></td>
+    <td><code>[true, false]</code></td>
     <td>required</td>
     <td>State of the subscription: active/inactive</td>
   </tr>
