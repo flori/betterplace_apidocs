@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/contests/1/results.json
 curl "https://api.betterplace.org/en/api_v4/contests/1/results.json"
 ```
 
+## Description
+
 A list of contest results.
 Results are contained in a *data* attribute.
 

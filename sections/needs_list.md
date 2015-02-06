@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/projects/1114/needs.json
 curl "https://api.betterplace.org/en/api_v4/projects/1114/needs.json"
 ```
 
+## Description
+
 A list of betterplace.org projects needs (donate money).
 Results are contained in a *data* attribute.
 The details and list view show the same data per project need.

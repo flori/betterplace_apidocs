@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/projects/1114/opinions.json?facets=has
 curl "https://api.betterplace.org/en/api_v4/projects/1114/opinions.json?facets=has_message%3Atrue&order=created_at%3AASC"
 ```
 
+## Description
+
 A list of betterplace.org projects opinions (donate money).
 Results are contained in a *data* attribute.
 

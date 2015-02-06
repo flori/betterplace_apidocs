@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/projects/1114/blog_posts/88972.json
 curl "https://api.betterplace.org/en/api_v4/projects/1114/blog_posts/88972.json"
 ```
 
+## Description
+
 The details of a betterplace.org project blog post.
 The details and list view show the same data.
 

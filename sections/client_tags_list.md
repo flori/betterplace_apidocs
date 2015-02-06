@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/tags.json
 curl "https://api.betterplace.org/en/api_v4/clients/Volksfreund/tags.json"
 ```
 
+## Description
+
 **For [betterplace.org clients](../README.md#client-api) only:**
 
 This API returns all tags defined for a client.

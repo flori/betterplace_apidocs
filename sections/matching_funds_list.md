@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/matching_funds.json?facets=state%3Aact
 curl "https://api.betterplace.org/en/api_v4/matching_funds.json?facets=state%3Aactivated&project_id=1114"
 ```
 
+## Description
+
 A list of betterplace.org matching funds.
 
 

@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/users/250285/contact_data.json
 curl "https://api.betterplace.org/en/api_v4/users/250285/contact_data.json"
 ```
 
+## Description
+
 Name and email for the given user.
 
 *Only available if authenticated as a client, see [betterplace.org clients](../README.md#client-authentication):*

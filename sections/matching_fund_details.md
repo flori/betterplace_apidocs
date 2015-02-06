@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/matching_funds/2.json
 curl "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
 ```
 
+## Description
+
 The details of a betterplace.org matching fund.
 The details and list view show the same data.
 

@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations/V
 curl "https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk.json"
 ```
 
+## Description
+
 **For [betterplace.org clients](../README.md#client-api) only:**
 
 The details of a betterplace.org client donation.

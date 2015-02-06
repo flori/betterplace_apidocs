@@ -14,6 +14,8 @@ curl "https://api.betterplace.org/en/api_v4/clients/Volksfreund/projects/4425/ma
  -d "active=true&email=peter.paul%40betterplace.org&first_name=Peter&last_name=Paul"
 ```
 
+## Description
+
 You can create/update mailing subscriptions to projects.
 
 *Only available if authenticated as a client, see [betterplace.org clients](../README.md#client-authentication):*

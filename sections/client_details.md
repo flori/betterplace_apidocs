@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/clients/Volksfreund.json
 curl "https://api.betterplace.org/en/api_v4/clients/Volksfreund.json"
 ```
 
+## Description
+
 **For [betterplace.org clients](../README.md#client-api) only:**
 
 Some client-statistics for a betterplace.org client. All results are cached for 15 minutes.

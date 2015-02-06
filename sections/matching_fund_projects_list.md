@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json
 curl "https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json"
 ```
 
+## Description
+
 A list of betterplace.org matching fund projects.
 
 
@@ -714,6 +716,8 @@ GET https://api.betterplace.org/en/portals/2/projects.json?action=projects&contr
 ```bash
 curl "https://api.betterplace.org/en/portals/2/projects.json?action=projects&controller=api_v4%2Fmatching_funds"
 ```
+
+## Description
 
 A list of betterplace.org matching fund projects.
 

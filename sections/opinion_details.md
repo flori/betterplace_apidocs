@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/projects/38/opinions/22.json
 curl "https://api.betterplace.org/en/api_v4/projects/38/opinions/22.json"
 ```
 
+## Description
+
 The details of a betterplace.org project opinion (donate money).
 The details and list view show the same data.
 

@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/projects/1114.json
 curl "https://api.betterplace.org/en/api_v4/projects/1114.json"
 ```
 
+## Description
+
 The details of a betterplace.org project (donate money).
 
 *For [betterplace.org clients](../README.md#client-api):*

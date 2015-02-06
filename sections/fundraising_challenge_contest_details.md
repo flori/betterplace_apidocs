@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/contests/1.json
 curl "https://api.betterplace.org/en/api_v4/contests/1.json"
 ```
 
+## Description
+
 The details of a contest.
 
 One fundraising challenge can have multiple contests, each with

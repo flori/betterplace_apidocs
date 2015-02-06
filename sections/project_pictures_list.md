@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/projects/1114/pictures.json
 curl "https://api.betterplace.org/en/api_v4/projects/1114/pictures.json"
 ```
 
+## Description
+
 A list of pictures of a betterplace.org project (donate money).
 Results are contained in a *data* attribute.
 

@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json
 curl "https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json"
 ```
 
+## Description
+
 A list of betterplace.org projects blog posts.
 Results are contained in a *data* attribute.
 

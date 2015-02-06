@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations.j
 curl "https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations.json?facets=client_reference%3A922ec9b-etc"
 ```
 
+## Description
+
 **For [betterplace.org clients](../README.md#client-api) only:**
 
 This API returns all donations to all client projects that where made using

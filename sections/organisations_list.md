@@ -13,6 +13,8 @@ GET https://api.betterplace.org/en/api_v4/organisations.json
 curl "https://api.betterplace.org/en/api_v4/organisations.json"
 ```
 
+## Description
+
 A list of betterplace.org organisations.
 Results are contained in a *data* attribute.
 The details and list view show the same data per organisation.
