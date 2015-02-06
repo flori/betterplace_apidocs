@@ -2,7 +2,7 @@
 # Client tags list
 
 ```bash
-GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/tags.json
+curl "https://api.betterplace.org/en/api_v4/clients/Volksfreund/tags.json"
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**

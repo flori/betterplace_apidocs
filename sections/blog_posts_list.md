@@ -2,7 +2,7 @@
 # Project Blog Posts List ⇄ [Details](blog_post_details.md)
 
 ```bash
-GET https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json
+curl "https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json"
 ```
 
 A list of betterplace.org projects blog posts.

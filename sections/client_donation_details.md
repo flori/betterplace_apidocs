@@ -2,7 +2,7 @@
 # Client Donation Details ⇄ [List](client_donations_list.md)
 
 ```bash
-GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk.json
+curl "https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk.json"
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**

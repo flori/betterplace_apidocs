@@ -2,7 +2,7 @@
 # Projects List ⇄ [Details](project_details.md)
 
 ```bash
-GET https://api.betterplace.org/en/api_v4/projects.json?around=10997+Berlin%2C+Germany&facets=completed%3Afalse&nelat=51.123&nelng=12.123&order=rank%3ADESC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
+curl "https://api.betterplace.org/en/api_v4/projects.json?around=10997+Berlin%2C+Germany&facets=completed%3Afalse&nelat=51.123&nelng=12.123&order=rank%3ADESC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001"
 ```
 
 A list of betterplace.org projects (donate money).

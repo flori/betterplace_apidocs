@@ -2,7 +2,7 @@
 # Organisation Details ⇄ [List](organisations_list.md)
 
 ```bash
-GET https://api.betterplace.org/en/api_v4/organisations/125.json
+curl "https://api.betterplace.org/en/api_v4/organisations/125.json"
 ```
 
 The details of a betterplace.org organisation.

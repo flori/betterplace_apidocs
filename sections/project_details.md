@@ -2,7 +2,7 @@
 # Project Details ⇄ [List](projects_list.md)
 
 ```bash
-GET https://api.betterplace.org/en/api_v4/projects/1114.json
+curl "https://api.betterplace.org/en/api_v4/projects/1114.json"
 ```
 
 The details of a betterplace.org project (donate money).

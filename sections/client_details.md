@@ -2,7 +2,7 @@
 # Client Details
 
 ```bash
-GET https://api.betterplace.org/en/api_v4/clients/Volksfreund.json
+curl "https://api.betterplace.org/en/api_v4/clients/Volksfreund.json"
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**

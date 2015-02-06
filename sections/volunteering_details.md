@@ -2,7 +2,7 @@
 # Volunteering Details ⇄ [List](volunteering_list.md)
 
 ```bash
-GET https://api.betterplace.org/en/api_v4/volunteering/23.json
+curl "https://api.betterplace.org/en/api_v4/volunteering/23.json"
 ```
 
 The details of a betterplace.org volunteering offer (donate time).

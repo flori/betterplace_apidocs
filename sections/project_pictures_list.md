@@ -2,7 +2,7 @@
 # Project Pictures List ⇄ [Details](project_picture_details.md)
 
 ```bash
-GET https://api.betterplace.org/en/api_v4/projects/1114/pictures.json
+curl "https://api.betterplace.org/en/api_v4/projects/1114/pictures.json"
 ```
 
 A list of pictures of a betterplace.org project (donate money).

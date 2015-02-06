@@ -2,7 +2,7 @@
 # Fundraising Challenge: Contest Results List
 
 ```bash
-GET https://api.betterplace.org/en/api_v4/contests/1/results.json
+curl "https://api.betterplace.org/en/api_v4/contests/1/results.json"
 ```
 
 A list of contest results.

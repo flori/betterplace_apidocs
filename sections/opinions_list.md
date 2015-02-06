@@ -2,7 +2,7 @@
 # Project Opinions List ⇄ [Details](opinion_details.md)
 
 ```bash
-GET https://api.betterplace.org/en/api_v4/projects/1114/opinions.json?facets=has_message%3Atrue&order=created_at%3AASC
+curl "https://api.betterplace.org/en/api_v4/projects/1114/opinions.json?facets=has_message%3Atrue&order=created_at%3AASC"
 ```
 
 A list of betterplace.org projects opinions (donate money).

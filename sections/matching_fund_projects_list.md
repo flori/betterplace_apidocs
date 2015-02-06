@@ -2,7 +2,7 @@
 # Matching Fund Projects List
 
 ```bash
-GET https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json
+curl "https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json"
 ```
 
 A list of betterplace.org matching fund projects.
@@ -696,7 +696,7 @@ set for organisations.
 # Matching Fund Projects List
 
 ```bash
-GET https://api.betterplace.org/en/portals/2/projects.json?action=projects&controller=api_v4%2Fmatching_funds
+curl "https://api.betterplace.org/en/portals/2/projects.json?action=projects&controller=api_v4%2Fmatching_funds"
 ```
 
 A list of betterplace.org matching fund projects.

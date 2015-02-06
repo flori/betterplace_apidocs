@@ -2,7 +2,7 @@
 # Fundraising Challenge: Contest Details
 
 ```bash
-GET https://api.betterplace.org/en/api_v4/contests/1.json
+curl "https://api.betterplace.org/en/api_v4/contests/1.json"
 ```
 
 The details of a contest.

@@ -2,7 +2,7 @@
 # Client-project tags list
 
 ```bash
-GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/projects/4425/tags.json?order=projects_count%3ADESC
+curl "https://api.betterplace.org/en/api_v4/clients/Volksfreund/projects/4425/tags.json?order=projects_count%3ADESC"
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**

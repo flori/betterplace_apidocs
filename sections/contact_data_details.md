@@ -2,7 +2,7 @@
 # User Contact Data Details
 
 ```bash
-GET https://api.betterplace.org/en/api_v4/users/250285/contact_data.json
+curl "https://api.betterplace.org/en/api_v4/users/250285/contact_data.json"
 ```
 
 Name and email for the given user.

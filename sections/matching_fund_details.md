@@ -2,7 +2,7 @@
 # Matching Fund Details ⇄ [List](matching_funds_list.md)
 
 ```bash
-GET https://api.betterplace.org/en/api_v4/matching_funds/2.json
+curl "https://api.betterplace.org/en/api_v4/matching_funds/2.json"
 ```
 
 The details of a betterplace.org matching fund.
