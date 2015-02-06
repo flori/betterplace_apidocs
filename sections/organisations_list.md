@@ -275,9 +275,9 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 10758,
+  "total_entries": 10863,
   "offset": 0,
-  "total_pages": 5379,
+  "total_pages": 5432,
   "current_page": 1,
   "per_page": 2,
   "data": [

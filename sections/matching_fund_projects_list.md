@@ -431,22 +431,22 @@ like "Payback User" or empty/null for anonymous donations.
     </tr>
     <tr>
       <th align="left">opinions</th>
-      <td>Link to <a href="opinions_list.md">opinion list</a>
+      <td>Link to <a href="opinions_list.md">opinions list</a>
 </td>
     </tr>
     <tr>
       <th align="left">pictures</th>
-      <td>Link to <a href="picture_list.md">project picture list</a>
+      <td>Link to <a href="project_pictures_list.md">project pictures list</a>
 </td>
     </tr>
     <tr>
       <th align="left">needs</th>
-      <td>Link to <a href="needs_list.md">project need list</a>
+      <td>Link to <a href="needs_list.md">project needs list</a>
 </td>
     </tr>
     <tr>
       <th align="left">blog_posts</th>
-      <td>Link to <a href="blog_posts_list.md">blog post list</a>
+      <td>Link to <a href="blog_posts_list.md">blog posts list</a>
 </td>
     </tr>
     <tr>
@@ -558,7 +558,7 @@ set for organisations.
     {
       "id": 14784,
       "created_at": "2013-09-23T16:29:10+02:00",
-      "updated_at": "2014-12-09T09:01:30+01:00",
+      "updated_at": "2015-01-29T20:39:26+01:00",
       "latitude": 53.55808469999999,
       "longitude": 10.01197890000003,
       "street": "",
@@ -570,14 +570,14 @@ set for organisations.
       "description": "Wir schließen Hamburgs Baumlücken – helfen Sie mit!<br /><br />Gemeinsam mit der Loki Schmidt Stiftung und der Stadt Hamburg können Sie Baumlücken in strukturschwachen Stadtteilen schließen. Diese Lücken entstehen, wenn aufgrund von Krankheiten oder mangelnder Standfestigkeit Straßenbäume gefällt werden müssen.<br /><br />Seit 2011 sind Hamburger Bürger aufgerufen, gemeinsam mit den beiden Partner-Organisationen für neue Bäume zu spenden.<br />Bisher konnten bereits mehr als 3.500 Baumlücken geschlossen werden. Spenden über dieses Portal werden gezielt in Gebieten eingesetzt, in denen ansonsten weniger gespendet wird – z.B. in Mümmelmannsberg, Nettelnburg, Steilshoop, Veddel und Willhelmsburg!<br />Nun wollen wir weitere Bäume pflanzen – und zwar gemeinsam mit Ihnen!<br /><br />Das funktioniert folgendermaßen:<br />1. Sie spenden einen beliebig hohen Betrag auf betterplace.org.<br />2. Sobald durch Sie 500 Euro zusammengekommen sind, legt die Stadt Hamburg die restlichen mindestens 500 Euro drauf, die für eine Pflanzung notwendig sind.<br />3. Ein Baum wird gepflanzt – Hamburg wird grüner!<br /><br />Ihr Engagement zählt! Helfen Sie jetzt hier mit!",
       "tax_deductible": true,
       "donations_prohibited": false,
-      "open_amount_in_cents": 97000,
-      "positive_opinions_count": 82,
+      "open_amount_in_cents": 94500,
+      "positive_opinions_count": 83,
       "negative_opinions_count": 0,
       "donor_count": 71,
       "progress_percentage": 95,
       "incomplete_need_count": 2,
       "completed_need_count": 4,
-      "blog_post_count": 18,
+      "blog_post_count": 19,
       "contact": {
         "name": "A. Jahn",
         "picture": {
@@ -1125,22 +1125,22 @@ like "Payback User" or empty/null for anonymous donations.
     </tr>
     <tr>
       <th align="left">opinions</th>
-      <td>Link to <a href="opinions_list.md">opinion list</a>
+      <td>Link to <a href="opinions_list.md">opinions list</a>
 </td>
     </tr>
     <tr>
       <th align="left">pictures</th>
-      <td>Link to <a href="picture_list.md">project picture list</a>
+      <td>Link to <a href="project_pictures_list.md">project pictures list</a>
 </td>
     </tr>
     <tr>
       <th align="left">needs</th>
-      <td>Link to <a href="needs_list.md">project need list</a>
+      <td>Link to <a href="needs_list.md">project needs list</a>
 </td>
     </tr>
     <tr>
       <th align="left">blog_posts</th>
-      <td>Link to <a href="blog_posts_list.md">blog post list</a>
+      <td>Link to <a href="blog_posts_list.md">blog posts list</a>
 </td>
     </tr>
     <tr>
@@ -1252,7 +1252,7 @@ set for organisations.
     {
       "id": 14784,
       "created_at": "2013-09-23T16:29:10+02:00",
-      "updated_at": "2014-12-09T09:01:30+01:00",
+      "updated_at": "2015-01-29T20:39:26+01:00",
       "latitude": 53.55808469999999,
       "longitude": 10.01197890000003,
       "street": "",
@@ -1264,14 +1264,14 @@ set for organisations.
       "description": "Wir schließen Hamburgs Baumlücken – helfen Sie mit!<br /><br />Gemeinsam mit der Loki Schmidt Stiftung und der Stadt Hamburg können Sie Baumlücken in strukturschwachen Stadtteilen schließen. Diese Lücken entstehen, wenn aufgrund von Krankheiten oder mangelnder Standfestigkeit Straßenbäume gefällt werden müssen.<br /><br />Seit 2011 sind Hamburger Bürger aufgerufen, gemeinsam mit den beiden Partner-Organisationen für neue Bäume zu spenden.<br />Bisher konnten bereits mehr als 3.500 Baumlücken geschlossen werden. Spenden über dieses Portal werden gezielt in Gebieten eingesetzt, in denen ansonsten weniger gespendet wird – z.B. in Mümmelmannsberg, Nettelnburg, Steilshoop, Veddel und Willhelmsburg!<br />Nun wollen wir weitere Bäume pflanzen – und zwar gemeinsam mit Ihnen!<br /><br />Das funktioniert folgendermaßen:<br />1. Sie spenden einen beliebig hohen Betrag auf betterplace.org.<br />2. Sobald durch Sie 500 Euro zusammengekommen sind, legt die Stadt Hamburg die restlichen mindestens 500 Euro drauf, die für eine Pflanzung notwendig sind.<br />3. Ein Baum wird gepflanzt – Hamburg wird grüner!<br /><br />Ihr Engagement zählt! Helfen Sie jetzt hier mit!",
       "tax_deductible": true,
       "donations_prohibited": false,
-      "open_amount_in_cents": 97000,
-      "positive_opinions_count": 82,
+      "open_amount_in_cents": 94500,
+      "positive_opinions_count": 83,
       "negative_opinions_count": 0,
       "donor_count": 71,
       "progress_percentage": 95,
       "incomplete_need_count": 2,
       "completed_need_count": 4,
-      "blog_post_count": 18,
+      "blog_post_count": 19,
       "contact": {
         "name": "A. Jahn",
         "picture": {

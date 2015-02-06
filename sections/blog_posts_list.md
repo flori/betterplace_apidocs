@@ -258,62 +258,12 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 84,
+  "total_entries": 85,
   "offset": 0,
-  "total_pages": 42,
+  "total_pages": 43,
   "current_page": 1,
   "per_page": 2,
   "data": [
-    {
-      "id": 5703,
-      "created_at": "2009-06-15T08:21:20+02:00",
-      "updated_at": "2009-06-15T08:21:20+02:00",
-      "lang": "en",
-      "type": "BlogPost",
-      "title": "Go Skateboarding Day Kabul",
-      "body": "<p>Skateistan's first GSD in Kabul on June 21st: Skate-a-thon and competition in honor of Go Skateboarding Day, a holiday on which we recognize the value of skateboarding to youth in societies across the world. Join the Skateistan students as they skateboard from Bibi Mahru to Macroryan. There will be a celebratory skateboarding competition upon arrival at the empty fountain in Macroryan.</p>",
-      "payout": null,
-      "author": {
-        "name": "M. Henninger",
-        "picture": {
-          "fallback": true,
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/fill_100x100_original_maxn_skate.jpg"
-            },
-            {
-              "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/crop_original_original_maxn_skate.jpg"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/max_h2"
-          },
-          {
-            "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/9238/contact_data.json"
-          }
-        ]
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/blog_posts/5703.json"
-        },
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan/news/5703"
-        },
-        {
-          "rel": "documentation",
-          "href": "https://github.com/betterplace/betterplace_apidocs/blob/master/sections/blog_post_details.md"
-        }
-      ]
-    },
     {
       "id": 6910,
       "created_at": "2009-07-12T12:25:13+02:00",
@@ -357,6 +307,56 @@ access rights in order to see this information.
         {
           "rel": "platform",
           "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan/news/6910"
+        },
+        {
+          "rel": "documentation",
+          "href": "https://github.com/betterplace/betterplace_apidocs/blob/master/sections/blog_post_details.md"
+        }
+      ]
+    },
+    {
+      "id": 7019,
+      "created_at": "2009-07-15T08:51:10+02:00",
+      "updated_at": "2009-07-15T08:51:10+02:00",
+      "lang": "en",
+      "type": "BlogPost",
+      "title": "Innovative support from a generous hairstylist",
+      "body": "<p>\r\n<p>Approximately one year ago, a young German hairstyling student read a piece about Skateistan. When she found herself working as a nurse in the German military hospital in Mazar-e-Sharif soon after, the skateboarding students of Kabul lingered in her mind. The soldier, Alexandra H., decided to use her skills to support Skateistan in any way she could &mdash; so she began to collect donations by giving haircuts to German soldiers serving in Afghanistan.</p>\r\n<p>News of Alexandra&rsquo;s &ldquo;haircuts for a good cause&rdquo; spread rapidly at Mazar-e-Sharif&rsquo;s Camp Marmal. Before long, she had given 150 haircuts: at the end of June 2009, she generously handed all of the profits to Skateistan.</p>\r\n<p>Alexandra, who has promised to continue her fundraising efforts for Skateistan when she returns to Germany, has quickly become one of the organization&rsquo;s most innovative and committed supporters.</p>\r\n</p>",
+      "payout": null,
+      "author": {
+        "name": "M. Henninger",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/fill_100x100_original_maxn_skate.jpg"
+            },
+            {
+              "rel": "original",
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/009/238/crop_original_original_maxn_skate.jpg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/en/users/max_h2"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/en/api_v4/users/9238/contact_data.json"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/en/api_v4/blog_posts/7019.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan/news/7019"
         },
         {
           "rel": "documentation",

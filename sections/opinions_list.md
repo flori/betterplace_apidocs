@@ -220,9 +220,9 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 666,
+  "total_entries": 678,
   "offset": 0,
-  "total_pages": 222,
+  "total_pages": 226,
   "current_page": 1,
   "per_page": 3,
   "data": [

@@ -87,8 +87,13 @@ values have been used for the query.
     <th align="left">facets</th>
     <td><code>completed:false</code></td>
     <td>optional</td>
-    <td>Filter the result set by <code>tax_deductible</code> or <code>completed</code>. Possible values are
-<code>true</code> or <code>false</code>.
+    <td>Filter the result set.
+Documented and supported filters are:
+<ul>
+<li><code>tax_deductible:true/false</code>
+<li><code>completed:true/false</code>
+<li><code>prohibit_donations:true/false</code>
+<ul>
 It is possible to set multiple facet filters.
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
@@ -525,22 +530,22 @@ like "Payback User" or empty/null for anonymous donations.
     </tr>
     <tr>
       <th align="left">opinions</th>
-      <td>Link to <a href="opinions_list.md">opinion list</a>
+      <td>Link to <a href="opinions_list.md">opinions list</a>
 </td>
     </tr>
     <tr>
       <th align="left">pictures</th>
-      <td>Link to <a href="picture_list.md">project picture list</a>
+      <td>Link to <a href="project_pictures_list.md">project pictures list</a>
 </td>
     </tr>
     <tr>
       <th align="left">needs</th>
-      <td>Link to <a href="needs_list.md">project need list</a>
+      <td>Link to <a href="needs_list.md">project needs list</a>
 </td>
     </tr>
     <tr>
       <th align="left">blog_posts</th>
-      <td>Link to <a href="blog_posts_list.md">blog post list</a>
+      <td>Link to <a href="blog_posts_list.md">blog posts list</a>
 </td>
     </tr>
     <tr>
@@ -650,9 +655,142 @@ set for organisations.
   "per_page": 3,
   "data": [
     {
+      "id": 1114,
+      "created_at": "2009-03-10T11:12:16+01:00",
+      "updated_at": "2015-02-03T09:00:35+01:00",
+      "latitude": 34.531617284782,
+      "longitude": 69.13581752939456,
+      "street": "Taimani, behind Qasemi Winhouse",
+      "zip": "",
+      "city": "Kabul",
+      "country": "Afghanistan",
+      "completed_at": null,
+      "title": "Skateistan Afghanistan",
+      "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important.<br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
+      "tax_deductible": true,
+      "donations_prohibited": false,
+      "open_amount_in_cents": 999842,
+      "positive_opinions_count": 677,
+      "negative_opinions_count": 0,
+      "donor_count": 534,
+      "progress_percentage": 80,
+      "incomplete_need_count": 1,
+      "completed_need_count": 81,
+      "blog_post_count": 85,
+      "contact": {
+        "name": "E. Kinast",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/fill_100x100_original_Picture_023.jpg"
+            },
+            {
+              "rel": "original",
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/crop_original_original_Picture_023.jpg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/en/users/erika_k2"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/en/api_v4/users/130618/contact_data.json"
+          }
+        ]
+      },
+      "carrier": {
+        "name": "Skateistan",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/fill_100x100_original_betterplace-logo.png"
+            },
+            {
+              "rel": "original",
+              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/crop_original_original_betterplace-logo.png"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://api.betterplace.org/en/api_v4/organisations/1054.json"
+          }
+        ]
+      },
+      "profile_picture": {
+        "fallback": true,
+        "links": [
+          {
+            "rel": "fill_960x500",
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_960x500_original_girls-merza-sm.jpg"
+          },
+          {
+            "rel": "fill_618x322",
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_618x322_original_girls-merza-sm.jpg"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_270x141_original_girls-merza-sm.jpg"
+          },
+          {
+            "rel": "original",
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/crop_original_original_girls-merza-sm.jpg"
+          }
+        ]
+      },
+      "active_matching_fund": null,
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan"
+        },
+        {
+          "rel": "opinions",
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions.json"
+        },
+        {
+          "rel": "pictures",
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures.json"
+        },
+        {
+          "rel": "needs",
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs.json"
+        },
+        {
+          "rel": "blog_posts",
+          "href": "https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json"
+        },
+        {
+          "rel": "matching_funds",
+          "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=1114"
+        },
+        {
+          "rel": "new_client_donation",
+          "href": "https://www.betterplace.org/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D",
+          "templated": true
+        },
+        {
+          "rel": "new_donation",
+          "href": "https://www.betterplace.org/en/projects/1114/donations/new"
+        }
+      ]
+    },
+    {
       "id": 6233,
       "created_at": "2011-02-25T08:48:43+01:00",
-      "updated_at": "2015-01-12T04:33:29+01:00",
+      "updated_at": "2015-02-01T09:00:55+01:00",
       "latitude": 11.55883121490479,
       "longitude": 104.9174423217773,
       "street": null,
@@ -779,139 +917,6 @@ set for organisations.
         {
           "rel": "new_donation",
           "href": "https://www.betterplace.org/en/projects/6233/donations/new"
-        }
-      ]
-    },
-    {
-      "id": 1114,
-      "created_at": "2009-03-10T11:12:16+01:00",
-      "updated_at": "2015-01-21T11:57:10+01:00",
-      "latitude": 34.531617284782,
-      "longitude": 69.13581752939456,
-      "street": "Taimani, behind Qasemi Winhouse",
-      "zip": "",
-      "city": "Kabul",
-      "country": "Afghanistan",
-      "completed_at": "2015-01-21T11:57:09+01:00",
-      "title": "Skateistan Afghanistan",
-      "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important.<br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
-      "tax_deductible": true,
-      "donations_prohibited": false,
-      "open_amount_in_cents": 0,
-      "positive_opinions_count": 677,
-      "negative_opinions_count": 0,
-      "donor_count": 534,
-      "progress_percentage": 100,
-      "incomplete_need_count": 0,
-      "completed_need_count": 81,
-      "blog_post_count": 85,
-      "contact": {
-        "name": "E. Kinast",
-        "picture": {
-          "fallback": true,
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/fill_100x100_original_Picture_023.jpg"
-            },
-            {
-              "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/130/618/crop_original_original_Picture_023.jpg"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/erika_k2"
-          },
-          {
-            "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/130618/contact_data.json"
-          }
-        ]
-      },
-      "carrier": {
-        "name": "Skateistan",
-        "picture": {
-          "fallback": true,
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/fill_100x100_original_betterplace-logo.png"
-            },
-            {
-              "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/001/054/crop_original_original_betterplace-logo.png"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "self",
-            "href": "https://api.betterplace.org/en/api_v4/organisations/1054.json"
-          }
-        ]
-      },
-      "profile_picture": {
-        "fallback": true,
-        "links": [
-          {
-            "rel": "fill_960x500",
-            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_960x500_original_girls-merza-sm.jpg"
-          },
-          {
-            "rel": "fill_618x322",
-            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_618x322_original_girls-merza-sm.jpg"
-          },
-          {
-            "rel": "fill_270x141",
-            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/fill_270x141_original_girls-merza-sm.jpg"
-          },
-          {
-            "rel": "original",
-            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/001/114/crop_original_original_girls-merza-sm.jpg"
-          }
-        ]
-      },
-      "active_matching_fund": null,
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
-        },
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan"
-        },
-        {
-          "rel": "opinions",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions.json"
-        },
-        {
-          "rel": "pictures",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures.json"
-        },
-        {
-          "rel": "needs",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs.json"
-        },
-        {
-          "rel": "blog_posts",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json"
-        },
-        {
-          "rel": "matching_funds",
-          "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=1114"
-        },
-        {
-          "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D",
-          "templated": true
-        },
-        {
-          "rel": "new_donation",
-          "href": "https://www.betterplace.org/en/projects/1114/donations/new"
         }
       ]
     }

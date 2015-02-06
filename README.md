@@ -255,7 +255,7 @@ We would love to hear from you if you plan to use/extend bettery or implement yo
 
 ### Example apps
 
-* The "Deutsch Tansanianische Partnerschaft" uses this API to present their betterplace.org projects right on their website: [Project list](http://www.dtpev.de/unterstuetzen/projekte), [Project details](http://www.dtpev.de/unterstuetzen/projekte/one-child-one-light)
+* The "Deutsch Tansanische Partnerschaft" uses this API to present their betterplace.org projects right on their website: [Project list](http://www.dtpev.de/unterstuetzen/projekte), [Project details](http://www.dtpev.de/unterstuetzen/projekte/one-child-one-light)
 * _Please send us your sites to developers@betterplace.org_
 
 

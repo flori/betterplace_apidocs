@@ -152,20 +152,20 @@ offline donations and also(!) external donations)
 
 ```json
 {
-  "id": 79124,
-  "created_at": "2014-02-17T17:01:17+01:00",
-  "updated_at": "2015-01-21T11:57:08+01:00",
-  "title": "Clean Water for the Skateparks in Kabul and MeS",
-  "description": "The equivalent of supplying clean drinking water for all of our staff and students in both the Kabul and Mazar-e-Sharif Skateparks. ",
-  "completed": true,
-  "progress_percentage": 100.0,
-  "donated_amount_in_cents": 179500,
-  "open_amount_in_cents": 0,
-  "requested_amount_in_cents": 179500,
+  "id": 101047,
+  "created_at": "2015-01-23T10:55:07+01:00",
+  "updated_at": "2015-01-23T10:55:07+01:00",
+  "title": "Testbedarf MJO III",
+  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium ",
+  "completed": false,
+  "progress_percentage": 0.01,
+  "donated_amount_in_cents": 58,
+  "open_amount_in_cents": 999842,
+  "requested_amount_in_cents": 999900,
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs/79124.json"
+      "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs/101047.json"
     },
     {
       "rel": "project",
@@ -173,12 +173,12 @@ offline donations and also(!) external donations)
     },
     {
       "rel": "new_client_donation",
-      "href": "https://www.betterplace.org/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D&earmark_id=79124",
+      "href": "https://www.betterplace.org/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D&earmark_id=101047",
       "templated": true
     },
     {
       "rel": "new_donation",
-      "href": "https://www.betterplace.org/en/projects/1114/donations/new?earmark_id=79124"
+      "href": "https://www.betterplace.org/en/projects/1114/donations/new?earmark_id=101047"
     }
   ]
 }
