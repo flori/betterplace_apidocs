@@ -1,6 +1,14 @@
 
 # Organisation Details ⇄ [List](organisations_list.md)
 
+## Request
+
+```nginx
+GET https://api.betterplace.org/en/api_v4/organisations/125.json
+```
+
+## Command
+
 ```bash
 curl "https://api.betterplace.org/en/api_v4/organisations/125.json"
 ```

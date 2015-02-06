@@ -1,6 +1,14 @@
 
 # Matching Funds List ⇄ [Details](matching_fund_details.md)
 
+## Request
+
+```nginx
+GET https://api.betterplace.org/en/api_v4/matching_funds.json?facets=state%3Aactivated&project_id=1114
+```
+
+## Command
+
 ```bash
 curl "https://api.betterplace.org/en/api_v4/matching_funds.json?facets=state%3Aactivated&project_id=1114"
 ```

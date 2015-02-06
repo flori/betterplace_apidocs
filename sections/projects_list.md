@@ -1,6 +1,14 @@
 
 # Projects List ⇄ [Details](project_details.md)
 
+## Request
+
+```nginx
+GET https://api.betterplace.org/en/api_v4/projects.json?around=10997+Berlin%2C+Germany&facets=completed%3Afalse&nelat=51.123&nelng=12.123&order=rank%3ADESC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
+```
+
+## Command
+
 ```bash
 curl "https://api.betterplace.org/en/api_v4/projects.json?around=10997+Berlin%2C+Germany&facets=completed%3Afalse&nelat=51.123&nelng=12.123&order=rank%3ADESC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001"
 ```

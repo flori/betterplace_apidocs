@@ -1,6 +1,14 @@
 
 # Project Pictures List ⇄ [Details](project_picture_details.md)
 
+## Request
+
+```nginx
+GET https://api.betterplace.org/en/api_v4/projects/1114/pictures.json
+```
+
+## Command
+
 ```bash
 curl "https://api.betterplace.org/en/api_v4/projects/1114/pictures.json"
 ```

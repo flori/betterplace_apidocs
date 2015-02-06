@@ -1,6 +1,14 @@
 
 # Creates/Updates a mailing subscription
 
+## Request
+
+```nginx
+POST https://api.betterplace.org/en/api_v4/clients/Volksfreund/projects/4425/mailing_subscriptions.json?active=true&email=peter.paul%40betterplace.org&first_name=Peter&last_name=Paul
+```
+
+## Command
+
 ```bash
 curl "https://api.betterplace.org/en/api_v4/clients/Volksfreund/projects/4425/mailing_subscriptions.json"\
  -d "active=true&email=peter.paul%40betterplace.org&first_name=Peter&last_name=Paul"

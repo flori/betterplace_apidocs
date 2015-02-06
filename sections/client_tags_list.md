@@ -1,6 +1,14 @@
 
 # Client tags list
 
+## Request
+
+```nginx
+GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/tags.json
+```
+
+## Command
+
 ```bash
 curl "https://api.betterplace.org/en/api_v4/clients/Volksfreund/tags.json"
 ```

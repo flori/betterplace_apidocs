@@ -1,6 +1,14 @@
 
 # Project Blog Posts List ⇄ [Details](blog_post_details.md)
 
+## Request
+
+```nginx
+GET https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json
+```
+
+## Command
+
 ```bash
 curl "https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json"
 ```

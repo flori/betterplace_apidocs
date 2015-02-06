@@ -1,6 +1,14 @@
 
 # Client Details
 
+## Request
+
+```nginx
+GET https://api.betterplace.org/en/api_v4/clients/Volksfreund.json
+```
+
+## Command
+
 ```bash
 curl "https://api.betterplace.org/en/api_v4/clients/Volksfreund.json"
 ```

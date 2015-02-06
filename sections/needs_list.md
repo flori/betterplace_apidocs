@@ -1,6 +1,14 @@
 
 # Project Needs List ⇄ [Details](need_details.md)
 
+## Request
+
+```nginx
+GET https://api.betterplace.org/en/api_v4/projects/1114/needs.json
+```
+
+## Command
+
 ```bash
 curl "https://api.betterplace.org/en/api_v4/projects/1114/needs.json"
 ```

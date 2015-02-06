@@ -1,6 +1,14 @@
 
 # Client Donations List ⇄ [Details](client_donation_details.md)
 
+## Request
+
+```nginx
+GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations.json?facets=client_reference%3A922ec9b-etc
+```
+
+## Command
+
 ```bash
 curl "https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations.json?facets=client_reference%3A922ec9b-etc"
 ```
