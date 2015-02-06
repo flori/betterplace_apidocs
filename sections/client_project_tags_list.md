@@ -1,7 +1,7 @@
 
 # Client-project tags list
 
-```nginx
+```bash
 GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/projects/4425/tags.json?order=projects_count%3ADESC
 ```
 

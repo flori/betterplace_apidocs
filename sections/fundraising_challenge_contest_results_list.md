@@ -1,7 +1,7 @@
 
 # Fundraising Challenge: Contest Results List
 
-```nginx
+```bash
 GET https://api.betterplace.org/en/api_v4/contests/1/results.json
 ```
 

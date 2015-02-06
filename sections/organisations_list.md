@@ -1,7 +1,7 @@
 
 # Organisations List ⇄ [Details](organisation_details.md)
 
-```nginx
+```bash
 GET https://api.betterplace.org/en/api_v4/organisations.json
 ```
 

@@ -1,7 +1,7 @@
 
 # Client Details
 
-```nginx
+```bash
 GET https://api.betterplace.org/en/api_v4/clients/Volksfreund.json
 ```
 

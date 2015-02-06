@@ -1,7 +1,7 @@
 
 # Volunteering Details ⇄ [List](volunteering_list.md)
 
-```nginx
+```bash
 GET https://api.betterplace.org/en/api_v4/volunteering/23.json
 ```
 

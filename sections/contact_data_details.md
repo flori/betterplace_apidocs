@@ -1,7 +1,7 @@
 
 # User Contact Data Details
 
-```nginx
+```bash
 GET https://api.betterplace.org/en/api_v4/users/250285/contact_data.json
 ```
 

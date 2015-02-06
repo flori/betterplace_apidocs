@@ -1,7 +1,7 @@
 
 # Volunteering List ⇄ [Details](volunteering_details.md)
 
-```nginx
+```bash
 GET https://api.betterplace.org/en/api_v4/volunteering.json?around=10997+Berlin%2C+Germany&nelat=51.123&nelng=12.123&order=created_at%3AASC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001
 ```
 
