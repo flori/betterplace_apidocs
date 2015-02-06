@@ -85,7 +85,7 @@ a comment as answer very fast but there is no API for opinion-comments yet.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="author-ref" href="#author">
+          <a id="author-ref" href="#author">
             ↓author
           </a>
         </th>
@@ -104,7 +104,7 @@ why they like or dislike this project
 </td>
     </tr>
   </table>
-### <a name="author" href="#author-ref">↑Nested Attributes: author</a>
+### <a id="author" href="#author-ref">↑Nested Attributes: author</a>
 
   <table>
     <tr>
@@ -125,7 +125,7 @@ like "Payback User" or empty/null for anonymous donations.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="author.picture-ref" href="#author.picture">
+          <a id="author.picture-ref" href="#author.picture">
             ↓author.picture
           </a>
         </th>
@@ -134,7 +134,7 @@ like "Payback User" or empty/null for anonymous donations.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-### <a name="author.picture" href="#author.picture-ref">↑Nested Attributes: author.picture</a>
+### <a id="author.picture" href="#author.picture-ref">↑Nested Attributes: author.picture</a>
 
   <table>
     <tr>

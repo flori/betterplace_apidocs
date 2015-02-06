@@ -97,7 +97,7 @@ what you plan to do with the money.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="payout-ref" href="#payout">
+          <a id="payout-ref" href="#payout">
             ↓payout
           </a>
         </th>
@@ -107,7 +107,7 @@ what you plan to do with the money.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="author-ref" href="#author">
+          <a id="author-ref" href="#author">
             ↓author
           </a>
         </th>
@@ -118,7 +118,7 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
 </td>
     </tr>
   </table>
-### <a name="payout" href="#payout-ref">↑Nested Attributes: payout</a>
+### <a id="payout" href="#payout-ref">↑Nested Attributes: payout</a>
 
   <table>
     <tr>
@@ -129,7 +129,7 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="payout.needs-ref" href="#payout.needs">
+          <a id="payout.needs-ref" href="#payout.needs">
             ↓payout.needs
           </a>
         </th>
@@ -138,7 +138,7 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
       <td>TODO</td>
     </tr>
   </table>
-### <a name="payout.needs" href="#payout.needs-ref">↑Nested Attributes: payout.needs</a>
+### <a id="payout.needs" href="#payout.needs-ref">↑Nested Attributes: payout.needs</a>
 
   <table>
     <tr>
@@ -160,7 +160,7 @@ Possible formats: "Till B.", "T. Behnke", "Till Behnke"
       <td>Amount paid out to that need</td>
     </tr>
   </table>
-### <a name="author" href="#author-ref">↑Nested Attributes: author</a>
+### <a id="author" href="#author-ref">↑Nested Attributes: author</a>
 
   <table>
     <tr>
@@ -181,7 +181,7 @@ like "Payback User" or empty/null for anonymous donations.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="author.picture-ref" href="#author.picture">
+          <a id="author.picture-ref" href="#author.picture">
             ↓author.picture
           </a>
         </th>
@@ -190,7 +190,7 @@ like "Payback User" or empty/null for anonymous donations.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-### <a name="author.picture" href="#author.picture-ref">↑Nested Attributes: author.picture</a>
+### <a id="author.picture" href="#author.picture-ref">↑Nested Attributes: author.picture</a>
 
   <table>
     <tr>

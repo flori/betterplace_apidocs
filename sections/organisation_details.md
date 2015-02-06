@@ -127,7 +127,7 @@ If so, Users can request a tax-receipt for donations to that organisation.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="contact-ref" href="#contact">
+          <a id="contact-ref" href="#contact">
             ↓contact
           </a>
         </th>
@@ -137,7 +137,7 @@ If so, Users can request a tax-receipt for donations to that organisation.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="picture-ref" href="#picture">
+          <a id="picture-ref" href="#picture">
             ↓picture
           </a>
         </th>
@@ -146,7 +146,7 @@ If so, Users can request a tax-receipt for donations to that organisation.
       <td>TODO</td>
     </tr>
   </table>
-### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
+### <a id="contact" href="#contact-ref">↑Nested Attributes: contact</a>
 
   <table>
     <tr>
@@ -167,7 +167,7 @@ like "Payback User" or empty/null for anonymous donations.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="contact.picture-ref" href="#contact.picture">
+          <a id="contact.picture-ref" href="#contact.picture">
             ↓contact.picture
           </a>
         </th>
@@ -176,7 +176,7 @@ like "Payback User" or empty/null for anonymous donations.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-### <a name="contact.picture" href="#contact.picture-ref">↑Nested Attributes: contact.picture</a>
+### <a id="contact.picture" href="#contact.picture-ref">↑Nested Attributes: contact.picture</a>
 
   <table>
     <tr>
@@ -192,7 +192,7 @@ like "Payback User" or empty/null for anonymous donations.
       <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
-### <a name="picture" href="#picture-ref">↑Nested Attributes: picture</a>
+### <a id="picture" href="#picture-ref">↑Nested Attributes: picture</a>
 
   <table>
     <tr>

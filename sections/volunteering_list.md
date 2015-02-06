@@ -185,7 +185,7 @@ values have been used for the query.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="carrier-ref" href="#carrier">
+          <a id="carrier-ref" href="#carrier">
             ↓carrier
           </a>
         </th>
@@ -201,7 +201,7 @@ values have been used for the query.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="image-ref" href="#image">
+          <a id="image-ref" href="#image">
             ↓image
           </a>
         </th>
@@ -211,7 +211,7 @@ values have been used for the query.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="contact-ref" href="#contact">
+          <a id="contact-ref" href="#contact">
             ↓contact
           </a>
         </th>
@@ -250,7 +250,7 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="import_information-ref" href="#import_information">
+          <a id="import_information-ref" href="#import_information">
             ↓import_information
           </a>
         </th>
@@ -261,7 +261,7 @@ was indeed imported.
 </td>
     </tr>
   </table>
-### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
+### <a id="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
 
   <table>
     <tr>
@@ -313,7 +313,7 @@ was indeed imported.
       <td>Contact data for the organisation</td>
     </tr>
   </table>
-### <a name="image" href="#image-ref">↑Nested Attributes: image</a>
+### <a id="image" href="#image-ref">↑Nested Attributes: image</a>
 
   <table>
     <tr>
@@ -329,7 +329,7 @@ was indeed imported.
       <td>Image description</td>
     </tr>
   </table>
-### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
+### <a id="contact" href="#contact-ref">↑Nested Attributes: contact</a>
 
   <table>
     <tr>
@@ -364,7 +364,7 @@ No validations on input apply.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="contact.picture-ref" href="#contact.picture">
+          <a id="contact.picture-ref" href="#contact.picture">
             ↓contact.picture
           </a>
         </th>
@@ -373,7 +373,7 @@ No validations on input apply.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-### <a name="contact.picture" href="#contact.picture-ref">↑Nested Attributes: contact.picture</a>
+### <a id="contact.picture" href="#contact.picture-ref">↑Nested Attributes: contact.picture</a>
 
   <table>
     <tr>
@@ -389,7 +389,7 @@ No validations on input apply.
       <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
-### <a name="import_information" href="#import_information-ref">↑Nested Attributes: import_information</a>
+### <a id="import_information" href="#import_information-ref">↑Nested Attributes: import_information</a>
 
   <table>
     <tr>

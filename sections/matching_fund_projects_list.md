@@ -184,7 +184,7 @@ donation needs. This percentage includes those needs.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="contact-ref" href="#contact">
+          <a id="contact-ref" href="#contact">
             ↓contact
           </a>
         </th>
@@ -194,7 +194,7 @@ donation needs. This percentage includes those needs.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="carrier-ref" href="#carrier">
+          <a id="carrier-ref" href="#carrier">
             ↓carrier
           </a>
         </th>
@@ -204,7 +204,7 @@ donation needs. This percentage includes those needs.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="profile_picture-ref" href="#profile_picture">
+          <a id="profile_picture-ref" href="#profile_picture">
             ↓profile_picture
           </a>
         </th>
@@ -214,7 +214,7 @@ donation needs. This percentage includes those needs.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="active_matching_fund-ref" href="#active_matching_fund">
+          <a id="active_matching_fund-ref" href="#active_matching_fund">
             ↓active_matching_fund
           </a>
         </th>
@@ -223,7 +223,7 @@ donation needs. This percentage includes those needs.
       <td>TODO</td>
     </tr>
   </table>
-### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
+### <a id="contact" href="#contact-ref">↑Nested Attributes: contact</a>
 
   <table>
     <tr>
@@ -244,7 +244,7 @@ like "Payback User" or empty/null for anonymous donations.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="contact.picture-ref" href="#contact.picture">
+          <a id="contact.picture-ref" href="#contact.picture">
             ↓contact.picture
           </a>
         </th>
@@ -253,7 +253,7 @@ like "Payback User" or empty/null for anonymous donations.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-### <a name="contact.picture" href="#contact.picture-ref">↑Nested Attributes: contact.picture</a>
+### <a id="contact.picture" href="#contact.picture-ref">↑Nested Attributes: contact.picture</a>
 
   <table>
     <tr>
@@ -269,7 +269,7 @@ like "Payback User" or empty/null for anonymous donations.
       <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
-### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
+### <a id="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
 
   <table>
     <tr>
@@ -286,7 +286,7 @@ like "Payback User" or empty/null for anonymous donations.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="carrier.picture-ref" href="#carrier.picture">
+          <a id="carrier.picture-ref" href="#carrier.picture">
             ↓carrier.picture
           </a>
         </th>
@@ -295,7 +295,7 @@ like "Payback User" or empty/null for anonymous donations.
       <td>The organisation logo, user profile picture or a fallback image</td>
     </tr>
   </table>
-### <a name="carrier.picture" href="#carrier.picture-ref">↑Nested Attributes: carrier.picture</a>
+### <a id="carrier.picture" href="#carrier.picture-ref">↑Nested Attributes: carrier.picture</a>
 
   <table>
     <tr>
@@ -311,7 +311,7 @@ like "Payback User" or empty/null for anonymous donations.
       <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
-### <a name="profile_picture" href="#profile_picture-ref">↑Nested Attributes: profile_picture</a>
+### <a id="profile_picture" href="#profile_picture-ref">↑Nested Attributes: profile_picture</a>
 
   <table>
     <tr>
@@ -327,7 +327,7 @@ like "Payback User" or empty/null for anonymous donations.
       <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
-### <a name="active_matching_fund" href="#active_matching_fund-ref">↑Nested Attributes: active_matching_fund</a>
+### <a id="active_matching_fund" href="#active_matching_fund-ref">↑Nested Attributes: active_matching_fund</a>
 
   <table>
     <tr>
@@ -878,7 +878,7 @@ donation needs. This percentage includes those needs.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="contact-ref" href="#contact">
+          <a id="contact-ref" href="#contact">
             ↓contact
           </a>
         </th>
@@ -888,7 +888,7 @@ donation needs. This percentage includes those needs.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="carrier-ref" href="#carrier">
+          <a id="carrier-ref" href="#carrier">
             ↓carrier
           </a>
         </th>
@@ -898,7 +898,7 @@ donation needs. This percentage includes those needs.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="profile_picture-ref" href="#profile_picture">
+          <a id="profile_picture-ref" href="#profile_picture">
             ↓profile_picture
           </a>
         </th>
@@ -908,7 +908,7 @@ donation needs. This percentage includes those needs.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="active_matching_fund-ref" href="#active_matching_fund">
+          <a id="active_matching_fund-ref" href="#active_matching_fund">
             ↓active_matching_fund
           </a>
         </th>
@@ -917,7 +917,7 @@ donation needs. This percentage includes those needs.
       <td>TODO</td>
     </tr>
   </table>
-### <a name="contact" href="#contact-ref">↑Nested Attributes: contact</a>
+### <a id="contact" href="#contact-ref">↑Nested Attributes: contact</a>
 
   <table>
     <tr>
@@ -938,7 +938,7 @@ like "Payback User" or empty/null for anonymous donations.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="contact.picture-ref" href="#contact.picture">
+          <a id="contact.picture-ref" href="#contact.picture">
             ↓contact.picture
           </a>
         </th>
@@ -947,7 +947,7 @@ like "Payback User" or empty/null for anonymous donations.
       <td>User profile picture or a fallback image</td>
     </tr>
   </table>
-### <a name="contact.picture" href="#contact.picture-ref">↑Nested Attributes: contact.picture</a>
+### <a id="contact.picture" href="#contact.picture-ref">↑Nested Attributes: contact.picture</a>
 
   <table>
     <tr>
@@ -963,7 +963,7 @@ like "Payback User" or empty/null for anonymous donations.
       <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
-### <a name="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
+### <a id="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
 
   <table>
     <tr>
@@ -980,7 +980,7 @@ like "Payback User" or empty/null for anonymous donations.
     </tr>
     <tr>
         <th align="left" style="white-space: nowrap">
-          <a name="carrier.picture-ref" href="#carrier.picture">
+          <a id="carrier.picture-ref" href="#carrier.picture">
             ↓carrier.picture
           </a>
         </th>
@@ -989,7 +989,7 @@ like "Payback User" or empty/null for anonymous donations.
       <td>The organisation logo, user profile picture or a fallback image</td>
     </tr>
   </table>
-### <a name="carrier.picture" href="#carrier.picture-ref">↑Nested Attributes: carrier.picture</a>
+### <a id="carrier.picture" href="#carrier.picture-ref">↑Nested Attributes: carrier.picture</a>
 
   <table>
     <tr>
@@ -1005,7 +1005,7 @@ like "Payback User" or empty/null for anonymous donations.
       <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
-### <a name="profile_picture" href="#profile_picture-ref">↑Nested Attributes: profile_picture</a>
+### <a id="profile_picture" href="#profile_picture-ref">↑Nested Attributes: profile_picture</a>
 
   <table>
     <tr>
@@ -1021,7 +1021,7 @@ like "Payback User" or empty/null for anonymous donations.
       <td>Specifies whether a fallback image is given or not</td>
     </tr>
   </table>
-### <a name="active_matching_fund" href="#active_matching_fund-ref">↑Nested Attributes: active_matching_fund</a>
+### <a id="active_matching_fund" href="#active_matching_fund-ref">↑Nested Attributes: active_matching_fund</a>
 
   <table>
     <tr>
