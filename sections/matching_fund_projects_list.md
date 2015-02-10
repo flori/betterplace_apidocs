@@ -1,19 +1,9 @@
 
 # Matching Fund Projects List
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json
+GET https://api.betterplace.org/de/api_v4/matching_funds/2/projects.json
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/matching_funds/2/projects.json"
-```
-
-## Description
 
 A list of betterplace.org matching fund projects.
 
@@ -574,7 +564,7 @@ set for organisations.
       "street": "",
       "zip": "20099",
       "city": "Hamburg",
-      "country": "Germany",
+      "country": "Deutschland",
       "completed_at": null,
       "title": "Mein Baum – Meine Stadt",
       "description": "Wir schließen Hamburgs Baumlücken – helfen Sie mit!<br /><br />Gemeinsam mit der Loki Schmidt Stiftung und der Stadt Hamburg können Sie Baumlücken in strukturschwachen Stadtteilen schließen. Diese Lücken entstehen, wenn aufgrund von Krankheiten oder mangelnder Standfestigkeit Straßenbäume gefällt werden müssen.<br /><br />Seit 2011 sind Hamburger Bürger aufgerufen, gemeinsam mit den beiden Partner-Organisationen für neue Bäume zu spenden.<br />Bisher konnten bereits mehr als 3.500 Baumlücken geschlossen werden. Spenden über dieses Portal werden gezielt in Gebieten eingesetzt, in denen ansonsten weniger gespendet wird – z.B. in Mümmelmannsberg, Nettelnburg, Steilshoop, Veddel und Willhelmsburg!<br />Nun wollen wir weitere Bäume pflanzen – und zwar gemeinsam mit Ihnen!<br /><br />Das funktioniert folgendermaßen:<br />1. Sie spenden einen beliebig hohen Betrag auf betterplace.org.<br />2. Sobald durch Sie 500 Euro zusammengekommen sind, legt die Stadt Hamburg die restlichen mindestens 500 Euro drauf, die für eine Pflanzung notwendig sind.<br />3. Ein Baum wird gepflanzt – Hamburg wird grüner!<br /><br />Ihr Engagement zählt! Helfen Sie jetzt hier mit!",
@@ -606,11 +596,11 @@ set for organisations.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/axel_j3"
+            "href": "https://www.betterplace.org/de/users/axel_j3"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/333761/contact_data.json"
+            "href": "https://api.betterplace.org/de/api_v4/users/333761/contact_data.json"
           }
         ]
       },
@@ -632,7 +622,7 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "https://api.betterplace.org/en/api_v4/organisations/15404.json"
+            "href": "https://api.betterplace.org/de/api_v4/organisations/15404.json"
           }
         ]
       },
@@ -661,40 +651,40 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/14784.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/14784.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/14784-mein-baum-meine-stadt"
+          "href": "https://www.betterplace.org/de/projects/14784-mein-baum-meine-stadt"
         },
         {
           "rel": "opinions",
-          "href": "https://api.betterplace.org/en/api_v4/projects/14784/opinions.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/14784/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "https://api.betterplace.org/en/api_v4/projects/14784/pictures.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/14784/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "https://api.betterplace.org/en/api_v4/projects/14784/needs.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/14784/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "https://api.betterplace.org/en/api_v4/projects/14784/blog_posts.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/14784/blog_posts.json"
         },
         {
           "rel": "matching_funds",
-          "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=14784"
+          "href": "https://api.betterplace.org/de/api_v4/matching_funds.json?project_id=14784"
         },
         {
           "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/en/projects/14784/client_donations/new?client_id=%7Bclient_id%7D",
+          "href": "https://www.betterplace.org/de/projects/14784/client_donations/new?client_id=%7Bclient_id%7D",
           "templated": true
         },
         {
           "rel": "new_donation",
-          "href": "https://www.betterplace.org/en/projects/14784/donations/new"
+          "href": "https://www.betterplace.org/de/projects/14784/donations/new"
         }
       ]
     }
@@ -705,19 +695,9 @@ set for organisations.
 
 # Matching Fund Projects List
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/portals/2/projects.json?action=projects&controller=api_v4%2Fmatching_funds
+GET https://api.betterplace.org/de/portals/2/projects.json?action=projects&controller=api_v4%2Fmatching_funds
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/portals/2/projects.json?action=projects&controller=api_v4%2Fmatching_funds"
-```
-
-## Description
 
 A list of betterplace.org matching fund projects.
 
@@ -1278,7 +1258,7 @@ set for organisations.
       "street": "",
       "zip": "20099",
       "city": "Hamburg",
-      "country": "Germany",
+      "country": "Deutschland",
       "completed_at": null,
       "title": "Mein Baum – Meine Stadt",
       "description": "Wir schließen Hamburgs Baumlücken – helfen Sie mit!<br /><br />Gemeinsam mit der Loki Schmidt Stiftung und der Stadt Hamburg können Sie Baumlücken in strukturschwachen Stadtteilen schließen. Diese Lücken entstehen, wenn aufgrund von Krankheiten oder mangelnder Standfestigkeit Straßenbäume gefällt werden müssen.<br /><br />Seit 2011 sind Hamburger Bürger aufgerufen, gemeinsam mit den beiden Partner-Organisationen für neue Bäume zu spenden.<br />Bisher konnten bereits mehr als 3.500 Baumlücken geschlossen werden. Spenden über dieses Portal werden gezielt in Gebieten eingesetzt, in denen ansonsten weniger gespendet wird – z.B. in Mümmelmannsberg, Nettelnburg, Steilshoop, Veddel und Willhelmsburg!<br />Nun wollen wir weitere Bäume pflanzen – und zwar gemeinsam mit Ihnen!<br /><br />Das funktioniert folgendermaßen:<br />1. Sie spenden einen beliebig hohen Betrag auf betterplace.org.<br />2. Sobald durch Sie 500 Euro zusammengekommen sind, legt die Stadt Hamburg die restlichen mindestens 500 Euro drauf, die für eine Pflanzung notwendig sind.<br />3. Ein Baum wird gepflanzt – Hamburg wird grüner!<br /><br />Ihr Engagement zählt! Helfen Sie jetzt hier mit!",
@@ -1310,11 +1290,11 @@ set for organisations.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/axel_j3"
+            "href": "https://www.betterplace.org/de/users/axel_j3"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/333761/contact_data.json"
+            "href": "https://api.betterplace.org/de/api_v4/users/333761/contact_data.json"
           }
         ]
       },
@@ -1336,7 +1316,7 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "https://api.betterplace.org/en/api_v4/organisations/15404.json"
+            "href": "https://api.betterplace.org/de/api_v4/organisations/15404.json"
           }
         ]
       },
@@ -1365,40 +1345,40 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/14784.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/14784.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/14784-mein-baum-meine-stadt"
+          "href": "https://www.betterplace.org/de/projects/14784-mein-baum-meine-stadt"
         },
         {
           "rel": "opinions",
-          "href": "https://api.betterplace.org/en/api_v4/projects/14784/opinions.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/14784/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "https://api.betterplace.org/en/api_v4/projects/14784/pictures.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/14784/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "https://api.betterplace.org/en/api_v4/projects/14784/needs.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/14784/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "https://api.betterplace.org/en/api_v4/projects/14784/blog_posts.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/14784/blog_posts.json"
         },
         {
           "rel": "matching_funds",
-          "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=14784"
+          "href": "https://api.betterplace.org/de/api_v4/matching_funds.json?project_id=14784"
         },
         {
           "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/en/projects/14784/client_donations/new?client_id=%7Bclient_id%7D",
+          "href": "https://www.betterplace.org/de/projects/14784/client_donations/new?client_id=%7Bclient_id%7D",
           "templated": true
         },
         {
           "rel": "new_donation",
-          "href": "https://www.betterplace.org/en/projects/14784/donations/new"
+          "href": "https://www.betterplace.org/de/projects/14784/donations/new"
         }
       ]
     }

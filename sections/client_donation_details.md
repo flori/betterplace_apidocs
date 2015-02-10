@@ -1,19 +1,9 @@
 
 # Client Donation Details ⇄ [List](client_donations_list.md)
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk.json
+GET https://api.betterplace.org/de/api_v4/clients/Volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk.json
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/clients/Volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk.json"
-```
-
-## Description
 
 **For [betterplace.org clients](../README.md#client-api) only:**
 
@@ -160,11 +150,11 @@ that is associated with this donation.
   "links": [
     {
       "rel": "receiver",
-      "href": "https://api.betterplace.org/en/api_v4/projects/18417.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/18417.json"
     },
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk.json"
     }
   ]
 }

@@ -1,19 +1,9 @@
 
 # Project Opinions List ⇄ [Details](opinion_details.md)
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/1114/opinions.json?facets=has_message%3Atrue&order=created_at%3AASC
+GET https://api.betterplace.org/de/api_v4/projects/1114/opinions.json?facets=has_message%3Atrue&order=created_at%3AASC
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/projects/1114/opinions.json?facets=has_message%3Atrue&order=created_at%3AASC"
-```
-
-## Description
 
 A list of betterplace.org projects opinions (donate money).
 Results are contained in a *data* attribute.
@@ -246,11 +236,11 @@ access rights in order to see this information.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/27940.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114/opinions/27940.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
         }
       ]
     },
@@ -277,11 +267,11 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/max_s4"
+            "href": "https://www.betterplace.org/de/users/max_s4"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/12274/contact_data.json"
+            "href": "https://api.betterplace.org/de/api_v4/users/12274/contact_data.json"
           }
         ]
       },
@@ -289,11 +279,11 @@ access rights in order to see this information.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/28227.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114/opinions/28227.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
         }
       ]
     },
@@ -320,11 +310,11 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/marc_l1"
+            "href": "https://www.betterplace.org/de/users/marc_l1"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/13225/contact_data.json"
+            "href": "https://api.betterplace.org/de/api_v4/users/13225/contact_data.json"
           }
         ]
       },
@@ -332,11 +322,11 @@ access rights in order to see this information.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions/28948.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114/opinions/28948.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
         }
       ]
     }

@@ -1,19 +1,9 @@
 
 # Projects List ⇄ [Details](project_details.md)
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects.json?around=10997+Berlin%2C+Germany&facets=completed%3Afalse&nelat=51.123&nelng=12.123&order=rank%3ADESC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
+GET https://api.betterplace.org/de/api_v4/projects.json?around=10997+Berlin%2C+Germany&facets=completed%3Afalse&nelat=51.123&nelng=12.123&order=rank%3ADESC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/projects.json?around=10997+Berlin%2C+Germany&facets=completed%3Afalse&nelat=51.123&nelng=12.123&order=rank%3ADESC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001"
-```
-
-## Description
 
 A list of betterplace.org projects (donate money).
 Results are contained in a *data* attribute.
@@ -676,7 +666,7 @@ set for organisations.
       "country": "Afghanistan",
       "completed_at": null,
       "title": "Skateistan Afghanistan",
-      "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important.<br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
+      "description": "With 68% of Afghanistan’s population under the age of 25, Skateistan strongly believes that youth are the ones most capable of bringing about social change.<br /><br />Skateistan is an Afghan NGO which operates Afghanistan’s (and the world’s) first co-educational skateboarding school. The Skateistan school engages nearly 400 Kabul youth weekly through skateboarding, and provides them with new opportunities in cross-cultural interaction, education, and personal empowerment programs. <br /><br />The students (ages 5-17) come from all of Afghanistan’s diverse ethnic and socioeconomic backgrounds, and include 40% female students, hundreds of streetworking children, and youth with disabilities. They develop skills in skateboarding, leadership, problem-solving, multimedia, and creative arts. The students themselves decide what they want to learn; we connect them with a safe space and opportunities for them to develop the skills that they consider important. <br /><br />For Afghan girls Skateistan's programming is especially important as there are very few recreational opportunities for females. For example, it is not culturally acceptable for girls in Afghanistan to ride bicycles or play sports in public. <br /><br />Skateistan has been active in Kabul since 2007 - with our facility built in 2009 - and in that time we’ve seen that Afghan youth of all ethnicities, genders, and socioeconomic backgrounds love to skateboard. Skateistan brings them together, equipping young men and women to lead their communities toward social change and development.<br /><br />In 2012 Skateistan will be opening its second Afghan facility in Mazar-e-Sharif, Northern Afghanistan. It will have space to teach up to 1000 youth weekly.<br /><br />Our program gives hundreds of oppressed youth a voice. Education and the opportunity for self-expression can break the cycles of poverty, illiteracy and exclusion, with sport paving the way.",
       "tax_deductible": true,
       "donations_prohibited": false,
       "open_amount_in_cents": 999842,
@@ -705,11 +695,11 @@ set for organisations.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/erika_k2"
+            "href": "https://www.betterplace.org/de/users/erika_k2"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/130618/contact_data.json"
+            "href": "https://api.betterplace.org/de/api_v4/users/130618/contact_data.json"
           }
         ]
       },
@@ -731,7 +721,7 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "https://api.betterplace.org/en/api_v4/organisations/1054.json"
+            "href": "https://api.betterplace.org/de/api_v4/organisations/1054.json"
           }
         ]
       },
@@ -760,40 +750,40 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan"
+          "href": "https://www.betterplace.org/de/projects/1114-skateistan-afghanistan"
         },
         {
           "rel": "opinions",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/opinions.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114/blog_posts.json"
         },
         {
           "rel": "matching_funds",
-          "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=1114"
+          "href": "https://api.betterplace.org/de/api_v4/matching_funds.json?project_id=1114"
         },
         {
           "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D",
+          "href": "https://www.betterplace.org/de/projects/1114/client_donations/new?client_id=%7Bclient_id%7D",
           "templated": true
         },
         {
           "rel": "new_donation",
-          "href": "https://www.betterplace.org/en/projects/1114/donations/new"
+          "href": "https://www.betterplace.org/de/projects/1114/donations/new"
         }
       ]
     },
@@ -806,7 +796,7 @@ set for organisations.
       "street": null,
       "zip": null,
       "city": "Phnom Penh",
-      "country": "Cambodia",
+      "country": "Kambodscha",
       "completed_at": null,
       "title": "Skateistan Cambodia",
       "description": "Skateistan Cambodia began operations in March 2011, building the country's first skatepark in Phnom Penh. Since then the NGO has been teaching skateboarding and creative arts classes with marginalized and streetworking Khmer youth six days a week. <br /><br />Skateboarding is a low-barrier, accessible activity that attracts girls and boys of all backgrounds and abilities. The interest from Cambodia's youth has grown so much since March 2011 that Skateistan Cambodia is now building its own facility to accommodate more than the 150 youth we currently work with weekly.<br /><br />By building a safe and covered Skateistan facility in Phnom Pehn, Skateistan will provide year-round opportunities for youth to engage in recreational activities that encourages girls and boys of all backgrounds to build relationships with one another, while increasing their self-confidence and leadership skills. The facility will also have classroom spaces providing creative arts and multimedia activities for the students.<br /><br />Partnering with local, best-practice NGOs in Cambodia, such as Pour un Sourire d'Enfant (PSE), Friends Intl., and Tiny Toones, Skateistan Cambodia also aims to use skateboarding as a tool to create a bridge between at-risk youth and the quality support services already existing in Phnom Penh.<br /><br />Help us grow this grassroots project and create a safe space for all Cambodian youth to be a part of!",
@@ -838,11 +828,11 @@ set for organisations.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/alixandra_b"
+            "href": "https://www.betterplace.org/de/users/alixandra_b"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/272452/contact_data.json"
+            "href": "https://api.betterplace.org/de/api_v4/users/272452/contact_data.json"
           }
         ]
       },
@@ -864,7 +854,7 @@ set for organisations.
         "links": [
           {
             "rel": "self",
-            "href": "https://api.betterplace.org/en/api_v4/organisations/1054.json"
+            "href": "https://api.betterplace.org/de/api_v4/organisations/1054.json"
           }
         ]
       },
@@ -893,40 +883,40 @@ set for organisations.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/6233.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/6233.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/6233-skateistan-cambodia"
+          "href": "https://www.betterplace.org/de/projects/6233-skateistan-cambodia"
         },
         {
           "rel": "opinions",
-          "href": "https://api.betterplace.org/en/api_v4/projects/6233/opinions.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/6233/opinions.json"
         },
         {
           "rel": "pictures",
-          "href": "https://api.betterplace.org/en/api_v4/projects/6233/pictures.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/6233/pictures.json"
         },
         {
           "rel": "needs",
-          "href": "https://api.betterplace.org/en/api_v4/projects/6233/needs.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/6233/needs.json"
         },
         {
           "rel": "blog_posts",
-          "href": "https://api.betterplace.org/en/api_v4/projects/6233/blog_posts.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/6233/blog_posts.json"
         },
         {
           "rel": "matching_funds",
-          "href": "https://api.betterplace.org/en/api_v4/matching_funds.json?project_id=6233"
+          "href": "https://api.betterplace.org/de/api_v4/matching_funds.json?project_id=6233"
         },
         {
           "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/en/projects/6233/client_donations/new?client_id=%7Bclient_id%7D",
+          "href": "https://www.betterplace.org/de/projects/6233/client_donations/new?client_id=%7Bclient_id%7D",
           "templated": true
         },
         {
           "rel": "new_donation",
-          "href": "https://www.betterplace.org/en/projects/6233/donations/new"
+          "href": "https://www.betterplace.org/de/projects/6233/donations/new"
         }
       ]
     }

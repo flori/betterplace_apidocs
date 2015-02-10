@@ -1,19 +1,9 @@
 
 # Project Opinion Details ⇄ [List](opinions_list.md)
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/38/opinions/22.json
+GET https://api.betterplace.org/de/api_v4/projects/38/opinions/22.json
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/projects/38/opinions/22.json"
-```
-
-## Description
 
 The details of a betterplace.org project opinion (donate money).
 The details and list view show the same data.
@@ -233,11 +223,11 @@ access rights in order to see this information.
     "links": [
       {
         "rel": "platform",
-        "href": "https://www.betterplace.org/en/users/giesela_k"
+        "href": "https://www.betterplace.org/de/users/giesela_k"
       },
       {
         "rel": "contact_data",
-        "href": "https://api.betterplace.org/en/api_v4/users/759/contact_data.json"
+        "href": "https://api.betterplace.org/de/api_v4/users/759/contact_data.json"
       }
     ]
   },
@@ -245,11 +235,11 @@ access rights in order to see this information.
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/en/api_v4/projects/35/opinions/22.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/35/opinions/22.json"
     },
     {
       "rel": "project",
-      "href": "https://api.betterplace.org/en/api_v4/projects/35.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/35.json"
     }
   ]
 }

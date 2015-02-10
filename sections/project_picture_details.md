@@ -1,19 +1,9 @@
 
 # Project Picture Details ⇄ [List](project_pictures_list.md)
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/1114/pictures/286505.json
+GET https://api.betterplace.org/de/api_v4/projects/1114/pictures/286505.json
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/projects/1114/pictures/286505.json"
-```
-
-## Description
 
 The details of a betterplace.org project picture.
 The details and list view show the same data.
@@ -123,11 +113,11 @@ projects, the API will return a `404` HTTP code.
     },
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/31766.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/31766.json"
     },
     {
       "rel": "parent",
-      "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
     }
   ]
 }

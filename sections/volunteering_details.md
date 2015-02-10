@@ -1,19 +1,9 @@
 
 # Volunteering Details ⇄ [List](volunteering_list.md)
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/volunteering/23.json
+GET https://api.betterplace.org/de/api_v4/volunteering/23.json
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/volunteering/23.json"
-```
-
-## Description
 
 The details of a betterplace.org volunteering offer (donate time).
 
@@ -437,7 +427,7 @@ betterplace.
   "street": "Holländische Strasse 141",
   "zip": "34128",
   "city": "Kassel",
-  "country": "Germany",
+  "country": "Deutschland",
   "title": "Essensausgabe/Fahrdienst",
   "description": "<p>Die Kasseler Tafel e.V. sammelt qualitativ einwandfreie Lebensmittel, die kurz vor dem Mindesthaltbarkeitsdatum stehen, bei Firmen in der Region ein und verteilt diese gegen einen symbolischen Betrag an bedürftige Mitbürgerinnen und Mitbürger.</p>\n\n<p>Freiwillige können sich in folgenden Bereichen bei der Kasseler Tafel betätigen:</p>\n\n<p>1. Lebensmittel sortieren und ausgeben</p>\n\n<p>2. als Fahrer: Abholung der Lebensmittel bei den Supermärkten</p>\n\n\n\n<p>Mehr Informationen finden Sie unter: http://kasseler-tafel.de/</p>\n\n<p>Wir freuen uns über Ihr Interesse! </p><ul><li>Unfallversicherung</li><li>Haftpflichtversicherung</li><li>Anleitung durch Fachkräfte</li><li>Tätigkeitsnachweise</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li></ul>",
   "carrier": {
@@ -447,7 +437,7 @@ betterplace.
     "street": "Spohrstraße 5",
     "city": "Kassel",
     "zip": "34117",
-    "country": "Germany",
+    "country": "Deutschland",
     "links": [
       {
         "rel": "logo",
@@ -514,11 +504,11 @@ betterplace.
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/en/api_v4/volunteering/23.json"
+      "href": "https://api.betterplace.org/de/api_v4/volunteering/23.json"
     },
     {
       "rel": "platform",
-      "href": "https://www.betterplace.org/en/volunteering/23-essensausgabe-fahrdienst"
+      "href": "https://www.betterplace.org/de/volunteering/23-essensausgabe-fahrdienst"
     }
   ]
 }

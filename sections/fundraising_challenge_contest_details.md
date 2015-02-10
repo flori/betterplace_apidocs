@@ -1,19 +1,9 @@
 
 # Fundraising Challenge: Contest Details
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/contests/1.json
+GET https://api.betterplace.org/de/api_v4/contests/1.json
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/contests/1.json"
-```
-
-## Description
 
 The details of a contest.
 
@@ -132,7 +122,7 @@ and a link to more details about the participant.
   "links": [
     {
       "rel": "results",
-      "href": "https://api.betterplace.org/en/api_v4/contests/1/results.json"
+      "href": "https://api.betterplace.org/de/api_v4/contests/1/results.json"
     }
   ]
 }

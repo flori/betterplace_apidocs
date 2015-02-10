@@ -1,19 +1,9 @@
 
 # Organisations List ⇄ [Details](organisation_details.md)
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/organisations.json
+GET https://api.betterplace.org/de/api_v4/organisations.json
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/organisations.json"
-```
-
-## Description
 
 A list of betterplace.org organisations.
 Results are contained in a *data* attribute.
@@ -285,49 +275,49 @@ access rights in order to see this information.
 
 ```json
 {
-  "total_entries": 10863,
+  "total_entries": 2,
   "offset": 0,
-  "total_pages": 5432,
+  "total_pages": 1,
   "current_page": 1,
   "per_page": 2,
   "data": [
     {
-      "id": 2449,
-      "created_at": "2009-11-28T18:12:08+01:00",
-      "updated_at": "2013-09-23T20:19:30+02:00",
-      "latitude": 51.50659942626953,
-      "longitude": 7.45382022857666,
-      "street": "Liebigstraße 5",
-      "zip": "44139",
-      "city": "Dortmund",
-      "country": "Germany",
-      "slug": "_blank_profile_",
-      "name": "Entfernte Organisation",
-      "description": "Diese Organisation wurde auf eigenen Wunsch entfernt.",
-      "tax_deductible": false,
+      "id": 2262,
+      "created_at": "2009-11-02T16:12:49+01:00",
+      "updated_at": "2014-07-22T14:15:35+02:00",
+      "latitude": 50.91569900512695,
+      "longitude": 6.94116020202637,
+      "street": "Höninger Weg 104",
+      "zip": "50969",
+      "city": "Köln",
+      "country": "Deutschland",
+      "slug": "unicef",
+      "name": "UNICEF in der PAYBACK Spendenwelt",
+      "description": "UNICEF, das Kinderhilfswerk der Vereinten Nationen, arbeitet weltweit mit Programmen in rund 150 Ländern. UNICEF hilft, dass das Recht jedes Kindes auf Überleben, Bildung und Schutz Wirklichkeit wird: mit konkreten Projekten, umfassenden Programmen und politischer Lobbyarbeit. UNICEF ist in jedem Land seit vielen Jahren vor Ort und hat ein dichtes Netzwerk lokaler Partner. So ist nachhaltige und effiziente Hilfe möglich. Mit dem jährlichen Geschäftsbericht informiert UNICEF ausführlich über Arbeitsweise, Strukturen und Kosten. Sie finden ihn unter www.unicef.de",
+      "tax_deductible": true,
       "contact": {
-        "name": "U. B",
+        "name": "UNICEF Deutschland -.",
         "picture": {
           "fallback": true,
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/022/259/fill_100x100_original_new-user.gif"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/020/505/fill_100x100_original_Hell__Beatrix.JPG"
             },
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/022/259/crop_original_original_new-user.gif"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/020/505/crop_original_original_Hell__Beatrix.JPG"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/_blank_profile_"
+            "href": "https://www.betterplace.org/de/users/beatrix_h"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/22259/contact_data.json"
+            "href": "https://api.betterplace.org/de/api_v4/users/20505/contact_data.json"
           }
         ]
       },
@@ -336,78 +326,78 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "fill_100x100",
-            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/002/449/fill_100x100_original_new-organisation.jpg"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/002/262/fill_100x100_original_UNICEFLogoClaimrgb.jpg"
           },
           {
             "rel": "fill_200x200",
-            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/002/449/fill_200x200_original_new-organisation.jpg"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/002/262/fill_200x200_original_UNICEFLogoClaimrgb.jpg"
           },
           {
             "rel": "fill_400x400",
-            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/002/449/fill_400x400_original_new-organisation.jpg"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/002/262/fill_400x400_original_UNICEFLogoClaimrgb.jpg"
           },
           {
             "rel": "original",
-            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/002/449/crop_original_original_new-organisation.jpg"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/002/262/crop_original_original_UNICEFLogoClaimrgb.jpg"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/organisations/2449.json"
+          "href": "https://api.betterplace.org/de/api_v4/organisations/2262.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/organisations/_blank_profile_"
+          "href": "https://www.betterplace.org/de/organisations/unicef"
         },
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/organisations/2449/projects.json"
+          "href": "https://api.betterplace.org/de/api_v4/organisations/2262/projects.json"
         },
         {
           "rel": "website",
-          "href": ""
+          "href": "http://www.unicef.de"
         }
       ]
     },
     {
-      "id": 457,
-      "created_at": "2008-10-06T22:00:18+02:00",
-      "updated_at": "2013-12-03T17:48:37+01:00",
-      "latitude": -23.60400009155273,
-      "longitude": -46.43099975585938,
-      "street": "Rua Ribeiro Baião, 111",
-      "zip": "CEP: 08381",
-      "city": "São Paulo - SP",
-      "country": "Brazil",
-      "slug": "_cidadessemfome",
-      "name": "STÄDTE OHNE HUNGER - CIDADES SEM FOME",
-      "description": "CITIES WITHOUT HUNGER - Cidades sem Fome (CsF) is a non-governmental organization (NGO) which has set up sustainable agrarian projects based on organic farming. The aim is to help and teach people to manage their own business and become financially independent. Community Gardens, School Gardens and Agricultural Greenhouses have been developed on unused and neglected public and private areas within social focal points to provide jobs and improve the diets of adults and children. \r\nIn 2009 the Small Family Farms Project, the organizations fourth project, has been set up in Rio Grande do Sul, to train farmers in multiple cropping as an alternative to monoculture and help them starting new businesses in organic farming. \r\nCITIES WITHOUT HUNGER was founded in 2004 in São Paulo by Hans Dieter Temp, who has a degree in Business Administration, and is a Technician for Agriculture and Environmental Policies. In 2013 Hans Dieter Temp was selected and awarded with the title Social Entrepreneur “Changemaker” by Ashoka. \r\nCITIES WITHOUT HUNGER has received numerous national and international awards, such as the FINEP Award 2011 for Technological Innovation, Dubai International Award for Best Practices 2010 (UN-HABITAT), and AEA-Award for Environmental Responsibility in 2009. In 2012 CITIES WITHOUT HUNGER was selected by Caixa Econômica Federal for its commitment to the realization of the UN-Millennium Goals. \r\n",
-      "tax_deductible": false,
+      "id": 125,
+      "created_at": "2008-02-06T17:10:42+01:00",
+      "updated_at": "2015-01-16T00:08:53+01:00",
+      "latitude": 53.55759811401367,
+      "longitude": 9.96815967559815,
+      "street": "Neuer Kamp 32",
+      "zip": "20357",
+      "city": "Hamburg",
+      "country": "Deutschland",
+      "slug": "vivaconagua",
+      "name": "Viva con Agua de Sankt Pauli e.V.",
+      "description": "Die Organisation Viva con Agua:\r\n\r\nViva con Agua de Sankt Pauli e.V. ist eine international tätige Wasserinitiative und wird vom FC St. Pauli ideell unterstützt. Initiator Benjamin Adrion, ehemaliger Mittelfeldspieler des Fußballclubs, gründete 2005 nach einem Trainingslager auf Kuba den gemeinnützigen Verein. \r\n\r\nZiel der Initiative ist es, die Versorgung mit sauberem Trinkwasser und sanitären Anlagen in Entwicklungsländern nachhaltig zu verbessern. Viva con Agua ist Projektpartner der Welthungerhilfe.\r\n\r\n21 Projekte in 15 Projektländern hat Viva con Agua bereits in Zusammenarbeit mit der Welthungerhilfe realisiert und damit über 300.000 Menschen Zugang zu sauberem Trinkwasser ermöglicht. Des Weiteren haben mehr als 100.000 Schüler und Studenten im deutschsprachigen Raum VcA-Bildungsworkshops, Seminare und Spendenläufe mitgemacht.\r\n\r\nAuszeichnungen:\r\n\r\nISPO Award 2013\r\nHAMMA Award 2012\r\nUtopia Award 2012\r\nB.A.U.M.-Umweltpreis 2011\r\nWerkstatt N-Projekt 2010\r\nBundesverdienstkreuz 2009\r\nUtopia Award 2008\r\nAusgewählter Ort im Land der Ideen 2007 (Schirmherrschaft Bundespräsident Horst Köhler)\r\nBundessieger start social 2007 (Schirmherrschaft Bundeskanzlerin Angela Merkel)\r\ntaz-Panter-Preis 2006 \r\n\r\n\r\nAktivitäten und Initiativen\r\n\r\nViva con Agua veranstaltet laufend Konzerte, Partys, Sport- und Kulturevents, deren Erlöse als Spende in Trinkwasserprojekte fließen.\r\n\r\nSchärfung des Bewusstseins, besonders bei jungen Menschen in Deutschland, für die Themen Wasser und Entwicklungshilfe ist das zweite wichtige Anliegen von Viva con Agua.\r\n\r\nDie Sensibilisierung für diese Bereiche soll einerseits durch die zahlreichen Veranstaltungen von Viva con Agua erfolgen, aber auch in intensiver Bildungsarbeit an Schulen. Damit führt Viva con Agua schon frühzeitig Kinder und Jugendliche an soziales und humanitäres Engagement heran.",
+      "tax_deductible": true,
       "contact": {
-        "name": "H. Temp",
+        "name": "C. Gersdorf",
         "picture": {
           "fallback": true,
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/004/326/fill_100x100_original_CsF_Team_Hans_Dieter_Temp.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/399/690/fill_100x100_Felix-Rachor_mi.jpg"
             },
             {
               "rel": "original",
-              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/004/326/crop_original_original_CsF_Team_Hans_Dieter_Temp.jpg"
+              "href": "https://asset1.betterplace.org/uploads/user/profile_picture/000/399/690/crop_original_Felix-Rachor_mi.jpg"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/hans_t"
+            "href": "https://www.betterplace.org/de/users/claudia_g28"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/4326/contact_data.json"
+            "href": "https://api.betterplace.org/de/api_v4/users/399690/contact_data.json"
           }
         ]
       },
@@ -416,38 +406,38 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "fill_100x100",
-            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/457/fill_100x100_original_Logotipo_-_Cidades_Sem_Fome__1_.jpg"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_100x100_VcA_Projektlogo.jpg"
           },
           {
             "rel": "fill_200x200",
-            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/457/fill_200x200_original_Logotipo_-_Cidades_Sem_Fome__1_.jpg"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_200x200_VcA_Projektlogo.jpg"
           },
           {
             "rel": "fill_400x400",
-            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/457/fill_400x400_original_Logotipo_-_Cidades_Sem_Fome__1_.jpg"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/fill_400x400_VcA_Projektlogo.jpg"
           },
           {
             "rel": "original",
-            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/457/crop_original_original_Logotipo_-_Cidades_Sem_Fome__1_.jpg"
+            "href": "https://asset1.betterplace.org/uploads/organisation/profile_picture/000/000/125/crop_original_VcA_Projektlogo.jpg"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/organisations/457.json"
+          "href": "https://api.betterplace.org/de/api_v4/organisations/125.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/organisations/_cidadessemfome"
+          "href": "https://www.betterplace.org/de/organisations/vivaconagua"
         },
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/organisations/457/projects.json"
+          "href": "https://api.betterplace.org/de/api_v4/organisations/125/projects.json"
         },
         {
           "rel": "website",
-          "href": "http://www.cidadessemfome.com.br"
+          "href": "http://www.vivaconagua.org"
         }
       ]
     }

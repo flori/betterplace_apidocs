@@ -1,19 +1,9 @@
 
 # Project Blog Posts List ⇄ [Details](blog_post_details.md)
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json
+GET https://api.betterplace.org/de/api_v4/projects/1114/blog_posts.json
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/projects/1114/blog_posts.json"
-```
-
-## Description
 
 A list of betterplace.org projects blog posts.
 Results are contained in a *data* attribute.
@@ -301,22 +291,22 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/max_h2"
+            "href": "https://www.betterplace.org/de/users/max_h2"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/9238/contact_data.json"
+            "href": "https://api.betterplace.org/de/api_v4/users/9238/contact_data.json"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/blog_posts/6910.json"
+          "href": "https://api.betterplace.org/de/api_v4/blog_posts/6910.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan/news/6910"
+          "href": "https://www.betterplace.org/de/projects/1114-skateistan-afghanistan/news/6910"
         },
         {
           "rel": "documentation",
@@ -351,22 +341,22 @@ access rights in order to see this information.
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/en/users/max_h2"
+            "href": "https://www.betterplace.org/de/users/max_h2"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/en/api_v4/users/9238/contact_data.json"
+            "href": "https://api.betterplace.org/de/api_v4/users/9238/contact_data.json"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/blog_posts/7019.json"
+          "href": "https://api.betterplace.org/de/api_v4/blog_posts/7019.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan/news/7019"
+          "href": "https://www.betterplace.org/de/projects/1114-skateistan-afghanistan/news/7019"
         },
         {
           "rel": "documentation",

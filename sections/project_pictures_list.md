@@ -1,19 +1,9 @@
 
 # Project Pictures List ⇄ [Details](project_picture_details.md)
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/1114/pictures.json
+GET https://api.betterplace.org/de/api_v4/projects/1114/pictures.json
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/projects/1114/pictures.json"
-```
-
-## Description
 
 A list of pictures of a betterplace.org project (donate money).
 Results are contained in a *data* attribute.
@@ -137,11 +127,11 @@ projects, the API will return a `404` HTTP code.
         },
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/68085.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/68085.json"
         },
         {
           "rel": "parent",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
         }
       ]
     },
@@ -157,11 +147,11 @@ projects, the API will return a `404` HTTP code.
         },
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/68086.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/68086.json"
         },
         {
           "rel": "parent",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
         }
       ]
     },
@@ -177,11 +167,11 @@ projects, the API will return a `404` HTTP code.
         },
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/pictures/31767.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/31767.json"
         },
         {
           "rel": "parent",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
         }
       ]
     }

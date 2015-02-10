@@ -1,19 +1,9 @@
 
 # Volunteering List ⇄ [Details](volunteering_details.md)
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/volunteering.json?around=10997+Berlin%2C+Germany&nelat=51.123&nelng=12.123&order=created_at%3AASC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001
+GET https://api.betterplace.org/de/api_v4/volunteering.json?around=10997+Berlin%2C+Germany&nelat=51.123&nelng=12.123&order=created_at%3AASC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/volunteering.json?around=10997+Berlin%2C+Germany&nelat=51.123&nelng=12.123&order=created_at%3AASC&q=Homework+help&scope=location&swlat=51.001&swlng=12.001"
-```
-
-## Description
 
 A list of betterplace.org volunteering offers (donate time).
 Results are contained in a *data* attribute.
@@ -522,7 +512,7 @@ betterplace.
       "street": "",
       "zip": "34121",
       "city": "Kassel",
-      "country": "Germany",
+      "country": "Deutschland",
       "title": "Awo Büro Aktiv  Kassel- Besuchsdienst für Senioren im Käthe-Richterhaus",
       "description": "<p>Wir suchen Ehrenamtliche, die den alten Menschen in liebevoller Weise den Kontakt zum normalen Leben und Alltag vermitteln. Sie helfen mit, die Lebensqualität der Altenheimbewohner wesentlich zu verbessern, in dem Sie einen Bewohner regelmäßig besuchen oder Unterhaltung für eine Gruppe von alten Menschen anbieten. Sie können sich in folgenden Häusern engagieren.</p>\n\n<p>Sie sollten kommunikativ sein und gut zuhören können, musikalisch sein oder leidenschaftlich gerne spielen. Vielleicht haben Sie einen lieben Hund und</p>\n\n<p>möchten mit diesem gerne pflegebedürftige Menschen besuchen oder Sie haben andere eigene Ideen. Für jeden wird sich hier das Richtige finden!</p>\n\n<p><strong>- Unterstützung bzw selbstständige Durchführung von Gruppenangeboten</strong></p>\n\n<p><strong>- Unterstützung bei der Gartenarbeit</strong></p>\n\n<p><strong>- regelmässiger Besuchsdienst (Einzelbesuche)</strong></p>\n\n<p><strong>- Unterstützung in der Nähstube (1xim Monat)</strong></p>\n\n<p><strong>Bitte wenden Sie sich an unser Awo Büro Aktiv in Kassel Telefon 0561/9284-238 </strong></p>\n\n<p><strong>Bürozeiten: DI und Do von 09:00h -12:00h ansonsten Anrufbeantworter.(Wir rufen Sie umgehend zurück)</strong></p><ul><li>Unfallversicherung</li><li>regelmäßige Informationen</li><li>kostenlose Veranstaltungen</li><li>Fortbildung/Qualifizierungsangebote</li><li>Erstattung entstandener Kosten</li><li>Anleitung durch Fachkräfte</li></ul>",
       "carrier": {
@@ -532,7 +522,7 @@ betterplace.
         "street": "Spohrstraße 5",
         "city": "Kassel",
         "zip": "34117",
-        "country": "Germany",
+        "country": "Deutschland",
         "links": [
           {
             "rel": "logo",
@@ -580,9 +570,9 @@ betterplace.
         ]
       },
       "topics": [
-        "Health",
-        "Disabled",
-        "Elderly people"
+        "Kranke",
+        "Menschen mit Behinderung",
+        "Senioren"
       ],
       "activities": [
 
@@ -601,11 +591,11 @@ betterplace.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/volunteering/18.json"
+          "href": "https://api.betterplace.org/de/api_v4/volunteering/18.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/volunteering/18-awo-buro-aktiv-kassel-besuchsdienst-fur-senioren-im-kathe-richterhaus"
+          "href": "https://www.betterplace.org/de/volunteering/18-awo-buro-aktiv-kassel-besuchsdienst-fur-senioren-im-kathe-richterhaus"
         }
       ]
     },
@@ -618,7 +608,7 @@ betterplace.
       "street": "Willy-Brandt-Platz 1",
       "zip": "34131",
       "city": "Kassel",
-      "country": "Germany",
+      "country": "Deutschland",
       "title": "Betreuung von Reisenden und Besuchern",
       "description": "<p><strong>Wir bieten Ihnen ein Stückchen zu Hause für unterwegs!</strong></p>\n\n<ul><li>Ein-, Aus- und Umsteigehilfen, Auskünfte und kleine praktische Hilfen</li>\n\t<li>Gelegenheit, in gemütlicher Atmosphäre einen Tee oder Kaffee zu trinken</li>\n\t<li>Mutter-Kind-Raum mit Gelegenheit zum Stillen, Wickeln und Ausruhen</li>\n\t<li>Raum für ältere Kinder, um die Wartezeit mit Spielen oder Lesen zu verkürzen</li>\n\t<li>Bei Bedarf gezielte soziale Hilfen und Vermittlung an andere Institutionen.</li>\n\t<li>Kontaktaufnahme mit Angehörigen (z.B. Hinterlegung von Fahrkarten)</li>\n\t<li>Vermittlung von Hilfen an Ihren nächsten Aufenthaltsort.</li>\n</ul>\n\n<p><strong>Die Bahnhofsmission ist an 365 Tagen im Jahr für Sie da:</strong><br/><br/>\nSie finden uns im Bahnhof Wilhelmshöhe, eine Etage über dem Eingangs- und Geschäftsbereich an den Gleisen 7 - 10 (Aufzug vorhanden).<br/><br/>\nTelefon: 05 61 - 3 71 07<br/><br/>\nGerne können Sie auch einen Termin für Ihre Umsteigehilfe vereinbaren oder mit uns absprechen, wann Sie am Bahnhof ankommen. Wir holen Sie am Bahnsteig ab und führen Sie zu unseren Räumen.<br/><br/><strong>Hier finden Sie alle deutschen Bahnhofsmissionen:</strong><br/><br/>www.bahnhofsmission.de</p><ul><li>Tätigkeitsnachweise</li><li>Haftpflichtversicherung</li><li>Fortbildung/Qualifizierungsangebote</li><li>Erstattung entstandener Kosten</li><li>Dienstbesprechungen</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li><li>Anleitung durch Fachkräfte</li><li>Unfallversicherung</li></ul>",
       "carrier": {
@@ -628,7 +618,7 @@ betterplace.
         "street": "Spohrstraße 5",
         "city": "Kassel",
         "zip": "34117",
-        "country": "Germany",
+        "country": "Deutschland",
         "links": [
           {
             "rel": "logo",
@@ -676,7 +666,7 @@ betterplace.
         ]
       },
       "topics": [
-        "Health"
+        "Kranke"
       ],
       "activities": [
 
@@ -695,11 +685,11 @@ betterplace.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/volunteering/19.json"
+          "href": "https://api.betterplace.org/de/api_v4/volunteering/19.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/volunteering/19-betreuung-von-reisenden-und-besuchern"
+          "href": "https://www.betterplace.org/de/volunteering/19-betreuung-von-reisenden-und-besuchern"
         }
       ]
     },
@@ -712,7 +702,7 @@ betterplace.
       "street": "",
       "zip": "34117",
       "city": "Kassel",
-      "country": "Germany",
+      "country": "Deutschland",
       "title": "Begleitung schwerkranker und sterbender Menschen und deren Angehöriger",
       "description": "<p>Die Tätigkeit ehrenamtlich Mitarbeitender ist ein wesentlicher Bestandteil des Hospizangebotes, entweder patientennah durch die unmittelbare Begleitung schwerstkranker und sterbender Menschen, die Unterstützung Angehöriger und die Trauerbegleitung.</p>\n<p>Voraussetzung hierfür ist die Teilnahme am Vorbereitungskurs (4 Wochenenden, 6 Abende, Praktikum), sowie die monatlichen Gruppentreffen.</p>\n<p>Patientenferne Einsatzfelder finden sich in den Bereichen Öffentlichkeitsarbeit (Vereinszeitschrift und Fundraising) und Bürotätigkeitsunterstützung.</p>\n\n<p><strong>Was wir bieten:</strong></p>\n<ul style=\"list-style-type:disc;\"><li>einen in sich geschlossenen Grund- und Aufbaukurs<br/></li>\n    <li>einen Lernprozess in der Gruppe für den Einzelnen </li>\n    <li>einen geschützten Raum, in dem Gefühle, Erinnerungen,      Ideen, Eindrücke etc. ihren Platz haben und Vertrauen wachsen kann<br/></li>\n    <li>die Gruppe als tragfähige Gemeinschaft<br/></li>\n    <li>eine Auseinandersetzung mit der eigenen Biographie, der      eigenen Spiritualität, aber auch Schwerem in unserem Leben </li>\n</ul>\n\n\n<p> <strong>Der/die Bewerber/in soll die Bereitschaft mitbringen: </strong></p>\n\n<ul style=\"list-style-type:disc;\"><li>sich auf unterschiedliche Weltanschauungen einzulassen<br/></li>\n    <li>sich mit sich selbst auseinanderzusetzen<br/></li>\n    <li>sich der praxisbegleitenden Reflexion zu stellen<br/></li>\n    <li>sich auf das Lernen in der Gruppe einzulassen (Partner-      und Kleingruppenarbeit)<br/></li>\n    <li>regelmäßig und verbindlich an den Veranstaltungen      teilzunehmen<br/></li>\n    <li>nach Abschluss der Schulung als ehrenamtliche/r      Helfer/in für den Verein tätig zu sein - d.h. insbesondere über      dementsprechende Zeitressourcen zu verfügen.</li>\n    <li>psychische Belastbarkeit in der Auseinandersetzung mit dem Thema Krankheit, Trauer und Tod</li>\n    <li>Empathie</li>\n</ul>\n\n<p><strong>Einsatzort:</strong> Stadtgebiet Kassel</p>\n\n<p><strong><br/></strong></p><ul><li>Supervision</li><li>kostenlose Veranstaltungen</li><li>Haftpflichtversicherung</li><li>Fortbildung/Qualifizierungsangebote</li><li>Erstattung entstandener Kosten</li><li>Erfahrungsaustausch</li><li>Anleitung durch Fachkräfte</li><li>Unfallversicherung</li></ul>",
       "carrier": {
@@ -722,7 +712,7 @@ betterplace.
         "street": "Spohrstraße 5",
         "city": "Kassel",
         "zip": "34117",
-        "country": "Germany",
+        "country": "Deutschland",
         "links": [
           {
             "rel": "logo",
@@ -770,7 +760,7 @@ betterplace.
         ]
       },
       "topics": [
-        "Health"
+        "Kranke"
       ],
       "activities": [
 
@@ -789,11 +779,11 @@ betterplace.
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/volunteering/20.json"
+          "href": "https://api.betterplace.org/de/api_v4/volunteering/20.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/en/volunteering/20-begleitung-schwerkranker-und-sterbender-menschen-und-deren-angehoriger"
+          "href": "https://www.betterplace.org/de/volunteering/20-begleitung-schwerkranker-und-sterbender-menschen-und-deren-angehoriger"
         }
       ]
     }

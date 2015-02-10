@@ -1,19 +1,9 @@
 
 # Fundraising Challenge: Contest Results List
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/contests/1/results.json
+GET https://api.betterplace.org/de/api_v4/contests/1/results.json
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/contests/1/results.json"
-```
-
-## Description
 
 A list of contest results.
 Results are contained in a *data* attribute.
@@ -141,7 +131,7 @@ Currently all participants are projects
       "links": [
         {
           "rel": "participant",
-          "href": "https://api.betterplace.org/en/api_v4/projects/18971.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/18971.json"
         }
       ]
     },
@@ -156,7 +146,7 @@ Currently all participants are projects
       "links": [
         {
           "rel": "participant",
-          "href": "https://api.betterplace.org/en/api_v4/projects/22000.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/22000.json"
         }
       ]
     },
@@ -171,7 +161,7 @@ Currently all participants are projects
       "links": [
         {
           "rel": "participant",
-          "href": "https://api.betterplace.org/en/api_v4/projects/22247.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/22247.json"
         }
       ]
     }

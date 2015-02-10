@@ -1,20 +1,9 @@
 
 # Creates/Updates a mailing subscription
 
-## Request
-
 ```nginx
-POST https://api.betterplace.org/en/api_v4/clients/Volksfreund/projects/4425/mailing_subscriptions.json?active=true&email=peter.paul%40betterplace.org&first_name=Peter&last_name=Paul
+POST https://api.betterplace.org/de/api_v4/clients/Volksfreund/projects/4425/mailing_subscriptions.json?active=true&email=peter.paul%40betterplace.org&first_name=Peter&last_name=Paul
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/clients/Volksfreund/projects/4425/mailing_subscriptions.json"\
- -d "active=true&email=peter.paul%40betterplace.org&first_name=Peter&last_name=Paul"
-```
-
-## Description
 
 You can create/update mailing subscriptions to projects.
 
@@ -70,40 +59,7 @@ You can create/update mailing subscriptions to projects.
 
 ## Response Attributes
 
-### Root Attributes
-
-  <table>
-    <tr>
-      <th>Attribute</th>
-      <th>Types</th>
-      <th>Example</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <th align="left">email</th>
-      <td>string</td>
-      <td>peter.paul@betterplace.org</td>
-      <td>The first name of the user</td>
-    </tr>
-    <tr>
-      <th align="left">first_name</th>
-      <td>string</td>
-      <td>Peter</td>
-      <td>The first name of the user</td>
-    </tr>
-    <tr>
-      <th align="left">last_name</th>
-      <td>string</td>
-      <td>Paul</td>
-      <td>The last name of the user</td>
-    </tr>
-    <tr>
-      <th align="left">active</th>
-      <td>boolean</td>
-      <td>true</td>
-      <td>State of the subscription: active/inactive</td>
-    </tr>
-  </table>
+  <th colspan="4">No response example defined</th>
 </table>
 
 ## Response Links
@@ -124,10 +80,7 @@ You can create/update mailing subscriptions to projects.
   "email": "peter.paul@betterplace.org",
   "first_name": "Peter",
   "last_name": "Paul",
-  "active": true,
-  "links": [
-
-  ]
+  "active": true
 }
 ```
 

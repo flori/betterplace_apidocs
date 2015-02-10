@@ -1,19 +1,9 @@
 
 # Project Need Details ⇄ [List](needs_list.md)
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/1114/needs/59220.json
+GET https://api.betterplace.org/de/api_v4/projects/1114/needs/59220.json
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/projects/1114/needs/59220.json"
-```
-
-## Description
 
 The details of a betterplace.org project need (donate money).
 The details and list view show the same data per project need.
@@ -175,20 +165,20 @@ offline donations and also(!) external donations)
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs/101047.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1114/needs/101047.json"
     },
     {
       "rel": "project",
-      "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
     },
     {
       "rel": "new_client_donation",
-      "href": "https://www.betterplace.org/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D&earmark_id=101047",
+      "href": "https://www.betterplace.org/de/projects/1114/client_donations/new?client_id=%7Bclient_id%7D&earmark_id=101047",
       "templated": true
     },
     {
       "rel": "new_donation",
-      "href": "https://www.betterplace.org/en/projects/1114/donations/new?earmark_id=101047"
+      "href": "https://www.betterplace.org/de/projects/1114/donations/new?earmark_id=101047"
     }
   ]
 }

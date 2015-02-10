@@ -1,19 +1,9 @@
 
 # Project Blog Post Details ⇄ [List](blog_posts_list.md)
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/1114/blog_posts/88972.json
+GET https://api.betterplace.org/de/api_v4/projects/1114/blog_posts/88972.json
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/projects/1114/blog_posts/88972.json"
-```
-
-## Description
 
 The details of a betterplace.org project blog post.
 The details and list view show the same data.
@@ -296,22 +286,22 @@ access rights in order to see this information.
     "links": [
       {
         "rel": "platform",
-        "href": "https://www.betterplace.org/en/users/erika_k2"
+        "href": "https://www.betterplace.org/de/users/erika_k2"
       },
       {
         "rel": "contact_data",
-        "href": "https://api.betterplace.org/en/api_v4/users/130618/contact_data.json"
+        "href": "https://api.betterplace.org/de/api_v4/users/130618/contact_data.json"
       }
     ]
   },
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/en/api_v4/blog_posts/88972.json"
+      "href": "https://api.betterplace.org/de/api_v4/blog_posts/88972.json"
     },
     {
       "rel": "platform",
-      "href": "https://www.betterplace.org/en/projects/1114-skateistan-afghanistan/news/88972"
+      "href": "https://www.betterplace.org/de/projects/1114-skateistan-afghanistan/news/88972"
     },
     {
       "rel": "documentation",

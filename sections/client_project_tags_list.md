@@ -1,19 +1,9 @@
 
 # Client-project tags list
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/clients/Volksfreund/projects/4425/tags.json?order=projects_count%3ADESC
+GET https://api.betterplace.org/de/api_v4/clients/Volksfreund/projects/4425/tags.json?order=projects_count%3ADESC
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/clients/Volksfreund/projects/4425/tags.json?order=projects_count%3ADESC"
-```
-
-## Description
 
 **For [betterplace.org clients](../README.md#client-api) only:**
 
@@ -119,7 +109,7 @@ that where tagged with this tag.
       "links": [
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/Trier/projects.json"
+          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/tags/Trier/projects.json"
         }
       ]
     },
@@ -129,7 +119,7 @@ that where tagged with this tag.
       "links": [
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/KinderJugendliche/projects.json"
+          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/tags/KinderJugendliche/projects.json"
         }
       ]
     },
@@ -139,7 +129,7 @@ that where tagged with this tag.
       "links": [
         {
           "rel": "projects",
-          "href": "https://api.betterplace.org/en/api_v4/clients/volksfreund/tags/Familien/projects.json"
+          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/tags/Familien/projects.json"
         }
       ]
     }

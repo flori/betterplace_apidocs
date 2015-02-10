@@ -1,19 +1,9 @@
 
 # Project Needs List ⇄ [Details](need_details.md)
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/projects/1114/needs.json
+GET https://api.betterplace.org/de/api_v4/projects/1114/needs.json
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/projects/1114/needs.json"
-```
-
-## Description
 
 A list of betterplace.org projects needs (donate money).
 Results are contained in a *data* attribute.
@@ -164,37 +154,6 @@ offline donations and also(!) external donations)
   "per_page": 3,
   "data": [
     {
-      "id": 101047,
-      "created_at": "2015-01-23T10:55:07+01:00",
-      "updated_at": "2015-01-23T10:55:07+01:00",
-      "title": "Testbedarf MJO III",
-      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium ",
-      "completed": false,
-      "progress_percentage": 0.01,
-      "donated_amount_in_cents": 58,
-      "open_amount_in_cents": 999842,
-      "requested_amount_in_cents": 999900,
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs/101047.json"
-        },
-        {
-          "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
-        },
-        {
-          "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D&earmark_id=101047",
-          "templated": true
-        },
-        {
-          "rel": "new_donation",
-          "href": "https://www.betterplace.org/en/projects/1114/donations/new?earmark_id=101047"
-        }
-      ]
-    },
-    {
       "id": 76625,
       "created_at": "2014-01-03T11:41:44+01:00",
       "updated_at": "2014-03-21T14:35:08+01:00",
@@ -208,20 +167,20 @@ offline donations and also(!) external donations)
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs/76625.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114/needs/76625.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
         },
         {
           "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D&earmark_id=76625",
+          "href": "https://www.betterplace.org/de/projects/1114/client_donations/new?client_id=%7Bclient_id%7D&earmark_id=76625",
           "templated": true
         },
         {
           "rel": "new_donation",
-          "href": "https://www.betterplace.org/en/projects/1114/donations/new?earmark_id=76625"
+          "href": "https://www.betterplace.org/de/projects/1114/donations/new?earmark_id=76625"
         }
       ]
     },
@@ -239,20 +198,51 @@ offline donations and also(!) external donations)
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114/needs/79124.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114/needs/79124.json"
         },
         {
           "rel": "project",
-          "href": "https://api.betterplace.org/en/api_v4/projects/1114.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
         },
         {
           "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/en/projects/1114/client_donations/new?client_id=%7Bclient_id%7D&earmark_id=79124",
+          "href": "https://www.betterplace.org/de/projects/1114/client_donations/new?client_id=%7Bclient_id%7D&earmark_id=79124",
           "templated": true
         },
         {
           "rel": "new_donation",
-          "href": "https://www.betterplace.org/en/projects/1114/donations/new?earmark_id=79124"
+          "href": "https://www.betterplace.org/de/projects/1114/donations/new?earmark_id=79124"
+        }
+      ]
+    },
+    {
+      "id": 5228,
+      "created_at": "2009-03-10T11:38:39+01:00",
+      "updated_at": "2013-10-29T01:16:31+01:00",
+      "title": "Warme Mahlzeiten",
+      "description": "Wer sich viel bewegt, der muss auch richtig essen: Mit nur 50 Euro im Monat lassen sich 8-10 warme Mahlzeiten für rund 30 Waisenkinder bereitstellen, die zweimal in der Woche von dem Skateistan-Team besucht werden und lernen Skateboard zu fahren.",
+      "completed": true,
+      "progress_percentage": 100.0,
+      "donated_amount_in_cents": 5000,
+      "open_amount_in_cents": 0,
+      "requested_amount_in_cents": 5000,
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114/needs/5228.json"
+        },
+        {
+          "rel": "project",
+          "href": "https://api.betterplace.org/de/api_v4/projects/1114.json"
+        },
+        {
+          "rel": "new_client_donation",
+          "href": "https://www.betterplace.org/de/projects/1114/client_donations/new?client_id=%7Bclient_id%7D&earmark_id=5228",
+          "templated": true
+        },
+        {
+          "rel": "new_donation",
+          "href": "https://www.betterplace.org/de/projects/1114/donations/new?earmark_id=5228"
         }
       ]
     }

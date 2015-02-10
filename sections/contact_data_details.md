@@ -1,19 +1,9 @@
 
 # User Contact Data Details
 
-## Request
-
 ```nginx
-GET https://api.betterplace.org/en/api_v4/users/250285/contact_data.json
+GET https://api.betterplace.org/de/api_v4/users/250285/contact_data.json
 ```
-
-## Command
-
-```bash
-curl "https://api.betterplace.org/en/api_v4/users/250285/contact_data.json"
-```
-
-## Description
 
 Name and email for the given user.
 
