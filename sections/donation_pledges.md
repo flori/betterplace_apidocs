@@ -5,39 +5,18 @@
 POST https://api.betterplace.org/de/api_v4/clients/Volksfreund/projects/1114/donation_pledges.json
 ```
 
-Submit a donation pledge into the system. This will be transformed into a donation to the receiver. The request has to be a POST request with a JSON body.
+Submit a donation pledge into the system. This will be transformed into
+a donation to the receiver. The request has to be a POST request with a
+JSON body.
 
-### JSON body parameters
+A successful request will return HTTP status 202 (accepted). The
+donation is then queued and will be processed by background workers.
+Please notice, that this might take up to a few minutes, especially in
+high traffic scenarios.
 
- - `first_name` - required, String: First name of the donor
- - `last_name` - required, String: Last name of the donor
- - `email` - required, String: Email address of the donor. Only valid email addresses will be accepted.
- - `amount_in_cents` - required, Integer: The amount of cents that are donated. Must be a positive integer.
- - `reference` - required, String: A unique identifier for this transaction. With this reference one can find the donation and its status later.
- - `street` - required, String: The street of the donors address. Used to issue a donation receipt if the donation is tax deductible.
- - `city` - require, String: The city of the donors address. Used to issue a donation receipt if the donation is tax deductible.
- - `zip` - required, String: Zip code of the city or region the donor lives at. Used to issue a donation receipt if the donation is tax deductible.
- - `country_code` - required, String: ISO2 code of the country the donor lives in. Used to issue a donation receipt if the donation is tax deductible.
-
-### JSON body example
-
-```json
-{
-  "first_name": "Max",
-  "last_name": "Mustermann",
-  "email": "mm@example.com",
-  "street": "Rheinstrasse 202",
-  "zip": "65183",
-  "city": "Wiesbaden",
-  "country_code": "DE",
-  "amount_in_cents": 100,
-  "reference": "ewe3lrth234nlghf2"
-}
-```
-
-A successful request will return HTTP status 202 (accepted). The donation is then queued and will be processed by background workers. Please notice, that this might take up to a few minutes, especially in high traffic scenarios.
-
-If an error occurs the HTTP return code will be 422 (unprocessable entity). You can find the documentation on how errors are represented at [POST error handling](../README.md#error-handling).
+If an error occurs the HTTP return code will be 422 (unprocessable
+entity). You can find the documentation on how errors are represented
+at [POST error handling](../README.md#error-handling).
 
 *Only available if authenticated as a client, see [betterplace.org clients](../README.md#client-authentication):*
 
