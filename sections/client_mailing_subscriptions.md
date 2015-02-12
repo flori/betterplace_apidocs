@@ -10,28 +10,29 @@ You can create/update mailing subscriptions to projects.
 *Only available if authenticated as a client, see [betterplace.org clients](../README.md#client-authentication):*
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">client_id</th>
     <td><code>Volksfreund</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>The betterplace.org-internal client permalink.</td>
   </tr>
   <tr>
     <th align="left">project_id</th>
     <td><code>4425</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>Project-id as an integer number ≥ 14.</td>
   </tr>
 </table>
+
 
 ## Response Attributes
 

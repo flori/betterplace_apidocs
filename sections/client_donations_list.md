@@ -13,25 +13,25 @@ the client donation form (but none of the other donation-sources).
 Results are contained in a *data* attribute.
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">client_id</th>
     <td><code>Volksfreund</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>The betterplace.org-internal client permalink.</td>
   </tr>
   <tr>
     <th align="left">facets</th>
     <td><code>client_reference:922ec9b-etc</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>You can search for a specific client_reference: <code>?facets=client_reference:54</code>
 
 <br>
@@ -46,6 +46,7 @@ This feature is only used in some cases that relate to the
 </td>
   </tr>
 </table>
+
 
 ## Response Attributes
 

@@ -8,22 +8,23 @@ GET https://api.betterplace.org/de/api_v4/matching_funds/2/projects.json
 A list of betterplace.org matching fund projects.
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">matching_fund_id</th>
     <td><code>2</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>Matching fund-id as an integer number ≥ 1.</td>
   </tr>
 </table>
+
 
 ## Response Attributes
 
@@ -702,22 +703,23 @@ GET https://api.betterplace.org/de/portals/2/projects.json?action=projects&contr
 A list of betterplace.org matching fund projects.
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">id</th>
     <td><code>2</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>Matching fund-id as an integer number ≥ 1.</td>
   </tr>
 </table>
+
 
 ## Response Attributes
 

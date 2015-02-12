@@ -12,22 +12,23 @@ This API returns all tags defined for a client.
 Results are contained in a *data* attribute.
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">client_id</th>
     <td><code>Volksfreund</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>The betterplace.org-internal client id</td>
   </tr>
 </table>
+
 
 ## Response Attributes
 

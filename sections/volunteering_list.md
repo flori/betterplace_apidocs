@@ -12,19 +12,19 @@ Results are contained in a *data* attribute.
 This resource is not avaliable at the moment.
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">scope</th>
     <td><code>location</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>Use the scope to specify how the search-query <code>q</code> should behave:
 <ul>
 <li>"no scope" (default) performs a full text search
@@ -41,13 +41,13 @@ This resource is not avaliable at the moment.
   <tr>
     <th align="left">q</th>
     <td><code>Homework help</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>Search query. The searches behaviour is based on the scope.</td>
   </tr>
   <tr>
     <th align="left">order</th>
     <td><code>created_at:ASC</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>Order the result by <code>has_image</code> (default), <code>created_at</code> (second default).
 Use the optional <code>ASC</code> (default) or <code>DESC</code>.
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
@@ -60,7 +60,7 @@ The default order is the same as for the
   <tr>
     <th align="left">around</th>
     <td><code>10997 Berlin, Germany</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>Order the results by the distance to the given location from near to far.
 <br>
 Location can be provided as …
@@ -83,28 +83,29 @@ values have been used for the query.
   <tr>
     <th align="left">nelat</th>
     <td><code>51.123</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>For geographic bound filterning: The northeast corner's latitude.</td>
   </tr>
   <tr>
     <th align="left">nelng</th>
     <td><code>12.123</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>For geographic bound filterning: The northeast corner's longitude.</td>
   </tr>
   <tr>
     <th align="left">swlat</th>
     <td><code>51.001</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>For geographic bound filterning: The southwest corner's latitude.</td>
   </tr>
   <tr>
     <th align="left">swlng</th>
     <td><code>12.001</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>For geographic bound filterning: The southwest corner's longitude.</td>
   </tr>
 </table>
+
 
 ## Response Attributes
 

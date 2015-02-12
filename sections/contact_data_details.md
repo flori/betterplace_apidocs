@@ -10,22 +10,23 @@ Name and email for the given user.
 *Only available if authenticated as a client, see [betterplace.org clients](../README.md#client-authentication):*
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">user_id</th>
     <td><code>250285</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>User-id as an integer number.</td>
   </tr>
 </table>
+
 
 ## Response Attributes
 

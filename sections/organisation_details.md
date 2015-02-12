@@ -14,22 +14,23 @@ Please use the api calls that are provided inside the client project _url_ respo
 to make sure you only request data that is associated with one of your projects.
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">id</th>
     <td><code>125</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>Organisation-id as an integer number ≥ 14.</td>
   </tr>
 </table>
+
 
 ## Response Attributes
 

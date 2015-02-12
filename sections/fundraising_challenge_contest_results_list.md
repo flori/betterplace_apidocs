@@ -19,22 +19,23 @@ The rank is based on the number of donations.
 Participants with the same rank / number of donations are ordered by project ID.
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">contest_id</th>
     <td><code>1</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>Contest-id as an integer number ≥ 0.</td>
   </tr>
 </table>
+
 
 ## Response Attributes
 

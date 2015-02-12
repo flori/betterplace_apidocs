@@ -14,31 +14,31 @@ as a service of [betterplace solutions](http://www.betterplace-solutions.de/#bue
 Results are contains in a *data* attribute.
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">client_id</th>
     <td><code>Volksfreund</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>The betterplace.org-internal client permalink</td>
   </tr>
   <tr>
     <th align="left">project_id</th>
     <td><code>4425</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>Project-id as an integer number ≥ 14.</td>
   </tr>
   <tr>
     <th align="left">order</th>
     <td><code>projects_count:DESC</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>Order the result by
 <code>slug</code> (tag name) or <code>projects_count</code>.
 Use the optional <code>ASC</code> (default) or <code>DESC</code> to
@@ -48,6 +48,7 @@ parameter</a>.
 </td>
   </tr>
 </table>
+
 
 ## Response Attributes
 

@@ -11,22 +11,23 @@ The details of a betterplace.org volunteering offer (donate time).
 This resource is not avaliable at the moment.
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">id</th>
     <td><code>23</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>Volunteering-id as an integer number ≥ 1.</td>
   </tr>
 </table>
+
 
 ## Response Attributes
 

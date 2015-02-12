@@ -10,22 +10,23 @@ GET https://api.betterplace.org/de/api_v4/clients/Volksfreund.json
 Some client-statistics for a betterplace.org client. All results are cached for 15 minutes.
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">id</th>
     <td><code>Volksfreund</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>The betterplace.org-internal client permalink</td>
   </tr>
 </table>
+
 
 ## Response Attributes
 

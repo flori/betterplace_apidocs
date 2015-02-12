@@ -8,30 +8,31 @@ GET https://api.betterplace.org/de/api_v4/matching_funds.json?facets=state%3Aact
 A list of betterplace.org matching funds.
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">project_id</th>
     <td><code>1114</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>Project-id as an integer number ≥ 14.</td>
   </tr>
   <tr>
     <th align="left">facets</th>
     <td><code>state:activated</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>Filter the result set by <code>state</code> (activated|closed)
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
   </tr>
 </table>
+
 
 ## Response Attributes
 

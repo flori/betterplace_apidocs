@@ -14,28 +14,29 @@ Please use the api calls that are provided inside the client project _url_ respo
 to make sure you only request data that is associated with one of your projects.
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">project_id</th>
     <td><code>1114</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>Project-id as an integer number ≥ 14.</td>
   </tr>
   <tr>
     <th align="left">id</th>
     <td><code>88972</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>Blog-post-id as an integer number ≥ 9.</td>
   </tr>
 </table>
+
 
 ## Response Attributes
 

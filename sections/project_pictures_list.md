@@ -28,22 +28,23 @@ If you request data for a project that is not part of the client
 projects, the API will return a `404` HTTP code.
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">project_id</th>
     <td><code>1114</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>Project-id as an integer number ≥ 14.</td>
   </tr>
 </table>
+
 
 ## Response Attributes
 

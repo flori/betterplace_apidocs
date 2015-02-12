@@ -13,16 +13,17 @@ The details and list view show the same data per organisation.
 This resource is not avaliable at the moment.
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
 </table>
+
 
 ## Response Attributes
 

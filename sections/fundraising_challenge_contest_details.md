@@ -14,22 +14,23 @@ The contest level only shows general information.
 Everything else is part of the [result lists](fundraising_challenge_contest_results_list.md).
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">id</th>
     <td><code>1</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>Contest-id as an integer number ≥ 0.</td>
   </tr>
 </table>
+
 
 ## Response Attributes
 

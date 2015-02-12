@@ -9,22 +9,23 @@ The details of a betterplace.org matching fund.
 The details and list view show the same data.
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">id</th>
     <td><code>2</code></td>
-    <td>required</td>
+    <td>yes</td>
     <td>matching-fund-id as an integer number ≥ 9.</td>
   </tr>
 </table>
+
 
 ## Response Attributes
 

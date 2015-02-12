@@ -12,19 +12,19 @@ Results are contained in a *data* attribute.
 Use this resource like `/clients/PERMALINK/projects.json`
 
 
-## Input Parameter
+## URL Parameter
 
 <table>
   <tr>
     <th>Parameter</th>
     <th>Example</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
     <th align="left">scope</th>
     <td><code>location</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>Use the scope to specify how the search-query <code>q</code> should behave:
 <ul>
 <li>"no scope" (default) performs a full text search
@@ -41,13 +41,13 @@ Use this resource like `/clients/PERMALINK/projects.json`
   <tr>
     <th align="left">q</th>
     <td><code>Skateistan</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>Search query. The searches behaviour is based on the scope.</td>
   </tr>
   <tr>
     <th align="left">order</th>
     <td><code>rank:DESC</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>Order the results by <code>score</code> (only when a query (q) is given),
 <code>rank</code>, <code>id</code>, <code>progress_percentage</code>,
 <code>tax_deductible</code>, <code>created_at</code>, <code>updated_at</code>,
@@ -63,7 +63,7 @@ The default order is the same as for the
   <tr>
     <th align="left">around</th>
     <td><code>10997 Berlin, Germany</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>Order the results by the distance to the given location from near to far.
 <br>
 Location can be provided as …
@@ -86,7 +86,7 @@ values have been used for the query.
   <tr>
     <th align="left">facets</th>
     <td><code>completed:false</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>Filter the result set.
 Documented and supported filters are:
 <ul>
@@ -101,28 +101,29 @@ It is possible to set multiple facet filters.
   <tr>
     <th align="left">nelat</th>
     <td><code>51.123</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>For geographic bound filterning: The northeast corner's latitude.</td>
   </tr>
   <tr>
     <th align="left">nelng</th>
     <td><code>12.123</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>For geographic bound filterning: The northeast corner's longitude.</td>
   </tr>
   <tr>
     <th align="left">swlat</th>
     <td><code>51.001</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>For geographic bound filterning: The southwest corner's latitude.</td>
   </tr>
   <tr>
     <th align="left">swlng</th>
     <td><code>12.001</code></td>
-    <td>optional</td>
+    <td>no</td>
     <td>For geographic bound filterning: The southwest corner's longitude.</td>
   </tr>
 </table>
+
 
 ## Response Attributes
 
