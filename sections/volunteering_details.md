@@ -1,0 +1,516 @@
+
+# Volunteering Details ⇄ [List](volunteering_list.md)
+
+```nginx
+GET https://api.betterplace.org/de/api_v4/volunteering/23.json
+```
+
+The details of a betterplace.org volunteering offer (donate time).
+
+*For [betterplace.org clients](../README.md#client-api):*
+This resource is not avaliable at the moment.
+
+
+## Input Parameter
+
+<table>
+  <tr>
+    <th>Parameter</th>
+    <th>Example</th>
+    <th>Required/Optional</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <th align="left">id</th>
+    <td><code>23</code></td>
+    <td>required</td>
+    <td>Volunteering-id as an integer number ≥ 1.</td>
+  </tr>
+</table>
+
+## Response Attributes
+
+### Root Attributes
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">id</th>
+      <td>number</td>
+      <td>1</td>
+      <td>An integer number ≥ 1</td>
+    </tr>
+    <tr>
+      <th align="left">created_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
+      <th align="left">updated_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone)</td>
+    </tr>
+    <tr>
+      <th align="left">latitude</th>
+      <td>number</td>
+      <td>52.499007</td>
+      <td>Decimal degrees based on user input</td>
+    </tr>
+    <tr>
+      <th align="left">longitude</th>
+      <td>number</td>
+      <td>13.44947</td>
+      <td>Decimal degrees based on user input</td>
+    </tr>
+    <tr>
+      <th align="left">street</th>
+      <td>null &#124; string</td>
+      <td>"Schlesische Straße 26"</td>
+      <td>Street address</td>
+    </tr>
+    <tr>
+      <th align="left">zip</th>
+      <td>null &#124; string</td>
+      <td>"10997"</td>
+      <td>ZIP code</td>
+    </tr>
+    <tr>
+      <th align="left">city</th>
+      <td>null &#124; string</td>
+      <td>"Berlin"</td>
+      <td>Name of the city</td>
+    </tr>
+    <tr>
+      <th align="left">country</th>
+      <td>null &#124; string</td>
+      <td>"Deutschland"</td>
+      <td>Name of the country</td>
+    </tr>
+    <tr>
+      <th align="left">title</th>
+      <td>string</td>
+      <td>TODO</td>
+      <td>Max 100 character unless the volunteering is imported</td>
+    </tr>
+    <tr>
+      <th align="left">description</th>
+      <td>string</td>
+      <td>TODO</td>
+      <td>TODO</td>
+    </tr>
+    <tr>
+        <th align="left" style="white-space: nowrap">
+          <a id="carrier-ref" href="#carrier">
+            ↓carrier
+          </a>
+        </th>
+      <td>object</td>
+      <td>TODO</td>
+      <td>An organisation, Users will be added later</td>
+    </tr>
+    <tr>
+      <th align="left">vacancies</th>
+      <td>number</td>
+      <td>1</td>
+      <td>The number of volunteers that are needed, provided by the manager</td>
+    </tr>
+    <tr>
+        <th align="left" style="white-space: nowrap">
+          <a id="image-ref" href="#image">
+            ↓image
+          </a>
+        </th>
+      <td>null &#124; object</td>
+      <td>TODO</td>
+      <td>Each volunteering has one optional image</td>
+    </tr>
+    <tr>
+        <th align="left" style="white-space: nowrap">
+          <a id="contact-ref" href="#contact">
+            ↓contact
+          </a>
+        </th>
+      <td>object</td>
+      <td>TODO</td>
+      <td>Contact person, contact data and contact address</td>
+    </tr>
+    <tr>
+      <th align="left">topics</th>
+      <td>array</td>
+      <td>["Development cooperation", "Children & youth"]</td>
+      <td>Up to 4 categories that describe, what for which causes you need volunteers.
+Results are translated to the requested language.
+Possible results: "Animal & environment protection", "Culture & sports",
+"Children & youth", "Development cooperation ", "DisabledEducation", "Elderly people",
+"Human rights", "Immigrants", "Invalid", "Local help", "Socially deprived"
+</td>
+    </tr>
+    <tr>
+      <th align="left">activities</th>
+      <td>array &#124; null</td>
+      <td>["consulting/coaching", "office work"]</td>
+      <td>Up to 4 categories that describe, what for which causes you need volunteers.
+Results are translated to the requested language.
+Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
+"doing the chores", "group care", "nursing/parenting", "office work",
+"organising/managing", "painting/designing", "tutoring/reading",
+"visiting/accompanying", "writing/translating"
+</td>
+    </tr>
+    <tr>
+      <th align="left">imported_from</th>
+      <td>null &#124; string</td>
+      <td>aktion_mensch</td>
+      <td>Betterplace imports volunteering offers from Aktions Mensch.</td>
+    </tr>
+    <tr>
+        <th align="left" style="white-space: nowrap">
+          <a id="import_information-ref" href="#import_information">
+            ↓import_information
+          </a>
+        </th>
+      <td>null &#124; object</td>
+      <td>TODO</td>
+      <td>Meta data concerning the import of this volunteering offer, if it
+was indeed imported.
+</td>
+    </tr>
+  </table>
+### <a id="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">carrier.latitude</th>
+      <td>number</td>
+      <td>52.499007</td>
+      <td>Decimal degrees based on user input</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.longitude</th>
+      <td>number</td>
+      <td>13.44947</td>
+      <td>Decimal degrees based on user input</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.name</th>
+      <td>string</td>
+      <td>"Viva con Agua de Sankt Pauli e.V."</td>
+      <td>An organisation name, Users will be added later</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.street</th>
+      <td>string</td>
+      <td>"Rosenstr. 3"</td>
+      <td>Contact data for the organisation</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.city</th>
+      <td>string</td>
+      <td>"Berlin"</td>
+      <td>Contact data for the organisation</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.zip</th>
+      <td>string</td>
+      <td>"10123"</td>
+      <td>Contact data for the organisation</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.country</th>
+      <td>string</td>
+      <td>"Germany"</td>
+      <td>Contact data for the organisation</td>
+    </tr>
+  </table>
+### <a id="image" href="#image-ref">↑Nested Attributes: image</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">image.description</th>
+      <td>string</td>
+      <td></td>
+      <td>Image description</td>
+    </tr>
+  </table>
+### <a id="contact" href="#contact-ref">↑Nested Attributes: contact</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">contact.name</th>
+      <td>string</td>
+      <td>Till Behnke</td>
+      <td>Fullname of the contact person.
+For imported volunteering offers, this is the
+contact-name that is provided on import.
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.phone</th>
+      <td>string</td>
+      <td>030 - 7676 4488 44</td>
+      <td>Phone number for direct contact.
+No validations on input apply.
+</td>
+    </tr>
+    <tr>
+      <th align="left">contact.email</th>
+      <td>string</td>
+      <td>change@betterplace.org</td>
+      <td>Plain text email-address for direct contact
+</td>
+    </tr>
+    <tr>
+        <th align="left" style="white-space: nowrap">
+          <a id="contact.picture-ref" href="#contact.picture">
+            ↓contact.picture
+          </a>
+        </th>
+      <td>string</td>
+      <td>//assets.betterplace.org/…</td>
+      <td>User profile picture or a fallback image</td>
+    </tr>
+  </table>
+### <a id="contact.picture" href="#contact.picture-ref">↑Nested Attributes: contact.picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
+    </tr>
+  </table>
+### <a id="import_information" href="#import_information-ref">↑Nested Attributes: import_information</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">import_information.created_at</th>
+      <td>null &#124; string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone) when the imported record was actually created.
+</td>
+    </tr>
+    <tr>
+      <th align="left">import_information.updated_at</th>
+      <td>null &#124; string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone) when the imported record was
+actually updated last.
+</td>
+    </tr>
+    <tr>
+      <th align="left">import_information.import_type</th>
+      <td>string</td>
+      <td>"Import::ImportFormat"</td>
+      <td>Type of import this record originated from.</td>
+    </tr>
+    <tr>
+      <th align="left">import_information.import_id</th>
+      <td>string</td>
+      <td>"foo:23"</td>
+      <td>Unique identifier for this imported record.
+</td>
+    </tr>
+    <tr>
+      <th align="left">import_information.imported_at</th>
+      <td>string</td>
+      <td>"1994-11-15T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone) when the record was imported at
+betterplace.
+</td>
+    </tr>
+  </table>
+</table>
+
+## Response Links
+
+<table>
+  <tr>
+    <th>Linkname</th>
+    <th>Description</th>
+  </tr>
+
+    <tr>
+      <th align="left">self</th>
+      <td>Link to this resource itself
+(<a href="volunteering_details.md">volunteering details</a>)
+</td>
+    </tr>
+    <tr>
+      <th align="left">platform</th>
+      <td>Permalink to betterplace.org</td>
+    </tr>
+    <tr>
+      <th align="left">carrier.logo</th>
+      <td>Thumbnail size</td>
+    </tr>
+    <tr>
+      <th align="left">image.fill_618x322</th>
+      <td>618x322 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">image.fill_270x141</th>
+      <td>270x141 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">image.original</th>
+      <td>Original size</td>
+    </tr>
+    <tr>
+      <th align="left">image.thumb</th>
+      <td>Thumbnail size</td>
+    </tr>
+    <tr>
+      <th align="left">image.medium</th>
+      <td>Medium size</td>
+    </tr>
+    <tr>
+      <th align="left">image.regular</th>
+      <td>Regular size</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.fill_100x100</th>
+      <td>100x100 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">contact.picture.original</th>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
+    </tr>
+</table>
+
+## Response Example
+
+```json
+{
+  "id": 23,
+  "created_at": "2013-01-28T10:23:17+01:00",
+  "updated_at": "2014-08-23T01:30:34+02:00",
+  "latitude": 51.3348,
+  "longitude": 9.49321,
+  "street": "Holländische Strasse 141",
+  "zip": "34128",
+  "city": "Kassel",
+  "country": "Deutschland",
+  "title": "Essensausgabe/Fahrdienst",
+  "description": "<p>Die Kasseler Tafel e.V. sammelt qualitativ einwandfreie Lebensmittel, die kurz vor dem Mindesthaltbarkeitsdatum stehen, bei Firmen in der Region ein und verteilt diese gegen einen symbolischen Betrag an bedürftige Mitbürgerinnen und Mitbürger.</p>\n\n<p>Freiwillige können sich in folgenden Bereichen bei der Kasseler Tafel betätigen:</p>\n\n<p>1. Lebensmittel sortieren und ausgeben</p>\n\n<p>2. als Fahrer: Abholung der Lebensmittel bei den Supermärkten</p>\n\n\n\n<p>Mehr Informationen finden Sie unter: http://kasseler-tafel.de/</p>\n\n<p>Wir freuen uns über Ihr Interesse! </p><ul><li>Unfallversicherung</li><li>Haftpflichtversicherung</li><li>Anleitung durch Fachkräfte</li><li>Tätigkeitsnachweise</li><li>Ausstattung mit Medien / Arbeitsmaterialien</li></ul>",
+  "carrier": {
+    "latitude": 51.3171,
+    "longitude": 9.49561,
+    "name": "Freiwilligenzentrum",
+    "street": "Spohrstraße 5",
+    "city": "Kassel",
+    "zip": "34117",
+    "country": "Deutschland",
+    "links": [
+      {
+        "rel": "logo",
+        "href": ""
+      }
+    ]
+  },
+  "vacancies": 1,
+  "image": {
+    "description": null,
+    "links": [
+      {
+        "rel": "fill_618x322",
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+      },
+      {
+        "rel": "fill_270x141",
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
+      },
+      {
+        "rel": "original",
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+      },
+      {
+        "rel": "thumb",
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/thumb_default.betterplace.png"
+      },
+      {
+        "rel": "medium",
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/medium_default.betterplace.png"
+      },
+      {
+        "rel": "regular",
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/regular_default.betterplace.png"
+      }
+    ]
+  },
+  "contact": {
+    "name": "Frank Gerhold",
+    "phone": "0561 - 10 24 25",
+    "email": "fg@freiwilligenzentrumkassel.de",
+    "picture": null,
+    "links": [
+
+    ]
+  },
+  "topics": [
+
+  ],
+  "activities": [
+
+  ],
+  "imported_from": "aktion_mensch",
+  "import_information": {
+    "created_at": "2013-03-15T01:00:00+01:00",
+    "updated_at": "2014-08-19T02:00:00+02:00",
+    "import_type": "Bettertime::AktionMensch::Import",
+    "import_id": "fn-471",
+    "imported_at": "2014-08-23T01:30:34+02:00",
+    "links": [
+
+    ]
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://api.betterplace.org/de/api_v4/volunteering/23.json"
+    },
+    {
+      "rel": "platform",
+      "href": "https://www.betterplace.org/de/volunteering/23-essensausgabe-fahrdienst"
+    }
+  ]
+}
+```
+
