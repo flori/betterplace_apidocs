@@ -71,6 +71,7 @@ You can create/update mailing subscriptions to projects.
     <td>yes</td>
     <td>State of the subscription: active/inactive</td>
   </tr>
+</table>
 
 ## Response Attributes
 
