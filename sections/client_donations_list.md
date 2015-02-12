@@ -13,7 +13,7 @@ the client donation form (but none of the other donation-sources).
 Results are contained in a *data* attribute.
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

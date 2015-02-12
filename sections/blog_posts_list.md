@@ -18,7 +18,7 @@ to make sure you only request data that is associated with one of your projects.
 `/clients/PERMALINK/blog_posts.json`
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

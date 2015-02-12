@@ -10,7 +10,7 @@ GET https://api.betterplace.org/de/api_v4/clients/Volksfreund.json
 Some client-statistics for a betterplace.org client. All results are cached for 15 minutes.
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

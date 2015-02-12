@@ -11,7 +11,7 @@ The details of a betterplace.org volunteering offer (donate time).
 This resource is not avaliable at the moment.
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

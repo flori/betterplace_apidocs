@@ -21,7 +21,7 @@ at [POST error handling](../README.md#error-handling).
 *Only available if authenticated as a client, see [betterplace.org clients](../README.md#client-authentication):*
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>
@@ -44,7 +44,13 @@ at [POST error handling](../README.md#error-handling).
   </tr>
 </table>
 
-## JSON Parameters Example
+## JSON Parameters
+
+JSON parameters have to be provided in the body of the request. The parameters
+are part of a flat JSON document without any nesting. Some parameters are
+required, others are optional.
+
+### Example
 
 ```json
 {
@@ -60,7 +66,7 @@ at [POST error handling](../README.md#error-handling).
 }
 ```
 
-## JSON Parameters
+### Supported Parameters
 
 <table>
   <tr>

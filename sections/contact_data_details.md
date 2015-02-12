@@ -10,7 +10,7 @@ Name and email for the given user.
 *Only available if authenticated as a client, see [betterplace.org clients](../README.md#client-authentication):*
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

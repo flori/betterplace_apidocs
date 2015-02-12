@@ -17,7 +17,7 @@ Please use the api calls that are provided inside the client project _url_ respo
 to make sure you only request data that is associated with one of your projects.
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

@@ -8,7 +8,7 @@ GET https://api.betterplace.org/de/api_v4/matching_funds.json?facets=state%3Aact
 A list of betterplace.org matching funds.
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

@@ -14,7 +14,7 @@ The contest level only shows general information.
 Everything else is part of the [result lists](fundraising_challenge_contest_results_list.md).
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

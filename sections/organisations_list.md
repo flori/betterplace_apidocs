@@ -13,7 +13,7 @@ The details and list view show the same data per organisation.
 This resource is not avaliable at the moment.
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

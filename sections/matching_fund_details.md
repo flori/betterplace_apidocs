@@ -9,7 +9,7 @@ The details of a betterplace.org matching fund.
 The details and list view show the same data.
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

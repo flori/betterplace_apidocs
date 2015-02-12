@@ -11,7 +11,7 @@ The details of a betterplace.org client donation.
 The details and list view show the same data.
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

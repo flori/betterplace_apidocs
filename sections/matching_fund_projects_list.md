@@ -8,7 +8,7 @@ GET https://api.betterplace.org/de/api_v4/matching_funds/2/projects.json
 A list of betterplace.org matching fund projects.
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>
@@ -703,7 +703,7 @@ GET https://api.betterplace.org/de/portals/2/projects.json?action=projects&contr
 A list of betterplace.org matching fund projects.
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

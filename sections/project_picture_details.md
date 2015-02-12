@@ -15,7 +15,7 @@ If you request data for a project that is not part of the client
 projects, the API will return a `404` HTTP code.
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

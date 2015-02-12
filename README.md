@@ -217,15 +217,31 @@ The following HTTP result codes can be returned:
 
 * HTTP Code `200` if all is good and `304` if this good thing has not been modified (based on ETag).
 
-* HTTP Code `404` is returned if a requested resource could not be found.
+* HTTP Code `201` if a resource was created successfully.
+
+* HTTP Code `202` if a resource was successfully submitted for delayed processing.
 
 * HTTP Code `400` is returned if a requested resource could not be created or updated,
   if the submitted data was invalid.
 
-* HTTP Code `500` is returned if a software error on the server was encountered.
-
 * HTTP Code `403` is returned if a resource requires [client authentication](#client-authentication) but no client was authenticated.
 
+* HTTP Code `404` is returned if a requested resource could not be found.
+
+* HTTP Code `422` is returned if the submitted resource could not be accepted due to erroneous parameters.
+
+* HTTP Code `500` is returned if a software error on the server was encountered.
+
+If errors occur during the creation process of a resource the answer will contain helpful information about how to resolve the issues. Such an answer would look like this:
+
+```json
+{
+  "errors": {
+    "email": ["Email is invalid"],
+    "first_name": ["First name needs to be present", "First name should be longer than 2 characters"]
+  }
+}
+```
 
 ## Known issues
 

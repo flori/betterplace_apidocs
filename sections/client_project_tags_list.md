@@ -14,7 +14,7 @@ as a service of [betterplace solutions](http://www.betterplace-solutions.de/#bue
 Results are contains in a *data* attribute.
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

@@ -10,7 +10,7 @@ You can create/update mailing subscriptions to projects.
 *Only available if authenticated as a client, see [betterplace.org clients](../README.md#client-authentication):*
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>
@@ -33,7 +33,13 @@ You can create/update mailing subscriptions to projects.
   </tr>
 </table>
 
-## JSON Parameters Example
+## JSON Parameters
+
+JSON parameters have to be provided in the body of the request. The parameters
+are part of a flat JSON document without any nesting. Some parameters are
+required, others are optional.
+
+### Example
 
 ```json
 {
@@ -44,7 +50,7 @@ You can create/update mailing subscriptions to projects.
 }
 ```
 
-## JSON Parameters
+### Supported Parameters
 
 <table>
   <tr>

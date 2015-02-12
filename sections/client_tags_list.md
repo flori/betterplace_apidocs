@@ -12,7 +12,7 @@ This API returns all tags defined for a client.
 Results are contained in a *data* attribute.
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

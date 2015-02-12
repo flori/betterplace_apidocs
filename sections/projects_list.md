@@ -12,7 +12,7 @@ Results are contained in a *data* attribute.
 Use this resource like `/clients/PERMALINK/projects.json`
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

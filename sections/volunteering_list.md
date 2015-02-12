@@ -12,7 +12,7 @@ Results are contained in a *data* attribute.
 This resource is not avaliable at the moment.
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

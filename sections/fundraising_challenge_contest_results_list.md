@@ -19,7 +19,7 @@ The rank is based on the number of donations.
 Participants with the same rank / number of donations are ordered by project ID.
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>

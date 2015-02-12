@@ -11,7 +11,7 @@ The details of a betterplace.org project (donate money).
 Use this resource like `/clients/PERMALINK/projects/ID.json`
 
 
-## URL Parameter
+## URL Parameters
 
 <table>
   <tr>
