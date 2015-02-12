@@ -33,7 +33,7 @@ You can create/update mailing subscriptions to projects.
   </tr>
 </table>
 
-## JSON Parameter Example
+## JSON Parameters Example
 
 ```json
 {
@@ -44,7 +44,7 @@ You can create/update mailing subscriptions to projects.
 }
 ```
 
-## JSON Parameter
+## JSON Parameters
 
 <table>
   <tr>
