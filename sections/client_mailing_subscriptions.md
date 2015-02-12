@@ -51,7 +51,7 @@ You can create/update mailing subscriptions to projects.
     <th>Parameter</th>
     <th>Example</th>
     <th>Types</th>
-    <th>Required/Optional</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr>
