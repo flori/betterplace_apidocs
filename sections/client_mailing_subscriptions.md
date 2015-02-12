@@ -36,7 +36,12 @@ You can create/update mailing subscriptions to projects.
 ## JSON Parameter Example
 
 ```json
-{"email":"peter.paul@betterplace.org","first_name":"Peter","last_name":"Paul","active":true}
+{
+  "email": "peter.paul@betterplace.org",
+  "first_name": "Peter",
+  "last_name": "Paul",
+  "active": true
+}
 ```
 
 ## JSON Parameter
