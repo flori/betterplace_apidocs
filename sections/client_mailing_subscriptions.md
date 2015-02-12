@@ -33,6 +33,44 @@ You can create/update mailing subscriptions to projects.
   </tr>
 </table>
 
+## JSON Parameter
+
+<table>
+  <tr>
+    <th>Parameter</th>
+    <th>Example</th>
+    <th>Types</th>
+    <th>Required/Optional</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <th align="left">email</th>
+    <td><code>peter.paul@betterplace.org</code></td>
+    <td>string</td>
+    <td>yes</td>
+    <td>The email of the user</td>
+  </tr>
+  <tr>
+    <th align="left">first_name</th>
+    <td><code>Peter</code></td>
+    <td>string</td>
+    <td>yes</td>
+    <td>The first name of the user</td>
+  </tr>
+  <tr>
+    <th align="left">last_name</th>
+    <td><code>Paul</code></td>
+    <td>string</td>
+    <td>yes</td>
+    <td>The last name of the user</td>
+  </tr>
+  <tr>
+    <th align="left">active</th>
+    <td><code>true</code></td>
+    <td>boolean</td>
+    <td>yes</td>
+    <td>State of the subscription: active/inactive</td>
+  </tr>
 
 ## Response Attributes
 
