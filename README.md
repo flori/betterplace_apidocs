@@ -234,12 +234,15 @@ Example:
 ```json
 {
   "name": "GeneralError",
+  "status": "not_found",
+  "status_code": 404,
   "reason": "Record Not Found",
   "backtrace": [
     "/path/to/file:23:in 'method'",
     "/path/to/file:42:in 'method2'"
   ],
-  "message": "Couldn't find Project with id=666"
+  "message": "Couldn't find Project with id=666",
+  "links":[]
 }
 ```
 
@@ -249,7 +252,7 @@ would look like this:
 
 ```json
 {
-  "name": "ApiV4::ErrorHandling::ProcessingError",
+  "name": "GeneralError",
   "status": "unprocessable_entity",
   "status_code": 422,
   "reason": "Cannot Process Submitted Data",
@@ -257,7 +260,7 @@ would look like this:
     "/path/to/file:23:in 'method'",
     "/path/to/file:42:in 'method2'"
   ],
-  "message": "First name Dies ist ein Pflichtfeld.",
+  "message": "First name Dies ist ein Pflichtfeld",
   "errors": { "first_name": [ "Dies ist ein Pflichtfeld." ] },
   "links":[]
 }
