@@ -1,5 +1,5 @@
 
-# Creates/Updates a mailing subscription
+# Client Mailing Subscriptions
 
 ```nginx
 POST https://api.betterplace.org/de/api_v4/clients/Volksfreund/projects/4425/mailing_subscriptions.json
@@ -7,7 +7,20 @@ POST https://api.betterplace.org/de/api_v4/clients/Volksfreund/projects/4425/mai
 
 You can create/update mailing subscriptions to projects.
 
-*Only available if authenticated as a client, see [betterplace.org clients](../README.md#client-authentication):*
+**Only available if authenticated as a client.** See [betterplace.org clients](../README.md#client-authentication).
+
+**Response and error codes:**
+
+A successful request will return HTTP status 201 (created).
+
+An error will return HTTP status 422.
+
+**Language:**
+
+The subscription is marked with the language you use in your URL.
+Newsletter authors write their content in a specific lang which you can
+target with the subscription lang. To target a lang see
+[api setting lang](../README.md#addressing-the-locale-of-a-resource).
 
 
 ## URL Parameters
@@ -35,9 +48,10 @@ You can create/update mailing subscriptions to projects.
 
 ## JSON Parameters
 
-JSON parameters have to be provided in the body of the request. The parameters
-are part of a flat JSON document without any nesting. Some parameters are
-required, others are optional.
+JSON parameters have to be provided in the body of the request with the
+Content-Type header set to "application/json". The parameters are part of a
+flat JSON document without any nesting. Some parameters are required, others
+are optional.
 
 ### Example
 

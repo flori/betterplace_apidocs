@@ -7,7 +7,7 @@ GET https://api.betterplace.org/de/api_v4/users/250285/contact_data.json
 
 Name and email for the given user.
 
-*Only available if authenticated as a client, see [betterplace.org clients](../README.md#client-authentication):*
+**Only available if authenticated as a client.** See [betterplace.org clients](../README.md#client-authentication).
 
 
 ## URL Parameters

@@ -3,6 +3,24 @@ All notable changes to the betterplace.org API v4 will be documented in this
 file. Notifications about changes will also be send to the [mailing list for
 service announcements](README.md#mailing-list-for-service-announcements).
 
+## 2015-02-16
+### Added
+- Added client API endpoint for submit donation pledges to.
+  See [here](sections/client_donation_pledges.md)
+- Added client API endpoint to subscribe to project newsletters.
+  See [here](sections/client_mailing_subscriptions.md).
+
+### Deprecated
+- Authentication via <code>api_token</code> parameter and <code>Api-Token</code> header is
+  deprecated in favor of using basic authentication.
+
+### Removed
+- Nothing.
+
+### Fixed
+- Reworked order and hierarchy in readme.
+
+
 ## 2015-01-15
 ### Added
 - Added the <code>around</code> parameter for project and volunteering

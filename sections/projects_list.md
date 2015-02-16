@@ -74,6 +74,7 @@ Location can be provided as …
 We use the centre of the ZIP code area as center for the search.
 Please add enough context information (like the Country name)
 so google knows what place you are looking for.
+<br>
 <em>… any location search:</em> All queries other than a float tuple
 are send to the google location service. For the provided response we
 take a fitting lat/lng value as center of the search. So in theory,
@@ -93,7 +94,7 @@ Documented and supported filters are:
 <li><code>tax_deductible:true/false</code>
 <li><code>completed:true/false</code>
 <li><code>prohibit_donations:true/false</code>
-<ul>
+</ul>
 It is possible to set multiple facet filters.
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>

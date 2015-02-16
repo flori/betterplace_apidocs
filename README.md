@@ -7,9 +7,11 @@ JSON for serialization.
 It incorporates some ideas from [hypermedia apis](https://www.google.de/search?q=hypermedia+api)
 like the link-strukture.
 
+
 #### Please provide feedback
 Please don't hesitate to provide any feedback about the API and this documentation
 at developers@betterplace.org.
+
 
 #### Mailing list for service announcements
 Please send an email to tjo@betterplace.org to
@@ -19,93 +21,77 @@ about updates and scheduled downtimes.
 
 ## Table of content
 
-### Public API
+0. **General information** [↓ below](#general-information)
+  0. Request Parameter Format [↓ below](#request-parameter-format)
+  0. Addressing the locale of a resource [↓ below](#addressing-the-locale-of-a-resource)
+  0. Pagination [↓ below](#pagination)
+  0. Picture formats [↓ below](#picture-formats)
+  0. HTTP Status Codes [↓ below](#http-status-codes)
+  0. Error Messages [↓ below](#error-messages)
+  0. [Changelog](CHANGELOG.md)
+  0. Known issues [↓ below](#known-issues)
+  0. API Client Libraries [↓ below](#api-client-libraries)
+  0. Code examples [↓ below](#code-examples)
+  0. Example apps [↓ below](#example-apps)
 
-* General information [↓ below](#general-information)
-* HTTP Result Codes and Error Messages [↓ below](#http-result-codes-and-error-messages)
-* [Changelog](CHANGELOG.md)
-* Known issues [↓ below](#known-issues)
-* Code examples [↓ below](#code-examples)
-* Example apps [↓ below](#example-apps)
-* [**Projects** List and Search](sections/projects_list.md)
-* [**Project** Details](sections/project_details.md)
-* [Project **Needs** List](sections/needs_list.md)
-* [Project **Need** Details](sections/need_details.md)
-* [Project **Blog Posts** List](sections/blog_posts_list.md)
-* [Project **Blog Post** Details](sections/blog_post_details.md)
-* [Project **Opinions** List](sections/opinions_list.md)
-* [Project **Opinion** Details](sections/opinion_details.md)
-* [Project **Pictures** List](sections/project_pictures_list.md)
-* [Project **Picture** Details](sections/project_picture_details.md)
-* [**Volunteering** List and Search](sections/volunteering_list.md)
-* [**Volunteering** Details](sections/volunteering_details.md)
-* [**Organisations** List](sections/organisations_list.md)
-* [**Organisation** Details](sections/organisation_details.md)
-* [**MatchingFunds** List](sections/matching_funds_list.md)
-* [**MatchingFund** Details](sections/matching_fund_details.md)
-* [**MatchingFund** Projects List](sections/matching_fund_projects_list.md)
-* [**Fundraising Challenge** Contest Details](sections/fundraising_challenge_contest_details.md)
-* [**Fundraising Challenge** Contest Results List](sections/fundraising_challenge_contest_results_list.md)
+2. **Public API**
+  1. **Projects**
+    1. [**Projects** List and Search](sections/projects_list.md)
+    1. [**Project** Details](sections/project_details.md)
+    1. [Project **Needs** List](sections/needs_list.md)
+    1. [Project **Need** Details](sections/need_details.md)
+    1. [Project **Blog Posts** List](sections/blog_posts_list.md)
+    1. [Project **Blog Post** Details](sections/blog_post_details.md)
+    1. [Project **Opinions** List](sections/opinions_list.md)
+    1. [Project **Opinion** Details](sections/opinion_details.md)
+    1. [Project **Pictures** List](sections/project_pictures_list.md)
+    1. [Project **Picture** Details](sections/project_picture_details.md)
+  1. **Volunteering**
+    1. [**Volunteering** List and Search](sections/volunteering_list.md)
+    1. [**Volunteering** Details](sections/volunteering_details.md)
+  1. **Organisations**
+    1. [**Organisations** List](sections/organisations_list.md)
+    1. [**Organisation** Details](sections/organisation_details.md)
+  1. **MatchingFunds**
+    1. [**MatchingFunds** List](sections/matching_funds_list.md)
+    1. [**MatchingFund** Details](sections/matching_fund_details.md)
+    1. [**MatchingFund** Projects List](sections/matching_fund_projects_list.md)
+  1. **FundraisingChallenge**
+    1. [**Fundraising Challenge** Contest Details](sections/fundraising_challenge_contest_details.md)
+    1. [**Fundraising Challenge** Contest Results List](sections/fundraising_challenge_contest_results_list.md)
 
-*Missing in the API:* User, Fundraising Event, Companies, Portals are not part of the API at this moment.
+3. **Client API**
+  0. Client API General Information [↓ below](#client-api-general-information)
+  0. Client Authentication [↓ below](#client-authentication)
+  0. [**Client** Details/Statistics](sections/client_details.md)
+  0. [**Client** Donations List](sections/client_donations_list.md)
+  0. [**Client** Donation Pledges](sections/client_donation_pledges.md)
+  0. [**Client** Mailing Subscribtions](sections/client_mailing_subscriptions.md)
+  0. [**Client** Projects List and Search](sections/projects_list.md) – 
+      See client section [and ⁂1](#client-api-general-information)
+  0. [**Client** Project Details](sections/project_details.md) – 
+      See client section [and ⁂1](#client-api-general-information)
+  0. [**Client** Blog Posts List](sections/blog_posts_list.md) – See client section
+  0. [**Client** Project Opinions List](sections/opinions_list.md) – See client section
+  0. [**Client** Tags List](sections/client_tags_list.md)
+  0. [**Client**-Project Tags List](sections/client_project_tags_list.md)
+  0. [**Client** Contact Data Details](sections/contact_data_details.md)
+  0. [**User** Contact Data Details](sections/contact_data_details.md)
 
-
-### Organisations
-
-* [ThirdPartyApp custom donation form for organisations](donation_form/third_party_app_donation_form.md)
-
-
-### Client API
-
-This part of the API can only be used in agreement with betterplace.org.
-Please [contact Tim at betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung)
-for more information.
-
-* [**Client** Details/Statistics](sections/client_details.md)
-* [**Client** Donations List](sections/client_donations_list.md)
-* [**Client** Projects List and Search](sections/projects_list.md) – See client section and ⁂1
-* [**Client** Project Details](sections/project_details.md) – See client section and ⁂1
-* [**Client** Blog Posts List](sections/blog_posts_list.md) – See client section
-* [**Client** Project Opinions List](sections/opinions_list.md) – See client section
-* [**Client** Tags List](sections/client_tags_list.md)
-* [**Client**-Project Tags List](sections/client_project_tags_list.md)
-* [**Client** Contact Data Details](sections/contact_data_details.md)
-
-*(⁂1) Client projects:* Clients projects are projects on betterplace.org that are
-associated with a client-user. This way clients can control what projects
-are visible on their plattform.
-
-*Additional filters:* Some URLs have a special scope for clients. For example `/clients/example/projects.json`
-will only show projects of the example-client and `/clients/example/tags/rainforest/projects`
-will only show projects of the example-client and tagged with "rainforest".
-
-*Error Code:* If you request data for a project that is not part of the client
-projects, the API will return a `404` HTTP code.
-
-*Usage example:* The local german newspaper "Trierischer Volksfreund"
-has it's own donation portal at ["Meine Hilfe zählt"](http://www.meine-hilfe-zaehlt.de/).
-All data are pulled from this api. In addition they use the betterplac.rog whitelabel donation form, which
-is another service betterplace.org provides for clients.
-
-
-### Client Authentication
-
-In order to use some special features of the betterplace API, you need to authenticate yourself with an API-Token. These tokens are provided by betterplace, please
-[contact betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung) if you are interested.
-
-To authenticate with a token you'll need to pass it as an additional http header `Api-Token` or with an additional http parameter `api_token`.
-
-* [Contact Data Details](sections/contact_data_details.md)
+4. **Organisation API***
+  1. [ThirdPartyApp custom donation form for organisations](donation_form/third_party_app_donation_form.md)
 
 
 ## General information
 
 * The API is https only, all non-https requests will be redirected accordingly
-* The response format is json, the request format extention .json
-* The response language is defined by the URL-language-prefix (/en/, /de/ (default))
+* The response/response format is JSON
 * We support [Cross-origin resource sharing (CORS)](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing), so no proxy or JSONP is required
-* No Authentication: All api calls are public at the moment but there will be
-  feature that require authentication in the future.
+* Authentication: Most api read calls are public. We offer a token-based
+  authentication/authorizsation for reading sensible data or writing to our api.
+  See [client authentication](#client-authentication)
+* Users, Fundraising Events, Companies and Portals are not part of the API at this moment.
+
 
 ### Request parameter format
 
@@ -125,9 +111,19 @@ rank.
 * Note that for readability-reasons we don't URL encode the params in this documentation
 
 
-### List parameters and attributes
+### Addressing the locale of a resource
+* Some resources offer translated content. To access the translated content you
+  need to set the lang-prefix in the API-URL.
+  `api_v4/de/projects/…` returns the german translations while
+  `api_v4/en/projects/…` return the english translated content. Not translated
+  content will fallback to the original content language.
+  We currently support content with german or english translations.
+* The same pattern applies to creating resources for a specific language.
 
-The following request parameters can be set for all list views.
+
+### Pagination
+
+All list requests can be paginated with the following parameters.
 
 <table>
   <tr>
@@ -182,20 +178,56 @@ The following attributes are returned in all list view responses:
   </tr>
 </table>
 
+
 ### Picture formats
 
 Please note that all over the API only the `original` version will always be available. There are more image versions
-for different entities, e.g. fill_960x500 for projects. You can use these versions, but they might change in the future.
+for different entities, e.g. fill_960x500 for projects. You can use these versions, but they might change in the future!
 
 To avoid problems stay tuned and subscribe to the [Mailing list for service announcements ↑](#mailing-list-for-service-announcements).
 
 
-## HTTP Result Codes and Error Messages
+### HTTP Status Codes
+
+The following HTTP result codes can be returned:
+
+* [HTTP Code `200`](http://httpstatus.es/200)
+  if all is good and `304` if this good thing has not been modified (based on ETag).
+
+* [HTTP Code `201`](http://httpstatus.es/201)
+  if a resource was created successfully.
+
+* [HTTP Code `202`](http://httpstatus.es/202)
+  if a resource was successfully submitted for delayed processing.
+
+* [HTTP Code `400`](http://httpstatus.es/400)
+  if a requested resource could not be created or updated,
+  if the submitted data was invalid.
+
+* [HTTP Code `401`](http://httpstatus.es/401)
+  if a resource requires [client authentication](#client-authentication)
+  but the authentication failed.
+
+* [HTTP Code `403`](http://httpstatus.es/403)
+  if a resource requires [client authentication](#client-authentication)
+  but no client was authenticated.
+
+* [HTTP Code `404`](http://httpstatus.es/404)
+  if a requested resource could not be found.
+  Also used for projects that are not part of a given client-scope.
+
+* [HTTP Code `422`](http://httpstatus.es/422)
+  if the submitted resource could not be accepted due to erroneous parameters.
+
+* [HTTP Code `500`](http://httpstatus.es/500)
+  if a software error on the server was encountered.
+
 
 ### Error Messages
 
 If an error occurs, a JSON response messages is returned with a `name` and `reason` (optional).
-Clients that use the betterplace.org-staging-environment will also see a `backtrace` and `message`.
+Clients that use the betterplace.org-staging-environment will also see a
+`backtrace` and `message` property.
 
 Example:
 
@@ -204,46 +236,34 @@ Example:
   "name": "GeneralError",
   "reason": "Record Not Found",
   "backtrace": [
-    "/path/to/file:23:in `method'",
-    "/path/to/file:42:in `method2'"
+    "/path/to/file:23:in 'method'",
+    "/path/to/file:42:in 'method2'"
   ],
   "message": "Couldn't find Project with id=666"
 }
 ```
 
-### HTTP Result Codes
-
-The following HTTP result codes can be returned:
-
-* HTTP Code `200` if all is good and `304` if this good thing has not been modified (based on ETag).
-
-* HTTP Code `201` if a resource was created successfully.
-
-* HTTP Code `202` if a resource was successfully submitted for delayed processing.
-
-* HTTP Code `400` is returned if a requested resource could not be created or updated,
-  if the submitted data was invalid.
-
-* HTTP Code `403` is returned if a resource requires [client authentication](#client-authentication) but no client was authenticated.
-
-* HTTP Code `404` is returned if a requested resource could not be found.
-
-* HTTP Code `422` is returned if the submitted resource could not be accepted due to erroneous parameters.
-
-* HTTP Code `500` is returned if a software error on the server was encountered.
-
-If errors occur during the creation process of a resource the answer will contain helpful information about how to resolve the issues. Such an answer would look like this:
+If errors occur during the creation process of a resource the answer will
+contain helpful information about how to resolve the issues. Such an answer
+would look like this:
 
 ```json
 {
-  "errors": {
-    "email": ["Email is invalid"],
-    "first_name": ["First name needs to be present", "First name should be longer than 2 characters"]
-  }
+  "name": "ApiV4::ErrorHandling::ProcessingError",
+  "status": "unprocessable_entity",
+  "status_code": 422,
+  "reason": "Cannot Process Submitted Data",
+  "backtrace": [
+    "/path/to/file:23:in 'method'",
+    "/path/to/file:42:in 'method2'"
+  ],
+  "message": "First name Dies ist ein Pflichtfeld.",
+  "errors": { "first_name": [ "Dies ist ein Pflichtfeld." ] },
+  "links":[]
 }
 ```
 
-## Known issues
+### Known issues
 
 Please contact developers@betterplace.org for more information
 
@@ -251,8 +271,6 @@ Please contact developers@betterplace.org for more information
 * Documentation: The response-table does not show the root-documentation for response-elements with sub-elements (for example carrier.name is documented but carrier is not)
 * Blogposts: There is no way yet to filter BlogPosts from PayoutBlogPost
 
-
-## Using the API
 
 ### API Client Libraries
 
@@ -269,10 +287,42 @@ We would love to hear from you if you plan to use/extend bettery or implement yo
 * _Please send us your code examples to developers@betterplace.org_
 
 
+* _Please send us your code examples to developers@betterplace.org_
+
+
 ### Example apps
 
 * The "Deutsch Tansanische Partnerschaft" uses this API to present their betterplace.org projects right on their website: [Project list](http://www.dtpev.de/unterstuetzen/projekte), [Project details](http://www.dtpev.de/unterstuetzen/projekte/one-child-one-light)
 * _Please send us your sites to developers@betterplace.org_
+
+
+## Client API
+
+### Client API General Information
+
+*(⁂1) Client projects:* Clients projects are projects on betterplace.org that are
+associated with a client-user. This way clients can control what projects
+are visible on their plattform.
+
+*Additional filters:* Some URLs have a special scope for clients. For example `/clients/example/projects.json`
+will only show projects of the example-client and `/clients/example/tags/rainforest/projects`
+will only show projects of the example-client and tagged with "rainforest".
+
+*Error Code:* If you request data for a project that is not part of the client
+projects, the API will return a `404` HTTP code.
+
+*Usage example:* The local german newspaper "Trierischer Volksfreund"
+has it's own donation portal at ["Meine Hilfe zählt"](http://www.meine-hilfe-zaehlt.de/).
+All data are pulled from this api. In addition they use the betterplac.rog whitelabel donation form, which
+is another service betterplace.org provides for clients.
+
+
+### Client Authentication
+
+In order to use some special features of the betterplace API, you need to authenticate yourself with API Credentials. These credentials are provided by betterplace, please
+[contact betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung) if you are interested.
+
+[HTTP Basic Authentication](http://en.wikipedia.org/wiki/Basic_access_authentication#Client_side) is used to authenticate with username and password.
 
 
 ## API V1, V2, V3
@@ -284,9 +334,11 @@ betterplace.org has three deprecated APIs. For more information contact product@
 
 Learn more about betterplace at http://www.betterplace.org/de/how_it_works
 
+
 ## License of this documentation
 
 See the [license file](LICENSE).
+
 
 ## Shareable URL
 

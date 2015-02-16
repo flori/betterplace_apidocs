@@ -9,16 +9,28 @@ Submit a donation pledge into the system. This will be transformed into
 a donation to the receiver. The request has to be a POST request with a
 JSON body.
 
+**Only available if authenticated as a client.** See [betterplace.org clients](../README.md#client-authentication).
+
+**Response and error codes:**
+
 A successful request will return HTTP status 202 (accepted). The
-donation is then queued and will be processed by background workers.
-Please notice, that this might take up to a few minutes, especially in
-high traffic scenarios.
+donation pledge is now saved and queued and will be processed
+by background workers. This part takes place asynchronously and might
+take up to a few minutes, especially in high traffic scenarios.
 
 If an error occurs the HTTP return code will be 422 (unprocessable
 entity). You can find the documentation on how errors are represented
 at [POST error handling](../README.md#error-handling).
 
-*Only available if authenticated as a client, see [betterplace.org clients](../README.md#client-authentication):*
+**Language:**
+
+The donation is marked with the language you use in your URL.
+Project manager use this language information for their donation
+thank you message, for example. To target a lang see
+[api setting lang](../README.md#addressing-the-locale-of-a-resource).
+
+*Only available if authenticated as a client, see
+[betterplace.org clients](../README.md#client-authentication):*
 
 
 ## URL Parameters
@@ -46,9 +58,10 @@ at [POST error handling](../README.md#error-handling).
 
 ## JSON Parameters
 
-JSON parameters have to be provided in the body of the request. The parameters
-are part of a flat JSON document without any nesting. Some parameters are
-required, others are optional.
+JSON parameters have to be provided in the body of the request with the
+Content-Type header set to "application/json". The parameters are part of a
+flat JSON document without any nesting. Some parameters are required, others
+are optional.
 
 ### Example
 
@@ -58,7 +71,7 @@ required, others are optional.
   "last_name": "Mustermann",
   "email": "mm@example.com",
   "amount_in_cents": 100,
-  "reference": "djksbf23u4sjkdn234p",
+  "client_reference": "djksbf23u4sjkdn234p",
   "street": "Rheinstrasse 202",
   "city": "Wiesbaden",
   "zip": "65185",
@@ -95,49 +108,77 @@ required, others are optional.
     <td><code>mm@example.com</code></td>
     <td>string</td>
     <td>yes</td>
-    <td>Email address of the donor. Only valid email addresses will be accepted.</td>
+    <td>Email address of the donor.
+Only valid email addresses will be accepted.
+</td>
   </tr>
   <tr>
     <th align="left">amount_in_cents</th>
     <td><code>100</code></td>
     <td>number</td>
     <td>yes</td>
-    <td>The amount of cents that are donated. Must be a positive integer.</td>
+    <td>The amount of cents that are donated.
+Must be a positive integer between
+100
+and 100000.
+</td>
   </tr>
   <tr>
-    <th align="left">reference</th>
+    <th align="left">client_reference</th>
     <td><code>djksbf23u4sjkdn234p</code></td>
     <td>string</td>
     <td>yes</td>
-    <td>A unique identifier for this transaction. With this reference one can find the donation and its status later.</td>
+    <td>A unique identifier for this transaction.
+With this reference one can find the donation and its status later
+by using the client_reference-facet on the
+<a href="client_donations_list.md">donation list endpoint</a>.
+<br>
+Allowed characters are <code>a-zA-Z0-9_-</code>.
+<br>
+<em>Attention:</em> If you use a non-unique client reference,
+the donation pledge endpoint will still respond with success.
+However the pledge will <em>not be processed</em> into a donation but ignored.
+<br>
+This is to make sure that one transaction is only processed once.
+</td>
   </tr>
   <tr>
     <th align="left">street</th>
     <td><code>Rheinstrasse 202</code></td>
     <td>string</td>
     <td>yes</td>
-    <td>The street of the donors address. Used to issue a donation receipt if the donation is tax deductible.</td>
+    <td>The street of the donors address.
+Used to issue a donation receipt if the donation is tax deductible.
+</td>
   </tr>
   <tr>
     <th align="left">city</th>
     <td><code>Wiesbaden</code></td>
     <td>string</td>
     <td>yes</td>
-    <td>The city of the donors address. Used to issue a donation receipt if the donation is tax deductible.</td>
+    <td>The city of the donors address.
+Used to issue a donation receipt if the donation is tax deductible.
+</td>
   </tr>
   <tr>
     <th align="left">zip</th>
     <td><code>65185</code></td>
     <td>string</td>
     <td>yes</td>
-    <td>Zip code of the city or region the donor lives at. Used to issue a donation receipt if the donation is tax deductible.</td>
+    <td>Zip code of the city or region the donor lives at.
+Used to issue a donation receipt if the donation is tax deductible.
+</td>
   </tr>
   <tr>
     <th align="left">country_code</th>
     <td><code>DE</code></td>
     <td>string</td>
     <td>yes</td>
-    <td>ISO2 code of the country the donor lives in. Used to issue a donation receipt if the donation is tax deductible.</td>
+    <td>ISO2 code of the country the donor lives in. A list of valid ISO2 codes
+can be found at <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements">
+Wikipedia ISO_3166-1_alpha-2</a>. Used to issue a donation receipt if
+the donation is tax deductible.
+</td>
   </tr>
 </table>
 

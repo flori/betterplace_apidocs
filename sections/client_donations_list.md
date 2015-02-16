@@ -43,6 +43,7 @@ Example:
 <br>
 This feature is only used in some cases that relate to the
 <a href="../donation_form/third_party_app_donation_form.md">ThirdPartyApp custom donation form for organisations</a>
+and the <a href="client_donation_pledges.md">Client donation pledge endpoint</a>.
 </td>
   </tr>
 </table>
