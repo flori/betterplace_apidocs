@@ -184,7 +184,32 @@ the donation is tax deductible.
 
 ## Response Attributes
 
-  <th colspan="4">No response example defined</th>
+### Root Attributes
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">status</th>
+      <td>string</td>
+      <td>accepted</td>
+      <td>HTTP status code as a descriptive string (see
+http://www.rubydoc.info/github/rack/rack/Rack/Utils), e. g. "accepted"
+for code 201.
+</td>
+    </tr>
+    <tr>
+      <th align="left">status_code</th>
+      <td>number</td>
+      <td>201</td>
+      <td>HTTP status code as an integer number, e. g. 201.
+</td>
+    </tr>
+  </table>
 </table>
 
 ## Response Links
@@ -195,12 +220,26 @@ the donation is tax deductible.
     <th>Description</th>
   </tr>
 
-  <th colspan="2">No response example defined</th>
+    <tr>
+      <th align="left">location</th>
+      <td>Location where the created/updated resource can be viewed or more
+information about it can be gathered.
+</td>
+    </tr>
 </table>
 
 ## Response Example
 
 ```json
-null
+{
+  "status": "accepted",
+  "status_code": 202,
+  "links": [
+    {
+      "rel": "location",
+      "href": "https://api.betterplace.org/de/api_v4/clients/client/client_donations/666-reference"
+    }
+  ]
+}
 ```
 
