@@ -1,7 +1,7 @@
 
 # Client tags list
 
-```nginx
+```HTTP
 GET https://api.betterplace.org/de/api_v4/clients/Volksfreund/tags.json
 ```
 

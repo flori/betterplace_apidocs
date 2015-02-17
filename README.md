@@ -55,10 +55,10 @@ about updates and scheduled downtimes.
   1. **MatchingFunds**
     1. [**MatchingFunds** List](sections/matching_funds_list.md)
     1. [**MatchingFund** Details](sections/matching_fund_details.md)
-    1. [**MatchingFund** Projects List](sections/matching_fund_projects_list.md)
+    1. [MatchingFund **Projects** List](sections/matching_fund_projects_list.md)
   1. **FundraisingChallenge**
-    1. [**Fundraising Challenge** Contest Details](sections/fundraising_challenge_contest_details.md)
-    1. [**Fundraising Challenge** Contest Results List](sections/fundraising_challenge_contest_results_list.md)
+    1. [Fundraising Challenge **Contest** Details](sections/fundraising_challenge_contest_details.md)
+    1. [Fundraising Challenge Contest **Results** List](sections/fundraising_challenge_contest_results_list.md)
 
 3. **Client API**
   0. Client API General Information [↓ below](#client-api-general-information)
@@ -78,7 +78,7 @@ about updates and scheduled downtimes.
   0. [**Client** Contact Data Details](sections/contact_data_details.md)
   0. [**User** Contact Data Details](sections/contact_data_details.md)
 
-4. **Organisation API***
+4. **Organisation API**
   1. [ThirdPartyApp custom donation form for organisations](donation_form/third_party_app_donation_form.md)
 
 
@@ -192,7 +192,9 @@ To avoid problems stay tuned and subscribe to the [Mailing list for service anno
 The following HTTP result codes can be returned:
 
 * [HTTP Code `200`](http://httpstatus.es/200)
-  if all is good and `304` if this good thing has not been modified (based on ETag).
+  if all is good and
+  [HTTP Code `304`](http://httpstatus.es/304)
+  if this good thing has not been modified (based on ETag).
 
 * [HTTP Code `201`](http://httpstatus.es/201)
   if a resource was created successfully.
@@ -247,8 +249,12 @@ Example:
 ```
 
 If errors occur during the creation process of a resource the answer will
-contain helpful information about how to resolve the issues. Such an answer
-would look like this:
+contain helpful information about how to resolve the issues. Please note
+that this information is not meant to be used in your application directly
+but only for your development process. We might change the specs for the
+errors-response at any time without further notice.
+
+Example with validation errors:
 
 ```json
 {
@@ -287,8 +293,6 @@ We would love to hear from you if you plan to use/extend bettery or implement yo
 
 * [Using the API with PHP](https://gist.github.com/svjv1160/7749784)
 * [WordPress Plugin by freifunk](https://github.com/freifunk/www.freifunk.net/tree/master/wp-plugins/betterplace-project-table) which [shows the freifunk projects as a table](http://spenden.freifunk.net)
-* _Please send us your code examples to developers@betterplace.org_
-
 
 * _Please send us your code examples to developers@betterplace.org_
 
@@ -296,6 +300,7 @@ We would love to hear from you if you plan to use/extend bettery or implement yo
 ### Example apps
 
 * The "Deutsch Tansanische Partnerschaft" uses this API to present their betterplace.org projects right on their website: [Project list](http://www.dtpev.de/unterstuetzen/projekte), [Project details](http://www.dtpev.de/unterstuetzen/projekte/one-child-one-light)
+
 * _Please send us your sites to developers@betterplace.org_
 
 

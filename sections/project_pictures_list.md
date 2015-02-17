@@ -1,7 +1,7 @@
 
 # Project Pictures List ⇄ [Details](project_picture_details.md)
 
-```nginx
+```HTTP
 GET https://api.betterplace.org/de/api_v4/projects/1114/pictures.json
 ```
 

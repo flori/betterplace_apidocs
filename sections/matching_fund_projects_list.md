@@ -1,7 +1,7 @@
 
 # Matching Fund Projects List
 
-```nginx
+```HTTP
 GET https://api.betterplace.org/de/api_v4/matching_funds/2/projects.json
 ```
 
@@ -696,7 +696,7 @@ set for organisations.
 
 # Matching Fund Projects List
 
-```nginx
+```HTTP
 GET https://api.betterplace.org/de/portals/2/projects.json?action=projects&controller=api_v4%2Fmatching_funds
 ```
 

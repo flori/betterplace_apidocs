@@ -1,7 +1,7 @@
 
 # User Contact Data Details
 
-```nginx
+```HTTP
 GET https://api.betterplace.org/de/api_v4/users/250285/contact_data.json
 ```
 
