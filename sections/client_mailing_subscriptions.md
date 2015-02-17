@@ -116,28 +116,20 @@ are optional.
       <th>Description</th>
     </tr>
     <tr>
-      <th align="left">email</th>
+      <th align="left">status</th>
       <td>string</td>
-      <td>peter.paul@betterplace.org</td>
-      <td>The first name of the user</td>
+      <td>accepted</td>
+      <td>HTTP status code as a descriptive string (see
+http://www.rubydoc.info/github/rack/rack/Rack/Utils), e. g. "accepted"
+for code 201.
+</td>
     </tr>
     <tr>
-      <th align="left">first_name</th>
-      <td>string</td>
-      <td>Peter</td>
-      <td>The first name of the user</td>
-    </tr>
-    <tr>
-      <th align="left">last_name</th>
-      <td>string</td>
-      <td>Paul</td>
-      <td>The last name of the user</td>
-    </tr>
-    <tr>
-      <th align="left">active</th>
-      <td>boolean</td>
-      <td>true</td>
-      <td>State of the subscription: active/inactive</td>
+      <th align="left">status_code</th>
+      <td>number</td>
+      <td>201</td>
+      <td>HTTP status code as an integer number, e. g. 201.
+</td>
     </tr>
   </table>
 </table>
@@ -150,17 +142,20 @@ are optional.
     <th>Description</th>
   </tr>
 
-  <th colspan="2">No response example defined</th>
+    <tr>
+      <th align="left">location</th>
+      <td>Location where the created/updated resource can be viewed or more
+information about it can be gathered.
+</td>
+    </tr>
 </table>
 
 ## Response Example
 
 ```json
 {
-  "email": "peter.paul@betterplace.org",
-  "first_name": "Peter",
-  "last_name": "Paul",
-  "active": true,
+  "status": "created",
+  "status_code": 201,
   "links": [
 
   ]
