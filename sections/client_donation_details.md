@@ -1,7 +1,7 @@
 
 # Client Donation Details ⇄ [List](client_donations_list.md)
 
-```HTTP
+```Rebol
 GET https://api.betterplace.org/de/api_v4/clients/Volksfreund/client_donations/V9mxWWAeuVK9PtJw9mrZRyRk.json
 ```
 

@@ -1,7 +1,7 @@
 
 # Fundraising Challenge: Contest Details
 
-```HTTP
+```Rebol
 GET https://api.betterplace.org/de/api_v4/contests/1.json
 ```
 

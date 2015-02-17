@@ -1,7 +1,7 @@
 
 # Client tags list
 
-```HTTP
+```Rebol
 GET https://api.betterplace.org/de/api_v4/clients/Volksfreund/tags.json
 ```
 

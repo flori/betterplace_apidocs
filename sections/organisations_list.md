@@ -1,7 +1,7 @@
 
 # Organisations List ⇄ [Details](organisation_details.md)
 
-```HTTP
+```Rebol
 GET https://api.betterplace.org/de/api_v4/organisations.json
 ```
 

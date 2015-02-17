@@ -1,7 +1,7 @@
 
 # Client Donation Pledges
 
-```HTTP
+```Rebol
 POST https://api.betterplace.org/de/api_v4/clients/Volksfreund/projects/1114/donation_pledges.json
 ```
 

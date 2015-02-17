@@ -1,7 +1,7 @@
 
 # Matching Fund Details ⇄ [List](matching_funds_list.md)
 
-```HTTP
+```Rebol
 GET https://api.betterplace.org/de/api_v4/matching_funds/2.json
 ```
 
