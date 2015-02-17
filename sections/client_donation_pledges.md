@@ -237,7 +237,7 @@ information about it can be gathered.
   "links": [
     {
       "rel": "location",
-      "href": "https://api.betterplace.org/de/api_v4/clients/client/client_donations/666-reference"
+      "href": "https://api.betterplace.org/de/api_v4/clients/some_client/client_donations/666-a-reference"
     }
   ]
 }
