@@ -60,23 +60,22 @@ about updates and scheduled downtimes.
     1. [Fundraising Challenge **Contest** Details](sections/fundraising_challenge_contest_details.md)
     1. [Fundraising Challenge Contest **Results** List](sections/fundraising_challenge_contest_results_list.md)
 
-3. **Client API**
-  0. Client API General Information [↓ below](#client-api-general-information)
+3. **Client API** [↓ below](#client-api)
+  0. Client Projects [↓ below](#client-projects)
   0. Client Authentication [↓ below](#client-authentication)
   0. [**Client** Details/Statistics](sections/client_details.md)
   0. [**Client** Donations List](sections/client_donations_list.md)
-  0. [**Client** Donation Pledges](sections/client_donation_pledges.md)
-  0. [**Client** Mailing Subscribtions](sections/client_mailing_subscriptions.md)
+  0. [**Client** Donation Pledges](sections/client_donation_pledges.md) [:lock:](#client-api)
+  0. [**Client** Mailing Subscribtions](sections/client_mailing_subscriptions.md) [:lock:](#client-api)
   0. [**Client** Projects List and Search](sections/projects_list.md) – 
-      See client section [and ⁂1](#client-api-general-information)
+      See client section [and "Client Projects"](#client-api)
   0. [**Client** Project Details](sections/project_details.md) – 
-      See client section [and ⁂1](#client-api-general-information)
+      See client section [and "Client Projects"](#client-api)
   0. [**Client** Blog Posts List](sections/blog_posts_list.md) – See client section
   0. [**Client** Project Opinions List](sections/opinions_list.md) – See client section
   0. [**Client** Tags List](sections/client_tags_list.md)
   0. [**Client**-Project Tags List](sections/client_project_tags_list.md)
-  0. [**Client** Contact Data Details](sections/contact_data_details.md)
-  0. [**User** Contact Data Details](sections/contact_data_details.md)
+  0. [**User** Contact Data Details](sections/contact_data_details.md) [:lock:](#client-api)
 
 4. **Organisation API**
   1. [ThirdPartyApp custom donation form for organisations](donation_form/third_party_app_donation_form.md)
@@ -87,9 +86,8 @@ about updates and scheduled downtimes.
 * The API is https only, all non-https requests will be redirected accordingly
 * The response/response format is JSON
 * We support [Cross-origin resource sharing (CORS)](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing), so no proxy or JSONP is required
-* Authentication: Most api read calls are public. We offer a token-based
-  authentication/authorizsation for reading sensible data or writing to our api.
-  See [client authentication](#client-authentication)
+* Authentication: Most api calls are public.
+  Some client API feature require authentication. [Learn more](#client-authentication)
 * Users, Fundraising Events, Companies and Portals are not part of the API at this moment.
 
 
@@ -195,34 +193,28 @@ The following HTTP result codes can be returned:
   if all is good and
   [HTTP Code `304`](http://httpstatus.es/304)
   if this good thing has not been modified (based on ETag).
-
 * [HTTP Code `201`](http://httpstatus.es/201)
   if a resource was created successfully.
-
 * [HTTP Code `202`](http://httpstatus.es/202)
   if a resource was successfully submitted for delayed processing.
-
 * [HTTP Code `400`](http://httpstatus.es/400)
   if a requested resource could not be created or updated,
   if the submitted data was invalid.
-
 * [HTTP Code `401`](http://httpstatus.es/401)
   if a resource requires [client authentication](#client-authentication)
   but the authentication failed.
-
 * [HTTP Code `403`](http://httpstatus.es/403)
   if a resource requires [client authentication](#client-authentication)
   but no client was authenticated.
-
 * [HTTP Code `404`](http://httpstatus.es/404)
   if a requested resource could not be found.
   Also used for projects that are not part of a given client-scope.
-
 * [HTTP Code `422`](http://httpstatus.es/422)
   if the submitted resource could not be accepted due to erroneous parameters.
-
 * [HTTP Code `500`](http://httpstatus.es/500)
   if a software error on the server was encountered.
+* [HTTP Code `503`](http://httpstatus.es/503)
+  if the server is unavailable due to high load.
 
 
 ### Error Messages
@@ -293,44 +285,57 @@ We would love to hear from you if you plan to use/extend bettery or implement yo
 
 * [Using the API with PHP](https://gist.github.com/svjv1160/7749784)
 * [WordPress Plugin by freifunk](https://github.com/freifunk/www.freifunk.net/tree/master/wp-plugins/betterplace-project-table) which [shows the freifunk projects as a table](http://spenden.freifunk.net)
-
 * _Please send us your code examples to developers@betterplace.org_
 
 
 ### Example apps
 
 * The "Deutsch Tansanische Partnerschaft" uses this API to present their betterplace.org projects right on their website: [Project list](http://www.dtpev.de/unterstuetzen/projekte), [Project details](http://www.dtpev.de/unterstuetzen/projekte/one-child-one-light)
-
 * _Please send us your sites to developers@betterplace.org_
 
 
 ## Client API
 
-### Client API General Information
+This API provides special features for companies and organisations as
+part of the services offered by our [betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung).
+This client access requires a special contract.
+Please [contact us](http://www.betterplace-solutions.de/#buergerzeitung)
+with your questions.
 
-*(⁂1) Client projects:* Clients projects are projects on betterplace.org that are
-associated with a client-user. This way clients can control what projects
-are visible on their plattform.
 
-*Additional filters:* Some URLs have a special scope for clients. For example `/clients/example/projects.json`
-will only show projects of the example-client and `/clients/example/tags/rainforest/projects`
-will only show projects of the example-client and tagged with "rainforest".
+### Client Projects
 
-*Error Code:* If you request data for a project that is not part of the client
-projects, the API will return a `404` HTTP code.
+Clients projects are projects on betterplace.org that are associated with a client-user.
+This way clients can control what projects are visible on their plattform.
 
-*Usage example:* The local german newspaper "Trierischer Volksfreund"
-has it's own donation portal at ["Meine Hilfe zählt"](http://www.meine-hilfe-zaehlt.de/).
-All data are pulled from this api. In addition they use the betterplac.rog whitelabel donation form, which
-is another service betterplace.org provides for clients.
+Some URLs have a special scope for clients. Examples:
+
+* `/clients/example/projects.json`
+  will only show projects of the example-client
+* `/clients/example/tags/rainforest/projects`
+  will only show projects of the example-client and tagged with "rainforest".
+
+If you request data for a project that is not part of the client
+projects, the API will return an HTTP error code `404`.
 
 
 ### Client Authentication
 
-In order to use some special features of the betterplace API, you need to authenticate yourself with API Credentials. These credentials are provided by betterplace, please
-[contact betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung) if you are interested.
+Some feature of the betterplace.org client API require your authentication.
 
-[HTTP Basic Authentication](http://en.wikipedia.org/wiki/Basic_access_authentication#Client_side) is used to authenticate with username and password.
+* Please use your API Credentials to authenticate with [HTTP Basic Authentication](http://en.wikipedia.org/wiki/Basic_access_authentication#Client_side) username and password.
+* Please use the special scope for clients that is described above.
+
+Username, password and client-scope are provided as part of the contract with our
+[betterplace solutions](http://www.betterplace-solutions.de/#buergerzeitung).
+
+
+### Usage example
+
+The local german newspaper "Trierischer Volksfreund"
+has it's own donation portal at ["Meine Hilfe zählt"](http://www.meine-hilfe-zaehlt.de/).
+All data are pulled from this api. In addition they use the betterplac.rog
+whitelabel donation form, which is another service betterplace.org provides for clients.
 
 
 ## API V1, V2, V3
@@ -340,7 +345,7 @@ betterplace.org has three deprecated APIs. For more information contact product@
 
 ## About betterplace.org
 
-Learn more about betterplace at http://www.betterplace.org/de/how_it_works
+Learn more about betterplace at https://www.betterplace.org/c/about-us/
 
 
 ## License of this documentation
