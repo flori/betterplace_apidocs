@@ -119,7 +119,7 @@ Use the optional <code>ASC</code> (default) or <code>DESC</code>.
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 <br>
 The default order is the same as for the
-<a href="https://www.betterplace.org/en/projects/list?search_form%5Bfilters%5D%5Btype%5D=Group">betterplace.org project list</a>:
+<a href="https://www.betterplace.org/en/projects/list?search_form%5Bfilters%5D%5Btype%5D=Group">betterplace.org fundraising events list</a>:
 <code>completed:asc| score:desc | rank:desc| last_donation_at:desc</code>
 </td>
   </tr>
