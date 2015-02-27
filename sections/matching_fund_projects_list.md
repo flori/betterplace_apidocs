@@ -92,12 +92,6 @@ A list of betterplace.org matching fund projects.
       <td>Name of the country</td>
     </tr>
     <tr>
-      <th align="left">completed_at</th>
-      <td>string</td>
-      <td>"1994-11-05T13:15:30Z"</td>
-      <td>DateTime (ISO8601 with Timezone) when the project was completed</td>
-    </tr>
-    <tr>
       <th align="left">title</th>
       <td>string</td>
       <td></td>
@@ -126,6 +120,12 @@ with the german tax authorities.
       <td>True if the project must not receive donations. This might happen if a tax-receipt
 of german tax authorities rans out.
 </td>
+    </tr>
+    <tr>
+      <th align="left">completed_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone) when the project was completed</td>
     </tr>
     <tr>
       <th align="left">open_amount_in_cents</th>
@@ -567,11 +567,11 @@ set for organisations.
       "zip": "20099",
       "city": "Hamburg",
       "country": "Deutschland",
-      "completed_at": null,
       "title": "Mein Baum – Meine Stadt",
       "description": "Wir schließen Hamburgs Baumlücken – helfen Sie mit!<br /><br />Gemeinsam mit der Loki Schmidt Stiftung und der Stadt Hamburg können Sie Baumlücken in strukturschwachen Stadtteilen schließen. Diese Lücken entstehen, wenn aufgrund von Krankheiten oder mangelnder Standfestigkeit Straßenbäume gefällt werden müssen.<br /><br />Seit 2011 sind Hamburger Bürger aufgerufen, gemeinsam mit den beiden Partner-Organisationen für neue Bäume zu spenden.<br />Bisher konnten bereits mehr als 3.500 Baumlücken geschlossen werden. Spenden über dieses Portal werden gezielt in Gebieten eingesetzt, in denen ansonsten weniger gespendet wird – z.B. in Mümmelmannsberg, Nettelnburg, Steilshoop, Veddel und Willhelmsburg!<br />Nun wollen wir weitere Bäume pflanzen – und zwar gemeinsam mit Ihnen!<br /><br />Das funktioniert folgendermaßen:<br />1. Sie spenden einen beliebig hohen Betrag auf betterplace.org.<br />2. Sobald durch Sie 500 Euro zusammengekommen sind, legt die Stadt Hamburg die restlichen mindestens 500 Euro drauf, die für eine Pflanzung notwendig sind.<br />3. Ein Baum wird gepflanzt – Hamburg wird grüner!<br /><br />Ihr Engagement zählt! Helfen Sie jetzt hier mit!",
       "tax_deductible": true,
       "donations_prohibited": false,
+      "completed_at": null,
       "open_amount_in_cents": 94500,
       "positive_opinions_count": 83,
       "negative_opinions_count": 0,
@@ -788,12 +788,6 @@ A list of betterplace.org matching fund projects.
       <td>Name of the country</td>
     </tr>
     <tr>
-      <th align="left">completed_at</th>
-      <td>string</td>
-      <td>"1994-11-05T13:15:30Z"</td>
-      <td>DateTime (ISO8601 with Timezone) when the project was completed</td>
-    </tr>
-    <tr>
       <th align="left">title</th>
       <td>string</td>
       <td></td>
@@ -822,6 +816,12 @@ with the german tax authorities.
       <td>True if the project must not receive donations. This might happen if a tax-receipt
 of german tax authorities rans out.
 </td>
+    </tr>
+    <tr>
+      <th align="left">completed_at</th>
+      <td>string</td>
+      <td>"1994-11-05T13:15:30Z"</td>
+      <td>DateTime (ISO8601 with Timezone) when the project was completed</td>
     </tr>
     <tr>
       <th align="left">open_amount_in_cents</th>
@@ -1263,11 +1263,11 @@ set for organisations.
       "zip": "20099",
       "city": "Hamburg",
       "country": "Deutschland",
-      "completed_at": null,
       "title": "Mein Baum – Meine Stadt",
       "description": "Wir schließen Hamburgs Baumlücken – helfen Sie mit!<br /><br />Gemeinsam mit der Loki Schmidt Stiftung und der Stadt Hamburg können Sie Baumlücken in strukturschwachen Stadtteilen schließen. Diese Lücken entstehen, wenn aufgrund von Krankheiten oder mangelnder Standfestigkeit Straßenbäume gefällt werden müssen.<br /><br />Seit 2011 sind Hamburger Bürger aufgerufen, gemeinsam mit den beiden Partner-Organisationen für neue Bäume zu spenden.<br />Bisher konnten bereits mehr als 3.500 Baumlücken geschlossen werden. Spenden über dieses Portal werden gezielt in Gebieten eingesetzt, in denen ansonsten weniger gespendet wird – z.B. in Mümmelmannsberg, Nettelnburg, Steilshoop, Veddel und Willhelmsburg!<br />Nun wollen wir weitere Bäume pflanzen – und zwar gemeinsam mit Ihnen!<br /><br />Das funktioniert folgendermaßen:<br />1. Sie spenden einen beliebig hohen Betrag auf betterplace.org.<br />2. Sobald durch Sie 500 Euro zusammengekommen sind, legt die Stadt Hamburg die restlichen mindestens 500 Euro drauf, die für eine Pflanzung notwendig sind.<br />3. Ein Baum wird gepflanzt – Hamburg wird grüner!<br /><br />Ihr Engagement zählt! Helfen Sie jetzt hier mit!",
       "tax_deductible": true,
       "donations_prohibited": false,
+      "completed_at": null,
       "open_amount_in_cents": 94500,
       "positive_opinions_count": 83,
       "negative_opinions_count": 0,
