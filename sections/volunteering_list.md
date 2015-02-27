@@ -29,11 +29,11 @@ This resource is not avaliable at the moment.
 <ul>
 <li>"no scope" (default) performs a full text search
 <li><code>human_name</code> searches only on the manager-fullname and carrier-fullname.
-    Use this to get all entities by "Unicef" or by "Till Behnke".
+  Use this to get all entities by "Unicef" or by "Till Behnke".
 <li><code>location</code> does a reverse geocoding lookup.
-    This lookup returns a bounding-box. We transform this bounding-box in a rectangle
-    that is large enough to encapsulate the whole bounding-box.
-    We then return all entities that belong to this rectangle.
+  This lookup returns a bounding-box. We transform this bounding-box in a
+  rectangle that is large enough to encapsulate the whole bounding-box.
+  We then return all entities that belong to this rectangle.
 </ul>
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
