@@ -29,11 +29,11 @@ Use this resource like `/clients/PERMALINK/projects.json`
 <ul>
 <li>"no scope" (default) performs a full text search
 <li><code>human_name</code> searches only on the manager-fullname and carrier-fullname.
-    Use this to get all projects by "Unicef" or by "Till Behnke".
+    Use this to get all entities by "Unicef" or by "Till Behnke".
 <li><code>location</code> does a reverse geocoding lookup.
     This lookup returns a bounding-box. We transform this bounding-box in a rectangle
     that is large enough to encapsulate the whole bounding-box.
-    We then return all projects that belong to this rectangle.
+    We then return all entities that belong to this rectangle.
 </ul>
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
@@ -43,22 +43,6 @@ Use this resource like `/clients/PERMALINK/projects.json`
     <td><code>Skateistan</code></td>
     <td>no</td>
     <td>Search query. The searches behaviour is based on the scope.</td>
-  </tr>
-  <tr>
-    <th align="left">order</th>
-    <td><code>rank:DESC</code></td>
-    <td>no</td>
-    <td>Order the results by <code>score</code> (only when a query (q) is given),
-<code>rank</code>, <code>id</code>, <code>progress_percentage</code>,
-<code>tax_deductible</code>, <code>created_at</code>, <code>updated_at</code>,
-<code>last_donation_at</code>, <code>completed</code>.
-Use the optional <code>ASC</code> (default) or <code>DESC</code>.
-<a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
-<br>
-The default order is the same as for the
-<a href="http//www.betterplace.org/en/projects/list">betterplace.org project list</a>:
-<code>completed:asc| score:desc | rank:desc| last_donation_at:desc</code>
-</td>
   </tr>
   <tr>
     <th align="left">around</th>
@@ -122,6 +106,22 @@ It is possible to set multiple facet filters.
     <td><code>12.001</code></td>
     <td>no</td>
     <td>For geographic bound filterning: The southwest corner's longitude.</td>
+  </tr>
+  <tr>
+    <th align="left">order</th>
+    <td><code>rank:DESC</code></td>
+    <td>no</td>
+    <td>Order the results by <code>score</code> (only when a query (q) is given),
+<code>rank</code>, <code>id</code>, <code>progress_percentage</code>,
+<code>tax_deductible</code>, <code>created_at</code>, <code>updated_at</code>,
+<code>last_donation_at</code>, <code>completed</code>.
+Use the optional <code>ASC</code> (default) or <code>DESC</code>.
+<a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
+<br>
+The default order is the same as for the
+<a href="http://www.betterplace.org/en/projects/list">betterplace.org project list</a>:
+<code>completed:asc| score:desc | rank:desc| last_donation_at:desc</code>
+</td>
   </tr>
 </table>
 
