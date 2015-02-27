@@ -39,12 +39,6 @@ Use this resource like `/clients/PERMALINK/projects.json`
 </td>
   </tr>
   <tr>
-    <th align="left">q</th>
-    <td><code>Skateistan</code></td>
-    <td>no</td>
-    <td>Search query. The searches behaviour is based on the scope.</td>
-  </tr>
-  <tr>
     <th align="left">around</th>
     <td><code>10997 Berlin, Germany</code></td>
     <td>no</td>
@@ -66,21 +60,6 @@ you can use any search that works for google maps.
 <br>
 Check the <code>around_location</code> to see what latitude/longitude
 values have been used for the query.
-</td>
-  </tr>
-  <tr>
-    <th align="left">facets</th>
-    <td><code>completed:false</code></td>
-    <td>no</td>
-    <td>Filter the result set.
-Documented and supported filters are:
-<ul>
-<li><code>tax_deductible:true/false</code>
-<li><code>completed:true/false</code>
-<li><code>prohibit_donations:true/false</code>
-</ul>
-It is possible to set multiple facet filters.
-<a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
   </tr>
   <tr>
@@ -106,6 +85,27 @@ It is possible to set multiple facet filters.
     <td><code>12.001</code></td>
     <td>no</td>
     <td>For geographic bound filterning: The southwest corner's longitude.</td>
+  </tr>
+  <tr>
+    <th align="left">q</th>
+    <td><code>Skateistan</code></td>
+    <td>no</td>
+    <td>Search query. The searches behaviour is based on the scope.</td>
+  </tr>
+  <tr>
+    <th align="left">facets</th>
+    <td><code>completed:false</code></td>
+    <td>no</td>
+    <td>Filter the result set.
+Documented and supported filters are:
+<ul>
+<li><code>tax_deductible:true/false</code>
+<li><code>completed:true/false</code>
+<li><code>prohibit_donations:true/false</code>
+</ul>
+It is possible to set multiple facet filters.
+<a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
+</td>
   </tr>
   <tr>
     <th align="left">order</th>
