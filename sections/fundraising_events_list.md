@@ -2,7 +2,7 @@
 # Fundraising Event List ⇄ [Details](fundraising_event_details.md)
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/fundraising-events.json?around=10997+Berlin%2C+Germany&facets=tax_deductible%3Atrue&order=rank%3ADESC&q=Die+Eckerts&scope=location
+GET https://api.betterplace.org/de/api_v4/fundraising-events.json?facets=tax_deductible%3Atrue&order=rank%3ADESC&q=Die+Eckerts&scope=location
 ```
 
 A list of betterplace.org fundraising events (donate money).
@@ -36,30 +36,6 @@ Use this resource like `/clients/PERMALINK/fundraising-events.json`
   We then return all entities that belong to this rectangle.
 </ul>
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
-</td>
-  </tr>
-  <tr>
-    <th align="left">around</th>
-    <td><code>10997 Berlin, Germany</code></td>
-    <td>no</td>
-    <td>Order the results by the distance to the given location from near to far.
-<br>
-Location can be provided as …
-<br>
-<em>… Lat/Lng:</em> <code>52.50,13.45</code>
-<br>
-<em>… ZIP:</em> <code>10997 Berlin, Germany</code>.
-We use the centre of the ZIP code area as center for the search.
-Please add enough context information (like the Country name)
-so google knows what place you are looking for.
-<br>
-<em>… any location search:</em> All queries other than a float tuple
-are send to the google location service. For the provided response we
-take a fitting lat/lng value as center of the search. So in theory,
-you can use any search that works for google maps.
-<br>
-Check the <code>around_location</code> to see what latitude/longitude
-values have been used for the query.
 </td>
   </tr>
   <tr>
