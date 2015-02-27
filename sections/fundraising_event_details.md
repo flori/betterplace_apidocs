@@ -59,18 +59,6 @@ Use this resource like `/clients/PERMALINK/fundraising-events/ID.json`
       <td>DateTime (ISO8601 with Timezone)</td>
     </tr>
     <tr>
-      <th align="left">latitude</th>
-      <td>number</td>
-      <td>52.499007</td>
-      <td>Decimal degrees based on user input</td>
-    </tr>
-    <tr>
-      <th align="left">longitude</th>
-      <td>number</td>
-      <td>13.44947</td>
-      <td>Decimal degrees based on user input</td>
-    </tr>
-    <tr>
       <th align="left">title</th>
       <td>string</td>
       <td></td>
@@ -293,8 +281,6 @@ access rights in order to see this information.
   "id": 401,
   "created_at": "2008-09-12T16:50:38+02:00",
   "updated_at": "2015-02-23T13:15:35+01:00",
-  "latitude": 0.0,
-  "longitude": 0.0,
   "title": "Die Eckerts",
   "description": "In Deutschland gibt es 12.673 Telefonbucheinträge mit dem Namen \"Eckert\". Wenn jeder davon nur einen Euro im Monat spenden würde, kämen 152.076 Euro zusammen. Aber fangen wir erst mal mit fünf Eckerts (dafür etwas mehr als ein Euro im Monat) an - bringt auch schon eine ordentliche Summe zusammen, mit der wir hier auf betterplace.org was Gutes tun können.",
   "tax_deductible": true,

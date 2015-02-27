@@ -2,7 +2,7 @@
 # Fundraising Event List ⇄ [Details](fundraising_event_details.md)
 
 ```Rebol
-GET https://api.betterplace.org/de/api_v4/fundraising-events.json?around=10997+Berlin%2C+Germany&facets=completed%3Afalse&nelat=51.123&nelng=12.123&order=rank%3ADESC&q=Skateistan&scope=location&swlat=51.001&swlng=12.001
+GET https://api.betterplace.org/de/api_v4/fundraising-events.json?around=10997+Berlin%2C+Germany&facets=completed%3Afalse&order=rank%3ADESC&q=Skateistan&scope=location
 ```
 
 A list of betterplace.org fundraising events (donate money).
@@ -82,30 +82,6 @@ Documented and supported filters are:
 It is possible to set multiple facet filters.
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 </td>
-  </tr>
-  <tr>
-    <th align="left">nelat</th>
-    <td><code>51.123</code></td>
-    <td>no</td>
-    <td>For geographic bound filterning: The northeast corner's latitude.</td>
-  </tr>
-  <tr>
-    <th align="left">nelng</th>
-    <td><code>12.123</code></td>
-    <td>no</td>
-    <td>For geographic bound filterning: The northeast corner's longitude.</td>
-  </tr>
-  <tr>
-    <th align="left">swlat</th>
-    <td><code>51.001</code></td>
-    <td>no</td>
-    <td>For geographic bound filterning: The southwest corner's latitude.</td>
-  </tr>
-  <tr>
-    <th align="left">swlng</th>
-    <td><code>12.001</code></td>
-    <td>no</td>
-    <td>For geographic bound filterning: The southwest corner's longitude.</td>
   </tr>
   <tr>
     <th align="left">order</th>
