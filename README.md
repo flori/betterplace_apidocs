@@ -310,7 +310,7 @@ This way clients can control what projects are visible on their plattform.
 
 Some URLs have a special scope for clients. Examples:
 
-* `/clients/example/projects.json`
+* `/clients/example/projects`
   will only show projects of the example-client
 * `/clients/example/tags/rainforest/projects`
   will only show projects of the example-client and tagged with "rainforest".

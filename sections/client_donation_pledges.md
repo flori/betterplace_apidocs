@@ -24,7 +24,7 @@ donation per <code>client_reference</code> so there is no need to
 worry about retrying the pledge-sending.
 
 If an error occurs the HTTP return code will be 422 (unprocessable
-entity). [More error codes](../README.md#error-messages).
+entity). [More error codes](../README.md#http-status-codes).
 
 
 ## URL Parameters

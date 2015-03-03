@@ -15,7 +15,7 @@ See [betterplace.org clients](../README.md#client-api).
 A successful request will return HTTP status 201 (created).
 
 If an error occurs the HTTP return code will be 422 (unprocessable
-entity). [More error codes](../README.md#error-messages).
+entity). [More error codes](../README.md#http-status-codes).
 
 
 ## URL Parameters
