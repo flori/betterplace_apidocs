@@ -49,7 +49,6 @@ Documented and supported filters are:
 <ul>
 <li><code>tax_deductible:true/false</code>
 <li><code>prohibit_donations:true/false</code>
-<li><code>client_id:integer</code>
 </ul>
 It is possible to set multiple facet filters.
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
