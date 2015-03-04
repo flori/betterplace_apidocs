@@ -305,8 +305,16 @@ access rights in order to see this information.
       <td>950x500 Pixel</td>
     </tr>
     <tr>
+      <th align="left">profile_picture.fill_730x380</th>
+      <td>730x380 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">profile_picture.fill_618x322</th>
       <td>618x322 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fill_410x214</th>
+      <td>410x214 Pixel</td>
     </tr>
     <tr>
       <th align="left">profile_picture.fill_270x141</th>
@@ -375,8 +383,16 @@ access rights in order to see this information.
             "href": "https://asset1.betterplace.org/uploads/group/profile_picture/000/000/401/fill_960x500_original_eckert_absolute.png"
           },
           {
+            "rel": "fill_730x380",
+            "href": "https://asset1.betterplace.org/uploads/group/profile_picture/000/000/401/fill_730x380_original_eckert_absolute.png"
+          },
+          {
             "rel": "fill_618x322",
             "href": "https://asset1.betterplace.org/uploads/group/profile_picture/000/000/401/fill_618x322_original_eckert_absolute.png"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://asset1.betterplace.org/uploads/group/profile_picture/000/000/401/fill_410x214_original_eckert_absolute.png"
           },
           {
             "rel": "fill_270x141",
@@ -455,8 +471,16 @@ access rights in order to see this information.
             "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_960x500_default.betterplace.jpg"
           },
           {
+            "rel": "fill_730x380",
+            "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_730x380_default.betterplace.jpg"
+          },
+          {
             "rel": "fill_618x322",
             "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_618x322_default.betterplace.jpg"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_410x214_default.betterplace.jpg"
           },
           {
             "rel": "fill_270x141",
@@ -535,8 +559,16 @@ access rights in order to see this information.
             "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_960x500_default.betterplace.jpg"
           },
           {
+            "rel": "fill_730x380",
+            "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_730x380_default.betterplace.jpg"
+          },
+          {
             "rel": "fill_618x322",
             "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_618x322_default.betterplace.jpg"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://asset1.betterplace.org/assets/default/group_profile_picture/fill_410x214_default.betterplace.jpg"
           },
           {
             "rel": "fill_270x141",

@@ -183,6 +183,16 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
 was indeed imported.
 </td>
     </tr>
+    <tr>
+        <th align="left" style="white-space: nowrap">
+          <a id="profile_picture-ref" href="#profile_picture">
+            ↓profile_picture
+          </a>
+        </th>
+      <td>null &#124; object</td>
+      <td></td>
+      <td>TODO</td>
+    </tr>
   </table>
 ### <a id="carrier" href="#carrier-ref">↑Nested Attributes: carrier</a>
 
@@ -358,6 +368,22 @@ betterplace.
 </td>
     </tr>
   </table>
+### <a id="profile_picture" href="#profile_picture-ref">↑Nested Attributes: profile_picture</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fallback</th>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Specifies whether a fallback image is given or not</td>
+    </tr>
+  </table>
 </table>
 
 ## Response Links
@@ -414,6 +440,30 @@ betterplace.
       <th align="left">contact.picture.original</th>
       <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
     </tr>
+    <tr>
+      <th align="left">profile_picture.fill_960x500</th>
+      <td>950x500 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fill_730x380</th>
+      <td>730x380 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fill_618x322</th>
+      <td>618x322 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fill_410x214</th>
+      <td>410x214 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fill_270x141</th>
+      <td>270x141 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.original</th>
+      <td>Maximum sized image. This is the original image with default-cropping or user-cropping applied.</td>
+    </tr>
 </table>
 
 ## Response Example
@@ -460,7 +510,7 @@ betterplace.
       },
       {
         "rel": "original",
-        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_730x380_default.betterplace.png"
       },
       {
         "rel": "thumb",
@@ -500,6 +550,35 @@ betterplace.
     "imported_at": "2014-08-23T01:30:34+02:00",
     "links": [
 
+    ]
+  },
+  "profile_picture": {
+    "fallback": true,
+    "links": [
+      {
+        "rel": "fill_960x500",
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_960x500_default.betterplace.png"
+      },
+      {
+        "rel": "fill_730x380",
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_730x380_default.betterplace.png"
+      },
+      {
+        "rel": "fill_618x322",
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_618x322_default.betterplace.png"
+      },
+      {
+        "rel": "fill_410x214",
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_410x214_default.betterplace.png"
+      },
+      {
+        "rel": "fill_270x141",
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/fill_270x141_default.betterplace.png"
+      },
+      {
+        "rel": "original",
+        "href": "https://asset1.betterplace.org/assets/default/job_description_profile_picture/crop_original_default.betterplace.png"
+      }
     ]
   },
   "links": [

@@ -515,8 +515,16 @@ set for organisations.
       <td>950x500 Pixel</td>
     </tr>
     <tr>
+      <th align="left">profile_picture.fill_730x380</th>
+      <td>730x380 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">profile_picture.fill_618x322</th>
       <td>618x322 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fill_410x214</th>
+      <td>410x214 Pixel</td>
     </tr>
     <tr>
       <th align="left">profile_picture.fill_270x141</th>
@@ -636,8 +644,16 @@ set for organisations.
             "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_960x500_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
           },
           {
+            "rel": "fill_730x380",
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_730x380_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
+          },
+          {
             "rel": "fill_618x322",
             "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_618x322_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_410x214_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
           },
           {
             "rel": "fill_270x141",
@@ -1211,8 +1227,16 @@ set for organisations.
       <td>950x500 Pixel</td>
     </tr>
     <tr>
+      <th align="left">profile_picture.fill_730x380</th>
+      <td>730x380 Pixel</td>
+    </tr>
+    <tr>
       <th align="left">profile_picture.fill_618x322</th>
       <td>618x322 Pixel</td>
+    </tr>
+    <tr>
+      <th align="left">profile_picture.fill_410x214</th>
+      <td>410x214 Pixel</td>
     </tr>
     <tr>
       <th align="left">profile_picture.fill_270x141</th>
@@ -1332,8 +1356,16 @@ set for organisations.
             "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_960x500_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
           },
           {
+            "rel": "fill_730x380",
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_730x380_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
+          },
+          {
             "rel": "fill_618x322",
             "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_618x322_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://asset1.betterplace.org/uploads/project/profile_picture/000/014/784/fill_410x214_original_Baumschule_Pflanzenauswahl_bsu_mbms_1111_01_035.jpg"
           },
           {
             "rel": "fill_270x141",
