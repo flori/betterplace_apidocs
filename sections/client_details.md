@@ -143,6 +143,11 @@ This calculation is based on the sum of all
 </td>
     </tr>
     <tr>
+      <th align="left">client_fundraising_events</th>
+      <td>Link to the <a href="fundraising_events_list.md">fundraising events list</a> filtered by this client
+</td>
+    </tr>
+    <tr>
       <th align="left">opinions</th>
       <td>Link to the <a href="opinions_list.md">opinions list</a> of this client
 </td>
@@ -178,6 +183,10 @@ This calculation is based on the sum of all
     {
       "rel": "client_project_tags",
       "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/tags.json"
+    },
+    {
+      "rel": "client_fundraising_events",
+      "href": "https://api.betterplace.org/de/api_v4/fundraising-events.json?facets=client_id%3A2"
     },
     {
       "rel": "opinions",
