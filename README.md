@@ -46,6 +46,9 @@ about updates and scheduled downtimes.
     1. [Project **Opinion** Details](sections/opinion_details.md)
     1. [Project **Pictures** List](sections/project_pictures_list.md)
     1. [Project **Picture** Details](sections/project_picture_details.md)
+  1. **Fundraising Events**
+    1. [**Fundraising Events** List and Search](sections/fundraising_events_list.md)
+    1. [**Fundraising Events** Details](sections/fundraising_event_details.md)
   1. **Volunteering**
     1. [**Volunteering** List and Search](sections/volunteering_list.md)
     1. [**Volunteering** Details](sections/volunteering_details.md)
