@@ -7,7 +7,7 @@ service announcements](README.md#mailing-list-for-service-announcements).
 ### Added
 - Added client API endpoints for fundraising events and linked to them.
   See [here](sections/fundraising_events_list.md) and
-  [here](sections/fundraising_events_details.md).
+  [here](sections/fundraising_event_details.md).
 
 ## 2015-02-16
 ### Added
