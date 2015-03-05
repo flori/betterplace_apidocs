@@ -128,8 +128,14 @@ that can be used with the german tax authorities.
       <th align="left">donations_prohibited</th>
       <td>boolean</td>
       <td>false</td>
-      <td>True if the fundraising event must not receive donations. This might
-happen if a tax-receipt of german tax authorities rans out.
+      <td>True if the fundraising event must not and cannot receive donations.
+This might happen if the event was closed by the manager
+or blocked by a platform administrator.
+
+Please check this flag whenever you display a donation button.
+Should you show a button for an event that cannot receive donations
+the use will open the donation form and see an error message on
+betterplace.org instead!
 </td>
     </tr>
     <tr>
@@ -156,13 +162,16 @@ by the manager.
       <th align="left">requested_amount_in_cents</th>
       <td>number</td>
       <td>12382</td>
-      <td>How many cents were requested to be raised with the fundraising event</td>
+      <td>How many cents were requested to be raised with the fundraising event.
+This value is optional! The manager decides if his event has a goal or not.
+</td>
     </tr>
     <tr>
       <th align="left">progress_percentage</th>
       <td>number</td>
       <td>5</td>
-      <td>% financed.
+      <td>% financed. This value is only present in case the manager
+decided to add a <code>requested_amount_in_cents</code>.
 </td>
     </tr>
     <tr>
@@ -182,7 +191,7 @@ by the manager.
           </a>
         </th>
       <td>null &#124; object</td>
-      <td></td>
+      <td>//asset1.betterplace.org/uploads/user/profile_picture/000/000/001/fill_100x100_original_tb.jpg</td>
       <td>TODO</td>
     </tr>
   </table>

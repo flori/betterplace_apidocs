@@ -217,8 +217,13 @@ with the german tax authorities.
       <th align="left">donations_prohibited</th>
       <td>boolean</td>
       <td>false</td>
-      <td>True if the project must not receive donations. This might happen if a tax-receipt
-of german tax authorities rans out.
+      <td>True if the project must not receive donations. This might happen, for example,
+if a tax-receipt of german tax authorities rans out.
+
+Please check this flag whenever you display a donation button.
+Should you show a button for a project that cannot receive donations
+the use will open the donation form and see an error message on
+betterplace.org instead!
 </td>
     </tr>
     <tr>
