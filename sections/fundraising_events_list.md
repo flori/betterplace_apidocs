@@ -191,7 +191,7 @@ decided to add a <code>requested_amount_in_cents</code>.
           </a>
         </th>
       <td>null &#124; object</td>
-      <td>//asset1.betterplace.org/uploads/user/profile_picture/000/000/001/fill_100x100_original_tb.jpg</td>
+      <td>//asset1.betterplace.org/uploads/ ↪user/profile_picture/000/000/ ↪001/fill_100x100_original_tb.jpg</td>
       <td>TODO</td>
     </tr>
   </table>
