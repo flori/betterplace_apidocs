@@ -123,7 +123,6 @@ for the permalink
       <td>true</td>
       <td>True if the organisation is a tax-exempt charity.
 If so, Users can request a tax-receipt for donations to that organisation.
-[More about this](http://www.betterplace.org/c/hilfe/projekt-steuerlich-absetzbar/).
 </td>
     </tr>
     <tr>

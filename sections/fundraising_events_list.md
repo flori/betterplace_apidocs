@@ -105,23 +105,23 @@ The default order is the same as for the
     <tr>
       <th align="left">title</th>
       <td>string</td>
-      <td></td>
+      <td>Gemeinsam gegen Ebola: Deine Spende für Westafrika</td>
       <td>Max 50 character</td>
     </tr>
     <tr>
       <th align="left">description</th>
       <td>string</td>
-      <td></td>
-      <td></td>
+      <td>Lorem ipsum</td>
+      <td>Max 25.000 character</td>
     </tr>
     <tr>
       <th align="left">tax_deductible</th>
       <td>boolean</td>
       <td>true</td>
-      <td>True if the fundraising event is marked as tax deductible.
-If so, Users can request a tax-receipt that can be used
-with the german tax authorities.
-[More about this](http://www.betterplace.org/c/hilfe/projekt-steuerlich-absetzbar/).
+      <td>True if the fundraising event is marked as tax deductible and
+can only support tax deductible projects.
+If so, Users can request a tax-receipt for their donation
+that can be used with the german tax authorities.
 </td>
     </tr>
     <tr>
@@ -136,7 +136,9 @@ happen if a tax-receipt of german tax authorities rans out.
       <th align="left">closed_at</th>
       <td>string</td>
       <td>"1994-11-05T13:15:30Z"</td>
-      <td>DateTime (ISO8601 with Timezone) when the fundraising event was closed</td>
+      <td>DateTime (ISO8601 with Timezone) when the fundraising event was closed
+by the manager.
+</td>
     </tr>
     <tr>
       <th align="left">donor_count</th>
