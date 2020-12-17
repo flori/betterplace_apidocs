@@ -2,7 +2,7 @@
 # Searching things to donate to
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/search.json?around=10997+Berlin%2C+Germany&around_distance=25km&bounds=52.6754542%2C13.7611175%2C52.338234%2C13.08834&nelat=51.123&nelng=12.123&q=Katze&scope=location&swlat=51.001&swlng=12.001
+GET https://api.betterplace.org/de/api_v4/search.json?bounds=52.6754542%2C13.7611175%2C52.338234%2C13.08834&q=Katze
 ```
 
 TODO
@@ -16,113 +16,6 @@ TODO
     <th>Example</th>
     <th>Required</th>
     <th>Description</th>
-  </tr>
-  <tr>
-    <th align="left">scope</th>
-    <td><code>location</code></td>
-    <td>no</td>
-<td>
-
-Use the scope to specify how the search query <code>q</code> should behave:
-<ul>
-<li>"no scope" (default) performs a full text search
-<li><code>human_name</code> searches only on the manager-fullname and carrier-fullname.
-  Use this to get all entities by "Unicef" or by "Till Behnke".
-<li><code>location</code> does a reverse geocoding lookup.
-  This lookup returns a bounding box. We transform this bounding box to a
-  rectangle that is large enough to encapsulate the whole bounding box.
-  We then return all entities that are within this rectangle.
-</ul>
-<a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
-
-
-</td>
-  </tr>
-  <tr>
-    <th align="left">around</th>
-    <td><code>10997 Berlin, Germany</code></td>
-    <td>no</td>
-<td>
-
-Order the results by the distance to the given location from near to far.
-<br>
-Location can be provided as …
-<br>
-<em>… Lat/Lng:</em> <code>52.50,13.45</code>
-<br>
-<em>… ZIP:</em> <code>10997 Berlin, Germany</code>.
-We use the centre of the ZIP code area as center for the search.
-Please add enough context information (like the Country name)
-so google knows what place you are looking for.
-<br>
-<em>… any location search:</em> All queries other than a float tuple
-are sent to the google location service. For the provided response we
-take a fitting lat/lng value as center of the search. So in theory,
-you can use any search that works for google maps.
-<br>
-Check the <code>around_location</code> to see what latitude/longitude
-values have been used for the query.
-
-
-</td>
-  </tr>
-  <tr>
-    <th align="left">around_distance</th>
-    <td><code>25km</code></td>
-    <td>no</td>
-<td>
-
-In combination with the <code>around</code> parameter the search will be
-limited to results whose location is closer than the given value to the
-location provided through the <code>around</code> parameter. Possible
-values are all integer values followed by <code>m</code> for meters or
-<code>km</code> for kilometers, e.g. <code>1000m</code>, <code>1km</code>.
-<br>
-When <code>around_distance</code> is given without <code>around</code> it
-will be ignored.
-
-
-</td>
-  </tr>
-  <tr>
-    <th align="left">nelat</th>
-    <td><code>51.123</code></td>
-    <td>no</td>
-<td>
-
-For geographic bound filterning: The northeast corner's latitude.
-
-</td>
-  </tr>
-  <tr>
-    <th align="left">nelng</th>
-    <td><code>12.123</code></td>
-    <td>no</td>
-<td>
-
-For geographic bound filterning: The northeast corner's longitude.
-
-</td>
-  </tr>
-  <tr>
-    <th align="left">swlat</th>
-    <td><code>51.001</code></td>
-    <td>no</td>
-<td>
-
-For geographic bound filterning: The southwest corner's latitude.
-
-</td>
-  </tr>
-  <tr>
-    <th align="left">swlng</th>
-    <td><code>12.001</code></td>
-    <td>no</td>
-<td>
-
-For geographic bound filterning: The southwest corner's longitude.
-
-</td>
   </tr>
   <tr>
     <th align="left">q</th>
