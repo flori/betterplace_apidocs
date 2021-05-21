@@ -13,17 +13,12 @@ Please don't hesitate to send feedback about the API and this documentation
 to developers@betterplace.org.
 
 
-#### Mailing list for service announcements
-Please send an email to product@betterplace.org to
-subscribe to the api-v4-mailing list to receive service announcements
-about updates and scheduled downtimes.
-
-
 ## Table of content
 
 ### **General information**
 
 1. General information [↓ below](#general-information-1)
+1. [Changelog](CHANGELOG.md)
 1. Request Parameter Format [↓ below](#request-parameter-format)
 1. Addressing the locale of a resource [↓ below](#addressing-the-locale-of-a-resource)
 1. Pagination [↓ below](#pagination)
@@ -35,7 +30,6 @@ about updates and scheduled downtimes.
 1. API Client Libraries [↓ below](#api-client-libraries)
 1. Code examples [↓ below](#code-examples)
 1. Example apps [↓ below](#example-apps)
-1. [Changelog](CHANGELOG.md)
 
 ### **Public API**
 
@@ -223,9 +217,6 @@ be available. There are additional image versions for various entities, e.g.
 fill_960x500 for projects. You can use these versions, but they might change in
 the future!
 
-To avoid problems, stay tuned and subscribe to the [Mailing list for service
-announcements ↑](#mailing-list-for-service-announcements).
-
 
 ### HTTP Status Codes
 
@@ -312,7 +303,6 @@ Please contact developers@betterplace.org for more information
 
 * Documentation: Not all resources have a documentation URL as part of the JSON response
 * Documentation: The response table does not show the root documentation for response elements with sub-elements (for example carrier.name is documented but carrier is not)
-* BlogPosts: There is no way yet to filter BlogPosts from PayoutBlogPosts
 
 
 ### API Client Libraries

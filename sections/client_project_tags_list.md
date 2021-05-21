@@ -158,7 +158,7 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> â
     {
       "tag": "Trier",
       "slug": "Trier",
-      "projects_count": 39,
+      "projects_count": 38,
       "links": [
         {
           "rel": "projects",
@@ -169,7 +169,7 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> â
     {
       "tag": "KinderJugendliche",
       "slug": "KinderJugendliche",
-      "projects_count": 43,
+      "projects_count": 39,
       "links": [
         {
           "rel": "projects",
@@ -180,7 +180,7 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> â
     {
       "tag": "Familien",
       "slug": "Familien",
-      "projects_count": 19,
+      "projects_count": 15,
       "links": [
         {
           "rel": "projects",

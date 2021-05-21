@@ -119,7 +119,7 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> ‚
     {
       "tag": "Bed√ºrftige",
       "slug": "Bed√ºrftige",
-      "projects_count": 12,
+      "projects_count": 9,
       "links": [
         {
           "rel": "projects",
@@ -130,7 +130,7 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> ‚
     {
       "tag": "Inklusion",
       "slug": "Behinderte",
-      "projects_count": 17,
+      "projects_count": 14,
       "links": [
         {
           "rel": "projects",

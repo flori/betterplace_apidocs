@@ -1005,30 +1005,30 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "total_entries": 595,
+  "total_entries": 614,
   "offset": 3,
-  "total_pages": 199,
+  "total_pages": 205,
   "current_page": 2,
   "per_page": 3,
   "data": [
     {
       "id": 7268,
       "created_at": "2013-03-11T18:00:54+01:00",
-      "updated_at": "2020-11-19T08:14:17+01:00",
+      "updated_at": "2021-04-22T04:30:39+02:00",
       "latitude": 52.52,
       "longitude": 13.405,
-      "street": "Bahnhofstraße 4",
+      "street": "Schwarzer Weg 148",
       "zip": "",
       "city": "Berlin",
       "country": "Deutschland",
       "content_updated_at": "2017-11-14T15:02:11+01:00",
       "title": "\"Pate oder Patin werden und mit einem Neuköllner Kind die Welt neu entdecken\"",
-      "description": "Bevor wir uns hier in Details verlieren, lassen wir erst einmal unsere Patin Linda zu Wort kommen, denn wer könnte besser Beschreiben, was ein Engagement in unserem Projekt ausmacht, als die Engagierten selbst?<br>http://neukoellner-talente.de/paten/paten-stellen-sich-vor/<br><br>Wer neugierig ist und noch mehr wissen will, kann gerne weiter lesen oder sich gleich bei uns im Büro melden: 030 - 62 73 80 14<br><br>---<br><br>http://neukoellner-talente.de/<br><br>Kinder brauchen Zeit, viel Aufmerksamkeit und eine individuelle Förderung, um ihre Stärken und Begabungen zu entdecken und zu entfalten. Mit ihrem Patenschaftsprojekt »Neuköllner Talente« wendet sich die Bürgerstiftung Neukölln an Kinder im Grundschulalter, die entdecken und zeigen wollen, was in ihnen steckt. Vorrangiges Ziel ist es, durch eine intensive 1:1 Betreuung im Rahmen einer Patenschaft, benachteiligten Kindern in dem multiethnischen Berliner Bezirk die Chance zum Entdecken ihrer Interessen und Begabungen, und die Möglichkeit zur Teilhabe zu eröffnen.",
+      "description": "Bevor wir uns hier in Details verlieren, lassen wir erst einmal unsere Patin Linda zu Wort kommen, denn wer könnte besser Beschreiben, was ein Engagement in unserem Projekt ausmacht, als die Engagierten selbst?\r\nhttp://neukoellner-talente.de/paten/paten-stellen-sich-vor/\r\n\r\nWer neugierig ist und noch mehr wissen will, kann gerne weiter lesen oder sich gleich bei uns im Büro melden: 030 - 62 73 80 14\r\n\r\n---\r\n\r\nhttp://neukoellner-talente.de/\r\n\r\nKinder brauchen Zeit, viel Aufmerksamkeit und eine individuelle Förderung, um ihre Stärken und Begabungen zu entdecken und zu entfalten. Mit ihrem Patenschaftsprojekt »Neuköllner Talente« wendet sich die Bürgerstiftung Neukölln an Kinder im Grundschulalter, die entdecken und zeigen wollen, was in ihnen steckt. Vorrangiges Ziel ist es, durch eine intensive 1:1 Betreuung im Rahmen einer Patenschaft, benachteiligten Kindern in dem multiethnischen Berliner Bezirk die Chance zum Entdecken ihrer Interessen und Begabungen, und die Möglichkeit zur Teilhabe zu eröffnen. ",
       "carrier": {
         "latitude": 52.46874,
         "longitude": 13.4341,
         "name": "Bürgerstiftung Neukölln",
-        "street": "Steinstraße 131",
+        "street": "Mühlenweg 24",
         "city": "Berlin",
         "zip": "12051",
         "country": "Deutschland",
@@ -1090,9 +1090,9 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         ]
       },
       "contact": {
-        "name": "Nia Dietrich",
+        "name": "Violetta Huber",
         "phone": "030 627 380 14",
-        "email": "86f696eccf1f909a01e2f8301c2874689b5631cb762169e08d4779ec0a4c9020@betterplace.jp",
+        "email": "e55c2fd91bc2127a943090298a9387b941d812290b169bc8d3cbe833e3fbd410@betterplace.jp",
         "picture": {
           "links": [
             {
@@ -1175,189 +1175,23 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       ]
     },
     {
-      "id": 7386,
-      "created_at": "2013-03-16T18:13:20+01:00",
-      "updated_at": "2020-08-14T11:27:21+02:00",
-      "latitude": 5.60372,
-      "longitude": -0.186964,
-      "street": "Weinbergstraße 144",
-      "zip": "",
-      "city": "Accra",
-      "country": "Ghana",
-      "content_updated_at": "2020-08-14T11:27:21+02:00",
-      "title": "We need your skills and your passion",
-      "description": "Volunteers are an essential component of our work in creating school places for disadvantaged children. Your spare time can help us improve our fundraising and programmes activity, which ultimately benefits our work in the field of improving the lives of vulnerable children.  The benefit to you is the opportunity to gain new skills through memorable experiences. Plus the warm fuzzy feeling that you have played an role in benefiting the lives of some of the most vulnerable.<br><br>Our organization is completely run by volunteers. We have many opportunities to volunteer online or in-person. Volunteers from all over the world can contribute in so many different ways, according to their skills and aspirations. If you are travelling to Ghana and would like to volunteer in-person, please let us know. If you are interested in helping underprivileged children/ community but you are unable to volunteer with us in person, we welcome your support through virtual volunteering program. ",
-      "carrier": {
-        "latitude": 5.6502799987793,
-        "longitude": -0.19098700582981,
-        "name": "Child Survival Aid Ghana",
-        "street": "Albert-Schweitzer-Straße 143",
-        "city": "Accra",
-        "zip": "233",
-        "country": "Ghana",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/004/762/fill_100x100_bp1555159740_logo_for_csag.jpg"
-            },
-            {
-              "rel": "fill_200x200",
-              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/004/762/fill_200x200_bp1555159740_logo_for_csag.jpg"
-            },
-            {
-              "rel": "fill_400x400",
-              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/004/762/fill_400x400_bp1555159740_logo_for_csag.jpg"
-            },
-            {
-              "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/004/762/crop_original_bp1555159740_logo_for_csag.jpg"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "self",
-            "href": "https://api.betterplace.org/de/api_v4/organisations/4762.json"
-          }
-        ]
-      },
-      "vacancies": 10,
-      "image": {
-        "description": "Children in the picture needs your help",
-        "links": [
-          {
-            "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/386/fill_618x322_bp1597397238_IMG-20200313-WA0025.jpg"
-          },
-          {
-            "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/386/fill_270x141_bp1597397238_IMG-20200313-WA0025.jpg"
-          },
-          {
-            "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/386/bp1597397238_IMG-20200313-WA0025.jpg"
-          },
-          {
-            "rel": "thumb",
-            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/386/thumb_bp1597397238_IMG-20200313-WA0025.jpg"
-          },
-          {
-            "rel": "medium",
-            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/386/medium_bp1597397238_IMG-20200313-WA0025.jpg"
-          },
-          {
-            "rel": "regular",
-            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/386/regular_bp1597397238_IMG-20200313-WA0025.jpg"
-          }
-        ]
-      },
-      "contact": {
-        "name": "Stefanie / Stephanie Ziegler",
-        "phone": "+ 233- (0) 267702211",
-        "email": "ae663db0c748aa945999d7b766301216a4ec415c17bbddea2f075dea0488cf97@betterplace.jp",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/093/671/fill_100x100_bp1584571473_ma.jpg"
-            },
-            {
-              "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/093/671/crop_original_bp1584571473_ma.jpg"
-            }
-          ]
-        },
-        "links": [
-
-        ]
-      },
-      "location_fixed": true,
-      "working_time_selection": "egal wann / nach Vereinbarung",
-      "working_time_weekends": [
-
-      ],
-      "working_time_weekdays": [
-
-      ],
-      "begins_at": null,
-      "ends_at": null,
-      "topics": [
-        "Bildung",
-        "Nachbarschaft",
-        "Kinder & Jugendliche",
-        "Sozial Benachteiligte"
-      ],
-      "activities": [
-        "besuchen/begleiten",
-        "organisieren/planen",
-        "Nachhilfe/vorlesen",
-        "PR / Social Media"
-      ],
-      "imported_from": null,
-      "import_information": null,
-      "profile_picture": {
-        "links": [
-          {
-            "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/386/fill_960x500_bp1597397238_IMG-20200313-WA0025.jpg"
-          },
-          {
-            "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/386/fill_730x380_bp1597397238_IMG-20200313-WA0025.jpg"
-          },
-          {
-            "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/386/fill_618x322_bp1597397238_IMG-20200313-WA0025.jpg"
-          },
-          {
-            "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/386/fill_410x214_bp1597397238_IMG-20200313-WA0025.jpg"
-          },
-          {
-            "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/386/fill_270x141_bp1597397238_IMG-20200313-WA0025.jpg"
-          },
-          {
-            "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/386/crop_original_bp1597397238_IMG-20200313-WA0025.jpg"
-          }
-        ]
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/volunteering/7386.json"
-        },
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/de/volunteering/7386-we-need-your-skills-and-your-passion"
-        },
-        {
-          "rel": "inquiries",
-          "href": "https://api.betterplace.org/de/api_v4/clients/%7Bclient_id%7D/volunteering/7386-we-need-your-skills-and-your-passion/inquiries.json",
-          "templated": true
-        }
-      ]
-    },
-    {
       "id": 7435,
       "created_at": "2013-03-20T10:22:43+01:00",
-      "updated_at": "2020-09-07T10:36:37+02:00",
+      "updated_at": "2021-02-08T09:31:43+01:00",
       "latitude": 52.5077,
       "longitude": 13.3319,
-      "street": "Schützenstraße 72",
+      "street": "Am Bahnhof 51",
       "zip": "10623",
       "city": "Berlin",
       "country": "Deutschland",
-      "content_updated_at": "2019-12-12T15:47:04+01:00",
+      "content_updated_at": "2020-12-04T12:29:55+01:00",
       "title": "Medizinische Hilfe für obdachlose Menschen - Ambulanz, Arztmobil, Krankenwohnung",
-      "description": "++ Medizinische Hilfe für obdachlose Menschen ++ Wir behandeln obdachlose Menschen, die keine Krankenversicherung haben und nicht in andere Arztpraxen gehen. Angebote: Krankenwohnung in der Turmstraße, medizinische Ambulanz  am Bahnhof Zoo, Arztmobil. Das Arztmobil ist ein zu einer mobilen Praxis ausgebauter Kleintransporter und fährt dahin, wo sich Obdachlose aufhalten: an bekannte Szeneplätze, vor Suppenküchen etc. Für alle Angebote suchen wir ehrenamtlich engagierte Ärztinnen und Ärzte (mit Approbation) aller Fachrichtungen, gerne auch im Ruhestand, die in der Krankenwhnung, der med. Ambulanz oder im Arztmobil helfen wollen. Der ehrenamtliche Einsatz kann flexibel eingeteilt werden, es gibt eine Aufwandsentschädigung.",
+      "description": "++ Medizinische Hilfe für obdachlose Menschen ++ Wir behandeln obdachlose Menschen, die keine Krankenversicherung haben und nicht in Arztpraxen gehen. Angebote: Krankenwohnung in der Turmstraße, medizinische Ambulanz  am Bahnhof Zoo, Arztmobil. Das Arztmobil ist ein zu einer mobilen Praxis ausgebauter Kleintransporter und fährt dahin, wo sich Obdachlose aufhalten: an bekannte Szeneplätze, vor Suppenküchen etc. Für alle Angebote suchen wir ehrenamtlich engagierte Ärztinnen und Ärzte (mit Approbation) aller Fachrichtungen, gerne auch im Ruhestand, die in der Krankenwhnung, der med. Ambulanz oder im Arztmobil helfen wollen. Der ehrenamtliche Einsatz kann flexibel eingeteilt werden, es gibt eine Aufwandsentschädigung.",
       "carrier": {
         "latitude": 52.55973,
         "longitude": 13.37038,
         "name": "Caritasverband für das Erzbistum Berlin e.V.",
-        "street": "Ahornweg 19",
+        "street": "Pfarrgasse 128",
         "city": "Berlin",
         "zip": "12203",
         "country": "Deutschland",
@@ -1419,9 +1253,9 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         ]
       },
       "contact": {
-        "name": "Leonie Bühler",
+        "name": "Hiranur Kaiser",
         "phone": "030666331279",
-        "email": "c0e3234398304e4bcae5d0fd650bf4b0170a6147bd7641f09f42db354ff3449e@betterplace.jp",
+        "email": "6830a0fcee8ad8892968f447efdb7651d760a9b265a4639e6430a0097279478f@betterplace.jp",
         "picture": {
           "fallback": true,
           "links": [
@@ -1445,9 +1279,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
       ],
       "working_time_weekdays": [
-        "vormittags",
-        "nachmittags",
-        "abends"
+
       ],
       "begins_at": null,
       "ends_at": null,
@@ -1501,6 +1333,170 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         {
           "rel": "inquiries",
           "href": "https://api.betterplace.org/de/api_v4/clients/%7Bclient_id%7D/volunteering/7435-medizinische-hilfe-fuer-obdachlose-menschen-ambulanz-arztmobil-krankenwohnung/inquiries.json",
+          "templated": true
+        }
+      ]
+    },
+    {
+      "id": 7482,
+      "created_at": "2013-03-24T16:15:22+01:00",
+      "updated_at": "2021-02-19T15:42:02+01:00",
+      "latitude": 5.9599914,
+      "longitude": 10.1554066,
+      "street": null,
+      "zip": null,
+      "city": null,
+      "country": null,
+      "content_updated_at": "2021-02-19T15:42:02+01:00",
+      "title": "Online Volunteer for crowd-sourcing, web presentation and linkage with supporters.",
+      "description": "Global Welfare Association (GLOWA) is a counter trafficking in children organization in Cameroon GLOWA is new to BETTER PLACE, not very familiar with Internet based crowd pulling support systems for charities. The situation is made worst by our limited Internet access and very slow connections.\r\nWe need an online willing to help promote our varied initiatives to address trafficking in persons and support our online fund raising campaigns on better place and other online fund raising sites. \r\n",
+      "carrier": {
+        "latitude": 5.9599914,
+        "longitude": 10.1554066,
+        "name": "Global Welfare Association (GLOWA)",
+        "street": "Starenweg 157",
+        "city": "Bamenda",
+        "zip": "+237",
+        "country": "Kamerun",
+        "picture": {
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/013/667/fill_100x100_profile_thumb_GLOWA_LOGO.png"
+            },
+            {
+              "rel": "fill_200x200",
+              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/013/667/fill_200x200_profile_thumb_GLOWA_LOGO.png"
+            },
+            {
+              "rel": "fill_400x400",
+              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/013/667/fill_400x400_profile_thumb_GLOWA_LOGO.png"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/013/667/crop_original_profile_thumb_GLOWA_LOGO.png"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://api.betterplace.org/de/api_v4/organisations/13667.json"
+          }
+        ]
+      },
+      "vacancies": 6,
+      "image": {
+        "description": "Children in trafficking prone communities learn to recognize &amp; manage trafficking recruitment scams.",
+        "links": [
+          {
+            "rel": "fill_618x322",
+            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/482/fill_618x322_Children_Read_Anti_Trafficking_Materials.JPG"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/482/fill_270x141_Children_Read_Anti_Trafficking_Materials.JPG"
+          },
+          {
+            "rel": "original",
+            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/482/Children_Read_Anti_Trafficking_Materials.JPG"
+          },
+          {
+            "rel": "thumb",
+            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/482/thumb_Children_Read_Anti_Trafficking_Materials.JPG"
+          },
+          {
+            "rel": "medium",
+            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/482/medium_Children_Read_Anti_Trafficking_Materials.JPG"
+          },
+          {
+            "rel": "regular",
+            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/482/regular_Children_Read_Anti_Trafficking_Materials.JPG"
+          }
+        ]
+      },
+      "contact": {
+        "name": "Markus Wiesner",
+        "phone": "+237 70244662",
+        "email": "d1386baa1bf196ecdff2877762599698db879dbeda97d93d8899aa950842b36e@betterplace.jp",
+        "picture": {
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/301/602/fill_100x100_bp1584575656_original_4x4_Jamils.jpg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/301/602/crop_original_bp1584575656_original_4x4_Jamils.jpg"
+            }
+          ]
+        },
+        "links": [
+
+        ]
+      },
+      "location_fixed": false,
+      "working_time_selection": "egal wann / nach Vereinbarung",
+      "working_time_weekends": [
+
+      ],
+      "working_time_weekdays": [
+
+      ],
+      "begins_at": null,
+      "ends_at": null,
+      "topics": [
+        "Bildung",
+        "Kinder & Jugendliche",
+        "Menschenrechte",
+        "Flüchtlinge & Migranten"
+      ],
+      "activities": [
+        "organisieren/planen",
+        "schreiben/übersetzen"
+      ],
+      "imported_from": null,
+      "import_information": null,
+      "profile_picture": {
+        "links": [
+          {
+            "rel": "fill_960x500",
+            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/482/fill_960x500_Children_Read_Anti_Trafficking_Materials.JPG"
+          },
+          {
+            "rel": "fill_730x380",
+            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/482/fill_730x380_Children_Read_Anti_Trafficking_Materials.JPG"
+          },
+          {
+            "rel": "fill_618x322",
+            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/482/fill_618x322_Children_Read_Anti_Trafficking_Materials.JPG"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/482/fill_410x214_Children_Read_Anti_Trafficking_Materials.JPG"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/482/fill_270x141_Children_Read_Anti_Trafficking_Materials.JPG"
+          },
+          {
+            "rel": "original",
+            "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/007/482/crop_original_Children_Read_Anti_Trafficking_Materials.JPG"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/de/api_v4/volunteering/7482.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/de/volunteering/7482-online-volunteer-for-crowd-sourcing-web-presentation-and-linkage-with-supporters"
+        },
+        {
+          "rel": "inquiries",
+          "href": "https://api.betterplace.org/de/api_v4/clients/%7Bclient_id%7D/volunteering/7482-online-volunteer-for-crowd-sourcing-web-presentation-and-linkage-with-supporters/inquiries.json",
           "templated": true
         }
       ]

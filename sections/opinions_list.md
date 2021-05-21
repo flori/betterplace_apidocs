@@ -417,7 +417,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "matched": false,
       "score": "positive",
       "author": {
-        "name": "Lucas⇥Mason⇥Alexander Robinson",
+        "name": "Vera Forster",
         "picture": {
           "links": [
             {

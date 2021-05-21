@@ -181,7 +181,12 @@ Count of confirmed donations for this fundraising event
       <td><code>46</code></td>
 <td>
 
+⚠️ DEPRECATED!
+This value is deprecated and will be removed after 2021-01-01.
+Please update your code to use the `donations_count`.
+
 Number of unique donors, based on the payment-email-address
+
 
 </td>
     </tr>
@@ -647,7 +652,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "progress_percentage": null,
   "contact": {
     "id": 397832,
-    "name": "李娜 Schuster (display)",
+    "name": "Stefan Moritz (display)",
     "picture": {
       "links": [
         {

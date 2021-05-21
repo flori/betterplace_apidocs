@@ -136,7 +136,7 @@ Permalink to betterplace.org discover category
       "links": [
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/de/discover-projects/3-bildung"
+          "href": "https://www.betterplace.org/de/discover/3-bildung"
         }
       ]
     },
@@ -149,7 +149,7 @@ Permalink to betterplace.org discover category
       "links": [
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/de/discover-projects/15-sport"
+          "href": "https://www.betterplace.org/de/discover/15-sport"
         }
       ]
     },
@@ -162,7 +162,7 @@ Permalink to betterplace.org discover category
       "links": [
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/de/discover-projects/2-kinder"
+          "href": "https://www.betterplace.org/de/discover/2-kinder"
         }
       ]
     }

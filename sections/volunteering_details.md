@@ -2,7 +2,7 @@
 # Volunteering Details ⇄ [List](volunteering_list.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/volunteering/78248.json
+GET https://api.betterplace.org/de/api_v4/volunteering/78465.json
 ```
 
 The details of a betterplace.org volunteering offer (donate time).
@@ -22,7 +22,7 @@ This resource is not available at the moment.
   </tr>
   <tr>
     <th align="left">id</th>
-    <td><code>78248</code></td>
+    <td><code>78465</code></td>
     <td>yes</td>
 <td>
 
@@ -879,96 +879,96 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "id": 78248,
-  "created_at": "2020-11-29T09:48:45+01:00",
-  "updated_at": "2020-11-29T09:48:45+01:00",
-  "latitude": 28.0785444,
-  "longitude": -80.61059490000001,
+  "id": 78465,
+  "created_at": "2021-04-23T20:54:45+02:00",
+  "updated_at": "2021-04-23T20:57:24+02:00",
+  "latitude": 52.4936644,
+  "longitude": 13.3850855,
   "street": null,
   "zip": null,
   "city": null,
   "country": null,
-  "content_updated_at": "2020-11-29T09:48:45+01:00",
-  "title": "TWLOHA DONATIONS",
-  "description": "TBD.",
+  "content_updated_at": "2021-04-23T20:57:24+02:00",
+  "title": "Fundraising für Be an Angel - empowerment für Geflüchtete",
+  "description": "Seit 2015 engagiert sich Be an Angel e.V. für das Empowerment von Geflüchteten. Rein aus Spenden finanziert. In Deutschland und an den EU Aussengrenzen. Aktuell mit fünf vom Verein gemieteten Wohnungen in Athen. Wir sind klein, haben eine hohe Reichweite, sind sehr agil und müssen uns dringend im Bereich Fundraising und Social Media besser aufstellen. Wir suchen präzise:n, zuverlässige Enthusiast:innen mit Know-how.\r\nIm Bereich Fundraising mit Vorwissen, bestenfalls eigenen Kontakten. Generell für den Verein, aber eben auch projektbezogen wie z.B. für die Finanzierung der Athener Wohnungen.\r\nIm Bereich Social-Media ebenfalls mit Vorwissen aus dem Bereich PR, Marketing, Journalismus.\r\nEnglisch fliessend zwingend notwenig, textsicher. \r\nMonatlich fallen ca. drei Tage an.\r\nDer Verein: https://beanangel.direct. Das vom Verein initiierte Restaurant: https://www.kreuzberger-himmel.de\r\nKontakt: andreas@be-an-angel.de\r\nWir freuen uns auf ein Kennenlernen! Und hoffentlich auf eine konstruktive Partnerschaft!\r\n",
   "carrier": {
-    "latitude": 28.0785444,
-    "longitude": -80.61059490000001,
-    "name": "To Write Love On Her Arms (TWLOHA)",
-    "street": "Friedenstraße 147",
-    "city": "Melbourne",
-    "zip": "32902",
-    "country": "USA",
+    "latitude": 52.4936644,
+    "longitude": 13.3850855,
+    "name": "Be an Angel e.V.",
+    "street": "Talstraße 40",
+    "city": "Berlin",
+    "zip": "10965",
+    "country": "Deutschland",
     "picture": {
       "links": [
         {
           "rel": "fill_100x100",
-          "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/044/724/fill_100x100_bp1606638807_D7D7F2F2-289D-4CB9-BB90-942811076745.jpeg"
+          "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/025/276/fill_100x100_beAnAngel-Logo100x100.png"
         },
         {
           "rel": "fill_200x200",
-          "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/044/724/fill_200x200_bp1606638807_D7D7F2F2-289D-4CB9-BB90-942811076745.jpeg"
+          "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/025/276/fill_200x200_beAnAngel-Logo100x100.png"
         },
         {
           "rel": "fill_400x400",
-          "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/044/724/fill_400x400_bp1606638807_D7D7F2F2-289D-4CB9-BB90-942811076745.jpeg"
+          "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/025/276/fill_400x400_beAnAngel-Logo100x100.png"
         },
         {
           "rel": "original",
-          "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/044/724/crop_original_bp1606638807_D7D7F2F2-289D-4CB9-BB90-942811076745.jpeg"
+          "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/025/276/crop_original_beAnAngel-Logo100x100.png"
         }
       ]
     },
     "links": [
       {
         "rel": "self",
-        "href": "https://api.betterplace.org/de/api_v4/organisations/44724.json"
+        "href": "https://api.betterplace.org/de/api_v4/organisations/25276.json"
       }
     ]
   },
   "vacancies": 1,
   "image": {
-    "description": "TWLOHA",
+    "description": "Fundraising Dinner 2019 Berlin - ",
     "links": [
       {
         "rel": "fill_618x322",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/248/fill_618x322_bp1606639725_B93F1FF4-2406-4419-B3D5-E94E2541FA65.jpeg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/fill_618x322_bp1619204085_IMG_5372.JPG"
       },
       {
         "rel": "fill_270x141",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/248/fill_270x141_bp1606639725_B93F1FF4-2406-4419-B3D5-E94E2541FA65.jpeg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/fill_270x141_bp1619204085_IMG_5372.JPG"
       },
       {
         "rel": "original",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/248/bp1606639725_B93F1FF4-2406-4419-B3D5-E94E2541FA65.jpeg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/bp1619204085_IMG_5372.JPG"
       },
       {
         "rel": "thumb",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/248/thumb_bp1606639725_B93F1FF4-2406-4419-B3D5-E94E2541FA65.jpeg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/thumb_bp1619204085_IMG_5372.JPG"
       },
       {
         "rel": "medium",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/248/medium_bp1606639725_B93F1FF4-2406-4419-B3D5-E94E2541FA65.jpeg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/medium_bp1619204085_IMG_5372.JPG"
       },
       {
         "rel": "regular",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/248/regular_bp1606639725_B93F1FF4-2406-4419-B3D5-E94E2541FA65.jpeg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/regular_bp1619204085_IMG_5372.JPG"
       }
     ]
   },
   "contact": {
-    "name": "Lisa Hermann",
-    "phone": "7048569364",
-    "email": "604b62b68023279802cc9fa39b0734724db433ee13131f3ef0a3837a80eec234@betterplace.jp",
+    "name": "Claire Sommer",
+    "phone": "",
+    "email": "87c8c6ee9dcd018cd01f821f089edca3690c55586284081d4ec05ad3c8e0e5d1@betterplace.jp",
     "picture": {
       "links": [
         {
           "rel": "fill_100x100",
-          "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/598/125/fill_100x100_bp1606638542_profilepic.jpeg"
+          "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/469/299/fill_100x100_bp1584582005_img1_copyright_Nafee_Kurdi.JPG"
         },
         {
           "rel": "original",
-          "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/598/125/crop_original_bp1606638542_profilepic.jpeg"
+          "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/469/299/crop_original_bp1584582005_img1_copyright_Nafee_Kurdi.JPG"
         }
       ]
     },
@@ -977,7 +977,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     ]
   },
   "location_fixed": false,
-  "working_time_selection": "egal wann / nach Vereinbarung",
+  "working_time_selection": "regelmäßig/langfristig",
   "working_time_weekends": [
 
   ],
@@ -987,15 +987,10 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "begins_at": null,
   "ends_at": null,
   "topics": [
-    "Kranke",
-    "Menschen mit Behinderung",
     "Menschenrechte",
-    "Sozial Benachteiligte"
+    "Flüchtlinge & Migranten"
   ],
   "activities": [
-    "besuchen/begleiten",
-    "Gruppen betreuen",
-    "organisieren/planen",
     "PR / Social Media"
   ],
   "imported_from": null,
@@ -1004,42 +999,42 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     "links": [
       {
         "rel": "fill_960x500",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/248/fill_960x500_bp1606639725_B93F1FF4-2406-4419-B3D5-E94E2541FA65.jpeg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/fill_960x500_bp1619204085_IMG_5372.JPG"
       },
       {
         "rel": "fill_730x380",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/248/fill_730x380_bp1606639725_B93F1FF4-2406-4419-B3D5-E94E2541FA65.jpeg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/fill_730x380_bp1619204085_IMG_5372.JPG"
       },
       {
         "rel": "fill_618x322",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/248/fill_618x322_bp1606639725_B93F1FF4-2406-4419-B3D5-E94E2541FA65.jpeg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/fill_618x322_bp1619204085_IMG_5372.JPG"
       },
       {
         "rel": "fill_410x214",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/248/fill_410x214_bp1606639725_B93F1FF4-2406-4419-B3D5-E94E2541FA65.jpeg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/fill_410x214_bp1619204085_IMG_5372.JPG"
       },
       {
         "rel": "fill_270x141",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/248/fill_270x141_bp1606639725_B93F1FF4-2406-4419-B3D5-E94E2541FA65.jpeg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/fill_270x141_bp1619204085_IMG_5372.JPG"
       },
       {
         "rel": "original",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/248/crop_original_bp1606639725_B93F1FF4-2406-4419-B3D5-E94E2541FA65.jpeg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/crop_original_bp1619204085_IMG_5372.JPG"
       }
     ]
   },
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/volunteering/78248.json"
+      "href": "https://api.betterplace.org/de/api_v4/volunteering/78465.json"
     },
     {
       "rel": "platform",
-      "href": "https://www.betterplace.org/de/volunteering/78248-twloha-donations"
+      "href": "https://www.betterplace.org/de/volunteering/78465-fundraising-fuer-be-an-angel-empowerment-fuer-gefluechtete"
     },
     {
       "rel": "inquiries",
-      "href": "https://api.betterplace.org/de/api_v4/clients/%7Bclient_id%7D/volunteering/78248-twloha-donations/inquiries.json",
+      "href": "https://api.betterplace.org/de/api_v4/clients/%7Bclient_id%7D/volunteering/78465-fundraising-fuer-be-an-angel-empowerment-fuer-gefluechtete/inquiries.json",
       "templated": true
     }
   ]

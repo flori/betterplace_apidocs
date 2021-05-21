@@ -233,20 +233,20 @@ Link to the regular donation form.
 
 ```json
 {
-  "id": 142997,
-  "created_at": "2016-04-06T10:48:08+02:00",
-  "updated_at": "2020-11-19T11:57:09+01:00",
-  "title": "Learning supplies",
-  "description": "The equivalent of supplying 60 Back to School children with learning supplies for the semester.",
+  "id": 303218,
+  "created_at": "2021-01-29T09:56:22+01:00",
+  "updated_at": "2021-04-15T08:00:44+02:00",
+  "title": "Skate School 5: Bamyan",
+  "description": "Der Bau unserer fünften Skateschule ist im vollen Gange! Skateistan Bamyan wird Klassenzimmer und einen hochmodernen Skatepark umfassen. Bis zu 800 Kinder pro Woche finden einen sicheren Ort zum Skaten, Freunde finden und lernen.",
   "completed": false,
-  "progress_percentage": 19.63,
-  "donated_amount_in_cents": 39261,
-  "open_amount_in_cents": 160739,
-  "requested_amount_in_cents": 200000,
+  "progress_percentage": 6.44,
+  "donated_amount_in_cents": 32200,
+  "open_amount_in_cents": 467800,
+  "requested_amount_in_cents": 500000,
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/projects/1114/needs/142997.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1114/needs/303218.json"
     },
     {
       "rel": "project",
@@ -254,12 +254,12 @@ Link to the regular donation form.
     },
     {
       "rel": "new_client_donation",
-      "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/projects/1114?need_id=142997",
+      "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/projects/1114?need_id=303218",
       "templated": true
     },
     {
       "rel": "new_donation",
-      "href": "https://www.betterplace.org/de/donate/platform/projects/1114?need_id=142997"
+      "href": "https://www.betterplace.org/de/donate/platform/projects/1114?need_id=303218"
     }
   ]
 }

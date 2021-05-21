@@ -359,7 +359,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "state": "confirmed",
   "donor": null,
   "message": "",
-  "token": "ad6ea3aee8e2612df1db",
+  "token": "40482e26abf27b5da99d",
   "client_reference": null,
   "created_at": "2010-10-28T14:44:49+02:00",
   "receiver_type": "Project",
@@ -372,7 +372,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     },
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/ad6ea3aee8e2612df1db.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/40482e26abf27b5da99d.json"
     }
   ]
 }

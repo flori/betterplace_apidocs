@@ -486,10 +486,10 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 {
   "id": 125,
   "created_at": "2008-02-06T17:10:42+01:00",
-  "updated_at": "2020-11-15T07:26:32+01:00",
+  "updated_at": "2021-04-15T07:48:06+02:00",
   "latitude": 53.55759811401367,
   "longitude": 9.96815967559815,
-  "street": "Kreuzweg 187",
+  "street": "Kirchweg 32",
   "zip": "20357",
   "city": "Hamburg",
   "country": "Deutschland",
@@ -500,7 +500,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "tax_deductible": true,
   "contact": {
     "id": 561728,
-    "name": "Hauke Krämer (display)",
+    "name": "Oskar Schulze (display)",
     "picture": {
       "links": [
         {
