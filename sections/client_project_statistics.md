@@ -64,6 +64,9 @@ that are donated via betterplace.org or other channels.
       <td><code>10100</code></td>
 <td>
 
+⚠️ DEPRECATED!
+This value will be removed in the future.
+
 How many cents are external donations, that means they were given directly
 to the project on other, non-betterplace channels.
 

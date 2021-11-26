@@ -450,7 +450,7 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
       <td><code>somewhere</code></td>
 <td>
 
-Where Betterplace imports volunteering from.
+Where betterplace imports volunteering from.
 
 </td>
     </tr>
@@ -669,7 +669,7 @@ Plain text email-address for direct contact
           </a>
         </th>
       <td><code>object</code></td>
-      <td><code>https://betterplace-assets.betterplace.org/…</code></td>
+      <td><code></code></td>
 <td>
 
 User profile picture or a fallback image
@@ -1005,30 +1005,30 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "total_entries": 614,
+  "total_entries": 557,
   "offset": 3,
-  "total_pages": 205,
+  "total_pages": 186,
   "current_page": 2,
   "per_page": 3,
   "data": [
     {
       "id": 7268,
       "created_at": "2013-03-11T18:00:54+01:00",
-      "updated_at": "2021-04-22T04:30:39+02:00",
+      "updated_at": "2021-11-01T09:51:47+01:00",
       "latitude": 52.52,
       "longitude": 13.405,
-      "street": "Schwarzer Weg 148",
+      "street": "Mühlgasse 175",
       "zip": "",
       "city": "Berlin",
       "country": "Deutschland",
-      "content_updated_at": "2017-11-14T15:02:11+01:00",
+      "content_updated_at": "2021-05-25T08:21:41+02:00",
       "title": "\"Pate oder Patin werden und mit einem Neuköllner Kind die Welt neu entdecken\"",
       "description": "Bevor wir uns hier in Details verlieren, lassen wir erst einmal unsere Patin Linda zu Wort kommen, denn wer könnte besser Beschreiben, was ein Engagement in unserem Projekt ausmacht, als die Engagierten selbst?\r\nhttp://neukoellner-talente.de/paten/paten-stellen-sich-vor/\r\n\r\nWer neugierig ist und noch mehr wissen will, kann gerne weiter lesen oder sich gleich bei uns im Büro melden: 030 - 62 73 80 14\r\n\r\n---\r\n\r\nhttp://neukoellner-talente.de/\r\n\r\nKinder brauchen Zeit, viel Aufmerksamkeit und eine individuelle Förderung, um ihre Stärken und Begabungen zu entdecken und zu entfalten. Mit ihrem Patenschaftsprojekt »Neuköllner Talente« wendet sich die Bürgerstiftung Neukölln an Kinder im Grundschulalter, die entdecken und zeigen wollen, was in ihnen steckt. Vorrangiges Ziel ist es, durch eine intensive 1:1 Betreuung im Rahmen einer Patenschaft, benachteiligten Kindern in dem multiethnischen Berliner Bezirk die Chance zum Entdecken ihrer Interessen und Begabungen, und die Möglichkeit zur Teilhabe zu eröffnen. ",
       "carrier": {
         "latitude": 52.46874,
         "longitude": 13.4341,
         "name": "Bürgerstiftung Neukölln",
-        "street": "Mühlenweg 24",
+        "street": "Gerhart-Hauptmann-Straße 162",
         "city": "Berlin",
         "zip": "12051",
         "country": "Deutschland",
@@ -1090,9 +1090,9 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         ]
       },
       "contact": {
-        "name": "Violetta Huber",
+        "name": "Jonne Mai",
         "phone": "030 627 380 14",
-        "email": "e55c2fd91bc2127a943090298a9387b941d812290b169bc8d3cbe833e3fbd410@betterplace.jp",
+        "email": "e5bef53dd0c2c761b21181e5190d38e9e3535615a5844f4ef63603ed498eec31@betterplace.jp",
         "picture": {
           "links": [
             {
@@ -1177,21 +1177,21 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     {
       "id": 7435,
       "created_at": "2013-03-20T10:22:43+01:00",
-      "updated_at": "2021-02-08T09:31:43+01:00",
+      "updated_at": "2021-07-12T09:09:15+02:00",
       "latitude": 52.5077,
       "longitude": 13.3319,
-      "street": "Am Bahnhof 51",
+      "street": "Rosenweg 36",
       "zip": "10623",
       "city": "Berlin",
       "country": "Deutschland",
-      "content_updated_at": "2020-12-04T12:29:55+01:00",
+      "content_updated_at": "2021-06-11T16:58:31+02:00",
       "title": "Medizinische Hilfe für obdachlose Menschen - Ambulanz, Arztmobil, Krankenwohnung",
-      "description": "++ Medizinische Hilfe für obdachlose Menschen ++ Wir behandeln obdachlose Menschen, die keine Krankenversicherung haben und nicht in Arztpraxen gehen. Angebote: Krankenwohnung in der Turmstraße, medizinische Ambulanz  am Bahnhof Zoo, Arztmobil. Das Arztmobil ist ein zu einer mobilen Praxis ausgebauter Kleintransporter und fährt dahin, wo sich Obdachlose aufhalten: an bekannte Szeneplätze, vor Suppenküchen etc. Für alle Angebote suchen wir ehrenamtlich engagierte Ärztinnen und Ärzte (mit Approbation) aller Fachrichtungen, gerne auch im Ruhestand, die in der Krankenwhnung, der med. Ambulanz oder im Arztmobil helfen wollen. Der ehrenamtliche Einsatz kann flexibel eingeteilt werden, es gibt eine Aufwandsentschädigung.",
+      "description": "Wir bieten medizinische Hilfe für obdachlose Menschen, die keine Krankenversicherung haben und nicht in Arztpraxen gehen. Angebote: Krankenwohnung in der Turmstraße, medizinische Ambulanz  am Bahnhof Zoo, Arztmobil. Das Arztmobil ist ein zu einer mobilen Praxis ausgebauter Kleintransporter und fährt dahin, wo sich Obdachlose aufhalten: an bekannte Szeneplätze, vor Suppenküchen etc. Für alle Angebote suchen wir ehrenamtlich engagierte Ärztinnen und Ärzte (mit Approbation) aller Fachrichtungen, gerne auch im Ruhestand, die in der Krankenwhnung, der med. Ambulanz oder im Arztmobil helfen wollen. Der ehrenamtliche Einsatz kann flexibel eingeteilt werden, es gibt eine Aufwandsentschädigung.",
       "carrier": {
         "latitude": 52.55973,
         "longitude": 13.37038,
         "name": "Caritasverband für das Erzbistum Berlin e.V.",
-        "street": "Pfarrgasse 128",
+        "street": "Kapellenweg 71",
         "city": "Berlin",
         "zip": "12203",
         "country": "Deutschland",
@@ -1253,9 +1253,9 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         ]
       },
       "contact": {
-        "name": "Hiranur Kaiser",
+        "name": "李伟 Pfeffer",
         "phone": "030666331279",
-        "email": "6830a0fcee8ad8892968f447efdb7651d760a9b265a4639e6430a0097279478f@betterplace.jp",
+        "email": "5d5be6713f2b497162bd9753b41d70831ff0748ad581862d481960a9f2961872@betterplace.jp",
         "picture": {
           "fallback": true,
           "links": [
@@ -1340,7 +1340,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     {
       "id": 7482,
       "created_at": "2013-03-24T16:15:22+01:00",
-      "updated_at": "2021-02-19T15:42:02+01:00",
+      "updated_at": "2021-07-26T00:44:09+02:00",
       "latitude": 5.9599914,
       "longitude": 10.1554066,
       "street": null,
@@ -1354,7 +1354,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         "latitude": 5.9599914,
         "longitude": 10.1554066,
         "name": "Global Welfare Association (GLOWA)",
-        "street": "Starenweg 157",
+        "street": "Sandweg 133",
         "city": "Bamenda",
         "zip": "+237",
         "country": "Kamerun",
@@ -1416,9 +1416,9 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         ]
       },
       "contact": {
-        "name": "Markus Wiesner",
+        "name": "Yağmur Hiller",
         "phone": "+237 70244662",
-        "email": "d1386baa1bf196ecdff2877762599698db879dbeda97d93d8899aa950842b36e@betterplace.jp",
+        "email": "2216fc6b4947555d8cabda570e7286baf1ce1a98e9ac21b40e746dc304a7d3cf@betterplace.jp",
         "picture": {
           "links": [
             {

@@ -158,7 +158,7 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> â
     {
       "tag": "Trier",
       "slug": "Trier",
-      "projects_count": 38,
+      "projects_count": 32,
       "links": [
         {
           "rel": "projects",
@@ -180,7 +180,7 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> â
     {
       "tag": "Familien",
       "slug": "Familien",
-      "projects_count": 15,
+      "projects_count": 11,
       "links": [
         {
           "rel": "projects",

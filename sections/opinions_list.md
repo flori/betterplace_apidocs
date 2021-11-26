@@ -2,16 +2,14 @@
 # Opinions List
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/projects/1114/opinions.json?order=confirmed_at%3ADESC
+GET https://api.betterplace.org/de/api_v4/projects/1114/opinions.json?facets=has_message%3Atrue&order=confirmed_at%3ADESC
 ```
 
-A list of betterplace.org projects opinions (donate money).
-(There is no details view for opinions.)
+A list of betterplace.org projects or fundraising event opinions (donate money).
+There is no details view for opinions.
 
-```Rebol
-GET https://api.betterplace.org/de/api_v4/fundraising_events/19267/opinions.json?facets=has_message:true&order=confirmed_at:DESC
-```
-A list of betterplace.org fundraising event opinions (donate money).
+* Example for project opinions `…/api_v4/projects/1114/opinions.json`
+* Example for fundraising event opinions `…/api_v4/fundraising_events/19267/opinions.json`
 
 Results are contained in a *data* attribute.
 
@@ -74,6 +72,22 @@ list on the betterplae project details page</a>.<br>
 <li><code>amount_in_cents:ASC/DESC</code>
 </ul>
 It is possible to set multiple order parameters.
+<a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
+
+
+</td>
+  </tr>
+  <tr>
+    <th align="left">facets</th>
+    <td><code>has_message:true</code></td>
+    <td>no</td>
+<td>
+
+Filter the result set.
+Documented and supported filters are:
+<ul>
+  <li><code>has_message:true/false</code> – did the donor add a message to her donation
+</ul>
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 
 
@@ -417,7 +431,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "matched": false,
       "score": "positive",
       "author": {
-        "name": "Vera Forster",
+        "name": "Владимир Пережогин",
         "picture": {
           "links": [
             {

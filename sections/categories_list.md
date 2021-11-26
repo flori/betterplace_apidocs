@@ -156,7 +156,7 @@ Permalink to betterplace.org discover category
     {
       "id": 2,
       "created_at": "2016-12-13T16:17:58+01:00",
-      "updated_at": "2019-08-23T15:43:38+02:00",
+      "updated_at": "2021-11-04T09:09:35+01:00",
       "name": "Kinder und Jugend",
       "slug": "kinder",
       "links": [

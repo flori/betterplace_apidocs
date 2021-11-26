@@ -114,10 +114,9 @@ Max 25.000 characters.
       <td><code>true</code></td>
 <td>
 
-True if the fundraising event is marked as tax deductible and
-can only support tax deductible projects.
-If so, users can request a tax receipt for their donation
-that can be used with the German tax authorities.
+⚠️ DEPRECATED!
+
+This value is deprecated and will be removed.
 
 
 </td>
@@ -143,7 +142,7 @@ betterplace.org instead!
     </tr>
     <tr>
       <th align="left">closed_at</th>
-      <td><code>string</code></td>
+      <td><code>null &#124; string</code></td>
       <td><code>"1994-11-05T13:15:30Z"</code></td>
 <td>
 
@@ -155,7 +154,7 @@ by the manager.
     </tr>
     <tr>
       <th align="left">activate_donations_at</th>
-      <td><code>string</code></td>
+      <td><code>null &#124; string</code></td>
       <td><code>"1994-11-05T13:15:30Z"</code></td>
 <td>
 
@@ -182,7 +181,7 @@ Count of confirmed donations for this fundraising event
 <td>
 
 ⚠️ DEPRECATED!
-This value is deprecated and will be removed after 2021-01-01.
+This value is deprecated and will be removed after 2021-12-31.
 Please update your code to use the `donations_count`.
 
 Number of unique donors, based on the payment-email-address
@@ -202,7 +201,7 @@ How many cents were already raised with the fundraising event
     </tr>
     <tr>
       <th align="left">requested_amount_in_cents</th>
-      <td><code>number</code></td>
+      <td><code>null &#124; number</code></td>
       <td><code>12382</code></td>
 <td>
 
@@ -224,7 +223,7 @@ How many cents were already forwarded to a project.
     </tr>
     <tr>
       <th align="left">progress_percentage</th>
-      <td><code>number</code></td>
+      <td><code>null &#124; number</code></td>
       <td><code>5</code></td>
 <td>
 
@@ -652,7 +651,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "progress_percentage": null,
   "contact": {
     "id": 397832,
-    "name": "Stefan Moritz (display)",
+    "name": "Ethan عبد الرشيد (display)",
     "picture": {
       "links": [
         {

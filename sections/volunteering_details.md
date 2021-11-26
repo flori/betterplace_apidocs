@@ -2,7 +2,7 @@
 # Volunteering Details ⇄ [List](volunteering_list.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/volunteering/78465.json
+GET https://api.betterplace.org/de/api_v4/volunteering/78662.json
 ```
 
 The details of a betterplace.org volunteering offer (donate time).
@@ -22,7 +22,7 @@ This resource is not available at the moment.
   </tr>
   <tr>
     <th align="left">id</th>
-    <td><code>78465</code></td>
+    <td><code>78662</code></td>
     <td>yes</td>
 <td>
 
@@ -324,7 +324,7 @@ Possible results: "consulting/coaching", "crafting/gardening", "doing sports",
       <td><code>somewhere</code></td>
 <td>
 
-Where Betterplace imports volunteering from.
+Where betterplace imports volunteering from.
 
 </td>
     </tr>
@@ -543,7 +543,7 @@ Plain text email-address for direct contact
           </a>
         </th>
       <td><code>object</code></td>
-      <td><code>https://betterplace-assets.betterplace.org/…</code></td>
+      <td><code></code></td>
 <td>
 
 User profile picture or a fallback image
@@ -879,96 +879,97 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "id": 78465,
-  "created_at": "2021-04-23T20:54:45+02:00",
-  "updated_at": "2021-04-23T20:57:24+02:00",
-  "latitude": 52.4936644,
-  "longitude": 13.3850855,
-  "street": null,
-  "zip": null,
-  "city": null,
-  "country": null,
-  "content_updated_at": "2021-04-23T20:57:24+02:00",
-  "title": "Fundraising für Be an Angel - empowerment für Geflüchtete",
-  "description": "Seit 2015 engagiert sich Be an Angel e.V. für das Empowerment von Geflüchteten. Rein aus Spenden finanziert. In Deutschland und an den EU Aussengrenzen. Aktuell mit fünf vom Verein gemieteten Wohnungen in Athen. Wir sind klein, haben eine hohe Reichweite, sind sehr agil und müssen uns dringend im Bereich Fundraising und Social Media besser aufstellen. Wir suchen präzise:n, zuverlässige Enthusiast:innen mit Know-how.\r\nIm Bereich Fundraising mit Vorwissen, bestenfalls eigenen Kontakten. Generell für den Verein, aber eben auch projektbezogen wie z.B. für die Finanzierung der Athener Wohnungen.\r\nIm Bereich Social-Media ebenfalls mit Vorwissen aus dem Bereich PR, Marketing, Journalismus.\r\nEnglisch fliessend zwingend notwenig, textsicher. \r\nMonatlich fallen ca. drei Tage an.\r\nDer Verein: https://beanangel.direct. Das vom Verein initiierte Restaurant: https://www.kreuzberger-himmel.de\r\nKontakt: andreas@be-an-angel.de\r\nWir freuen uns auf ein Kennenlernen! Und hoffentlich auf eine konstruktive Partnerschaft!\r\n",
+  "id": 78662,
+  "created_at": "2021-11-09T13:46:57+01:00",
+  "updated_at": "2021-11-09T13:48:35+01:00",
+  "latitude": 51.2354,
+  "longitude": 6.84045,
+  "street": "Eichenstraße 96",
+  "zip": "40625",
+  "city": "Düsseldorf",
+  "country": "Deutschland",
+  "content_updated_at": "2021-11-09T13:48:35+01:00",
+  "title": "Lebensbegrenzt erkrankte Kinder, Jugendliche und junge Erwachsene ehrenamtlich betreuen",
+  "description": "Sie fühlen sich der Kinder- und Jugendhospizarbeit verbunden, bringen eine positive Lebenseinstellung mit und möchten ein wenig von Ihrer Zeit geben? Dann freuen wir uns, von Ihnen zu hören! Wir begleiten Familien mit lebensverkürzend und lebensbedrohlich erkrankten Kindern und Jugendlichen.\r\n\r\nUnsere ehrenamtlichen Mitarbeiter*innen beschäftigen sich mit den betroffenen Kindern und Jugendlichen und/oder den gesunden Geschwistern - sie schenken Zeit und sind einfach nur da!\r\n\r\nIn einem intensiven Befähigungsseminar werden Sie auf die verschiedenen Einsätze vorbereitet und entscheiden selbst, welche Aufgaben Sie übernehmen möchten. Voraussetzung für die Teilnahme an dem Seminar und die spätere Mitarbeit ist ein aktuelles, einwandfreies, polizeilich erweitertes Führungszeugnis. Außerdem sind Sie mindestens 20 Jahre alt und nicht älter als 70 Jahre, per E-Mail erreichbar und offen für digitale Kommunikationswege. Sie sollten durchschnittlich 2 Mal circa 4 Stunden Zeit pro Monat für das Ehrenamt bei uns einplanen können.\r\n\r\nSicher gibt es noch viele Fragen - Wir freuen uns auf ein persönliches Gespräch, in dem wir Sie kennenlernen dürfen und alles Weitere besprechen können.\r\n\r\n",
   "carrier": {
-    "latitude": 52.4936644,
-    "longitude": 13.3850855,
-    "name": "Be an Angel e.V.",
-    "street": "Talstraße 40",
-    "city": "Berlin",
-    "zip": "10965",
+    "latitude": 51.23564,
+    "longitude": 6.84042,
+    "name": "Kinder- und  Jugendhospiz Regenbogenland",
+    "street": "Stettiner Straße 82",
+    "city": "Düsseldorf",
+    "zip": "40625",
     "country": "Deutschland",
     "picture": {
       "links": [
         {
           "rel": "fill_100x100",
-          "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/025/276/fill_100x100_beAnAngel-Logo100x100.png"
+          "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/002/773/fill_100x100_RBL_Logo_NEU_CMYK_10cm.jpg"
         },
         {
           "rel": "fill_200x200",
-          "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/025/276/fill_200x200_beAnAngel-Logo100x100.png"
+          "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/002/773/fill_200x200_RBL_Logo_NEU_CMYK_10cm.jpg"
         },
         {
           "rel": "fill_400x400",
-          "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/025/276/fill_400x400_beAnAngel-Logo100x100.png"
+          "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/002/773/fill_400x400_RBL_Logo_NEU_CMYK_10cm.jpg"
         },
         {
           "rel": "original",
-          "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/025/276/crop_original_beAnAngel-Logo100x100.png"
+          "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/002/773/crop_original_RBL_Logo_NEU_CMYK_10cm.jpg"
         }
       ]
     },
     "links": [
       {
         "rel": "self",
-        "href": "https://api.betterplace.org/de/api_v4/organisations/25276.json"
+        "href": "https://api.betterplace.org/de/api_v4/organisations/2773.json"
       }
     ]
   },
-  "vacancies": 1,
+  "vacancies": 10,
   "image": {
-    "description": "Fundraising Dinner 2019 Berlin - ",
+    "description": "Betreuungssituation",
     "links": [
       {
         "rel": "fill_618x322",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/fill_618x322_bp1619204085_IMG_5372.JPG"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/662/fill_618x322_bp1636462016_DSC_1233-1924x1281.jpg"
       },
       {
         "rel": "fill_270x141",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/fill_270x141_bp1619204085_IMG_5372.JPG"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/662/fill_270x141_bp1636462016_DSC_1233-1924x1281.jpg"
       },
       {
         "rel": "original",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/bp1619204085_IMG_5372.JPG"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/662/bp1636462016_DSC_1233-1924x1281.jpg"
       },
       {
         "rel": "thumb",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/thumb_bp1619204085_IMG_5372.JPG"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/662/thumb_bp1636462016_DSC_1233-1924x1281.jpg"
       },
       {
         "rel": "medium",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/medium_bp1619204085_IMG_5372.JPG"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/662/medium_bp1636462016_DSC_1233-1924x1281.jpg"
       },
       {
         "rel": "regular",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/regular_bp1619204085_IMG_5372.JPG"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/662/regular_bp1636462016_DSC_1233-1924x1281.jpg"
       }
     ]
   },
   "contact": {
-    "name": "Claire Sommer",
+    "name": "Benjamin Engel",
     "phone": "",
-    "email": "87c8c6ee9dcd018cd01f821f089edca3690c55586284081d4ec05ad3c8e0e5d1@betterplace.jp",
+    "email": "fa03fa88b479e8124fcbeb3efa501add0a963e185275590c57e072fafaf6d21e@betterplace.jp",
     "picture": {
+      "fallback": true,
       "links": [
         {
           "rel": "fill_100x100",
-          "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/469/299/fill_100x100_bp1584582005_img1_copyright_Nafee_Kurdi.JPG"
+          "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.jpg"
         },
         {
           "rel": "original",
-          "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/469/299/crop_original_bp1584582005_img1_copyright_Nafee_Kurdi.JPG"
+          "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.jpg"
         }
       ]
     },
@@ -976,7 +977,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
     ]
   },
-  "location_fixed": false,
+  "location_fixed": true,
   "working_time_selection": "regelmäßig/langfristig",
   "working_time_weekends": [
 
@@ -987,11 +988,12 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "begins_at": null,
   "ends_at": null,
   "topics": [
-    "Menschenrechte",
-    "Flüchtlinge & Migranten"
+    "Kinder & Jugendliche",
+    "Kranke",
+    "Menschen mit Behinderung"
   ],
   "activities": [
-    "PR / Social Media"
+    "besuchen/begleiten"
   ],
   "imported_from": null,
   "import_information": null,
@@ -999,42 +1001,42 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     "links": [
       {
         "rel": "fill_960x500",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/fill_960x500_bp1619204085_IMG_5372.JPG"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/662/fill_960x500_bp1636462016_DSC_1233-1924x1281.jpg"
       },
       {
         "rel": "fill_730x380",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/fill_730x380_bp1619204085_IMG_5372.JPG"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/662/fill_730x380_bp1636462016_DSC_1233-1924x1281.jpg"
       },
       {
         "rel": "fill_618x322",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/fill_618x322_bp1619204085_IMG_5372.JPG"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/662/fill_618x322_bp1636462016_DSC_1233-1924x1281.jpg"
       },
       {
         "rel": "fill_410x214",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/fill_410x214_bp1619204085_IMG_5372.JPG"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/662/fill_410x214_bp1636462016_DSC_1233-1924x1281.jpg"
       },
       {
         "rel": "fill_270x141",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/fill_270x141_bp1619204085_IMG_5372.JPG"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/662/fill_270x141_bp1636462016_DSC_1233-1924x1281.jpg"
       },
       {
         "rel": "original",
-        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/465/crop_original_bp1619204085_IMG_5372.JPG"
+        "href": "https://betterplace-assets.betterplace.org/uploads/bettertime/job_description/profile_picture/000/078/662/crop_original_bp1636462016_DSC_1233-1924x1281.jpg"
       }
     ]
   },
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/volunteering/78465.json"
+      "href": "https://api.betterplace.org/de/api_v4/volunteering/78662.json"
     },
     {
       "rel": "platform",
-      "href": "https://www.betterplace.org/de/volunteering/78465-fundraising-fuer-be-an-angel-empowerment-fuer-gefluechtete"
+      "href": "https://www.betterplace.org/de/volunteering/78662-lebensbegrenzt-erkrankte-kinder-jugendliche-und-junge-erwachsene-ehrenamtlich-betreuen"
     },
     {
       "rel": "inquiries",
-      "href": "https://api.betterplace.org/de/api_v4/clients/%7Bclient_id%7D/volunteering/78465-fundraising-fuer-be-an-angel-empowerment-fuer-gefluechtete/inquiries.json",
+      "href": "https://api.betterplace.org/de/api_v4/clients/%7Bclient_id%7D/volunteering/78662-lebensbegrenzt-erkrankte-kinder-jugendliche-und-junge-erwachsene-ehrenamtlich-betreuen/inquiries.json",
       "templated": true
     }
   ]

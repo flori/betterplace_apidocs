@@ -151,18 +151,18 @@ The parent object of this picture.
 
 ```json
 {
-  "id": 238422,
-  "created_at": "2020-11-19T12:22:21+01:00",
-  "updated_at": "2020-11-19T12:25:19+01:00",
-  "description": "Our student in front of the famous Buddha niche in Bamyan",
+  "id": 255760,
+  "created_at": "2021-06-02T12:05:23+02:00",
+  "updated_at": "2021-06-02T12:09:11+02:00",
+  "description": "Students shredding the skatepark together",
   "links": [
     {
       "rel": "image",
-      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/238422/image.jpeg"
+      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/255760/image.jpg"
     },
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/238422.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/255760.json"
     },
     {
       "rel": "parent",

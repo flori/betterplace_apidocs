@@ -149,13 +149,11 @@ any of the following HTML tags:
             ↓author
           </a>
         </th>
-      <td><code>string</code></td>
-      <td><code>"Till B."</code></td>
+      <td><code>null &#124; object</code></td>
+      <td><code></code></td>
 <td>
 
-Display name of a betterplace.org user.
-Possible formats: "Till B.", "T. Behnke", "Till Behnke"
-
+The user that wrote the blog post.
 
 </td>
     </tr>

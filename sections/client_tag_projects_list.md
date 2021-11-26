@@ -1,7 +1,7 @@
 
 # Client tag projects list
 
-```Rebol
+```Cirru
 GET https://api.betterplace.org/de/api_v4/clients/volksfreund/tags/bildung/projects.json
 ```
 

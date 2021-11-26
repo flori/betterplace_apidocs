@@ -311,8 +311,7 @@ future.
 The street of the donors address.
 Used to issue a donation receipt if the donation is tax deductible.
 
-This field is required by default, but optional with
-validate_address=false.
+This field is required by default, but optional with validate_address=false.
 
 
 </td>
@@ -329,7 +328,7 @@ validate_address=false.
 The city of the donors address.
 Used to issue a donation receipt if the donation is tax deductible.
 
-This field is required default, but optional with validate_address=false.
+This field is required by default, but optional with validate_address=false.
 
 
 </td>

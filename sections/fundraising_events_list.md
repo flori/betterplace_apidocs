@@ -2,7 +2,7 @@
 # Fundraising Event List ⇄ [Details](fundraising_event_details.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/fundraising_events.json?facets=tax_deductible%3Atrue&order=rank%3ADESC&q=Die+Eckerts&scope=location
+GET https://api.betterplace.org/de/api_v4/fundraising_events.json?facets=closed%3Afalse&order=rank%3ADESC&q=Die+Eckerts&scope=location
 ```
 
 A list of betterplace.org fundraising events (donate money).
@@ -53,7 +53,7 @@ Search query. The searches behaviour is based on the scope.
   </tr>
   <tr>
     <th align="left">facets</th>
-    <td><code>tax_deductible:true</code></td>
+    <td><code>closed:false</code></td>
     <td>no</td>
 <td>
 
@@ -61,12 +61,11 @@ Filter the result set.
 <br>
 It is strongly recommended to <strong>specify facets</strong> with each request.
 A recommended set of facets is
-<code>tax_deductible:true| closed:false| prohibit_donations:false</code>
+<code>closed:false| prohibit_donations:false</code>
 (without the spaces) which only shows active fundraising events that can receive donations.
 <br>
 <em>Supported filters are:</em>
 <ul>
-<li><code>tax_deductible:true/false</code>
 <li><code>prohibit_donations:true/false</code>
 <li><code>completed:true/false</code> –
 is this fundraising event fully financed (100 %)? See <code>completed_at</code>
@@ -94,15 +93,13 @@ It is strongly recommended to <strong>specify an order</strong> with each reques
 The default order might change at any time without notice.
 A recommended order is
 <code> score:desc|closed:asc|completed:asc|rank:desc|last_donation_at:desc</code>
-(without the spaces). This is the order betterplace.org uses
-<a href="https://www.betterplace.org/en/projects/list?search_form%5Bfilters%5D%5Btype%5D=FundraisingEvent">for the fundraising event list</a>.
+(without the spaces).
 <br>
 <em>Supported orders are:</em>
 <ul>
 <li><code>score:ASC/DESC</code> – as provided by the search engine whenever a search term
 is given.
 <li><code>rank:ASC/DESC</code> – a betterplace.org-specific, platform-wide activity indicator
-<li><code>tax_deductible:ASC/DESC</code> – true (1) or false (0)
 <li><code>last_donation_at:ASC/DESC</code>
 <li><code>completed:ASC/DESC</code>
 <li><code>closed:ASC/DESC</code>
@@ -197,10 +194,9 @@ Max 25.000 characters.
       <td><code>true</code></td>
 <td>
 
-True if the fundraising event is marked as tax deductible and
-can only support tax deductible projects.
-If so, users can request a tax receipt for their donation
-that can be used with the German tax authorities.
+⚠️ DEPRECATED!
+
+This value is deprecated and will be removed.
 
 
 </td>
@@ -226,7 +222,7 @@ betterplace.org instead!
     </tr>
     <tr>
       <th align="left">closed_at</th>
-      <td><code>string</code></td>
+      <td><code>null &#124; string</code></td>
       <td><code>"1994-11-05T13:15:30Z"</code></td>
 <td>
 
@@ -238,7 +234,7 @@ by the manager.
     </tr>
     <tr>
       <th align="left">activate_donations_at</th>
-      <td><code>string</code></td>
+      <td><code>null &#124; string</code></td>
       <td><code>"1994-11-05T13:15:30Z"</code></td>
 <td>
 
@@ -265,7 +261,7 @@ Count of confirmed donations for this fundraising event
 <td>
 
 ⚠️ DEPRECATED!
-This value is deprecated and will be removed after 2021-01-01.
+This value is deprecated and will be removed after 2021-12-31.
 Please update your code to use the `donations_count`.
 
 Number of unique donors, based on the payment-email-address
@@ -285,7 +281,7 @@ How many cents were already raised with the fundraising event
     </tr>
     <tr>
       <th align="left">requested_amount_in_cents</th>
-      <td><code>number</code></td>
+      <td><code>null &#124; number</code></td>
       <td><code>12382</code></td>
 <td>
 
@@ -307,7 +303,7 @@ How many cents were already forwarded to a project.
     </tr>
     <tr>
       <th align="left">progress_percentage</th>
-      <td><code>number</code></td>
+      <td><code>null &#124; number</code></td>
       <td><code>5</code></td>
 <td>
 
@@ -717,164 +713,52 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "total_entries": 1412,
+  "total_entries": 11606,
   "offset": 0,
-  "total_pages": 471,
+  "total_pages": 3869,
   "current_page": 1,
   "per_page": 3,
   "data": [
     {
-      "id": 37092,
-      "created_at": "2021-01-23T17:32:07+01:00",
-      "updated_at": "2021-05-17T20:45:02+02:00",
-      "content_updated_at": "2021-01-27T18:43:10+01:00",
-      "title": "Shinunity für die Artenvielfalt",
-      "description": "<div>Hallo zusammen,<br>ich möchte mit Eurer Hilfe zusammen WWF Deutschland unterstützen. <br>WWF macht in meinen Augen sehr gute Arbeit, wenn um Tiere und unsere Umwelt geht.<br><br>WWF und ich würden uns sehr freuen, wenn wir uns zusammen schließen und WWF unterstützen.<br>Lasst uns die Artenvielfahlt erhalten und sie vielleicht sogar wieder etwas steigern :).</div>",
-      "tax_deductible": true,
-      "donations_prohibited": false,
-      "closed_at": null,
-      "activate_donations_at": null,
-      "donations_count": 4,
-      "donor_count": 2,
-      "donated_amount_in_cents": 11337,
-      "requested_amount_in_cents": null,
-      "forwarded_amount_in_cents": 11337,
-      "progress_percentage": null,
-      "contact": {
-        "id": 600618,
-        "name": "Violetta Wiesner (display)",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/600/618/fill_100x100_bp1609499234_shinrai_avatar.png"
-            },
-            {
-              "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/600/618/crop_original_bp1609499234_shinrai_avatar.png"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/de/users/600618"
-          },
-          {
-            "rel": "contact_data",
-            "href": "https://api.betterplace.org/de/api_v4/users/600618/contact_data.json"
-          }
-        ]
-      },
-      "profile_picture": {
-        "fallback": true,
-        "links": [
-          {
-            "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_960x500_default.jpg"
-          },
-          {
-            "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_730x380_default.jpg"
-          },
-          {
-            "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_618x322_default.jpg"
-          },
-          {
-            "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_410x214_default.jpg"
-          },
-          {
-            "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_270x141_default.jpg"
-          },
-          {
-            "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/crop_original_default.jpg"
-          }
-        ]
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/37092.json"
-        },
-        {
-          "rel": "featured_projects",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/37092/featured_projects.json"
-        },
-        {
-          "rel": "blog_posts",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/37092/blog_posts.json"
-        },
-        {
-          "rel": "forwardings",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/37092/forwardings.json"
-        },
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/de/fundraising-events/37092-shinunity-fuer-die-artenvielfalt"
-        },
-        {
-          "rel": "opinions",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/37092/opinions.json"
-        },
-        {
-          "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/fundraising-events/37092",
-          "templated": true
-        },
-        {
-          "rel": "new_donation",
-          "href": "https://www.betterplace.org/de/donate/platform/fundraising-events/37092"
-        },
-        {
-          "rel": "new_message",
-          "href": "https://www.betterplace.org/de/messages/new?recipient=600618"
-        }
-      ]
-    },
-    {
-      "id": 36177,
-      "created_at": "2020-10-21T16:31:31+02:00",
-      "updated_at": "2021-05-17T20:44:11+02:00",
-      "content_updated_at": "2020-11-05T16:50:19+01:00",
-      "title": "Loot Für Die Welt 2020 #lfdw7",
-      "description": "<div>Loot für die Welt geht am 14. &amp; 15. November 2020 in die siebte Runde! Wir  sammeln einmal mehr mit der besten Community der Welt (euch) Geld für den guten Zweck! <br><br>Eure Spende kommt dabei gleich drei gemeinnützigen Vereinen zugute! Dieses Jahr spendet ihr an das Deutsches Kinderhilfswerk e.V., den Dunkelziffer e.V. und das Berliner Tierheim!</div>",
+      "id": 401,
+      "created_at": "2008-09-12T16:50:38+02:00",
+      "updated_at": "2021-08-18T11:03:22+02:00",
+      "content_updated_at": "2021-07-19T10:22:58+02:00",
+      "title": "Die Eckerts",
+      "description": "<div>In Deutschland gibt es 12.673 Telefonbucheinträge mit dem Namen \"Eckert\". Wenn jeder davon nur einen Euro im Monat spenden würde, kämen 152.076 Euro zusammen. <br><br>Aber fangen wir erst mal mit fünf Eckerts (dafür etwas mehr als ein Euro im Monat) an - bringt auch schon eine ordentliche Summe zusammen, mit der wir hier auf betterplace.org was Gutes tun können.</div>",
       "tax_deductible": true,
       "donations_prohibited": true,
-      "closed_at": "2021-03-24T16:30:11+01:00",
+      "closed_at": "2019-07-18T16:25:54+02:00",
       "activate_donations_at": null,
-      "donations_count": 5483,
-      "donor_count": 4943,
-      "donated_amount_in_cents": 33002278,
-      "requested_amount_in_cents": null,
-      "forwarded_amount_in_cents": 33002277,
-      "progress_percentage": null,
+      "donations_count": 170,
+      "donor_count": 13,
+      "donated_amount_in_cents": 92602,
+      "requested_amount_in_cents": 100000,
+      "forwarded_amount_in_cents": 92602,
+      "progress_percentage": 92,
       "contact": {
-        "id": 565409,
-        "name": "James\tJacob Schulze (display)",
+        "id": 6,
+        "name": "Nadine Scharf (display)",
         "picture": {
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/565/409/fill_100x100_bp1603986950_2020_LFDW_7_Merch_frei.png"
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/000/006/fill_100x100_bp1584569618_original_eckert.png"
             },
             {
               "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/565/409/crop_original_bp1603986950_2020_LFDW_7_Merch_frei.png"
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/000/006/crop_original_bp1584569618_original_eckert.png"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/de/users/565409"
+            "href": "https://www.betterplace.org/de/users/6"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/de/api_v4/users/565409/contact_data.json"
+            "href": "https://api.betterplace.org/de/api_v4/users/6/contact_data.json"
           }
         ]
       },
@@ -882,94 +766,90 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         "links": [
           {
             "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/036/177/fill_960x500_bp1603970265_lfdw5.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/401/fill_960x500_original_eckert_absolute.png"
           },
           {
             "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/036/177/fill_730x380_bp1603970265_lfdw5.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/401/fill_730x380_original_eckert_absolute.png"
           },
           {
             "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/036/177/fill_618x322_bp1603970265_lfdw5.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/401/fill_618x322_original_eckert_absolute.png"
           },
           {
             "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/036/177/fill_410x214_bp1603970265_lfdw5.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/401/fill_410x214_original_eckert_absolute.png"
           },
           {
             "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/036/177/fill_270x141_bp1603970265_lfdw5.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/401/fill_270x141_original_eckert_absolute.png"
           },
           {
             "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/036/177/crop_original_bp1603970265_lfdw5.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/401/crop_original_original_eckert_absolute.png"
           }
         ]
       },
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/36177.json"
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/401.json"
         },
         {
           "rel": "featured_projects",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/36177/featured_projects.json"
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/401/featured_projects.json"
         },
         {
           "rel": "blog_posts",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/36177/blog_posts.json"
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/401/blog_posts.json"
         },
         {
           "rel": "forwardings",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/36177/forwardings.json"
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/401/forwardings.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/de/fundraising-events/36177-loot-fuer-die-welt-2020-lfdw7"
+          "href": "https://www.betterplace.org/de/fundraising-events/401-die-eckerts"
         },
         {
           "rel": "opinions",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/36177/opinions.json"
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/401/opinions.json"
         },
         {
           "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/fundraising-events/36177",
+          "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/fundraising-events/401",
           "templated": true
         },
         {
           "rel": "new_donation",
-          "href": "https://www.betterplace.org/de/donate/platform/fundraising-events/36177"
-        },
-        {
-          "rel": "header_picture",
-          "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/header_image/000/036/177/fill_1440x375_bp1603291019_LFDW-Background.png"
+          "href": "https://www.betterplace.org/de/donate/platform/fundraising-events/401"
         },
         {
           "rel": "new_message",
-          "href": "https://www.betterplace.org/de/messages/new?recipient=565409"
+          "href": "https://www.betterplace.org/de/messages/new?recipient=6"
         }
       ]
     },
     {
-      "id": 37393,
-      "created_at": "2021-03-09T07:07:20+01:00",
-      "updated_at": "2021-05-17T20:45:17+02:00",
-      "content_updated_at": "2021-03-09T07:07:20+01:00",
-      "title": "Gruseln für die Wale!",
-      "description": "<div>Die Ju spielt SOMA, ihr rettet Wale!<br><br>https://www.twitch.tv/altaberschlechtgaming<br><br>\n</div><div>Warum ich dafür betterplace.org nutze? Das Spenden ist hier sicher und unkompliziert und ich kann euch über Updates auf dem Laufenden halten. Natürlich bekommt ihr Anfang nächsten Jahres auch eine Spendenbescheinigung für die Steuer.<br><br>\n</div>",
+      "id": 13224,
+      "created_at": "2013-01-31T15:09:18+01:00",
+      "updated_at": "2019-02-05T15:35:50+01:00",
+      "content_updated_at": "2015-11-22T08:05:39+01:00",
+      "title": "Matthiass Spendenaktion",
+      "description": "Schön, dass Du meine Spendenaktion bei betterplace.org besuchst! Das Spenden über betterplace.org ist sicher und unkompliziert. betterplace.org leitet das von uns zusammen gesammelte Geld weiter. Wenn Du willst, kannst Du das sogar nachverfolgen: Denn betterplace.org ist nicht nur klasse, um mit einer Aktion Spenden zu sammeln, sondern - durch seine Transparenz - auch toll, um zu sehen, was die Hilfe beim Projekt vor Ort bewirkt.<br><br>Deshalb freue ich mich um so mehr, wenn Du jetzt hier an meine Aktion spendest! Vielen Dank.<br>",
       "tax_deductible": true,
-      "donations_prohibited": false,
-      "closed_at": null,
+      "donations_prohibited": true,
+      "closed_at": "2015-11-22T08:05:38+01:00",
       "activate_donations_at": null,
-      "donations_count": 10,
-      "donor_count": 8,
-      "donated_amount_in_cents": 25000,
+      "donations_count": 0,
+      "donor_count": 0,
+      "donated_amount_in_cents": 0,
       "requested_amount_in_cents": null,
-      "forwarded_amount_in_cents": 25000,
+      "forwarded_amount_in_cents": 0,
       "progress_percentage": null,
       "contact": {
-        "id": 586999,
-        "name": "Zehra Moritz (display)",
+        "id": 296030,
+        "name": "Johanna Şahin (display)",
         "picture": {
           "fallback": true,
           "links": [
@@ -986,11 +866,11 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/de/users/586999"
+            "href": "https://www.betterplace.org/de/users/296030"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/de/api_v4/users/586999/contact_data.json"
+            "href": "https://api.betterplace.org/de/api_v4/users/296030/contact_data.json"
           }
         ]
       },
@@ -1026,40 +906,152 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "links": [
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/37393.json"
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/13224.json"
         },
         {
           "rel": "featured_projects",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/37393/featured_projects.json"
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/13224/featured_projects.json"
         },
         {
           "rel": "blog_posts",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/37393/blog_posts.json"
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/13224/blog_posts.json"
         },
         {
           "rel": "forwardings",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/37393/forwardings.json"
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/13224/forwardings.json"
         },
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/de/fundraising-events/37393-gruseln-fuer-die-wale"
+          "href": "https://www.betterplace.org/de/fundraising-events/13224-matthiass-spendenaktion"
         },
         {
           "rel": "opinions",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/37393/opinions.json"
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/13224/opinions.json"
         },
         {
           "rel": "new_client_donation",
-          "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/fundraising-events/37393",
+          "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/fundraising-events/13224",
           "templated": true
         },
         {
           "rel": "new_donation",
-          "href": "https://www.betterplace.org/de/donate/platform/fundraising-events/37393"
+          "href": "https://www.betterplace.org/de/donate/platform/fundraising-events/13224"
         },
         {
           "rel": "new_message",
-          "href": "https://www.betterplace.org/de/messages/new?recipient=586999"
+          "href": "https://www.betterplace.org/de/messages/new?recipient=296030"
+        }
+      ]
+    },
+    {
+      "id": 4518,
+      "created_at": "2010-09-27T15:39:44+02:00",
+      "updated_at": "2019-02-05T15:30:20+01:00",
+      "content_updated_at": "2015-11-22T08:10:31+01:00",
+      "title": "Moritzs Spendenaktion",
+      "description": "Schön, dass Du meine Spendenaktion bei betterplace.org besuchst! Das Spenden über betterplace.org ist sicher und unkompliziert. betterplace.org leitet das von uns zusammen gesammelte Geld weiter. Wenn Du willst, kannst Du das sogar nachverfolgen: Denn betterplace.org ist nicht nur klasse, um mit einer Aktion Spenden zu sammeln, sondern - durch seine Transparenz - auch toll, um zu sehen, was die Hilfe beim Projekt vor Ort bewirkt.<br><br>Deshalb freue ich mich um so mehr, wenn Du jetzt hier an meine Aktion spendest! Vielen Dank.",
+      "tax_deductible": true,
+      "donations_prohibited": true,
+      "closed_at": "2015-11-22T08:10:30+01:00",
+      "activate_donations_at": null,
+      "donations_count": 0,
+      "donor_count": 0,
+      "donated_amount_in_cents": 0,
+      "requested_amount_in_cents": null,
+      "forwarded_amount_in_cents": 0,
+      "progress_percentage": null,
+      "contact": {
+        "id": 6,
+        "name": "Nadine Scharf (display)",
+        "picture": {
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/000/006/fill_100x100_bp1584569618_original_eckert.png"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/000/006/crop_original_bp1584569618_original_eckert.png"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/de/users/6"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/de/api_v4/users/6/contact_data.json"
+          }
+        ]
+      },
+      "profile_picture": {
+        "fallback": true,
+        "links": [
+          {
+            "rel": "fill_960x500",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_960x500_default.jpg"
+          },
+          {
+            "rel": "fill_730x380",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_730x380_default.jpg"
+          },
+          {
+            "rel": "fill_618x322",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_618x322_default.jpg"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_410x214_default.jpg"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_270x141_default.jpg"
+          },
+          {
+            "rel": "original",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/crop_original_default.jpg"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/4518.json"
+        },
+        {
+          "rel": "featured_projects",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/4518/featured_projects.json"
+        },
+        {
+          "rel": "blog_posts",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/4518/blog_posts.json"
+        },
+        {
+          "rel": "forwardings",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/4518/forwardings.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/de/fundraising-events/4518-moritzs-spendenaktion"
+        },
+        {
+          "rel": "opinions",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/4518/opinions.json"
+        },
+        {
+          "rel": "new_client_donation",
+          "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/fundraising-events/4518",
+          "templated": true
+        },
+        {
+          "rel": "new_donation",
+          "href": "https://www.betterplace.org/de/donate/platform/fundraising-events/4518"
+        },
+        {
+          "rel": "new_message",
+          "href": "https://www.betterplace.org/de/messages/new?recipient=6"
         }
       ]
     }
