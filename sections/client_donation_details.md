@@ -355,24 +355,24 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "amount_in_cents": 1000,
+  "amount_in_cents": 200,
   "state": "confirmed",
   "donor": null,
-  "message": "",
-  "token": "7d15942d91bd8d4f0526",
+  "message": "Gemeinsam für Kinder!",
+  "token": "003abcabb13e090150ad",
   "client_reference": null,
-  "created_at": "2010-10-28T14:44:49+02:00",
-  "receiver_type": "Project",
-  "receiver_id": 4807,
-  "receiver_title": "Kleinbus für den Palais e.V. Trier",
+  "created_at": "2011-12-13T13:48:15+01:00",
+  "receiver_type": "FundraisingEvent",
+  "receiver_id": 8821,
+  "receiver_title": "Stark fürs Leben - für die Zukunft unserer Kinder",
   "links": [
     {
       "rel": "receiver",
-      "href": "https://api.betterplace.org/de/api_v4/projects/4807.json"
+      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/8821.json"
     },
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/7d15942d91bd8d4f0526.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/003abcabb13e090150ad.json"
     }
   ]
 }

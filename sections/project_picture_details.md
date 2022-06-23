@@ -124,6 +124,54 @@ Link to the original image as uploaded by the user
     <tr>
 <th align="left">
 
+limit_620x323
+
+</th>
+<td>
+
+Link to a small version (max 620x323 px) of the image
+
+</td>
+    </tr>
+    <tr>
+<th align="left">
+
+limit_620x323_2x
+
+</th>
+<td>
+
+Link to a small version (max 620x323 px) of the image @2x
+
+</td>
+    </tr>
+    <tr>
+<th align="left">
+
+limit_450x235
+
+</th>
+<td>
+
+Link to a small version (max 450x235 px) of the image
+
+</td>
+    </tr>
+    <tr>
+<th align="left">
+
+limit_450x235_2x
+
+</th>
+<td>
+
+Link to a small version (max 450x235 px) of the image @2x
+
+</td>
+    </tr>
+    <tr>
+<th align="left">
+
 self
 
 </th>
@@ -151,18 +199,34 @@ The parent object of this picture.
 
 ```json
 {
-  "id": 255760,
-  "created_at": "2021-06-02T12:05:23+02:00",
-  "updated_at": "2021-06-02T12:09:11+02:00",
-  "description": "Students shredding the skatepark together",
+  "id": 266144,
+  "created_at": "2021-11-24T11:38:20+01:00",
+  "updated_at": "2021-11-24T11:38:20+01:00",
+  "description": null,
   "links": [
     {
       "rel": "image",
-      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/255760/image.jpg"
+      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266144/image.png"
+    },
+    {
+      "rel": "limit_620x323",
+      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266144/limit_620x323_image.png"
+    },
+    {
+      "rel": "limit_620x323_2x",
+      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266144/limit_620x323_2x_image.png"
+    },
+    {
+      "rel": "limit_450x235",
+      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266144/limit_450x235_image.png"
+    },
+    {
+      "rel": "limit_450x235_2x",
+      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/001/114/266144/limit_450x235_2x_image.png"
     },
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/255760.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1114/pictures/266144.json"
     },
     {
       "rel": "parent",

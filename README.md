@@ -10,7 +10,7 @@ such as the link structure.
 
 #### Please provide feedback
 Please don't hesitate to send feedback about the API and this documentation
-to developers@betterplace.org.
+to api@betterplace.org.
 
 
 ## Table of content
@@ -50,10 +50,6 @@ to developers@betterplace.org.
     1. [Fundraising Event **Opinions** List](sections/opinions_list.md)
     1. [Fundraising Event **Featured Projects** List](sections/fundraising_events_featured_projects_list.md)
     1. [Fundraising Event **Forwarding** List](sections/fundraising_event_forwardings_list.md)
-1. **Volunteering**
-    1. [**Volunteering** List and Search](sections/volunteering_list.md)
-    1. [**Volunteering** Details](sections/volunteering_details.md)
-    1. [Volunteering **Inquiries**](sections/volunteering_inquiries.md)
 1. **Organisations**
     1. [**Organisations** List](sections/organisations_list.md)
     1. [**Organisation** Details](sections/organisation_details.md)
@@ -92,11 +88,6 @@ to developers@betterplace.org.
     1. [**Client** Tags List](sections/client_tags_list.md)
     1. [**Client**-Tag Projects List](sections/client_tag_projects_list.md)
     1. [**Client**-Project Tags List](sections/client_project_tags_list.md)
-1. **Volunteering**
-    1. [**Client** Volunteering List and Search](sections/volunteering_list.md) – 
-      See client section [and "Client Volunteering Offers"](#client-api)
-    1. [**Client** Volunteering Details](sections/volunteering_details.md) – 
-      See client section [and "Client Volunteering Offers"](#client-api)
 
 ### **Organisation API**
 
@@ -299,7 +290,7 @@ Example with validation errors:
 
 ### Known issues
 
-Please contact developers@betterplace.org for more information
+Please contact api@betterplace.org for more information
 
 * Documentation: Not all resources have a documentation URL as part of the JSON response
 * Documentation: The response table does not show the root documentation for response elements with sub-elements (for example carrier.name is documented but carrier is not)
@@ -316,7 +307,7 @@ We would love to hear from you if you plan to use/extend bettery or implement yo
 
 * [Using the API with PHP](https://gist.github.com/svjv1160/7749784)
 * [WordPress Plugin by freifunk](https://github.com/freifunk/www.freifunk.net/tree/master/wp-plugins/betterplace-project-table) which [shows the freifunk projects as a table](http://spenden.freifunk.net)
-* _Please send us your code examples to developers@betterplace.org_
+* _Please send us your code examples to api@betterplace.org_
 
 
 ### Example apps
@@ -325,7 +316,7 @@ We would love to hear from you if you plan to use/extend bettery or implement yo
 * ["Förderverein Freie Netzwerke e.V."](http://foerderverein.freie-netzwerke.de/spenden/) uses this API to present their betterplace.org projects right on their website.
 * ["Alfred-Kunze-Sportpark"](http://alfred-kunze-sportpark.de/teilziele.php) uses this API to present all needs for their one betterplace.org project right on their website.
 * ["Earthship Tempelhof"](http://www.earthship-tempelhof.de/#spenden) uses this API to embed our integrated donation form (iframe) alongside information about the project status.
-* _Please send us your sites to developers@betterplace.org_
+* _Please send us your sites to api@betterplace.org_
 
 
 ## Client API
@@ -353,16 +344,6 @@ Some URLs have a special scope for clients. Examples:
 
 If you request data for a project that is not part of the client
 projects, the API will return an HTTP error code `404`.
-
-
-### Client Volunteering Offers
-
-Clients volunteering offers are volunteering offers on betterplace.org
-that are associated with an api client
-as part of the services that betterplace.org provides for companies.
-This way clients can control what volunteering offers are visible on their external platform.
-
-It works the same way as with projects, see above (["Client Projects"](#client-projects)).
 
 
 ### Client Authentication

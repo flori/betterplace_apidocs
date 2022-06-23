@@ -2,7 +2,7 @@
 # Searching entities to donate to
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/search.json?bounds=52.6754542%2C13.7611175%2C52.338234%2C13.08834&q=Katze
+GET https://api.betterplace.org/de/api_v4/search.json?bounds=52.6754542%2C13.7611175%2C52.338234%2C13.08834&q=Katze&smp=yes
 ```
 
 TODO
@@ -24,6 +24,18 @@ TODO
 <td>
 
 Fulltext search query.
+
+</td>
+  </tr>
+  <tr>
+    <th align="left">smp</th>
+    <td><code>yes</code></td>
+    <td>no</td>
+<td>
+
+Minimal activitiy threshold for SMP status was reached, possible values
+are "yes", "no", or "both".
+
 
 </td>
   </tr>
@@ -362,6 +374,16 @@ The city in which the carrier resides
 </td>
     </tr>
     <tr>
+      <th align="left">carrier.country</th>
+      <td><code>string</code></td>
+      <td><code>"Deutschland"</code></td>
+<td>
+
+The country in which the carrier resides
+
+</td>
+    </tr>
+    <tr>
         <th align="left" style="white-space: nowrap">
           <a id="carrier.picture-ref" href="#carrier.picture">
             ↓carrier.picture
@@ -617,23 +639,23 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "total_entries": 292,
+  "total_entries": 337,
   "offset": 0,
-  "total_pages": 98,
+  "total_pages": 113,
   "current_page": 1,
   "per_page": 3,
   "data": [
     {
       "id": 72206,
       "created_at": "2019-08-17T09:01:36+02:00",
-      "updated_at": "2021-11-09T14:38:12+01:00",
-      "latitude": 51.1856375,
-      "longitude": 10.42078160000006,
+      "updated_at": "2022-06-11T15:01:20+02:00",
+      "latitude": 51.18564980000001,
+      "longitude": 10.4207755,
       "title": "Tiere auf Lebenshof Gut Weidensee benötigen dringend Hilfe!",
       "type": "Project",
       "contact": {
         "id": 576646,
-        "name": "Melina Schneider (display)",
+        "name": "Anisa Pietsch (display)",
         "picture": {
           "links": [
             {
@@ -657,42 +679,43 @@ Maximum sized image. This is the original image with default-cropping or user-cr
           }
         ]
       },
-      "progress_percentage": 83,
+      "progress_percentage": 93,
       "profile_picture": {
         "links": [
           {
             "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_960x500_bp1636359362_KIG_9108-1_Kopie.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_960x500_bp1651574817_DSC_2132.jpg"
           },
           {
             "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_730x380_bp1636359362_KIG_9108-1_Kopie.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_730x380_bp1651574817_DSC_2132.jpg"
           },
           {
             "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_618x322_bp1636359362_KIG_9108-1_Kopie.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_618x322_bp1651574817_DSC_2132.jpg"
           },
           {
             "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_410x214_bp1636359362_KIG_9108-1_Kopie.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_410x214_bp1651574817_DSC_2132.jpg"
           },
           {
             "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_270x141_bp1636359362_KIG_9108-1_Kopie.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_270x141_bp1651574817_DSC_2132.jpg"
           },
           {
             "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/crop_original_bp1636359362_KIG_9108-1_Kopie.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/crop_original_bp1651574817_DSC_2132.jpg"
           }
         ]
       },
-      "donated_amount_in_cents": 31810717,
+      "donated_amount_in_cents": 39873906,
       "country": "Deutschland",
       "city": "Mühlhausen",
       "carrier": {
         "id": 38291,
         "name": "Lebenshof Gut Weidensee",
         "city": "Mühlhausen",
+        "country": "Deutschland",
         "picture": {
           "links": [
             {
@@ -712,8 +735,8 @@ Maximum sized image. This is the original image with default-cropping or user-cr
           }
         ]
       },
-      "donations_count": 8695,
-      "open_amount_in_cents": 6089083,
+      "donations_count": 11060,
+      "open_amount_in_cents": 2877694,
       "links": [
         {
           "rel": "platform",
@@ -730,186 +753,187 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       ]
     },
     {
-      "id": 80636,
-      "created_at": "2020-05-14T13:49:36+02:00",
-      "updated_at": "2021-11-09T00:13:06+01:00",
-      "latitude": 49.79130439999999,
-      "longitude": 9.9533548,
-      "title": "Kastration von ca. 100 Streunerkatzen in und um Würzburg",
-      "type": "Project",
+      "id": 39455,
+      "created_at": "2021-10-26T09:14:29+02:00",
+      "updated_at": "2022-06-11T13:01:16+02:00",
+      "title": "Hilfe für die Samtpfoten - Stream für die Arche",
+      "type": "FundraisingEvent",
       "contact": {
-        "id": 453583,
-        "name": "Lara Bär (display)",
+        "id": 615002,
+        "name": "Emil Mack (display)",
         "picture": {
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/453/583/fill_100x100_bp1589585850_Katze_gezeichnet.jpg"
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/615/002/fill_100x100_bp1646242482_001_Benjamin.png"
             },
             {
               "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/453/583/crop_original_bp1589585850_Katze_gezeichnet.jpg"
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/615/002/crop_original_bp1646242482_001_Benjamin.png"
             }
           ]
         },
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.org/de/users/453583"
+            "href": "https://www.betterplace.org/de/users/615002"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.org/de/api_v4/users/453583/contact_data.json"
+            "href": "https://api.betterplace.org/de/api_v4/users/615002/contact_data.json"
           }
         ]
       },
-      "progress_percentage": 70,
+      "progress_percentage": 0,
       "profile_picture": {
         "links": [
           {
             "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/080/636/fill_960x500_bp1614883522_Collage_Headerbild_Katzenhilfe.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/039/455/fill_960x500_bp1639043024_arche_kanaum_logo_v2-1_betterplace.png"
           },
           {
             "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/080/636/fill_730x380_bp1614883522_Collage_Headerbild_Katzenhilfe.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/039/455/fill_730x380_bp1639043024_arche_kanaum_logo_v2-1_betterplace.png"
           },
           {
             "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/080/636/fill_618x322_bp1614883522_Collage_Headerbild_Katzenhilfe.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/039/455/fill_618x322_bp1639043024_arche_kanaum_logo_v2-1_betterplace.png"
           },
           {
             "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/080/636/fill_410x214_bp1614883522_Collage_Headerbild_Katzenhilfe.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/039/455/fill_410x214_bp1639043024_arche_kanaum_logo_v2-1_betterplace.png"
           },
           {
             "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/080/636/fill_270x141_bp1614883522_Collage_Headerbild_Katzenhilfe.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/039/455/fill_270x141_bp1639043024_arche_kanaum_logo_v2-1_betterplace.png"
           },
           {
             "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/080/636/crop_original_bp1614883522_Collage_Headerbild_Katzenhilfe.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/039/455/crop_original_bp1639043024_arche_kanaum_logo_v2-1_betterplace.png"
           }
         ]
       },
-      "donated_amount_in_cents": 3465840,
-      "country": "Deutschland",
-      "city": "Würzburg",
-      "carrier": {
-        "id": 23678,
-        "name": "Katzenhilfe Würzburg und Umgebung e. V.",
-        "city": "Würzburg",
+      "donated_amount_in_cents": 530500,
+      "donations_count": 133,
+      "links": [
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/de/fundraising-events/39455-hilfe-fuer-die-samtpfoten-stream-fuer-die-arche"
+        },
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/39455.json"
+        },
+        {
+          "rel": "pictures",
+          "href": "https://api.betterplace.org/de/api_v4/projects/39455/pictures.json"
+        }
+      ]
+    },
+    {
+      "id": 11289,
+      "created_at": "2012-10-30T21:20:22+01:00",
+      "updated_at": "2022-06-11T00:02:08+02:00",
+      "latitude": 52.3333333,
+      "longitude": 12.35,
+      "title": "Ein Monat Futter und Medikamente",
+      "type": "Project",
+      "contact": {
+        "id": 283731,
+        "name": "Jasmin Geyer (display)",
         "picture": {
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/023/678/fill_100x100_bp1614795287_Katze_gezeichnet.jpg"
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/283/731/fill_100x100_bp1584574960_2.jpg"
             },
             {
               "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/023/678/crop_original_bp1614795287_Katze_gezeichnet.jpg"
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/283/731/crop_original_bp1584574960_2.jpg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/de/users/283731"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/de/api_v4/users/283731/contact_data.json"
+          }
+        ]
+      },
+      "progress_percentage": 99,
+      "profile_picture": {
+        "links": [
+          {
+            "rel": "fill_960x500",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_960x500_bp1584534965_original_IMG_1129.JPG"
+          },
+          {
+            "rel": "fill_730x380",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_730x380_bp1584534965_original_IMG_1129.JPG"
+          },
+          {
+            "rel": "fill_618x322",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_618x322_bp1584534965_original_IMG_1129.JPG"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_410x214_bp1584534965_original_IMG_1129.JPG"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_270x141_bp1584534965_original_IMG_1129.JPG"
+          },
+          {
+            "rel": "original",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/crop_original_bp1584534965_original_IMG_1129.JPG"
+          }
+        ]
+      },
+      "donated_amount_in_cents": 9641751,
+      "country": "Deutschland",
+      "city": "Rosenau",
+      "carrier": {
+        "id": 12201,
+        "name": "Ein Zuhause für Tiere e. V.",
+        "city": "Rosenau",
+        "country": "Deutschland",
+        "picture": {
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/012/201/fill_100x100_bp1645803436_85766EB5-6DE4-4693-BA4B-C114E9564B22.jpeg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/012/201/crop_original_bp1645803436_85766EB5-6DE4-4693-BA4B-C114E9564B22.jpeg"
             }
           ]
         },
         "links": [
           {
             "rel": "self",
-            "href": "https://api.betterplace.org/de/api_v4/organisations/23678.json"
+            "href": "https://api.betterplace.org/de/api_v4/organisations/12201.json"
           }
         ]
       },
-      "donations_count": 644,
-      "open_amount_in_cents": 1434160,
+      "donations_count": 4593,
+      "open_amount_in_cents": 84049,
       "links": [
         {
           "rel": "platform",
-          "href": "https://www.betterplace.org/de/projects/80636-kastration-von-ca-100-streunerkatzen-in-und-um-wuerzburg"
+          "href": "https://www.betterplace.org/de/projects/11289-ein-monat-futter-und-medikamente"
         },
         {
           "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/projects/80636.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/11289.json"
         },
         {
           "rel": "pictures",
-          "href": "https://api.betterplace.org/de/api_v4/projects/80636/pictures.json"
-        }
-      ]
-    },
-    {
-      "id": 38103,
-      "created_at": "2021-06-14T11:34:50+02:00",
-      "updated_at": "2021-11-09T00:22:15+01:00",
-      "title": "Wir sammeln fürs Tierheim Berlin",
-      "type": "FundraisingEvent",
-      "contact": {
-        "id": 580401,
-        "name": "Milan Martin (display)",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/580/401/fill_100x100_bp1623663414_EzmMMQqXoAcv1-6.jpg"
-            },
-            {
-              "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/580/401/crop_original_bp1623663414_EzmMMQqXoAcv1-6.jpg"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/de/users/580401"
-          },
-          {
-            "rel": "contact_data",
-            "href": "https://api.betterplace.org/de/api_v4/users/580401/contact_data.json"
-          }
-        ]
-      },
-      "progress_percentage": 94,
-      "profile_picture": {
-        "links": [
-          {
-            "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/038/103/fill_960x500_bp1632233273_Tierheim_VLOG_Thumbnail.jpg"
-          },
-          {
-            "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/038/103/fill_730x380_bp1632233273_Tierheim_VLOG_Thumbnail.jpg"
-          },
-          {
-            "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/038/103/fill_618x322_bp1632233273_Tierheim_VLOG_Thumbnail.jpg"
-          },
-          {
-            "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/038/103/fill_410x214_bp1632233273_Tierheim_VLOG_Thumbnail.jpg"
-          },
-          {
-            "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/038/103/fill_270x141_bp1632233273_Tierheim_VLOG_Thumbnail.jpg"
-          },
-          {
-            "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/038/103/crop_original_bp1632233273_Tierheim_VLOG_Thumbnail.jpg"
-          }
-        ]
-      },
-      "donated_amount_in_cents": 1372000,
-      "donations_count": 550,
-      "links": [
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/de/fundraising-events/38103-wir-sammeln-fuers-tierheim-berlin"
-        },
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/38103.json"
-        },
-        {
-          "rel": "pictures",
-          "href": "https://api.betterplace.org/de/api_v4/projects/38103/pictures.json"
+          "href": "https://api.betterplace.org/de/api_v4/projects/11289/pictures.json"
         }
       ]
     }

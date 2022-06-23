@@ -185,6 +185,28 @@ It's false otherwise.
 </td>
     </tr>
     <tr>
+      <th align="left">company_donation</th>
+      <td><code>boolean</code></td>
+      <td><code>false</code></td>
+<td>
+
+Indicates if the sender of the donation was a company.
+
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">client_name</th>
+      <td><code>string</code></td>
+      <td><code>PAYBACK Spendenwelt</code></td>
+<td>
+
+Name of the related client, if available.
+
+
+</td>
+    </tr>
+    <tr>
       <th align="left">score</th>
       <td><code>string</code></td>
       <td><code>positive</code></td>
@@ -206,6 +228,21 @@ DEPRECATED 2017-06-16 - Always returns "positive"
 <td>
 
 Donor information, if available.
+
+
+</td>
+    </tr>
+    <tr>
+        <th align="left" style="white-space: nowrap">
+          <a id="backed_by_fundraising_event-ref" href="#backed_by_fundraising_event">
+            ↓backed_by_fundraising_event
+          </a>
+        </th>
+      <td><code>null &#124; object</code></td>
+      <td><code>TODO</code></td>
+<td>
+
+Information about the fundraising event through which the donation came in, if available.
 
 
 </td>
@@ -302,6 +339,60 @@ User profile picture or a fallback image
 <td>
 
 Specifies whether a fallback image is given or not
+
+</td>
+    </tr>
+  </table>
+
+### <a id="backed_by_fundraising_event" href="#backed_by_fundraising_event-ref">↑Nested Attributes: backed_by_fundraising_event</a>
+
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Types</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <th align="left">backed_by_fundraising_event.id</th>
+      <td><code>number</code></td>
+      <td><code>1</code></td>
+<td>
+
+An integer number ≥ 1
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">backed_by_fundraising_event.url</th>
+      <td><code>string</code></td>
+      <td><code>Lorem ipsum</code></td>
+<td>
+
+URL of the fundraising event
+
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">backed_by_fundraising_event.title</th>
+      <td><code>string</code></td>
+      <td><code>Lorem ipsum</code></td>
+<td>
+
+Title of the fundraising event
+
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">backed_by_fundraising_event.donor_count</th>
+      <td><code>number</code></td>
+      <td><code>100</code></td>
+<td>
+
+Number of donors who donated to the fundraising event
+
 
 </td>
     </tr>
@@ -429,9 +520,10 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "created_at": "2012-04-19T16:08:51+02:00",
       "updated_at": "2016-11-28T15:40:02+01:00",
       "matched": false,
+      "company_donation": false,
       "score": "positive",
       "author": {
-        "name": "Владимир Пережогин",
+        "name": "Hannah Krämer",
         "picture": {
           "links": [
             {

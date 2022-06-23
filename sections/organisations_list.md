@@ -483,21 +483,21 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     {
       "id": 2262,
       "created_at": "2009-11-02T16:12:49+01:00",
-      "updated_at": "2018-11-07T09:18:16+01:00",
+      "updated_at": "2022-03-22T07:22:57+01:00",
       "latitude": 50.91569900512695,
       "longitude": 6.94116020202637,
-      "street": "Senate House",
+      "street": "Brückenstraße 95",
       "zip": "50969",
       "city": "Köln",
       "country": "Deutschland",
-      "content_updated_at": "2018-06-29T09:01:05+02:00",
+      "content_updated_at": "2022-03-22T07:22:57+01:00",
       "slug": "unicef",
       "name": "UNICEF",
-      "description": "UNICEF, das Kinderhilfswerk der Vereinten Nationen, arbeitet weltweit mit Programmen in rund 150 Ländern. UNICEF hilft, dass das Recht jedes Kindes auf Überleben, Bildung und Schutz Wirklichkeit wird: mit konkreten Projekten, umfassenden Programmen und politischer Lobbyarbeit. UNICEF ist in jedem Land seit vielen Jahren vor Ort und hat ein dichtes Netzwerk lokaler Partner. So ist nachhaltige und effiziente Hilfe möglich. Mit dem jährlichen Geschäftsbericht informiert UNICEF ausführlich über Arbeitsweise, Strukturen und Kosten. Sie finden ihn unter www.unicef.de",
+      "description": "UNICEF, das Kinderhilfswerk der Vereinten Nationen, arbeitet weltweit mit Programmen in rund 190 Ländern. UNICEF hilft, dass das Recht jedes Kindes auf Überleben, Bildung und Schutz Wirklichkeit wird: mit konkreten Projekten, umfassenden Programmen und politischer Lobbyarbeit. UNICEF ist in jedem Land seit vielen Jahren vor Ort und hat ein dichtes Netzwerk lokaler Partner. So ist nachhaltige und effiziente Hilfe möglich. Mit dem jährlichen Geschäftsbericht informiert UNICEF ausführlich über Arbeitsweise, Strukturen und Kosten. Sie finden ihn unter www.unicef.de",
       "tax_deductible": true,
       "contact": {
         "id": 20505,
-        "name": "Tizian Krause (display)",
+        "name": "Maximilian Groß (display)",
         "picture": {
           "links": [
             {
@@ -563,21 +563,21 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     {
       "id": 125,
       "created_at": "2008-02-06T17:10:42+01:00",
-      "updated_at": "2021-11-06T23:00:51+01:00",
+      "updated_at": "2022-05-18T10:51:42+02:00",
       "latitude": 53.55759811401367,
       "longitude": 9.96815967559815,
-      "street": "Eschenweg 76",
+      "street": "Im Winkel 65",
       "zip": "20357",
       "city": "Hamburg",
       "country": "Deutschland",
-      "content_updated_at": "2020-04-09T18:24:12+02:00",
+      "content_updated_at": "2022-05-18T10:51:42+02:00",
       "slug": "vivaconagua",
       "name": "Viva con Agua de Sankt Pauli e.V.",
-      "description": "Viva con Agua aktiviert und inspiriert - für eine Welt ohne Durst!<br><br>Viva con Agua ist ein internationales Netzwerk von Menschen und Organisationen, das sich für den sicheren Zugang zu sauberem Trinkwasser und sanitärer Grundversorgung einsetzt. <br>2006 wurde der gemeinnützige Verein Viva con Agua de Sankt Pauli ins Leben gerufen. <br>Inzwischen unterstützen die Vision „WASSER FÜR ALLE – ALLE FÜR WASSER“ mehr als 15.000 ehrenamtliche Supporter, die mit zahlreichen Aktionen und ebenso viel Spaß Spenden für WASH-Projekte weltweit sammeln – darunter viele Künstler und Musiker. <br>Gemeinsam seinen internationalen und lokalen Partnerorganisationen konnte die Bewegung so bereits über drei Millionen Menschen in WASH-Projekten (WAter, Sanitation, Hygiene) erreichen.<br><br>Neben dem Hamburger Verein zählen mittlerweile die Viva con Agua Stiftung und lokal aktive Organisationen in Uganda, Österreich, den Niederlanden, der Schweiz und neuerdings in Südafrika und Kalifornien zum international tätigen Netzwerk. Darüber hinaus unterstützen die ausgegründeten Social Business Unternehmen Viva con Agua Wasser GmbH, Viva con Agua ARTS gGmbH und Goldeimer gGmbH mit ihren Aktivitäten die Trinkwasser- und Sanitärprojekte von VcA.<br><br>WASSER FÜR ALLE - ALLE FÜR WASSER!",
+      "description": "Viva con Agua aktiviert und inspiriert - für eine Welt ohne Durst!<br><br>Viva con Agua ist ein internationales Netzwerk von Menschen und Organisationen, das sich für den sicheren Zugang zu sauberem Trinkwasser und sanitärer Grundversorgung einsetzt. <br>2006 wurde der gemeinnützige Verein Viva con Agua de Sankt Pauli ins Leben gerufen. <br>Inzwischen unterstützen die Vision „WASSER FÜR ALLE – ALLE FÜR WASSER“ mehr als 15.000 ehrenamtliche Supporter, die mit zahlreichen Aktionen und ebenso viel Spaß Spenden für WASH-Projekte weltweit sammeln – darunter viele Künstler und Musiker. <br>Gemeinsam mit seinen internationalen und lokalen Partnerorganisationen konnte die Bewegung so bereits über drei Millionen Menschen in WASH-Projekten (WAter, Sanitation, Hygiene) erreichen.<br><br>Neben dem Hamburger Verein zählen mittlerweile die Viva con Agua Stiftung und lokal aktive Organisationen in Uganda, Österreich, den Niederlanden, der Schweiz und neuerdings in Südafrika und Kalifornien zum international tätigen Netzwerk. Darüber hinaus unterstützen die ausgegründeten Social Business Unternehmen Viva con Agua Wasser GmbH, Viva con Agua ARTS gGmbH und Goldeimer gGmbH mit ihren Aktivitäten die Trinkwasser- und Sanitärprojekte von VcA.<br><br>WASSER FÜR ALLE - ALLE FÜR WASSER!",
       "tax_deductible": true,
       "contact": {
         "id": 561728,
-        "name": "Veit Römer (display)",
+        "name": "Milan Hiller (display)",
         "picture": {
           "links": [
             {

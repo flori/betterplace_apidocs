@@ -713,16 +713,16 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "total_entries": 11606,
+  "total_entries": 13638,
   "offset": 0,
-  "total_pages": 3869,
+  "total_pages": 4546,
   "current_page": 1,
   "per_page": 3,
   "data": [
     {
       "id": 401,
       "created_at": "2008-09-12T16:50:38+02:00",
-      "updated_at": "2021-08-18T11:03:22+02:00",
+      "updated_at": "2021-12-01T18:23:53+01:00",
       "content_updated_at": "2021-07-19T10:22:58+02:00",
       "title": "Die Eckerts",
       "description": "<div>In Deutschland gibt es 12.673 Telefonbucheinträge mit dem Namen \"Eckert\". Wenn jeder davon nur einen Euro im Monat spenden würde, kämen 152.076 Euro zusammen. <br><br>Aber fangen wir erst mal mit fünf Eckerts (dafür etwas mehr als ein Euro im Monat) an - bringt auch schon eine ordentliche Summe zusammen, mit der wir hier auf betterplace.org was Gutes tun können.</div>",
@@ -738,7 +738,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "progress_percentage": 92,
       "contact": {
         "id": 6,
-        "name": "Nadine Scharf (display)",
+        "name": "Alica Busch (display)",
         "picture": {
           "links": [
             {
@@ -849,17 +849,17 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "progress_percentage": null,
       "contact": {
         "id": 296030,
-        "name": "Johanna Şahin (display)",
+        "name": "Robin Jung (display)",
         "picture": {
           "fallback": true,
           "links": [
             {
               "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.jpg"
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
             },
             {
               "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/fill_100x100_default.jpg"
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
             }
           ]
         },
@@ -879,27 +879,27 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         "links": [
           {
             "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_960x500_default.jpg"
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_960x500_miscellaneous_default.png"
           },
           {
             "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_730x380_default.jpg"
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_730x380_miscellaneous_default.png"
           },
           {
             "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_618x322_default.jpg"
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_618x322_miscellaneous_default.png"
           },
           {
             "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_410x214_default.jpg"
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_410x214_miscellaneous_default.png"
           },
           {
             "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_270x141_default.jpg"
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_270x141_miscellaneous_default.png"
           },
           {
             "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/crop_original_default.jpg"
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/crop_original_miscellaneous_default.png"
           }
         ]
       },
@@ -962,7 +962,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "progress_percentage": null,
       "contact": {
         "id": 6,
-        "name": "Nadine Scharf (display)",
+        "name": "Alica Busch (display)",
         "picture": {
           "links": [
             {
@@ -991,27 +991,27 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         "links": [
           {
             "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_960x500_default.jpg"
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_960x500_miscellaneous_default.png"
           },
           {
             "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_730x380_default.jpg"
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_730x380_miscellaneous_default.png"
           },
           {
             "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_618x322_default.jpg"
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_618x322_miscellaneous_default.png"
           },
           {
             "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_410x214_default.jpg"
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_410x214_miscellaneous_default.png"
           },
           {
             "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_270x141_default.jpg"
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/fill_270x141_miscellaneous_default.png"
           },
           {
             "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/crop_original_default.jpg"
+            "href": "https://betterplace-assets.betterplace.org/assets/default/fundraising_event_profile_picture/crop_original_miscellaneous_default.png"
           }
         ]
       },

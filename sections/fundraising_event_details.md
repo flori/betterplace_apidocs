@@ -651,7 +651,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "progress_percentage": null,
   "contact": {
     "id": 397832,
-    "name": "Ethan عبد الرشيد (display)",
+    "name": "Lena Behrendt (display)",
     "picture": {
       "links": [
         {
