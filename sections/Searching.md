@@ -2,7 +2,7 @@
 # Searching entities to donate to
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/search.json?bounds=52.6754542%2C13.7611175%2C52.338234%2C13.08834&q=Katze&smp=yes
+GET https://api.betterplace.org/de/api_v4/search.json?bounds=52.6754542%2C13.7611175%2C52.338234%2C13.08834&q=Katze
 ```
 
 TODO
@@ -24,18 +24,6 @@ TODO
 <td>
 
 Fulltext search query.
-
-</td>
-  </tr>
-  <tr>
-    <th align="left">smp</th>
-    <td><code>yes</code></td>
-    <td>no</td>
-<td>
-
-Minimal activitiy threshold for SMP status was reached, possible values
-are "yes", "no", or "both".
-
 
 </td>
   </tr>
