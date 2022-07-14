@@ -1163,6 +1163,30 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     <tr>
 <th align="left">
 
+profile_picture.limit_1240x646
+
+</th>
+<td>
+
+1240×646 pixel
+
+</td>
+    </tr>
+    <tr>
+<th align="left">
+
+profile_picture.limit_450x235
+
+</th>
+<td>
+
+450×235 pixel
+
+</td>
+    </tr>
+    <tr>
+<th align="left">
+
 active_matching_fund.self
 
 </th>
@@ -1338,6 +1362,14 @@ information for the donors.
       {
         "rel": "original",
         "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/crop_original_bp1637750102_A_New_Chapter_Skate_School_Select_10.png"
+      },
+      {
+        "rel": "limit_1240x646",
+        "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/limit_1240x646_bp1637750102_A_New_Chapter_Skate_School_Select_10.png"
+      },
+      {
+        "rel": "limit_450x235",
+        "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/limit_450x235_bp1637750102_A_New_Chapter_Skate_School_Select_10.png"
       }
     ]
   },

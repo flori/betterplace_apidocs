@@ -238,7 +238,7 @@ Donor information, if available.
             ↓backed_by_fundraising_event
           </a>
         </th>
-      <td><code>null &#124; object</code></td>
+      <td><code>object</code></td>
       <td><code>TODO</code></td>
 <td>
 

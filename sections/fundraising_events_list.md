@@ -722,7 +722,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     {
       "id": 401,
       "created_at": "2008-09-12T16:50:38+02:00",
-      "updated_at": "2021-12-01T18:23:53+01:00",
+      "updated_at": "2022-07-12T15:46:24+02:00",
       "content_updated_at": "2021-07-19T10:22:58+02:00",
       "title": "Die Eckerts",
       "description": "<div>In Deutschland gibt es 12.673 Telefonbucheinträge mit dem Namen \"Eckert\". Wenn jeder davon nur einen Euro im Monat spenden würde, kämen 152.076 Euro zusammen. <br><br>Aber fangen wir erst mal mit fünf Eckerts (dafür etwas mehr als ein Euro im Monat) an - bringt auch schon eine ordentliche Summe zusammen, mit der wir hier auf betterplace.org was Gutes tun können.</div>",

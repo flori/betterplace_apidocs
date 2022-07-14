@@ -627,9 +627,9 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "total_entries": 337,
+  "total_entries": 335,
   "offset": 0,
-  "total_pages": 113,
+  "total_pages": 112,
   "current_page": 1,
   "per_page": 3,
   "data": [

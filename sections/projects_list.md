@@ -1335,6 +1335,30 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     <tr>
 <th align="left">
 
+profile_picture.limit_1240x646
+
+</th>
+<td>
+
+1240×646 pixel
+
+</td>
+    </tr>
+    <tr>
+<th align="left">
+
+profile_picture.limit_450x235
+
+</th>
+<td>
+
+450×235 pixel
+
+</td>
+    </tr>
+    <tr>
+<th align="left">
+
 active_matching_fund.self
 
 </th>
@@ -1517,6 +1541,14 @@ information for the donors.
           {
             "rel": "original",
             "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/049/876/crop_original_bp1584552286_Give_Her_Five_-_Campaign_Image_-_Play_sport_-_SA.jpg"
+          },
+          {
+            "rel": "limit_1240x646",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/049/876/limit_1240x646_bp1584552286_Give_Her_Five_-_Campaign_Image_-_Play_sport_-_SA.jpg"
+          },
+          {
+            "rel": "limit_450x235",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/049/876/limit_450x235_bp1584552286_Give_Her_Five_-_Campaign_Image_-_Play_sport_-_SA.jpg"
           }
         ]
       },
@@ -1676,6 +1708,14 @@ information for the donors.
           {
             "rel": "original",
             "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/060/749/crop_original_bp1584558480_Skateistan_Girl_Power.jpg"
+          },
+          {
+            "rel": "limit_1240x646",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/060/749/limit_1240x646_bp1584558480_Skateistan_Girl_Power.jpg"
+          },
+          {
+            "rel": "limit_450x235",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/060/749/limit_450x235_bp1584558480_Skateistan_Girl_Power.jpg"
           }
         ]
       },
@@ -1831,6 +1871,14 @@ information for the donors.
           {
             "rel": "original",
             "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/006/233/crop_original_bp1584531889_original_327569_368768896527128_1081473646_o.jpg"
+          },
+          {
+            "rel": "limit_1240x646",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/006/233/limit_1240x646_bp1584531889_original_327569_368768896527128_1081473646_o.jpg"
+          },
+          {
+            "rel": "limit_450x235",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/006/233/limit_450x235_bp1584531889_original_327569_368768896527128_1081473646_o.jpg"
           }
         ]
       },
