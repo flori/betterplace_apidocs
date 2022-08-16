@@ -2,7 +2,7 @@
 # Projects List ⇄ [Details](project_details.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/projects.json?around=10997+Berlin%2C+Germany&around_distance=25km&facets=completed%3Afalse&nelat=82.1673907&nelng=74.3555001&order=rank%3ADESC&q=Skateistan&swlat=34.5428&swlng=-31.4647999
+GET https://api.betterplace.org/de/api_v4/projects.json?around=Kabul&around_distance=25km&facets=completed%3Atrue&nelat=82.1673907&nelng=74.3555001&order=rank%3ADESC&q=Skateistan&swlat=34.5428&swlng=-31.4647999
 ```
 
 A list of betterplace.org projects (donate money).
@@ -27,7 +27,7 @@ below.
   </tr>
   <tr>
     <th align="left">around</th>
-    <td><code>10997 Berlin, Germany</code></td>
+    <td><code>Kabul</code></td>
     <td>no</td>
 <td>
 
@@ -123,7 +123,7 @@ Search query. The searches behaviour is based on the scope.
   </tr>
   <tr>
     <th align="left">facets</th>
-    <td><code>completed:false</code></td>
+    <td><code>completed:true</code></td>
     <td>no</td>
 <td>
 
