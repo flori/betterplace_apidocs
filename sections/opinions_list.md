@@ -396,6 +396,17 @@ Number of donors who donated to the fundraising event
 
 </td>
     </tr>
+    <tr>
+      <th align="left">backed_by_fundraising_event.sponsoring_name</th>
+      <td><code>string</code></td>
+      <td><code>Company XY</code></td>
+<td>
+
+Company name if it is a sponsored fundraising event
+
+
+</td>
+    </tr>
   </table>
 </table>
 
@@ -500,6 +511,18 @@ author.picture.original
 <td>
 
 Maximum sized image. This is the original image with default-cropping or user-cropping applied.
+
+</td>
+    </tr>
+    <tr>
+<th align="left">
+
+backed_by_fundraising_event.sponsoring_logo
+
+</th>
+<td>
+
+Sponsoring Logo
 
 </td>
     </tr>
