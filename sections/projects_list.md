@@ -2,7 +2,7 @@
 # Projects List ⇄ [Details](project_details.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/projects.json?around=Kabul&around_distance=25km&facets=completed%3Atrue&nelat=82.1673907&nelng=74.3555001&order=rank%3ADESC&q=Skateistan&swlat=34.5428&swlng=-31.4647999
+GET https://api.betterplace.org/de/api_v4/projects.json?around=Kabul&around_distance=25km&facets=completed%3Atrue&nelat=3&nelng=4&order=rank%3ADESC&q=Skateistan&swlat=5&swlng=6
 ```
 
 A list of betterplace.org projects (donate money).
@@ -73,7 +73,7 @@ will be ignored.
   </tr>
   <tr>
     <th align="left">nelat</th>
-    <td><code>82.1673907</code></td>
+    <td><code>3</code></td>
     <td>no</td>
 <td>
 
@@ -83,7 +83,7 @@ For geographic bound filterning: The northeast corner's latitude.
   </tr>
   <tr>
     <th align="left">nelng</th>
-    <td><code>74.3555001</code></td>
+    <td><code>4</code></td>
     <td>no</td>
 <td>
 
@@ -93,7 +93,7 @@ For geographic bound filterning: The northeast corner's longitude.
   </tr>
   <tr>
     <th align="left">swlat</th>
-    <td><code>34.5428</code></td>
+    <td><code>5</code></td>
     <td>no</td>
 <td>
 
@@ -103,7 +103,7 @@ For geographic bound filterning: The southwest corner's latitude.
   </tr>
   <tr>
     <th align="left">swlng</th>
-    <td><code>-31.4647999</code></td>
+    <td><code>6</code></td>
     <td>no</td>
 <td>
 
