@@ -483,21 +483,21 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     {
       "id": 2262,
       "created_at": "2009-11-02T16:12:49+01:00",
-      "updated_at": "2022-03-22T07:22:57+01:00",
+      "updated_at": "2022-07-19T12:05:28+02:00",
       "latitude": 50.91569900512695,
       "longitude": 6.94116020202637,
-      "street": "Brückenstraße 95",
+      "street": "Seestraße 117",
       "zip": "50969",
       "city": "Köln",
       "country": "Deutschland",
-      "content_updated_at": "2022-03-22T07:22:57+01:00",
+      "content_updated_at": "2022-07-19T12:05:28+02:00",
       "slug": "unicef",
       "name": "UNICEF",
       "description": "UNICEF, das Kinderhilfswerk der Vereinten Nationen, arbeitet weltweit mit Programmen in rund 190 Ländern. UNICEF hilft, dass das Recht jedes Kindes auf Überleben, Bildung und Schutz Wirklichkeit wird: mit konkreten Projekten, umfassenden Programmen und politischer Lobbyarbeit. UNICEF ist in jedem Land seit vielen Jahren vor Ort und hat ein dichtes Netzwerk lokaler Partner. So ist nachhaltige und effiziente Hilfe möglich. Mit dem jährlichen Geschäftsbericht informiert UNICEF ausführlich über Arbeitsweise, Strukturen und Kosten. Sie finden ihn unter www.unicef.de",
       "tax_deductible": true,
       "contact": {
         "id": 20505,
-        "name": "Maximilian Groß (display)",
+        "name": "Luzi / Luzie Peters (display)",
         "picture": {
           "links": [
             {
@@ -566,7 +566,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "updated_at": "2022-05-18T10:51:42+02:00",
       "latitude": 53.55759811401367,
       "longitude": 9.96815967559815,
-      "street": "Im Winkel 65",
+      "street": "京都府京都市下京区東塩小路721-1",
       "zip": "20357",
       "city": "Hamburg",
       "country": "Deutschland",
@@ -577,7 +577,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       "tax_deductible": true,
       "contact": {
         "id": 561728,
-        "name": "Milan Hiller (display)",
+        "name": "李伟 Krause (display)",
         "picture": {
           "links": [
             {

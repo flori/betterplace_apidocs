@@ -29,7 +29,7 @@ to make sure you only request data that is associated with one of your projects.
     <td>yes</td>
 <td>
 
-Project id as an integer number ≥ 14.
+Project id as an integer number.
 
 </td>
   </tr>
@@ -39,7 +39,7 @@ Project id as an integer number ≥ 14.
     <td>yes</td>
 <td>
 
-Blogpost id as an integer number ≥ 9.
+Blogpost id as an integer number.
 
 </td>
   </tr>

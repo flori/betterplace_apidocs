@@ -30,7 +30,7 @@ projects, the API will return a `404` HTTP code.
     <td>yes</td>
 <td>
 
-Project id as an integer number ≥ 14.
+Project id as an integer number.
 
 </td>
   </tr>
@@ -40,7 +40,7 @@ Project id as an integer number ≥ 14.
     <td>yes</td>
 <td>
 
-Picture-id as an integer number ≥ 1.
+Picture-id as an integer number.
 
 </td>
   </tr>

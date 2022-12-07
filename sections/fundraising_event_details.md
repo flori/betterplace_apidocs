@@ -26,7 +26,7 @@ Use this resource as follows: `/clients/PERMALINK/fundraising-events/ID.json`
     <td>yes</td>
 <td>
 
-Fundraising Event id as an integer number ≥ 1.
+Fundraising Event id as an integer number.
 
 </td>
   </tr>
@@ -258,6 +258,16 @@ The public face of the fundraising event / fundraising event manager
 <td>
 
 TODO
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">around_distance</th>
+      <td><code>number</code></td>
+      <td><code>666.23</code></td>
+<td>
+
+Distance to around location in meters
 
 </td>
     </tr>
@@ -651,7 +661,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "progress_percentage": null,
   "contact": {
     "id": 397832,
-    "name": "Lena Behrendt (display)",
+    "name": "Tizian Busch (display)",
     "picture": {
       "links": [
         {

@@ -42,7 +42,7 @@ The betterplace.org-internal client permalink
     <td>yes</td>
 <td>
 
-Project id as an integer number â‰¥ 14.
+Project id as an integer number.
 
 </td>
   </tr>
@@ -64,7 +64,7 @@ A recommended order is
 <li><code>slug:ASC/DESC</code> â€“ tag name
 <li><code>projects_count:ASC/DESC</code> - how many projects are using that client?
 </ul>
-It is possible to set multiple facet filters.
+It is possible to set multiple order filters.
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 
 
@@ -158,7 +158,7 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> â
     {
       "tag": "Trier",
       "slug": "Trier",
-      "projects_count": 30,
+      "projects_count": 29,
       "links": [
         {
           "rel": "projects",
@@ -169,7 +169,7 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> â
     {
       "tag": "KinderJugendliche",
       "slug": "KinderJugendliche",
-      "projects_count": 32,
+      "projects_count": 30,
       "links": [
         {
           "rel": "projects",

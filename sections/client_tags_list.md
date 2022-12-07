@@ -130,7 +130,7 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> â
     {
       "tag": "Inklusion",
       "slug": "Behinderte",
-      "projects_count": 14,
+      "projects_count": 12,
       "links": [
         {
           "rel": "projects",

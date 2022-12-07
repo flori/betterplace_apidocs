@@ -2,7 +2,7 @@
 # Searching entities to donate to
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/search.json?bounds=52.6754542%2C13.7611175%2C52.338234%2C13.08834&q=Katze
+GET https://api.betterplace.org/de/api_v4/search.json?bounds=52.6754542%2C13.7611175%2C52.338234%2C13.08834&facets=state%3Aactivated&q=Katze
 ```
 
 TODO
@@ -36,6 +36,31 @@ Fulltext search query.
 A string of four comma-seperated floating point geo coordinates in
 range of -180…180 for <code>sw_lat,sw_lng,ne_lat,ne_lng</code>
 describing a bounding box around the search results' geo coordinates.
+
+
+</td>
+  </tr>
+  <tr>
+    <th align="left">facets</th>
+    <td><code>state:activated</code></td>
+    <td>no</td>
+<td>
+
+Filter the result set.
+<br>
+It is strongly recommended to <strong>specify facets</strong> with each request.
+A recommended set of facets is <code>state:activated| min_activity_threshold_reached:true|
+hidden_from_platform:false</code> (without the spaces) which
+only shows active projects and fundraising events that can receive donations.
+<br>
+<em>Supported filters are:</em>
+<ul>
+<li><code>state:activated</code> –For active projects and fundraising events
+<li><code>min_activity_threshold_reached:true/false</code> Project has received some attention and donations
+<li><code>hidden_from_platform:true/false</code> – Incomplete or blocked projects
+</ul>
+It is possible to set multiple facet filters.
+<a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 
 
 </td>
@@ -627,208 +652,23 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 
 ```json
 {
-  "total_entries": 331,
+  "total_entries": 354,
   "offset": 0,
-  "total_pages": 111,
+  "total_pages": 118,
   "current_page": 1,
   "per_page": 3,
   "data": [
     {
-      "id": 72206,
-      "created_at": "2019-08-17T09:01:36+02:00",
-      "updated_at": "2022-06-11T15:01:20+02:00",
-      "latitude": 51.18564980000001,
-      "longitude": 10.4207755,
-      "title": "Tiere auf Lebenshof Gut Weidensee benötigen dringend Hilfe!",
-      "type": "Project",
-      "contact": {
-        "id": 576646,
-        "name": "Anisa Pietsch (display)",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/576/646/fill_100x100_bp1584600717_Videoprint_37.jpg"
-            },
-            {
-              "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/576/646/crop_original_bp1584600717_Videoprint_37.jpg"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/de/users/576646"
-          },
-          {
-            "rel": "contact_data",
-            "href": "https://api.betterplace.org/de/api_v4/users/576646/contact_data.json"
-          }
-        ]
-      },
-      "progress_percentage": 93,
-      "profile_picture": {
-        "links": [
-          {
-            "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_960x500_bp1651574817_DSC_2132.jpg"
-          },
-          {
-            "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_730x380_bp1651574817_DSC_2132.jpg"
-          },
-          {
-            "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_618x322_bp1651574817_DSC_2132.jpg"
-          },
-          {
-            "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_410x214_bp1651574817_DSC_2132.jpg"
-          },
-          {
-            "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_270x141_bp1651574817_DSC_2132.jpg"
-          },
-          {
-            "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/crop_original_bp1651574817_DSC_2132.jpg"
-          }
-        ]
-      },
-      "donated_amount_in_cents": 39873906,
-      "country": "Deutschland",
-      "city": "Mühlhausen",
-      "carrier": {
-        "id": 38291,
-        "name": "Lebenshof Gut Weidensee",
-        "city": "Mühlhausen",
-        "country": "Deutschland",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/038/291/fill_100x100_bp1566147543_index.png"
-            },
-            {
-              "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/038/291/crop_original_bp1566147543_index.png"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "self",
-            "href": "https://api.betterplace.org/de/api_v4/organisations/38291.json"
-          }
-        ]
-      },
-      "donations_count": 11060,
-      "open_amount_in_cents": 2877694,
-      "links": [
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/de/projects/72206-tiere-auf-lebenshof-gut-weidensee-benoetigen-dringend-hilfe"
-        },
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/projects/72206.json"
-        },
-        {
-          "rel": "pictures",
-          "href": "https://api.betterplace.org/de/api_v4/projects/72206/pictures.json"
-        }
-      ]
-    },
-    {
-      "id": 39455,
-      "created_at": "2021-10-26T09:14:29+02:00",
-      "updated_at": "2022-06-11T13:01:16+02:00",
-      "title": "Hilfe für die Samtpfoten - Stream für die Arche",
-      "type": "FundraisingEvent",
-      "contact": {
-        "id": 615002,
-        "name": "Emil Mack (display)",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/615/002/fill_100x100_bp1646242482_001_Benjamin.png"
-            },
-            {
-              "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/615/002/crop_original_bp1646242482_001_Benjamin.png"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.org/de/users/615002"
-          },
-          {
-            "rel": "contact_data",
-            "href": "https://api.betterplace.org/de/api_v4/users/615002/contact_data.json"
-          }
-        ]
-      },
-      "progress_percentage": 0,
-      "profile_picture": {
-        "links": [
-          {
-            "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/039/455/fill_960x500_bp1639043024_arche_kanaum_logo_v2-1_betterplace.png"
-          },
-          {
-            "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/039/455/fill_730x380_bp1639043024_arche_kanaum_logo_v2-1_betterplace.png"
-          },
-          {
-            "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/039/455/fill_618x322_bp1639043024_arche_kanaum_logo_v2-1_betterplace.png"
-          },
-          {
-            "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/039/455/fill_410x214_bp1639043024_arche_kanaum_logo_v2-1_betterplace.png"
-          },
-          {
-            "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/039/455/fill_270x141_bp1639043024_arche_kanaum_logo_v2-1_betterplace.png"
-          },
-          {
-            "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/039/455/crop_original_bp1639043024_arche_kanaum_logo_v2-1_betterplace.png"
-          }
-        ]
-      },
-      "donated_amount_in_cents": 530500,
-      "donations_count": 133,
-      "links": [
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/de/fundraising-events/39455-hilfe-fuer-die-samtpfoten-stream-fuer-die-arche"
-        },
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.org/de/api_v4/fundraising_events/39455.json"
-        },
-        {
-          "rel": "pictures",
-          "href": "https://api.betterplace.org/de/api_v4/projects/39455/pictures.json"
-        }
-      ]
-    },
-    {
       "id": 11289,
       "created_at": "2012-10-30T21:20:22+01:00",
-      "updated_at": "2022-06-11T00:02:08+02:00",
+      "updated_at": "2022-11-21T22:37:11+01:00",
       "latitude": 52.3333333,
       "longitude": 12.35,
       "title": "Ein Monat Futter und Medikamente",
       "type": "Project",
       "contact": {
         "id": 283731,
-        "name": "Jasmin Geyer (display)",
+        "name": "Valentina Maier (display)",
         "picture": {
           "links": [
             {
@@ -857,31 +697,31 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         "links": [
           {
             "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_960x500_bp1584534965_original_IMG_1129.JPG"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_960x500_bp1658228299_original_IMG_1129.JPG"
           },
           {
             "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_730x380_bp1584534965_original_IMG_1129.JPG"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_730x380_bp1658228299_original_IMG_1129.JPG"
           },
           {
             "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_618x322_bp1584534965_original_IMG_1129.JPG"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_618x322_bp1658228299_original_IMG_1129.JPG"
           },
           {
             "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_410x214_bp1584534965_original_IMG_1129.JPG"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_410x214_bp1658228299_original_IMG_1129.JPG"
           },
           {
             "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_270x141_bp1584534965_original_IMG_1129.JPG"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/fill_270x141_bp1658228299_original_IMG_1129.JPG"
           },
           {
             "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/crop_original_bp1584534965_original_IMG_1129.JPG"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/011/289/crop_original_bp1658228299_original_IMG_1129.JPG"
           }
         ]
       },
-      "donated_amount_in_cents": 9641751,
+      "donated_amount_in_cents": 10311274,
       "country": "Deutschland",
       "city": "Rosenau",
       "carrier": {
@@ -908,8 +748,8 @@ Maximum sized image. This is the original image with default-cropping or user-cr
           }
         ]
       },
-      "donations_count": 4593,
-      "open_amount_in_cents": 84049,
+      "donations_count": 5103,
+      "open_amount_in_cents": 79526,
       "links": [
         {
           "rel": "platform",
@@ -922,6 +762,220 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         {
           "rel": "pictures",
           "href": "https://api.betterplace.org/de/api_v4/projects/11289/pictures.json"
+        }
+      ]
+    },
+    {
+      "id": 8081,
+      "created_at": "2011-11-04T12:03:13+01:00",
+      "updated_at": "2022-11-21T22:36:42+01:00",
+      "latitude": 53.75017166137695,
+      "longitude": 91.40022277832031,
+      "title": "Das letzte siebte Leben - Hilfe für Svetlana",
+      "type": "Project",
+      "contact": {
+        "id": 128714,
+        "name": "Zeynep 王 (display)",
+        "picture": {
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/128/714/fill_100x100_bp1584571895_original_ich_f_r_Projekt2.jpg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/128/714/crop_original_bp1584571895_original_ich_f_r_Projekt2.jpg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/de/users/128714"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/de/api_v4/users/128714/contact_data.json"
+          }
+        ]
+      },
+      "progress_percentage": 98,
+      "profile_picture": {
+        "links": [
+          {
+            "rel": "fill_960x500",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/008/081/fill_960x500_bp1658254341_original_IMG_1031.jpg"
+          },
+          {
+            "rel": "fill_730x380",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/008/081/fill_730x380_bp1658254341_original_IMG_1031.jpg"
+          },
+          {
+            "rel": "fill_618x322",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/008/081/fill_618x322_bp1658254341_original_IMG_1031.jpg"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/008/081/fill_410x214_bp1658254341_original_IMG_1031.jpg"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/008/081/fill_270x141_bp1658254341_original_IMG_1031.jpg"
+          },
+          {
+            "rel": "original",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/008/081/crop_original_bp1658254341_original_IMG_1031.jpg"
+          }
+        ]
+      },
+      "donated_amount_in_cents": 18529490,
+      "country": "Russland",
+      "city": "Abakan",
+      "carrier": {
+        "id": 4735,
+        "name": "Tierhilfe - Bluemoon &amp; Pfötchenfreunde e.V.",
+        "city": "Ainring",
+        "country": "Deutschland",
+        "picture": {
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/004/735/fill_100x100_original_neues_Logo.jpg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/004/735/crop_original_original_neues_Logo.jpg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://api.betterplace.org/de/api_v4/organisations/4735.json"
+          }
+        ]
+      },
+      "donations_count": 7512,
+      "open_amount_in_cents": 265910,
+      "links": [
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/de/projects/8081-das-letzte-siebte-leben-hilfe-fuer-svetlana"
+        },
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/de/api_v4/projects/8081.json"
+        },
+        {
+          "rel": "pictures",
+          "href": "https://api.betterplace.org/de/api_v4/projects/8081/pictures.json"
+        }
+      ]
+    },
+    {
+      "id": 72206,
+      "created_at": "2019-08-17T09:01:36+02:00",
+      "updated_at": "2022-11-21T22:45:45+01:00",
+      "latitude": 51.18564980000001,
+      "longitude": 10.4207755,
+      "title": "Tiere auf Lebenshof Gut Weidensee benötigen dringend Hilfe!",
+      "type": "Project",
+      "contact": {
+        "id": 576646,
+        "name": "Mira Wolf (display)",
+        "picture": {
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/576/646/fill_100x100_bp1584600717_Videoprint_37.jpg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/uploads/user/profile_picture/000/576/646/crop_original_bp1584600717_Videoprint_37.jpg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.org/de/users/576646"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.org/de/api_v4/users/576646/contact_data.json"
+          }
+        ]
+      },
+      "progress_percentage": 90,
+      "profile_picture": {
+        "links": [
+          {
+            "rel": "fill_960x500",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_960x500_bp1658345797_DSC_1085.jpg"
+          },
+          {
+            "rel": "fill_730x380",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_730x380_bp1658345797_DSC_1085.jpg"
+          },
+          {
+            "rel": "fill_618x322",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_618x322_bp1658345797_DSC_1085.jpg"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_410x214_bp1658345797_DSC_1085.jpg"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/fill_270x141_bp1658345797_DSC_1085.jpg"
+          },
+          {
+            "rel": "original",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/072/206/crop_original_bp1658345797_DSC_1085.jpg"
+          }
+        ]
+      },
+      "donated_amount_in_cents": 42217093,
+      "country": "Deutschland",
+      "city": "Mühlhausen",
+      "carrier": {
+        "id": 38291,
+        "name": "Lebenshof Gut Weidensee",
+        "city": "Mühlhausen",
+        "country": "Deutschland",
+        "picture": {
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/038/291/fill_100x100_bp1566147543_index.png"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/038/291/crop_original_bp1566147543_index.png"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://api.betterplace.org/de/api_v4/organisations/38291.json"
+          }
+        ]
+      },
+      "donations_count": 11909,
+      "open_amount_in_cents": 4684207,
+      "links": [
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.org/de/projects/72206-tiere-auf-lebenshof-gut-weidensee-benoetigen-dringend-hilfe"
+        },
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.org/de/api_v4/projects/72206.json"
+        },
+        {
+          "rel": "pictures",
+          "href": "https://api.betterplace.org/de/api_v4/projects/72206/pictures.json"
         }
       ]
     }

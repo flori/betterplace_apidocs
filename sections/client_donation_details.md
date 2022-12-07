@@ -106,8 +106,7 @@ Donor information, if available.
 
 An optional message by users.
 
-The body may contain html with any of the following HTML tags:
-```b, br, em, i, li, ol, p, strong, ul```.
+The body is plain text potentially containing line-breaks.
 
 
 </td>
@@ -155,8 +154,7 @@ DateTime (ISO8601 with Timezone)
 <td>
 
 Client donations may go to a <code>Project</code>,
-a Project's <code>Element</code>, a <code>FundraisingEvent</code>,
-a <code>Pool</code>.
+a <code>FundraisingEvent</code>, a <code>Pool</code>.
 
 
 </td>
@@ -359,7 +357,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "state": "confirmed",
   "donor": null,
   "message": "Gemeinsam für Kinder!",
-  "token": "003abcabb13e090150ad",
+  "token": "1bd518f823720bb97702",
   "client_reference": null,
   "created_at": "2011-12-13T13:48:15+01:00",
   "receiver_type": "FundraisingEvent",
@@ -372,7 +370,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     },
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/003abcabb13e090150ad.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations/1bd518f823720bb97702.json"
     }
   ]
 }

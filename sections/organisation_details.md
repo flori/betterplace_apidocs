@@ -29,7 +29,7 @@ to make sure you only request data that is associated with one of your projects.
     <td>yes</td>
 <td>
 
-Organisation-id as an integer number ≥ 14.
+Organisation-id as an integer number.
 
 </td>
   </tr>
@@ -490,7 +490,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "updated_at": "2022-05-18T10:51:42+02:00",
   "latitude": 53.55759811401367,
   "longitude": 9.96815967559815,
-  "street": "Im Winkel 65",
+  "street": "京都府京都市下京区東塩小路721-1",
   "zip": "20357",
   "city": "Hamburg",
   "country": "Deutschland",
@@ -501,7 +501,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "tax_deductible": true,
   "contact": {
     "id": 561728,
-    "name": "Milan Hiller (display)",
+    "name": "李伟 Krause (display)",
     "picture": {
       "links": [
         {

@@ -43,7 +43,7 @@ projects, the API will return a `404` HTTP code.
     <td>yes</td>
 <td>
 
-Project id as an integer number ≥ 14.
+Project id as an integer number.
 
 </td>
   </tr>

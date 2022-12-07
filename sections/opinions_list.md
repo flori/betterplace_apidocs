@@ -29,7 +29,7 @@ Results are contained in a *data* attribute.
     <td>no</td>
 <td>
 
-Project id as an integer number ≥ 14.
+Project id as an integer number.
 This parameter is required in case you want to show project opinions.
 Also check the URL example in the introduction.
 
@@ -42,7 +42,7 @@ Also check the URL example in the introduction.
     <td>no</td>
 <td>
 
-Fundraising Event id as an integer number ≥ 1.
+Fundraising Event id as an integer number.
 This parameter is required in case you want to show fundraising event opinions.
 Also check the URL example in the introduction.
 
@@ -185,17 +185,6 @@ It's false otherwise.
 </td>
     </tr>
     <tr>
-      <th align="left">company_donation</th>
-      <td><code>boolean</code></td>
-      <td><code>false</code></td>
-<td>
-
-Indicates if the sender of the donation was a company.
-
-
-</td>
-    </tr>
-    <tr>
       <th align="left">client_name</th>
       <td><code>string</code></td>
       <td><code>PAYBACK Spendenwelt</code></td>
@@ -255,8 +244,7 @@ Information about the fundraising event through which the donation came in, if a
 
 An optional message by users.
 
-The body may contain html with any of the following HTML tags:
-```b, br, em, i, li, ol, p, strong, ul```.
+The body is plain text potentially containing line-breaks.
 
 
 </td>
@@ -543,10 +531,9 @@ Sponsoring Logo
       "created_at": "2012-04-19T16:08:51+02:00",
       "updated_at": "2016-11-28T15:40:02+01:00",
       "matched": false,
-      "company_donation": false,
       "score": "positive",
       "author": {
-        "name": "Hannah Krämer",
+        "name": "Emma Sommer",
         "picture": {
           "links": [
             {

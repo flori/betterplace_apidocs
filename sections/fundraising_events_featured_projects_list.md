@@ -25,7 +25,7 @@ A list of projects that are currently supported by the fundraising event.
     <td>yes</td>
 <td>
 
-Fundraising Event id as an integer number ≥ 1.
+Fundraising Event id as an integer number.
 
 </td>
   </tr>
@@ -285,14 +285,10 @@ Subtracting:
       <td><code>13</code></td>
 <td>
 
-Number of positive opinions that are given to a project without a donation.
-Those are plain opinions as well as visitor opinions.
-
 DEPRECATED 2017-06-23
 
-Use `donations_count` and `comments_count` instead. There is no distinction
-between positive and negative comments any more, all opinions were converted
-into comments.
+Use `donations_count` instead. There are no opinions and comments outside
+of donations anymore.
 
 
 </td>
@@ -302,11 +298,6 @@ into comments.
       <td><code>number</code></td>
       <td><code>0</code></td>
 <td>
-
-Number of *negative* opinions (usually 0) that are given to a project without a donation.
-Those are plain opinions as well as visitor opinions.
-Critical opinions are part of the betterplace.org
-["Web of trust"](http://www.betterplace.org/c/hilfe/woran-erkenne-ich-dass-ein-projekt-vertrauenswurdig-ist/).
 
 DEPRECATED 2017-06-23
 
@@ -343,12 +334,12 @@ Can be removed at any time. Use with caution
     <tr>
       <th align="left">comments_count</th>
       <td><code>number</code></td>
-      <td><code>24</code></td>
+      <td><code>0</code></td>
 <td>
 
-Count of all comments for this project. This contains positive and negative
-reviews of the project, questions and answers by the project manager, as
-well as comments from users.
+DEPRECATED 2022-10-24
+
+Always returns 0. Don't use this field any more.
 
 
 </td>
@@ -374,9 +365,7 @@ Number of unique donors, based on the payment-email-address
       <td><code>82</code></td>
 <td>
 
-% financed. Note: We have legacy projects with substantial
-donation needs (pre ~2014). This percentage includes those needs.
-
+% financed
 
 </td>
     </tr>
@@ -483,6 +472,16 @@ the data from the appropriate endpoint.
 
 **This is an experimental feature and is still under heavy development. Please use it with caution.**
 
+
+</td>
+    </tr>
+    <tr>
+      <th align="left">around_distance</th>
+      <td><code>number</code></td>
+      <td><code>666.23</code></td>
+<td>
+
+Distance to around location in meters
 
 </td>
     </tr>
@@ -1265,37 +1264,37 @@ information for the donors.
     {
       "id": 1114,
       "created_at": "2009-03-10T11:12:16+01:00",
-      "updated_at": "2022-06-11T00:01:22+02:00",
+      "updated_at": "2022-12-06T21:21:02+01:00",
       "latitude": 34.5553494,
       "longitude": 69.207486,
-      "street": "Kapellenstraße 111",
+      "street": "Lerchenweg 37",
       "zip": "06526",
       "city": "South Africa, Cambodia",
       "country": "Deutschland",
-      "content_updated_at": "2021-11-24T11:35:03+01:00",
+      "content_updated_at": "2022-07-19T11:36:31+02:00",
       "activated_at": "2009-03-10T00:00:00+01:00",
-      "title": "Unterstütze Skateistan - Sport &amp; Bildung für Kinder",
+      "title": "Unterstütze Skateistan - Sport & Bildung für Kinder",
       "description": "<div>Skateistan ist eine mehrfach ausgezeichnete, internationale non-profit Organisation, welche Kinder in Afghanistan, Kambodscha und Südafrika durch Skateboarden und Bildung stark macht. Mit unseren innovativen Programmen möchten wir jungen Menschen die Möglichkeit bieten Vorbilder für eine bessere Welt zu werden. Viele unserer Schüler haben nur wenige Möglichkeiten an Sport- und Bildungsangeboten teilzunehmen. Das betrifft insbesondere Mädchen, gehandicapte Kinder und andere Minderheiten. Armut, Konflikte und Gefahren sind die Realitäten für die Menschen in den Gebieten, wo wir aktiv sind. In solchen Umständen ist es schwer für die Kinder gehört zu werden und genauso mühsam ihr physisches und mentales Wohl sicherzustellen.<br><br>Wir von Skateistan glauben, dass jedes Kind einen Zugang zu Bildung und Freizeitgestaltung braucht, bei dem sie Selbstvertrauen aufbauen können, Freunde kennen lernen und neue Fähigkeiten erlernen, die eine positive Vorbildfunktion mit sich bringen. Skateistan erreicht mit ihren Skateschulen derzeit mehr als 2.600 Schüler weltweit. Über die Hälfte der Skateistan Schüler sind weiblich und Skateboarden ist seither der größte Sport für Mädchen in Afghanistan.<br><br>In 2018 haben wir unseren zehnten Geburtstag gefeiert. Von einigen wenigen Mädchen auf Skateboards in Kabul ist Skateistan zu einer internationalen Nichtregierungsorganisation mit über 2000 aktiven Schülern in drei Ländern gewachsen. <strong>Doch das ist für uns erst der Anfang. Wir wollen noch mehr erreichen, so dass noch mehr Kinder durch Bildung und Skateboarding gestärkt werden.<br></strong><br>\n</div><div>Indem wir Programme für Kinder aus sämtlichen Gesellschaftsschichten zur Verfügung stellen, helfen wir, soziale Grenzen abzubauen. Wir zeigen Kindern, dass Vielfalt etwas ist, was es zu feiern gilt. <strong>Über 50% unserer Schüler sind Mädchen und 78% unserer Schüler kommen aus Familien, die über keine finanziellen Mittel zur Selbsthilfe verfügen</strong>. 160 unserer Kinder leben mit Behinderungen und über 70 Kinder sind im eigenen Land vertrieben.<br><br>\n</div><div>Deswegen betreibt Skateistan Skate-Schulen in Afghanistan, Kambodscha und Südafrika, die den Spaß und den Freigeist von Skateboarding verbindet mit der Chance für die Kinder, ihre kreativen Talente und Interessen auszuprobieren. <strong>Wir glauben, dass Bildung der beste Weg ist, um Kinder zu stärken</strong>, sodass sie den Wandel in ihrem eigenen Umfeld, in ihren Familien, ihren Nachbarschaften einleiten und Gelerntes dort weitergeben. Indem sie über Spiel und Spaß lernen, stellen wir eine positive Verbindung zu Bildung her. Skateboarding lehrt sie außerdem Lektionen, die sie für ihr ganzes Leben behalten. <strong>Skateboarding lehrt sie, kreativ zu werden, hinzufallen und wieder aufzustehen und auf ein Ziel hinzuarbeiten.</strong>\n</div><div><br></div>",
       "summary": "Skateistan will Kindern in Afghanistan, Kambodsha und Sudafrika neue Perspektiven eröffnen, Vorurteile abbauen, Gleichberechtigung fördern und Freude bringen.",
       "tax_deductible": true,
       "donations_prohibited": false,
       "completed_at": null,
       "closed_at": null,
-      "open_amount_in_cents": 288365,
-      "donated_amount_in_cents": 9836487,
-      "positive_opinions_count": 1207,
+      "open_amount_in_cents": 171755,
+      "donated_amount_in_cents": 9953097,
+      "positive_opinions_count": 1225,
       "negative_opinions_count": 0,
-      "donations_count": 1207,
+      "donations_count": 1225,
       "newsletter_subscriptions_count": 461,
       "comments_count": 0,
-      "donor_count": 804,
-      "progress_percentage": 97,
+      "donor_count": 805,
+      "progress_percentage": 98,
       "incomplete_need_count": 1,
       "completed_need_count": 109,
       "blog_post_count": 104,
       "contact": {
         "id": 287126,
-        "name": "Charleen Jäger (display)",
+        "name": "Clarissa Weber (display)",
         "picture": {
           "links": [
             {
@@ -1347,35 +1346,35 @@ information for the donors.
         "links": [
           {
             "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/fill_960x500_bp1637750102_A_New_Chapter_Skate_School_Select_10.png"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/fill_960x500_bp1658223389_A_New_Chapter_Skate_School_Select_10.png"
           },
           {
             "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/fill_730x380_bp1637750102_A_New_Chapter_Skate_School_Select_10.png"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/fill_730x380_bp1658223389_A_New_Chapter_Skate_School_Select_10.png"
           },
           {
             "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/fill_618x322_bp1637750102_A_New_Chapter_Skate_School_Select_10.png"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/fill_618x322_bp1658223389_A_New_Chapter_Skate_School_Select_10.png"
           },
           {
             "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/fill_410x214_bp1637750102_A_New_Chapter_Skate_School_Select_10.png"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/fill_410x214_bp1658223389_A_New_Chapter_Skate_School_Select_10.png"
           },
           {
             "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/fill_270x141_bp1637750102_A_New_Chapter_Skate_School_Select_10.png"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/fill_270x141_bp1658223389_A_New_Chapter_Skate_School_Select_10.png"
           },
           {
             "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/crop_original_bp1637750102_A_New_Chapter_Skate_School_Select_10.png"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/crop_original_bp1658223389_A_New_Chapter_Skate_School_Select_10.png"
           },
           {
             "rel": "limit_1240x646",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/limit_1240x646_bp1637750102_A_New_Chapter_Skate_School_Select_10.png"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/limit_1240x646_bp1658223389_A_New_Chapter_Skate_School_Select_10.png"
           },
           {
             "rel": "limit_450x235",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/limit_450x235_bp1637750102_A_New_Chapter_Skate_School_Select_10.png"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/001/114/limit_450x235_bp1658223389_A_New_Chapter_Skate_School_Select_10.png"
           }
         ]
       },

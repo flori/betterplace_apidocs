@@ -96,8 +96,8 @@ The email address of the user or donor.
 
 ```json
 {
-  "first_name": "Tobias",
-  "last_name": "Demir",
+  "first_name": "Ron",
+  "last_name": "عبد الرشيد",
   "email": "mjo@betterplace.org",
   "links": [
 
