@@ -519,47 +519,6 @@ Sponsoring Logo
 ## Response Example
 
 ```json
-{
-  "total_entries": 1,
-  "offset": 0,
-  "total_pages": 1,
-  "current_page": 1,
-  "per_page": 3,
-  "data": [
-    {
-      "id": 357891,
-      "created_at": "2012-04-19T16:08:51+02:00",
-      "updated_at": "2016-11-28T15:40:02+01:00",
-      "matched": false,
-      "score": "positive",
-      "author": {
-        "name": "Emma Sommer",
-        "picture": {
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/uploads/donation/profile_picture/d94/884/32c58c9bb85f004661cfa5bdc614e0dc2/fill_100x100_bp1480344002_crop_original_bp1469459430_20160505-DSC_0627.jpg"
-            },
-            {
-              "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/uploads/donation/profile_picture/d94/884/32c58c9bb85f004661cfa5bdc614e0dc2/crop_original_bp1480344002_crop_original_bp1469459430_20160505-DSC_0627.jpg"
-            }
-          ]
-        },
-        "links": [
-
-        ]
-      },
-      "message": "",
-      "confirmed_at": "2012-04-19T16:08:51+02:00",
-      "links": [
-        {
-          "rel": "project",
-          "href": "https://api.betterplace.org/de/api_v4/projects/9241.json"
-        }
-      ]
-    }
-  ]
-}
+"#<ApiTools::ResultSet:0x000000012262ce38>"
 ```
 

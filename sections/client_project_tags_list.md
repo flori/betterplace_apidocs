@@ -148,47 +148,6 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> â
 ## Response Example
 
 ```json
-{
-  "total_entries": 5,
-  "offset": 0,
-  "total_pages": 2,
-  "current_page": 1,
-  "per_page": 3,
-  "data": [
-    {
-      "tag": "Trier",
-      "slug": "Trier",
-      "projects_count": 29,
-      "links": [
-        {
-          "rel": "projects",
-          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/tags/Trier/projects.json"
-        }
-      ]
-    },
-    {
-      "tag": "KinderJugendliche",
-      "slug": "KinderJugendliche",
-      "projects_count": 30,
-      "links": [
-        {
-          "rel": "projects",
-          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/tags/KinderJugendliche/projects.json"
-        }
-      ]
-    },
-    {
-      "tag": "Familien",
-      "slug": "Familien",
-      "projects_count": 8,
-      "links": [
-        {
-          "rel": "projects",
-          "href": "https://api.betterplace.org/de/api_v4/clients/volksfreund/tags/Familien/projects.json"
-        }
-      ]
-    }
-  ]
-}
+"#<ApiTools::ResultSet:0x0000000124a55b70>"
 ```
 

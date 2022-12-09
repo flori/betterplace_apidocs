@@ -109,36 +109,6 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> �
 ## Response Example
 
 ```json
-{
-  "total_entries": 14,
-  "offset": 0,
-  "total_pages": 7,
-  "current_page": 1,
-  "per_page": 2,
-  "data": [
-    {
-      "tag": "Bedürftige",
-      "slug": "Bedürftige",
-      "projects_count": 10,
-      "links": [
-        {
-          "rel": "projects",
-          "href": "https://api.betterplace.org/de/api_v4/clients/heidenheim/tags/Bed%C3%BCrftige/projects.json"
-        }
-      ]
-    },
-    {
-      "tag": "Inklusion",
-      "slug": "Behinderte",
-      "projects_count": 12,
-      "links": [
-        {
-          "rel": "projects",
-          "href": "https://api.betterplace.org/de/api_v4/clients/heidenheim/tags/Behinderte/projects.json"
-        }
-      ]
-    }
-  ]
-}
+"#<ApiTools::ResultSet:0x0000000117c95f50>"
 ```
 

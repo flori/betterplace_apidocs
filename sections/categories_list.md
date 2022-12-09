@@ -120,53 +120,6 @@ Permalink to betterplace.org discover category
 ## Response Example
 
 ```json
-{
-  "total_entries": 3,
-  "offset": 0,
-  "total_pages": 1,
-  "current_page": 1,
-  "per_page": 3,
-  "data": [
-    {
-      "id": 3,
-      "created_at": "2016-12-13T16:18:14+01:00",
-      "updated_at": "2018-12-03T17:26:13+01:00",
-      "name": "Bildung",
-      "slug": "bildung",
-      "links": [
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/de/discover/3-bildung"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "created_at": "2016-12-13T17:07:22+01:00",
-      "updated_at": "2018-03-02T12:21:51+01:00",
-      "name": "Sport",
-      "slug": "sport",
-      "links": [
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/de/discover/15-sport"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "created_at": "2016-12-13T16:17:58+01:00",
-      "updated_at": "2022-02-16T08:31:03+01:00",
-      "name": "Kinder und Jugend",
-      "slug": "kinder",
-      "links": [
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.org/de/discover/2-kinder"
-        }
-      ]
-    }
-  ]
-}
+"#<ApiTools::ResultSet:0x0000000121d56b60>"
 ```
 
