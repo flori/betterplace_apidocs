@@ -256,6 +256,6 @@ Link to this resource in the documentation
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x00000001229c5928>"
+"#<ApiTools::ResultSet:0x000000011a405130>"
 ```
 

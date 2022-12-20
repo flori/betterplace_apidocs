@@ -2,7 +2,7 @@
 # Fundraising Event List ⇄ [Details](fundraising_event_details.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/fundraising_events.json?facets=closed%3Afalse&order=rank%3ADESC&q=Die+Eckerts&scope=location
+GET https://api.betterplace.org/de/api_v4/fundraising_events.json?facets=closed%3Afalse&order=rank%3ADESC&q=Die+Eckerts
 ```
 
 A list of betterplace.org fundraising events (donate money).
@@ -25,23 +25,6 @@ and order with each request as explained below.
     <th>Description</th>
   </tr>
   <tr>
-    <th align="left">scope</th>
-    <td><code>location</code></td>
-    <td>no</td>
-<td>
-
-Use the scope to specify how the search-query <code>q</code> should behave:
-<ul>
-<li>"no scope" (default) performs a full text search
-<li><code>human_name</code> searches only on the manager-fullname and carrier-fullname.
-  Use this to get all entities by "Unicef" or by "Till Behnke".
-</ul>
-<a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
-
-
-</td>
-  </tr>
-  <tr>
     <th align="left">q</th>
     <td><code>Die Eckerts</code></td>
     <td>no</td>
@@ -61,7 +44,7 @@ Filter the result set.
 <br>
 It is strongly recommended to <strong>specify facets</strong> with each request.
 A recommended set of facets is
-<code>closed:false| prohibit_donations:false</code>
+<code>closed:false|prohibit_donations:false</code>
 (without the spaces) which only shows active fundraising events that can receive donations.
 <br>
 <em>Supported filters are:</em>
@@ -722,6 +705,6 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x0000000124ed4958>"
+"#<ApiTools::ResultSet:0x000000011a68f158>"
 ```
 

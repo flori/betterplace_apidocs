@@ -1258,7 +1258,7 @@ information for the donors.
 {
   "id": 1114,
   "created_at": "2009-03-10T11:12:16+01:00",
-  "updated_at": "2022-12-06T21:21:02+01:00",
+  "updated_at": "2022-12-17T12:14:09+01:00",
   "latitude": 34.5553494,
   "longitude": 69.207486,
   "street": "Lerchenweg 37",
