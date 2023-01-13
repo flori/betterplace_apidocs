@@ -2,7 +2,7 @@
 # Fundraising Event List ⇄ [Details](fundraising_event_details.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/fundraising_events.json?facets=closed%3Afalse&order=rank%3ADESC&q=Die+Eckerts
+GET https://api.betterplace.org/de/api_v4/fundraising_events.json?facets=closed%3Afalse&order=rank%3ADESC&q=Die+Eckerts&scope=location
 ```
 
 A list of betterplace.org fundraising events (donate money).
@@ -23,6 +23,27 @@ and order with each request as explained below.
     <th>Example</th>
     <th>Required</th>
     <th>Description</th>
+  </tr>
+  <tr>
+    <th align="left">scope</th>
+    <td><code>location</code></td>
+    <td>no</td>
+<td>
+
+Use the scope to specify how the search query <code>q</code> should behave:
+<ul>
+<li>"no scope" (default) performs a full text search
+<li><code>human_name</code> searches only on the manager-fullname and carrier-fullname.
+  Use this to get all entities by "Unicef" or by "Till Behnke".
+<li><code>location</code> does a reverse geocoding lookup.
+  This lookup returns a bounding box. We transform this bounding box to a
+  rectangle that is large enough to encapsulate the whole bounding box.
+  We then return all entities that are within this rectangle.
+</ul>
+<a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
+
+
+</td>
   </tr>
   <tr>
     <th align="left">q</th>
@@ -705,6 +726,6 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x000000011a68f158>"
+"#<ApiTools::ResultSet:0x0000000133597318>"
 ```
 

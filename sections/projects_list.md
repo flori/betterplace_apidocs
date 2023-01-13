@@ -47,6 +47,46 @@ Use the scope to specify how the search query <code>q</code> should behave:
 </td>
   </tr>
   <tr>
+    <th align="left">nelat</th>
+    <td><code>82.1673907</code></td>
+    <td>no</td>
+<td>
+
+For geographic bound filterning: The northeast corner's latitude.
+
+</td>
+  </tr>
+  <tr>
+    <th align="left">nelng</th>
+    <td><code>74.3555001</code></td>
+    <td>no</td>
+<td>
+
+For geographic bound filterning: The northeast corner's longitude.
+
+</td>
+  </tr>
+  <tr>
+    <th align="left">swlat</th>
+    <td><code>34.5428</code></td>
+    <td>no</td>
+<td>
+
+For geographic bound filterning: The southwest corner's latitude.
+
+</td>
+  </tr>
+  <tr>
+    <th align="left">swlng</th>
+    <td><code>-31.4647999</code></td>
+    <td>no</td>
+<td>
+
+For geographic bound filterning: The southwest corner's longitude.
+
+</td>
+  </tr>
+  <tr>
     <th align="left">around</th>
     <td><code>Kabul</code></td>
     <td>no</td>
@@ -89,46 +129,6 @@ values are all integer values followed by <code>m</code> for meters or
 When <code>around_distance</code> is given without <code>around</code> it
 will be ignored.
 
-
-</td>
-  </tr>
-  <tr>
-    <th align="left">nelat</th>
-    <td><code>82.1673907</code></td>
-    <td>no</td>
-<td>
-
-For geographic bound filterning: The northeast corner's latitude.
-
-</td>
-  </tr>
-  <tr>
-    <th align="left">nelng</th>
-    <td><code>74.3555001</code></td>
-    <td>no</td>
-<td>
-
-For geographic bound filterning: The northeast corner's longitude.
-
-</td>
-  </tr>
-  <tr>
-    <th align="left">swlat</th>
-    <td><code>34.5428</code></td>
-    <td>no</td>
-<td>
-
-For geographic bound filterning: The southwest corner's latitude.
-
-</td>
-  </tr>
-  <tr>
-    <th align="left">swlng</th>
-    <td><code>-31.4647999</code></td>
-    <td>no</td>
-<td>
-
-For geographic bound filterning: The southwest corner's longitude.
 
 </td>
   </tr>
@@ -1427,6 +1427,6 @@ information for the donors.
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x000000011d816b90>"
+"#<ApiTools::ResultSet:0x00000001340c76e8>"
 ```
 
