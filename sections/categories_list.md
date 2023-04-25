@@ -2,7 +2,7 @@
 # Project Categories List
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/projects/1114/categories.json
+GET https://api.betterplace.org/de/api_v4/projects/1/categories.json
 ```
 
 A list of betterplace.org project categories.
@@ -20,7 +20,7 @@ Results are contained in a *data* attribute.
   </tr>
   <tr>
     <th align="left">project_id</th>
-    <td><code>1114</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 
@@ -120,6 +120,6 @@ Permalink to betterplace.org discover category
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x0000000132edcbb8>"
+"#<ApiTools::ResultSet:0x000000010f8f5ee8>"
 ```
 

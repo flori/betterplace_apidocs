@@ -2,7 +2,7 @@
 # Project Needs List ⇄ [Details](need_details.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/projects/1114/needs.json?facets=completed%3Afalse&order=position%3AASC
+GET https://api.betterplace.org/de/api_v4/projects/1/needs.json?facets=completed%3Afalse&order=position%3AASC
 ```
 
 A list of betterplace.org projects needs (donate money).
@@ -26,7 +26,7 @@ to make sure you only request data that is associated with one of your projects.
   </tr>
   <tr>
     <th align="left">project_id</th>
-    <td><code>1114</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 
@@ -255,6 +255,6 @@ Link to the regular donation form.
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x00000001320f4938>"
+"#<ApiTools::ResultSet:0x00000001141a51e8>"
 ```
 

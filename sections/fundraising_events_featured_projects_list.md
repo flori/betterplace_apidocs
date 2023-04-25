@@ -2,7 +2,7 @@
 # Fundraising Event Featured Projects List
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/fundraising_events/19267/featured_projects.json
+GET https://api.betterplace.org/de/api_v4/fundraising_events/1/featured_projects.json
 ```
 
 A list of projects that are currently supported by the fundraising event.
@@ -21,7 +21,7 @@ A list of projects that are currently supported by the fundraising event.
   </tr>
   <tr>
     <th align="left">fundraising_event_id</th>
-    <td><code>19267</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 
@@ -1254,6 +1254,6 @@ information for the donors.
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x0000000133bbcef0>"
+"#<ApiTools::ResultSet:0x0000000113e55c68>"
 ```
 

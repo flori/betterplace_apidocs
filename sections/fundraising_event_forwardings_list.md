@@ -2,7 +2,7 @@
 # Fundraising Event Forwardings List
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/fundraising_events/19267/forwardings.json
+GET https://api.betterplace.org/de/api_v4/fundraising_events/1/forwardings.json
 ```
 
 A list of forwarings from the fundraising event to its projects.
@@ -21,7 +21,7 @@ A list of forwarings from the fundraising event to its projects.
   </tr>
   <tr>
     <th align="left">fundraising_event_id</th>
-    <td><code>19267</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 
@@ -115,6 +115,6 @@ Link to the project on betterplace.org. Can be blank if project is hidden.
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x0000000131f7ef68>"
+"#<ApiTools::ResultSet:0x000000011405cc78>"
 ```
 

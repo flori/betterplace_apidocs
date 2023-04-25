@@ -2,7 +2,7 @@
 # Client tags list
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/clients/volksfreund/tags.json
+GET https://api.betterplace.org/de/api_v4/clients/ww-testclient/tags.json
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -23,7 +23,7 @@ Results are contained in a *data* attribute.
   </tr>
   <tr>
     <th align="left">client_id</th>
-    <td><code>volksfreund</code></td>
+    <td><code>ww-testclient</code></td>
     <td>yes</td>
 <td>
 
@@ -109,6 +109,6 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> â
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x00000001345ec2b8>"
+"#<ApiTools::ResultSet:0x00000001148bee70>"
 ```
 

@@ -2,7 +2,7 @@
 # Projects List ⇄ [Details](project_details.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/projects.json?around=Kabul&around_distance=25km&facets=completed%3Afalse&order=rank%3ADESC&q=Skateistan&scope=location
+GET https://api.betterplace.org/de/api_v4/projects.json?around=Kabul&around_distance=25km&facets=completed%3Afalse&order=rank%3ADESC&q=Berlin&scope=location
 ```
 
 A list of betterplace.org projects (donate money).
@@ -134,7 +134,7 @@ will be ignored.
   </tr>
   <tr>
     <th align="left">q</th>
-    <td><code>Skateistan</code></td>
+    <td><code>Berlin</code></td>
     <td>no</td>
 <td>
 
@@ -195,6 +195,7 @@ is given.
 <li><code>created_at:ASC/DESC</code> and <code>updated_at:ASC/DESC</code>
 <li><code>last_donation_at:ASC/DESC</code>
 <li><code>id:ASC/DESC</code>
+<li><code>closed:ASC/DESC</code>
 </ul>
 It is possible to set multiple order parameters.
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
@@ -1427,6 +1428,6 @@ information for the donors.
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x00000001340c76e8>"
+"#<ApiTools::ResultSet:0x0000000114ed4d28>"
 ```
 

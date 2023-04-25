@@ -2,7 +2,7 @@
 # Fundraising Event List ⇄ [Details](fundraising_event_details.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/fundraising_events.json?facets=closed%3Afalse&order=rank%3ADESC&q=Die+Eckerts&scope=location
+GET https://api.betterplace.org/de/api_v4/fundraising_events.json?facets=closed%3Afalse&order=rank%3ADESC&q=Berlin&scope=location
 ```
 
 A list of betterplace.org fundraising events (donate money).
@@ -47,7 +47,7 @@ Use the scope to specify how the search query <code>q</code> should behave:
   </tr>
   <tr>
     <th align="left">q</th>
-    <td><code>Die Eckerts</code></td>
+    <td><code>Berlin</code></td>
     <td>no</td>
 <td>
 
@@ -726,6 +726,6 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x0000000133597318>"
+"#<ApiTools::ResultSet:0x0000000114a76218>"
 ```
 

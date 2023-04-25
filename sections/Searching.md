@@ -2,7 +2,7 @@
 # Searching entities to donate to
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/search.json?bounds=52.6754542%2C13.7611175%2C52.338234%2C13.08834&facets=state%3Aactivated&q=Katze
+GET https://api.betterplace.org/de/api_v4/search.json?bounds=52.6754542%2C13.7611175%2C52.338234%2C13.08834&facets=state%3Aactivated&q=Berlin
 ```
 
 TODO
@@ -19,7 +19,7 @@ TODO
   </tr>
   <tr>
     <th align="left">q</th>
-    <td><code>Katze</code></td>
+    <td><code>Berlin</code></td>
     <td>no</td>
 <td>
 
@@ -651,6 +651,6 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x0000000127ddfec8>"
+"#<ApiTools::ResultSet:0x000000010e7ecac0>"
 ```
 

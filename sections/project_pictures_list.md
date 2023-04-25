@@ -2,7 +2,7 @@
 # Project Pictures List ⇄ [Details](project_picture_details.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/projects/1114/pictures.json
+GET https://api.betterplace.org/de/api_v4/projects/3/pictures.json
 ```
 
 A list of pictures of a betterplace.org project (donate money).
@@ -39,7 +39,7 @@ projects, the API will return a `404` HTTP code.
   </tr>
   <tr>
     <th align="left">project_id</th>
-    <td><code>1114</code></td>
+    <td><code>3</code></td>
     <td>yes</td>
 <td>
 
@@ -201,6 +201,6 @@ The parent object of this picture.
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x000000013470e998>"
+"#<ApiTools::ResultSet:0x0000000115a57948>"
 ```
 

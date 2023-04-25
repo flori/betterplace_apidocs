@@ -2,7 +2,7 @@
 # Client Donations List ⇄ [Details](client_donation_details.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/clients/volksfreund/client_donations.json?facets=client_reference%3A922ec9b-etc
+GET https://api.betterplace.org/de/api_v4/clients/ww-testclient/client_donations.json?facets=client_reference%3A922ec9b-etc
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -24,7 +24,7 @@ Results are contained in a *data* attribute.
   </tr>
   <tr>
     <th align="left">client_id</th>
-    <td><code>volksfreund</code></td>
+    <td><code>ww-testclient</code></td>
     <td>yes</td>
 <td>
 
@@ -364,6 +364,6 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x0000000133535140>"
+"#<ApiTools::ResultSet:0x0000000113b652b0>"
 ```
 

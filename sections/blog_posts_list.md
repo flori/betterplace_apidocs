@@ -2,7 +2,7 @@
 # Blog Posts List ⇄ [Details](blog_post_details.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/projects/1114/blog_posts.json?fundraising_event_id=19267
+GET https://api.betterplace.org/de/api_v4/projects/1/blog_posts.json?fundraising_event_id=1
 ```
 
 A list of the blog posts of a betterplace.org project or fundraising event.
@@ -31,7 +31,7 @@ to make sure you only request data that is associated with one of your projects.
   </tr>
   <tr>
     <th align="left">project_id</th>
-    <td><code>1114</code></td>
+    <td><code>1</code></td>
     <td>no</td>
 <td>
 
@@ -41,7 +41,7 @@ Project id as an integer number.
   </tr>
   <tr>
     <th align="left">fundraising_event_id</th>
-    <td><code>19267</code></td>
+    <td><code>1</code></td>
     <td>no</td>
 <td>
 
@@ -343,6 +343,6 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x00000001340779b8>"
+"#<ApiTools::ResultSet:0x00000001157cc048>"
 ```
 

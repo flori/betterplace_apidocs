@@ -2,7 +2,7 @@
 # Client-project tags list
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/clients/volksfreund/projects/4425/tags.json?order=projects_count%3ADESC
+GET https://api.betterplace.org/de/api_v4/clients/ww-testclient/projects/1/tags.json?order=projects_count%3ADESC
 ```
 
 **For [betterplace.org clients](../README.md#client-api) only:**
@@ -28,7 +28,7 @@ request as explained below.
   </tr>
   <tr>
     <th align="left">client_id</th>
-    <td><code>volksfreund</code></td>
+    <td><code>ww-testclient</code></td>
     <td>yes</td>
 <td>
 
@@ -38,7 +38,7 @@ The betterplace.org-internal client permalink
   </tr>
   <tr>
     <th align="left">project_id</th>
-    <td><code>4425</code></td>
+    <td><code>1</code></td>
     <td>yes</td>
 <td>
 
@@ -148,6 +148,6 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> â
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x00000001335eea50>"
+"#<ApiTools::ResultSet:0x00000001146dcb48>"
 ```
 
