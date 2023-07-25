@@ -120,6 +120,6 @@ Permalink to betterplace.org discover category
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x0000000120677598>"
+"#<ApiTools::ResultSet:0x000000010fe847d8>"
 ```
 

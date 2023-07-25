@@ -519,6 +519,6 @@ Sponsoring Logo
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x0000000122eec898>"
+"#<ApiTools::ResultSet:0x000000010a414668>"
 ```
 

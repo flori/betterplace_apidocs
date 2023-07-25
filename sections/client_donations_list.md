@@ -364,6 +364,6 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x00000001210b7440>"
+"#<ApiTools::ResultSet:0x00000001185be230>"
 ```
 
