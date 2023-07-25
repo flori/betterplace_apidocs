@@ -115,6 +115,6 @@ Link to the project on betterplace.org. Can be blank if project is hidden.
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x000000011c90fc50>"
+"#<ApiTools::ResultSet:0x0000000124ac4ac0>"
 ```
 
