@@ -518,11 +518,11 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     "links": [
       {
         "rel": "platform",
-        "href": "https://www.betterplace.dev/de/users/1"
+        "href": "https://www.betterplace.org/de/users/1"
       },
       {
         "rel": "contact_data",
-        "href": "https://api.betterplace.dev/de/api_v4/users/1/contact_data.json"
+        "href": "https://api.betterplace.org/de/api_v4/users/1/contact_data.json"
       }
     ]
   },
@@ -550,15 +550,15 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.dev/de/api_v4/organisations/1.json"
+      "href": "https://api.betterplace.org/de/api_v4/organisations/1.json"
     },
     {
       "rel": "platform",
-      "href": "https://www.betterplace.dev/de/organisations/1-organisation-1"
+      "href": "https://www.betterplace.org/de/organisations/1-organisation-1"
     },
     {
       "rel": "projects",
-      "href": "https://api.betterplace.dev/de/api_v4/organisations/1/projects.json"
+      "href": "https://api.betterplace.org/de/api_v4/organisations/1/projects.json"
     },
     {
       "rel": "website",

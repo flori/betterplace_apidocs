@@ -246,20 +246,20 @@ Link to the regular donation form.
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.dev/de/api_v4/projects/1/needs/1.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1/needs/1.json"
     },
     {
       "rel": "project",
-      "href": "https://api.betterplace.dev/de/api_v4/projects/1.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1.json"
     },
     {
       "rel": "new_client_donation",
-      "href": "https://www.betterplace.dev/de/donate/%7Bclient_id%7D/projects/1?need_id=1",
+      "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/projects/1?need_id=1",
       "templated": true
     },
     {
       "rel": "new_donation",
-      "href": "https://www.betterplace.dev/de/donate/platform/projects/1?need_id=1"
+      "href": "https://www.betterplace.org/de/donate/platform/projects/1?need_id=1"
     }
   ]
 }

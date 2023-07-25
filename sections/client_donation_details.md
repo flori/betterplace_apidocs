@@ -366,11 +366,11 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "links": [
     {
       "rel": "receiver",
-      "href": "https://api.betterplace.dev/de/api_v4/projects/1.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1.json"
     },
     {
       "rel": "self",
-      "href": "https://api.betterplace.dev/de/api_v4/clients/ww-testclient/client_donations/iyWosJyuNcqG-5BEMy33cJNS.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/ww-testclient/client_donations/iyWosJyuNcqG-5BEMy33cJNS.json"
     }
   ]
 }

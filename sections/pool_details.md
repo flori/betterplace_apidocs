@@ -139,7 +139,7 @@ Link to this resource itself
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.dev/de/api_v4/clients/ww-testclient/pool.json"
+      "href": "https://api.betterplace.org/de/api_v4/clients/ww-testclient/pool.json"
     }
   ]
 }

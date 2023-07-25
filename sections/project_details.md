@@ -1305,11 +1305,11 @@ information for the donors.
     "links": [
       {
         "rel": "platform",
-        "href": "https://www.betterplace.dev/de/users/1"
+        "href": "https://www.betterplace.org/de/users/1"
       },
       {
         "rel": "contact_data",
-        "href": "https://api.betterplace.dev/de/api_v4/users/1/contact_data.json"
+        "href": "https://api.betterplace.org/de/api_v4/users/1/contact_data.json"
       }
     ]
   },
@@ -1334,7 +1334,7 @@ information for the donors.
     "links": [
       {
         "rel": "self",
-        "href": "https://api.betterplace.dev/de/api_v4/organisations/1.json"
+        "href": "https://api.betterplace.org/de/api_v4/organisations/1.json"
       }
     ]
   },
@@ -1379,44 +1379,44 @@ information for the donors.
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.dev/de/api_v4/projects/1.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1.json"
     },
     {
       "rel": "platform",
-      "href": "https://www.betterplace.dev/de/projects/1-my-little-project"
+      "href": "https://www.betterplace.org/de/projects/1-my-little-project"
     },
     {
       "rel": "opinions",
-      "href": "https://api.betterplace.dev/de/api_v4/projects/1/opinions.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1/opinions.json"
     },
     {
       "rel": "pictures",
-      "href": "https://api.betterplace.dev/de/api_v4/projects/1/pictures.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1/pictures.json"
     },
     {
       "rel": "needs",
-      "href": "https://api.betterplace.dev/de/api_v4/projects/1/needs.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1/needs.json"
     },
     {
       "rel": "blog_posts",
-      "href": "https://api.betterplace.dev/de/api_v4/projects/1/blog_posts.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1/blog_posts.json"
     },
     {
       "rel": "matching_funds",
-      "href": "https://api.betterplace.dev/de/api_v4/matching_funds.json?project_id=1"
+      "href": "https://api.betterplace.org/de/api_v4/matching_funds.json?project_id=1"
     },
     {
       "rel": "categories",
-      "href": "https://api.betterplace.dev/de/api_v4/projects/1/categories.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/1/categories.json"
     },
     {
       "rel": "new_client_donation",
-      "href": "https://www.betterplace.dev/de/donate/%7Bclient_id%7D/projects/1",
+      "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/projects/1",
       "templated": true
     },
     {
       "rel": "new_donation",
-      "href": "https://www.betterplace.dev/de/donate/platform/projects/1"
+      "href": "https://www.betterplace.org/de/donate/platform/projects/1"
     }
   ]
 }

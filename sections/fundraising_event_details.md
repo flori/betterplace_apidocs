@@ -678,11 +678,11 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     "links": [
       {
         "rel": "platform",
-        "href": "https://www.betterplace.dev/de/users/3"
+        "href": "https://www.betterplace.org/de/users/3"
       },
       {
         "rel": "contact_data",
-        "href": "https://api.betterplace.dev/de/api_v4/users/3/contact_data.json"
+        "href": "https://api.betterplace.org/de/api_v4/users/3/contact_data.json"
       }
     ]
   },
@@ -717,40 +717,40 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.dev/de/api_v4/fundraising_events/1.json"
+      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/1.json"
     },
     {
       "rel": "featured_projects",
-      "href": "https://api.betterplace.dev/de/api_v4/fundraising_events/1/featured_projects.json"
+      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/1/featured_projects.json"
     },
     {
       "rel": "blog_posts",
-      "href": "https://api.betterplace.dev/de/api_v4/fundraising_events/1/blog_posts.json"
+      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/1/blog_posts.json"
     },
     {
       "rel": "forwardings",
-      "href": "https://api.betterplace.dev/de/api_v4/fundraising_events/1/forwardings.json"
+      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/1/forwardings.json"
     },
     {
       "rel": "platform",
-      "href": "https://www.betterplace.dev/de/fundraising-events/1-my-berlin-marathon"
+      "href": "https://www.betterplace.org/de/fundraising-events/1-my-berlin-marathon"
     },
     {
       "rel": "opinions",
-      "href": "https://api.betterplace.dev/de/api_v4/fundraising_events/1/opinions.json"
+      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/1/opinions.json"
     },
     {
       "rel": "new_client_donation",
-      "href": "https://www.betterplace.dev/de/donate/%7Bclient_id%7D/fundraising-events/1",
+      "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/fundraising-events/1",
       "templated": true
     },
     {
       "rel": "new_donation",
-      "href": "https://www.betterplace.dev/de/donate/platform/fundraising-events/1"
+      "href": "https://www.betterplace.org/de/donate/platform/fundraising-events/1"
     },
     {
       "rel": "new_message",
-      "href": "https://www.betterplace.dev/de/messages/new?recipient=3"
+      "href": "https://www.betterplace.org/de/messages/new?recipient=3"
     }
   ]
 }

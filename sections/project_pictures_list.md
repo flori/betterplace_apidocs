@@ -201,6 +201,6 @@ The parent object of this picture.
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x0000000123dacab8>"
+"#<ApiTools::ResultSet:0x000000011d3144d0>"
 ```
 

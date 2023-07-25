@@ -365,22 +365,22 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     "links": [
       {
         "rel": "platform",
-        "href": "https://www.betterplace.dev/de/users/1"
+        "href": "https://www.betterplace.org/de/users/1"
       },
       {
         "rel": "contact_data",
-        "href": "https://api.betterplace.dev/de/api_v4/users/1/contact_data.json"
+        "href": "https://api.betterplace.org/de/api_v4/users/1/contact_data.json"
       }
     ]
   },
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.dev/de/api_v4/blog_posts/1.json"
+      "href": "https://api.betterplace.org/de/api_v4/blog_posts/1.json"
     },
     {
       "rel": "platform",
-      "href": "https://www.betterplace.dev/de/projects/1-my-little-project/news/1"
+      "href": "https://www.betterplace.org/de/projects/1-my-little-project/news/1"
     },
     {
       "rel": "documentation",

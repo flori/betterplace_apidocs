@@ -258,15 +258,15 @@ Link to this resource in the documentation
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.dev/de/api_v4/matching_funds/1.json"
+      "href": "https://api.betterplace.org/de/api_v4/matching_funds/1.json"
     },
     {
       "rel": "platform",
-      "href": "https://www.betterplace.dev/de/matching-funds/1-company-name"
+      "href": "https://www.betterplace.org/de/matching-funds/1-company-name"
     },
     {
       "rel": "projects",
-      "href": "https://api.betterplace.dev/de/api_v4/matching_funds/1/projects.json"
+      "href": "https://api.betterplace.org/de/api_v4/matching_funds/1/projects.json"
     },
     {
       "rel": "documentation",

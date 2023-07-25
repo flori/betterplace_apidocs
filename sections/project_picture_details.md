@@ -226,11 +226,11 @@ The parent object of this picture.
     },
     {
       "rel": "self",
-      "href": "https://api.betterplace.dev/de/api_v4/projects/3/pictures/1.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/3/pictures/1.json"
     },
     {
       "rel": "parent",
-      "href": "https://api.betterplace.dev/de/api_v4/projects/3.json"
+      "href": "https://api.betterplace.org/de/api_v4/projects/3.json"
     }
   ]
 }
