@@ -255,6 +255,6 @@ Link to the regular donation form.
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x0000000117eaf048>"
+"#<ApiTools::ResultSet:0x00000001218e4320>"
 ```
 

@@ -1254,6 +1254,6 @@ information for the donors.
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x0000000123abeb30>"
+"#<ApiTools::ResultSet:0x000000012033f240>"
 ```
 
