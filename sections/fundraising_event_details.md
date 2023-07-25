@@ -645,7 +645,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 {
   "id": 1,
   "created_at": "2023-04-25T15:30:35+02:00",
-  "updated_at": "2023-04-25T15:30:44+02:00",
+  "updated_at": "2023-06-13T09:00:35+02:00",
   "content_updated_at": "2023-04-25T15:30:35+02:00",
   "title": "My Berlin Marathon",
   "description": null,

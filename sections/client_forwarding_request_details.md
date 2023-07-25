@@ -212,12 +212,12 @@ Link to the related donation
 {
   "id": 1,
   "created_at": "2023-04-25T15:30:42+02:00",
-  "updated_at": "2023-04-25T15:30:42+02:00",
+  "updated_at": "2023-05-18T04:15:05+02:00",
   "confirmed_at": null,
-  "failed_at": null,
-  "state": "pending",
-  "failure_code": null,
-  "failure_reason": null,
+  "failed_at": "2023-05-18T04:15:05+02:00",
+  "state": "failed",
+  "failure_code": "pool_empty",
+  "failure_reason": "Amount Es können nicht mehr als 0,00 € zugeordnet werden.",
   "links": [
 
   ]

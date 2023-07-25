@@ -148,6 +148,6 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> â
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x00000001146dcb48>"
+"#<ApiTools::ResultSet:0x0000000124c74320>"
 ```
 

@@ -1258,7 +1258,7 @@ information for the donors.
 {
   "id": 1,
   "created_at": "2023-04-25T15:30:17+02:00",
-  "updated_at": "2023-04-25T15:30:47+02:00",
+  "updated_at": "2023-06-13T01:15:21+02:00",
   "latitude": 52.49000000000001,
   "longitude": 13.45,
   "street": null,
@@ -1274,7 +1274,7 @@ information for the donors.
   "donations_prohibited": false,
   "completed_at": null,
   "closed_at": null,
-  "open_amount_in_cents": 850100,
+  "open_amount_in_cents": 975100,
   "donated_amount_in_cents": 125000,
   "positive_opinions_count": 3,
   "negative_opinions_count": 0,
@@ -1283,8 +1283,8 @@ information for the donors.
   "comments_count": 0,
   "donor_count": 3,
   "progress_percentage": 11,
-  "incomplete_need_count": 2,
-  "completed_need_count": 2,
+  "incomplete_need_count": 3,
+  "completed_need_count": 1,
   "blog_post_count": 1,
   "contact": {
     "id": 1,
