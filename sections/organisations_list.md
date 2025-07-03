@@ -473,6 +473,96 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x000000010f1cd030>"
+{
+  "current_page": 1,
+  "offset": 0,
+  "per_page": 2,
+  "total_entries": 1,
+  "total_pages": 1,
+  "data": [
+    {
+      "id": 1,
+      "created_at": "2025-06-26T13:11:50+02:00",
+      "updated_at": "2025-06-26T13:11:50+02:00",
+      "latitude": 52.52000800000001,
+      "longitude": 13.404954,
+      "street": "Mainzer Straße 20",
+      "zip": "10247",
+      "city": "Berlin",
+      "country": "Deutschland",
+      "content_updated_at": "2025-06-26T13:11:50+02:00",
+      "slug": "permalink1",
+      "name": "Organisation #1",
+      "description": "not a blank description",
+      "tax_deductible": true,
+      "contact": {
+        "id": 1,
+        "name": "u. X",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.dev/de/users/1"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.dev/de/api_v4/users/1/contact_data.json"
+          }
+        ]
+      },
+      "picture": {
+        "fallback": true,
+        "links": [
+          {
+            "rel": "fill_100x100",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/square_profile_picture/fill_100x100_default.jpg"
+          },
+          {
+            "rel": "fill_200x200",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/square_profile_picture/fill_200x200_default.jpg"
+          },
+          {
+            "rel": "fill_400x400",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/square_profile_picture/fill_400x400_default.jpg"
+          },
+          {
+            "rel": "original",
+            "href": "https://betterplace-assets.betterplace.org/assets/default/square_profile_picture/crop_original_default.jpg"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.dev/de/api_v4/organisations/1.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.dev/de/organisations/1-organisation-1"
+        },
+        {
+          "rel": "projects",
+          "href": "https://api.betterplace.dev/de/api_v4/organisations/1/projects.json"
+        },
+        {
+          "rel": "website",
+          "href": ""
+        }
+      ]
+    }
+  ]
+}
 ```
 

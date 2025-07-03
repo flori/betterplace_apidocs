@@ -120,6 +120,27 @@ Permalink to betterplace.org discover category
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x000000011819fcd0>"
+{
+  "current_page": 1,
+  "offset": 0,
+  "per_page": 3,
+  "total_entries": 1,
+  "total_pages": 1,
+  "data": [
+    {
+      "id": 1,
+      "created_at": "2025-06-26T13:11:49+02:00",
+      "updated_at": "2025-06-26T13:11:49+02:00",
+      "name": "Highly interesting",
+      "slug": null,
+      "links": [
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.dev/de/discover/1"
+        }
+      ]
+    }
+  ]
+}
 ```
 

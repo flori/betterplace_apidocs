@@ -355,22 +355,38 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 {
   "amount_in_cents": 50000,
   "state": "confirmed",
-  "donor": null,
-  "message": null,
-  "token": "iyWosJyuNcqG-5BEMy33cJNS",
+  "donor": {
+    "name": "Anonym",
+    "picture": {
+      "fallback": true,
+      "links": [
+        {
+          "rel": "fill_100x100",
+          "href": "https://betterplace-assets.betterplace.org/assets/default/donation_profile_picture/fill_100x100_default.png"
+        },
+        {
+          "rel": "original",
+          "href": "https://betterplace-assets.betterplace.org/assets/default/donation_profile_picture/fill_100x100_default.png"
+        }
+      ]
+    },
+    "links": []
+  },
+  "message": "ww client donation is this one",
+  "token": "uEzfyTvGsRoMfnkDJ-km__MT",
   "client_reference": null,
-  "created_at": "2023-04-25T15:30:42+02:00",
+  "created_at": "2025-06-26T13:12:26+02:00",
   "receiver_type": "Project",
   "receiver_id": 1,
-  "receiver_title": "my little project",
+  "receiver_title": "Project - my little project",
   "links": [
     {
       "rel": "receiver",
-      "href": "https://api.betterplace.org/de/api_v4/projects/1.json"
+      "href": "https://api.betterplace.dev/de/api_v4/projects/1.json"
     },
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/clients/ww-testclient/client_donations/iyWosJyuNcqG-5BEMy33cJNS.json"
+      "href": "https://api.betterplace.dev/de/api_v4/clients/ww-testclient/client_donations/uEzfyTvGsRoMfnkDJ-km__MT.json"
     }
   ]
 }

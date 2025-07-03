@@ -87,6 +87,9 @@ Filter the result set.
 Documented and supported filters are:
 <ul>
   <li><code>has_message:true/false</code> – did the donor add a message to her donation
+  <li><code>company_donation:true/false</code> – is the donor a company
+  <li><code>has_author_or_amount:true/false</code> – exclude anonymous donations with no amount shown
+  <li><code>since:datetime</code> – filter for donations that are newer than a certain datetime
 </ul>
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
 
@@ -151,35 +154,6 @@ is visible.
 
 Known issue: For forwarding donations (money that is forwarded from a fundraising event to a project)
 this field is always empty, which is wrong.
-
-
-</td>
-    </tr>
-    <tr>
-      <th align="left">matched_amount_in_cents</th>
-      <td><code>number</code></td>
-      <td><code>5000</code></td>
-<td>
-
-If a matching fund was active during the donation then the amount
-donated by a user might was matched with another donation.
-
-This amount is normally as high as the actual donation amount, with some
-restrictions, e.g. when the matching fund is depleted or the donation
-was higher than the maximum matching threshold.
-
-
-</td>
-    </tr>
-    <tr>
-      <th align="left">matched</th>
-      <td><code>boolean</code></td>
-      <td><code>true</code></td>
-<td>
-
-The matched field is true if this is a donor opinion for a donation that
-was matched by a <a href="matching_fund_details.md">matching fund</a>.
-It's false otherwise.
 
 
 </td>
@@ -436,20 +410,6 @@ Link to the fundraising event this opinion belongs to
     <tr>
 <th align="left">
 
-matching_fund
-
-</th>
-<td>
-
-Link to the matching fund that matched this donation.
-(<a href="matching_fund_details.md">matching fund details</a>)
-
-
-</td>
-    </tr>
-    <tr>
-<th align="left">
-
 author.platform
 
 </th>
@@ -519,6 +479,46 @@ Sponsoring Logo
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x000000010ca36aa8>"
+{
+  "current_page": 1,
+  "offset": 0,
+  "per_page": 3,
+  "total_entries": 1,
+  "total_pages": 1,
+  "data": [
+    {
+      "id": 1,
+      "created_at": "2025-06-26T13:12:26+02:00",
+      "updated_at": "2025-06-26T13:12:26+02:00",
+      "donated_amount_in_cents": 50000,
+      "score": "positive",
+      "author": {
+        "name": "Anonym",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/donation_profile_picture/fill_100x100_default.png"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/donation_profile_picture/fill_100x100_default.png"
+            }
+          ]
+        },
+        "links": []
+      },
+      "message": "with &lt;3",
+      "confirmed_at": "2025-06-26T13:12:26+02:00",
+      "links": [
+        {
+          "rel": "project",
+          "href": "https://api.betterplace.dev/de/api_v4/projects/1.json"
+        }
+      ]
+    }
+  ]
+}
 ```
 

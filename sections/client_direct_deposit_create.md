@@ -83,7 +83,7 @@ are optional.
   "city": "Wiesbaden",
   "zip": "65185",
   "country_alpha2": "DE",
-  "validate_address": true
+  "receipt_desired": true
 }
 ```
 
@@ -223,7 +223,7 @@ The street of the donors address.
 Used to issue a donation receipt if the donation is tax deductible.
 
 This field is required by default, but optional with
-validate_address=false.
+receipt_desired=false.
 
 
 </td>
@@ -240,7 +240,7 @@ validate_address=false.
 The city of the donors address.
 Used to issue a donation receipt if the donation is tax deductible.
 
-This field is required default, but optional with validate_address=false.
+This field is required default, but optional with receipt_desired=false.
 
 
 </td>
@@ -257,7 +257,7 @@ This field is required default, but optional with validate_address=false.
 Zip code of the city or region the donor lives in.
 Used to issue a donation receipt if the donation is tax deductible.
 
-This field is required by default, but optional with validate_address=false.
+This field is required by default, but optional with receipt_desired=false.
 
 
 </td>
@@ -276,13 +276,13 @@ can be found at <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officia
 Wikipedia ISO_3166-1_alpha-2</a>. Used to issue a donation receipt if
 the donation is tax deductible.
 
-This field is required by default, but optional with validate_address=false.
+This field is required by default, but optional with receipt_desired=false.
 
 
 </td>
   </tr>
   <tr>
-    <th align="left">validate_address</th>
+    <th align="left">receipt_desired</th>
     <td><code>true</code></td>
     <td><code>boolean</code></td>
     <td>
@@ -388,15 +388,13 @@ The holder name for the SEPA transaction.
 
 ```json
 {
-  "id": 2,
-  "created_at": "2007-10-30T13:11:02+01:00",
-  "updated_at": "2008-01-21T15:30:25+01:00",
-  "reference_id": 2,
-  "iban": "DE14100500000191151882",
-  "holder_name": "gut.org",
-  "links": [
-
-  ]
+  "id": 1,
+  "created_at": "2025-06-26T13:12:25+02:00",
+  "updated_at": "2025-06-26T13:12:25+02:00",
+  "reference_id": 1,
+  "iban": "DE61100500000191399744",
+  "holder_name": "betterplace.org",
+  "links": []
 }
 ```
 

@@ -53,9 +53,6 @@ to api@betterplace.org.
 1. **Organisations**
     1. [**Organisations** List](sections/organisations_list.md)
     1. [**Organisation** Details](sections/organisation_details.md)
-1. **MatchingFunds**
-    1. [**MatchingFunds** List](sections/matching_funds_list.md)
-    1. [**MatchingFund** Details](sections/matching_fund_details.md)
 1. **Illustrations**
     1. [**Illustrations** List](deprecated)
 
@@ -275,7 +272,7 @@ Example with validation errors:
 ```json
 {
   "name": "GeneralError",
-  "status": "unprocessable_entity",
+  "status": "unprocessable_content",
   "status_code": 422,
   "reason": "Cannot Process Submitted Data",
   "backtrace": [

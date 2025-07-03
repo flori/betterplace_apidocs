@@ -41,7 +41,7 @@ projects they choose.
 ### Reconciliation of donation pledges
 
 Part of the contract for the usage of this donation pledge API will
-be the time period in which the pledges need to be reconciled. Ususally
+be the time period in which the pledges need to be reconciled. Usually
 every two weeks or once a month. At the end of this time, the client
 will sum all pledges in the client system, wire us the donations and
 also send us a CSV file which allows betterplace.org to check the amounts.
@@ -156,7 +156,7 @@ are optional.
   "city": "Wiesbaden",
   "zip": "65185",
   "country_code": "DE",
-  "validate_address": false
+  "receipt_desired": false
 }
 ```
 
@@ -182,7 +182,7 @@ are optional.
 First name of the donor.
 
 This field is required by default, but optional with
-validate_address=false.
+receipt_desired=false.
 
 
 </td>
@@ -199,7 +199,7 @@ validate_address=false.
 Last name of the donor.
 
 This field is required by default, but optional with
-validate_address=false.
+receipt_desired=false.
 
 
 </td>
@@ -217,7 +217,7 @@ Email address of the donor.
 Only valid email addresses will be accepted.
 
 This field is required by default, but optional with
-validate_address=false.
+receipt_desired=false.
 
 
 </td>
@@ -311,7 +311,7 @@ future.
 The street of the donors address.
 Used to issue a donation receipt if the donation is tax deductible.
 
-This field is required by default, but optional with validate_address=false.
+This field is required by default, but optional with receipt_desired=false.
 
 
 </td>
@@ -328,7 +328,7 @@ This field is required by default, but optional with validate_address=false.
 The city of the donors address.
 Used to issue a donation receipt if the donation is tax deductible.
 
-This field is required by default, but optional with validate_address=false.
+This field is required by default, but optional with receipt_desired=false.
 
 
 </td>
@@ -345,7 +345,7 @@ This field is required by default, but optional with validate_address=false.
 Zip code of the city or region the donor lives in.
 Used to issue a donation receipt if the donation is tax deductible.
 
-This field is required by default, but optional with validate_address=false.
+This field is required by default, but optional with receipt_desired=false.
 
 
 </td>
@@ -364,13 +364,13 @@ can be found at <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officia
 Wikipedia ISO_3166-1_alpha-2</a>. Used to issue a donation receipt if
 the donation is tax deductible.
 
-This field is required by default, but optional with validate_address=false.
+This field is required by default, but optional with receipt_desired=false.
 
 
 </td>
   </tr>
   <tr>
-    <th align="left">validate_address</th>
+    <th align="left">receipt_desired</th>
     <td><code>false</code></td>
     <td><code>boolean</code></td>
     <td>
@@ -464,7 +464,7 @@ information about it can be gathered.
   "links": [
     {
       "rel": "location",
-      "href": "https://api.betterplace.org/de/api_v4/clients/some_client/client_donations/666-a-reference"
+      "href": "https://api.betterplace.dev/de/api_v4/clients/some_client/client_donations/666-a-reference"
     }
   ]
 }

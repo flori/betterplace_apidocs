@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to the betterplace.org API v4 will be documented in this file.
 
+## 2024-08-27
+- MatchingFunds and all references to it were removed.
+
+## 2024-06-20
+
+### Changed
+- field `validate_address` renamed to `receipt_desired` for [direct deposits](/sections/client_direct_deposit_create.md) and [donation pledges](/sections/client_donation_pledges_creation.md), its behavior remains the same
+
 ## 2022-10-24
 
 - Deprecate `comments_count` on [project details](sections/project_details.md). (The comments feature had already been removed in 2021.)
@@ -285,7 +293,7 @@ All notable changes to the betterplace.org API v4 will be documented in this fil
 
 
 ## 2014-01 - 2014-04
-This is the aggrgated changelog for all changes for this time interval.
+This is the aggregated changelog for all changes for this time interval.
 
 ### Added
 * 2013-06-20: Add `client.pool_balance_in_cents` property, see doc for details
@@ -304,7 +312,7 @@ This is the aggrgated changelog for all changes for this time interval.
 
 
 ## 2014-01 - 2014-04
-This is the aggrgated changelog for all changes for this time interval.
+This is the aggregated changelog for all changes for this time interval.
 
 ### Added
 * 2012-04-15: Add "Client Project-Tag Project List".

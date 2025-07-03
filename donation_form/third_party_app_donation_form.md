@@ -132,7 +132,7 @@ Please not that the ThirdPartyApp custom donation form does not allow color and 
 
 ### Redirect URL and response parameter
 
-This URL is part of the configuration that needs to be done by betterplace.org (see [How to get it](#how-to-get-it)). We will redirect the donor to this URL after a successful donation. We will also extend the URL with the following reponse parameter.
+This URL is part of the configuration that needs to be done by betterplace.org (see [How to get it](#how-to-get-it)). We will redirect the donor to this URL after a successful donation. We will also extend the URL with the following response parameter.
 
 _Cool urls dont change:_ We cannot change this URL after we created you ThirPartyApp ID. Please consider redirecting inside your application.
 
@@ -181,7 +181,7 @@ https://www.you-app.cool/callback.php?status=DONATION_COMPLETE&donation_client_r
       <code>&amount=6</code>
     </td>
     <td>
-      The amount that was actually donated. This corresponts to <code>donation_amount</code> unless the user changed it.
+      The amount that was actually donated. This corresponds to <code>donation_amount</code> unless the user changed it.
     </td>
   </tr>
   <tr>

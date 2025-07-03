@@ -234,32 +234,32 @@ Link to the regular donation form.
 ```json
 {
   "id": 1,
-  "created_at": "2023-04-25T15:30:26+02:00",
-  "updated_at": "2023-04-25T15:30:26+02:00",
+  "created_at": "2025-06-26T13:12:07+02:00",
+  "updated_at": "2025-06-27T23:00:10+02:00",
   "title": "Money for tools",
   "description": "tools to build some awesome houses",
   "completed": false,
-  "progress_percentage": 0.0,
-  "donated_amount_in_cents": 0,
-  "open_amount_in_cents": 800100,
+  "progress_percentage": 63.74,
+  "donated_amount_in_cents": 510000,
+  "open_amount_in_cents": 290100,
   "requested_amount_in_cents": 800100,
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/projects/1/needs/1.json"
+      "href": "https://api.betterplace.dev/de/api_v4/projects/1/needs/1.json"
     },
     {
       "rel": "project",
-      "href": "https://api.betterplace.org/de/api_v4/projects/1.json"
+      "href": "https://api.betterplace.dev/de/api_v4/projects/1.json"
     },
     {
       "rel": "new_client_donation",
-      "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/projects/1?need_id=1",
+      "href": "https://www.betterplace.dev/de/donate/%7Bclient_id%7D/projects/1?need_id=1",
       "templated": true
     },
     {
       "rel": "new_donation",
-      "href": "https://www.betterplace.org/de/donate/platform/projects/1?need_id=1"
+      "href": "https://www.betterplace.dev/de/donate/platform/projects/1?need_id=1"
     }
   ]
 }

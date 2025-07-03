@@ -204,9 +204,7 @@ information about it can be gathered.
 {
   "status": "created",
   "status_code": 201,
-  "links": [
-
-  ]
+  "links": []
 }
 ```
 

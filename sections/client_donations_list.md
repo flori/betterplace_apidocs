@@ -364,6 +364,90 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x0000000118bd7838>"
+{
+  "current_page": 1,
+  "offset": 0,
+  "per_page": 3,
+  "total_entries": 2,
+  "total_pages": 1,
+  "data": [
+    {
+      "amount_in_cents": 50000,
+      "state": "confirmed",
+      "donor": {
+        "name": "Anonym",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/donation_profile_picture/fill_100x100_default.png"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/donation_profile_picture/fill_100x100_default.png"
+            }
+          ]
+        },
+        "links": []
+      },
+      "message": "ww client donation is this one",
+      "token": "uEzfyTvGsRoMfnkDJ-km__MT",
+      "client_reference": null,
+      "created_at": "2025-06-26T13:12:26+02:00",
+      "receiver_type": "Project",
+      "receiver_id": 1,
+      "receiver_title": "Project - my little project",
+      "links": [
+        {
+          "rel": "receiver",
+          "href": "https://api.betterplace.dev/de/api_v4/projects/1.json"
+        },
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.dev/de/api_v4/clients/ww-testclient/client_donations/uEzfyTvGsRoMfnkDJ-km__MT.json"
+        }
+      ]
+    },
+    {
+      "amount_in_cents": 50000,
+      "state": "confirmed",
+      "donor": {
+        "name": "Anonym",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/donation_profile_picture/fill_100x100_default.png"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/donation_profile_picture/fill_100x100_default.png"
+            }
+          ]
+        },
+        "links": []
+      },
+      "message": "for receipt",
+      "token": "5HFBnvSFHp9NEZyQdXy1eVjs",
+      "client_reference": null,
+      "created_at": "2025-05-22T13:12:30+02:00",
+      "receiver_type": "Project",
+      "receiver_id": 1,
+      "receiver_title": "Project - my little project",
+      "links": [
+        {
+          "rel": "receiver",
+          "href": "https://api.betterplace.dev/de/api_v4/projects/1.json"
+        },
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.dev/de/api_v4/clients/ww-testclient/client_donations/5HFBnvSFHp9NEZyQdXy1eVjs.json"
+        }
+      ]
+    }
+  ]
+}
 ```
 

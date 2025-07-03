@@ -8,7 +8,7 @@ GET https://api.betterplace.org/de/api_v4/projects/3/pictures.json
 A list of pictures of a betterplace.org project (donate money).
 Results are contained in a *data* attribute.
 
-*Custom picture-sizes:* This API will only deliver the orginal image.
+*Custom picture-sizes:* This API will only deliver the original image.
 That is the largest image betterplace.org can provide.
 Please use an image transformation service of your choice to resize this
 image to your liking. Note, however, that some image names contain
@@ -201,6 +201,50 @@ The parent object of this picture.
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x000000011a196db8>"
+{
+  "current_page": 1,
+  "offset": 0,
+  "per_page": 3,
+  "total_entries": 1,
+  "total_pages": 1,
+  "data": [
+    {
+      "id": 1,
+      "created_at": "2025-06-26T13:12:11+02:00",
+      "updated_at": "2025-06-26T13:12:11+02:00",
+      "description": null,
+      "links": [
+        {
+          "rel": "image",
+          "href": ""
+        },
+        {
+          "rel": "limit_620x323",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/000/003/1/limit_620x323_image.jpg"
+        },
+        {
+          "rel": "limit_620x323_2x",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/000/003/1/limit_620x323_2x_image.jpg"
+        },
+        {
+          "rel": "limit_450x235",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/000/003/1/limit_450x235_image.jpg"
+        },
+        {
+          "rel": "limit_450x235_2x",
+          "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/000/003/1/limit_450x235_2x_image.jpg"
+        },
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.dev/de/api_v4/projects/3/pictures/1.json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://api.betterplace.dev/de/api_v4/projects/3.json"
+        }
+      ]
+    }
+  ]
+}
 ```
 

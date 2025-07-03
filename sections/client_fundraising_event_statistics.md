@@ -121,9 +121,7 @@ The client-pool-fundraising-event is ignored.
   "fundraising_events_count": 0,
   "client_donated_amount_in_cents": 0,
   "client_donations_count": 0,
-  "links": [
-
-  ]
+  "links": []
 }
 ```
 

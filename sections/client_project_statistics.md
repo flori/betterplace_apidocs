@@ -108,7 +108,7 @@ The number of <a href="projects_list.md">projects</a> of this client.
 <td>
 
 How many cents are donated through the client's donation page and forwarded
-from the clients donation pool or matching funds of this client.
+from the clients donation pool.
 
 
 </td>
@@ -147,9 +147,7 @@ The number of <a href="client_donations_list.md">client donations</a> for this c
   "projects_count": 0,
   "client_donated_amount_in_cents": 0,
   "client_donations_count": 0,
-  "links": [
-
-  ]
+  "links": []
 }
 ```
 

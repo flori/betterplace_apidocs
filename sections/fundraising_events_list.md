@@ -726,6 +726,127 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x0000000119ed48f0>"
+{
+  "current_page": 1,
+  "offset": 0,
+  "per_page": 3,
+  "total_entries": 1,
+  "total_pages": 1,
+  "data": [
+    {
+      "id": 6,
+      "created_at": "2025-06-26T13:12:20+02:00",
+      "updated_at": "2025-06-26T13:12:20+02:00",
+      "content_updated_at": "2025-06-26T13:12:20+02:00",
+      "title": "FunE - Fundraising event in Berlin",
+      "description": "Description of FunE - Fundraising event in Berlin",
+      "tax_deductible": true,
+      "donations_prohibited": false,
+      "closed_at": null,
+      "activate_donations_at": null,
+      "donations_count": 0,
+      "donor_count": 0,
+      "donated_amount_in_cents": 0,
+      "requested_amount_in_cents": null,
+      "forwarded_amount_in_cents": 0,
+      "progress_percentage": null,
+      "contact": {
+        "id": 1,
+        "name": "u. X",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.dev/de/users/1"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.dev/de/api_v4/users/1/contact_data.json"
+          }
+        ]
+      },
+      "profile_picture": {
+        "fallback": true,
+        "links": [
+          {
+            "rel": "fill_960x500",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/fill_960x500_73c50bdf-423f-4ea0-b21f-073850f26a97.jpg"
+          },
+          {
+            "rel": "fill_730x380",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/fill_730x380_73c50bdf-423f-4ea0-b21f-073850f26a97.jpg"
+          },
+          {
+            "rel": "fill_618x322",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/fill_618x322_73c50bdf-423f-4ea0-b21f-073850f26a97.jpg"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/fill_410x214_73c50bdf-423f-4ea0-b21f-073850f26a97.jpg"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/fill_270x141_73c50bdf-423f-4ea0-b21f-073850f26a97.jpg"
+          },
+          {
+            "rel": "original",
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/crop_original_73c50bdf-423f-4ea0-b21f-073850f26a97.jpg"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.dev/de/api_v4/fundraising_events/6.json"
+        },
+        {
+          "rel": "featured_projects",
+          "href": "https://api.betterplace.dev/de/api_v4/fundraising_events/6/featured_projects.json"
+        },
+        {
+          "rel": "blog_posts",
+          "href": "https://api.betterplace.dev/de/api_v4/fundraising_events/6/blog_posts.json"
+        },
+        {
+          "rel": "forwardings",
+          "href": "https://api.betterplace.dev/de/api_v4/fundraising_events/6/forwardings.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.dev/de/fundraising-events/6-fune-fundraising-event-in-berlin"
+        },
+        {
+          "rel": "opinions",
+          "href": "https://api.betterplace.dev/de/api_v4/fundraising_events/6/opinions.json"
+        },
+        {
+          "rel": "new_client_donation",
+          "href": "https://www.betterplace.dev/de/donate/%7Bclient_id%7D/fundraising-events/6",
+          "templated": true
+        },
+        {
+          "rel": "new_donation",
+          "href": "https://www.betterplace.dev/de/donate/platform/fundraising-events/6"
+        },
+        {
+          "rel": "new_message",
+          "href": "https://www.betterplace.dev/de/messages/new?recipient=1"
+        }
+      ]
+    }
+  ]
+}
 ```
 

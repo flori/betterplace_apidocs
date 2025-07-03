@@ -109,6 +109,25 @@ Link to the <a href="client_tag_projects_list.md">client-tag projects list</a> â
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x0000000119604810>"
+{
+  "current_page": 1,
+  "offset": 0,
+  "per_page": 2,
+  "total_entries": 1,
+  "total_pages": 1,
+  "data": [
+    {
+      "tag": "client-tag-1",
+      "slug": "client-tag-1",
+      "projects_count": 1,
+      "links": [
+        {
+          "rel": "projects",
+          "href": "https://api.betterplace.dev/de/api_v4/clients/ww-testclient/tags/client-tag-1/projects.json"
+        }
+      ]
+    }
+  ]
+}
 ```
 

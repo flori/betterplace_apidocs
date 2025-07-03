@@ -343,6 +343,116 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x000000011810f0b8>"
+{
+  "current_page": 1,
+  "offset": 0,
+  "per_page": 2,
+  "total_entries": 2,
+  "total_pages": 1,
+  "data": [
+    {
+      "id": 1,
+      "created_at": "2025-06-26T13:12:22+02:00",
+      "updated_at": "2025-06-27T10:32:54+02:00",
+      "lang": "en",
+      "type": "BlogPost",
+      "title": "My first blog post",
+      "published_at": "2025-06-26T13:12:22+02:00",
+      "body": "<p>Lorem Ipsum blog body</p>",
+      "author": {
+        "id": 1,
+        "name": "u. X",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.dev/de/users/1"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.dev/de/api_v4/users/1/contact_data.json"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.dev/de/api_v4/blog_posts/1.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.dev/de/projects/1-project-my-little-project/news/1"
+        },
+        {
+          "rel": "documentation",
+          "href": "https://github.com/betterplace/betterplace_apidocs/blob/master/sections/blog_post_details.md"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "created_at": "2025-06-26T13:12:22+02:00",
+      "updated_at": "2025-06-27T10:32:55+02:00",
+      "lang": "en",
+      "type": "BlogPost",
+      "title": "My first blog post",
+      "published_at": "2025-06-26T13:12:22+02:00",
+      "body": "<p>Lorem Ipsum blog body</p>",
+      "author": {
+        "id": 1,
+        "name": "u. X",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.dev/de/users/1"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.dev/de/api_v4/users/1/contact_data.json"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.dev/de/api_v4/blog_posts/3.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.dev/de/projects/1-project-my-little-project/news/3"
+        },
+        {
+          "rel": "documentation",
+          "href": "https://github.com/betterplace/betterplace_apidocs/blob/master/sections/blog_post_details.md"
+        }
+      ]
+    }
+  ]
+}
 ```
 

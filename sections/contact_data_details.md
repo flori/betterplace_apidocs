@@ -8,7 +8,7 @@ GET https://api.betterplace.org/de/api_v4/users/2/contact_data.json
 Name and email for the given user.
 
 Used by api clients to access data about
-the managers of projects that belog to this
+the managers of projects that belong to this
 client.
 
 **:lock: Only available if authenticated as a client and only if this clients has permissions to access this data.**
@@ -96,12 +96,10 @@ The email address of the user or donor.
 
 ```json
 {
-  "first_name": "User 2",
-  "last_name": "X",
+  "first_name": "Katherine",
+  "last_name": "Catson",
   "email": "user2@betterplace.org",
-  "links": [
-
-  ]
+  "links": []
 }
 ```
 

@@ -5,7 +5,7 @@
 GET https://api.betterplace.org/de/api_v4/fundraising_events/1/forwardings.json
 ```
 
-A list of forwarings from the fundraising event to its projects.
+A list of forwardings from the fundraising event to its projects.
 
 **This is an experimental feature and is still under heavy development. Please use it with caution.**
 
@@ -115,6 +115,44 @@ Link to the project on betterplace.org. Can be blank if project is hidden.
 ## Response Example
 
 ```json
-"#<ApiTools::ResultSet:0x0000000119496be0>"
+{
+  "current_page": 1,
+  "offset": null,
+  "per_page": null,
+  "total_entries": 2,
+  "total_pages": 1,
+  "data": [
+    {
+      "forwarded_amount_in_cents": 10000,
+      "title": "Project - my little project",
+      "project_id": 1,
+      "links": [
+        {
+          "rel": "project",
+          "href": "https://api.betterplace.dev/de/api_v4/projects/1.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.dev/de/projects/1-project-my-little-project"
+        }
+      ]
+    },
+    {
+      "forwarded_amount_in_cents": 10000,
+      "title": "Project - Some other little project",
+      "project_id": 8,
+      "links": [
+        {
+          "rel": "project",
+          "href": "https://api.betterplace.dev/de/api_v4/projects/8.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.dev/de/projects/8-project-some-other-little-project"
+        }
+      ]
+    }
+  ]
+}
 ```
 

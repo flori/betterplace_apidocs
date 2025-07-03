@@ -216,16 +216,14 @@ Link to the related donation
 ```json
 {
   "id": 1,
-  "created_at": "2023-04-25T15:30:42+02:00",
-  "updated_at": "2023-04-25T15:30:42+02:00",
+  "created_at": "2025-06-26T13:12:24+02:00",
+  "updated_at": "2025-06-26T13:12:24+02:00",
   "confirmed_at": null,
   "failed_at": null,
-  "state": "created",
+  "state": "confirmed",
   "failure_code": null,
   "failure_reason": null,
-  "links": [
-
-  ]
+  "links": []
 }
 ```
 

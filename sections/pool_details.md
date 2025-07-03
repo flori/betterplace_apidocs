@@ -131,15 +131,15 @@ Link to this resource itself
 
 ```json
 {
-  "id": 178,
-  "created_at": "2023-04-25T15:30:41+02:00",
-  "updated_at": "2023-04-25T15:30:41+02:00",
+  "id": 2,
+  "created_at": "2025-06-26T13:12:24+02:00",
+  "updated_at": "2025-06-26T13:12:24+02:00",
   "donated_amount_in_cents": 0,
   "forwarded_amount_in_cents": 0,
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/clients/ww-testclient/pool.json"
+      "href": "https://api.betterplace.dev/de/api_v4/clients/ww-testclient/pool.json"
     }
   ]
 }

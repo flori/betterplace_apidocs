@@ -200,13 +200,13 @@ The parent object of this picture.
 ```json
 {
   "id": 1,
-  "created_at": "2023-04-25T15:30:33+02:00",
-  "updated_at": "2023-04-25T15:30:33+02:00",
+  "created_at": "2025-06-26T13:12:11+02:00",
+  "updated_at": "2025-06-26T13:12:11+02:00",
   "description": null,
   "links": [
     {
       "rel": "image",
-      "href": "https://betterplace-assets.betterplace.org/uploads/project/image/000/000/003/1/image.jpg"
+      "href": ""
     },
     {
       "rel": "limit_620x323",
@@ -226,11 +226,11 @@ The parent object of this picture.
     },
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/projects/3/pictures/1.json"
+      "href": "https://api.betterplace.dev/de/api_v4/projects/3/pictures/1.json"
     },
     {
       "rel": "parent",
-      "href": "https://api.betterplace.org/de/api_v4/projects/3.json"
+      "href": "https://api.betterplace.dev/de/api_v4/projects/3.json"
     }
   ]
 }

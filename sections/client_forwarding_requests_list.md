@@ -271,7 +271,7 @@ information about it can be gathered.
   "links": [
     {
       "rel": "location",
-      "href": "https://api.betterplace.org/de/api_v4/clients/some_client/forwarding_requests/1337"
+      "href": "https://api.betterplace.dev/de/api_v4/clients/some_client/forwarding_requests/1337"
     }
   ]
 }

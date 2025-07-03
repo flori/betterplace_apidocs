@@ -644,20 +644,20 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 ```json
 {
   "id": 1,
-  "created_at": "2023-04-25T15:30:35+02:00",
-  "updated_at": "2023-06-13T09:00:35+02:00",
-  "content_updated_at": "2023-04-25T15:30:35+02:00",
-  "title": "My Berlin Marathon",
-  "description": null,
+  "created_at": "2025-06-26T13:12:12+02:00",
+  "updated_at": "2025-06-27T10:33:05+02:00",
+  "content_updated_at": "2025-06-26T13:12:12+02:00",
+  "title": "FunE - Kitty event has 1 project",
+  "description": "Description of FunE - Kitty event has 1 project",
   "tax_deductible": true,
   "donations_prohibited": false,
   "closed_at": null,
   "activate_donations_at": null,
-  "donations_count": 1,
-  "donor_count": 1,
-  "donated_amount_in_cents": 50000,
+  "donations_count": 2,
+  "donor_count": 2,
+  "donated_amount_in_cents": 80000,
   "requested_amount_in_cents": null,
-  "forwarded_amount_in_cents": 25000,
+  "forwarded_amount_in_cents": 20000,
   "progress_percentage": null,
   "contact": {
     "id": 3,
@@ -678,79 +678,80 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     "links": [
       {
         "rel": "platform",
-        "href": "https://www.betterplace.org/de/users/3"
+        "href": "https://www.betterplace.dev/de/users/3"
       },
       {
         "rel": "contact_data",
-        "href": "https://api.betterplace.org/de/api_v4/users/3/contact_data.json"
+        "href": "https://api.betterplace.dev/de/api_v4/users/3/contact_data.json"
       }
     ]
   },
   "profile_picture": {
+    "fallback": true,
     "links": [
       {
         "rel": "fill_960x500",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_960x500_f8b5d6d3-366c-4d8f-8498-df9a0c20fe9d.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_960x500_f313ef89-016e-49e1-9916-98120893a5fa.jpg"
       },
       {
         "rel": "fill_730x380",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_730x380_f8b5d6d3-366c-4d8f-8498-df9a0c20fe9d.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_730x380_f313ef89-016e-49e1-9916-98120893a5fa.jpg"
       },
       {
         "rel": "fill_618x322",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_618x322_f8b5d6d3-366c-4d8f-8498-df9a0c20fe9d.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_618x322_f313ef89-016e-49e1-9916-98120893a5fa.jpg"
       },
       {
         "rel": "fill_410x214",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_410x214_f8b5d6d3-366c-4d8f-8498-df9a0c20fe9d.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_410x214_f313ef89-016e-49e1-9916-98120893a5fa.jpg"
       },
       {
         "rel": "fill_270x141",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_270x141_f8b5d6d3-366c-4d8f-8498-df9a0c20fe9d.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_270x141_f313ef89-016e-49e1-9916-98120893a5fa.jpg"
       },
       {
         "rel": "original",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/crop_original_f8b5d6d3-366c-4d8f-8498-df9a0c20fe9d.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/crop_original_f313ef89-016e-49e1-9916-98120893a5fa.jpg"
       }
     ]
   },
   "links": [
     {
       "rel": "self",
-      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/1.json"
+      "href": "https://api.betterplace.dev/de/api_v4/fundraising_events/1.json"
     },
     {
       "rel": "featured_projects",
-      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/1/featured_projects.json"
+      "href": "https://api.betterplace.dev/de/api_v4/fundraising_events/1/featured_projects.json"
     },
     {
       "rel": "blog_posts",
-      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/1/blog_posts.json"
+      "href": "https://api.betterplace.dev/de/api_v4/fundraising_events/1/blog_posts.json"
     },
     {
       "rel": "forwardings",
-      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/1/forwardings.json"
+      "href": "https://api.betterplace.dev/de/api_v4/fundraising_events/1/forwardings.json"
     },
     {
       "rel": "platform",
-      "href": "https://www.betterplace.org/de/fundraising-events/1-my-berlin-marathon"
+      "href": "https://www.betterplace.dev/de/fundraising-events/1-fune-kitty-event-has-1-project"
     },
     {
       "rel": "opinions",
-      "href": "https://api.betterplace.org/de/api_v4/fundraising_events/1/opinions.json"
+      "href": "https://api.betterplace.dev/de/api_v4/fundraising_events/1/opinions.json"
     },
     {
       "rel": "new_client_donation",
-      "href": "https://www.betterplace.org/de/donate/%7Bclient_id%7D/fundraising-events/1",
+      "href": "https://www.betterplace.dev/de/donate/%7Bclient_id%7D/fundraising-events/1",
       "templated": true
     },
     {
       "rel": "new_donation",
-      "href": "https://www.betterplace.org/de/donate/platform/fundraising-events/1"
+      "href": "https://www.betterplace.dev/de/donate/platform/fundraising-events/1"
     },
     {
       "rel": "new_message",
-      "href": "https://www.betterplace.org/de/messages/new?recipient=3"
+      "href": "https://www.betterplace.dev/de/messages/new?recipient=3"
     }
   ]
 }
