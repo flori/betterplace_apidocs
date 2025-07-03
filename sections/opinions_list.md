@@ -2,7 +2,7 @@
 # Opinions List
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/projects/1/opinions.json?facets=has_message%3Atrue&fundraising_event_id=1&order=confirmed_at%3ADESC
+GET https://api.betterplace.org/de/api_v4/projects/1/opinions.json?facets=has_message%3Atrue&order=confirmed_at%3ADESC
 ```
 
 A list of betterplace.org projects or fundraising event opinions (donate money).
