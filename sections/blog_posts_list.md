@@ -2,7 +2,7 @@
 # Blog Posts List ⇄ [Details](blog_post_details.md)
 
 ```Cirru
-GET https://api.betterplace.org/de/api_v4/projects/1/blog_posts.json?fundraising_event_id=1
+GET https://api.betterplace.org/de/api_v4/fundraising_events/1/blog_posts.json
 ```
 
 A list of the blog posts of a betterplace.org project or fundraising event.
