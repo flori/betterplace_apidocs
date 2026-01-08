@@ -339,12 +339,12 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 ```json
 {
   "id": 1,
-  "created_at": "2025-06-26T13:12:22+02:00",
-  "updated_at": "2025-06-27T10:32:54+02:00",
+  "created_at": "2025-11-10T12:29:53+01:00",
+  "updated_at": "2025-11-10T12:33:43+01:00",
   "lang": "en",
   "type": "BlogPost",
   "title": "My first blog post",
-  "published_at": "2025-06-26T13:12:22+02:00",
+  "published_at": "2025-11-10T12:29:53+01:00",
   "body": "<p>Lorem Ipsum blog body</p>",
   "author": {
     "id": 1,

@@ -482,15 +482,15 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "data": [
     {
       "id": 1,
-      "created_at": "2025-06-26T13:11:50+02:00",
-      "updated_at": "2025-06-26T13:11:50+02:00",
+      "created_at": "2025-11-10T12:29:09+01:00",
+      "updated_at": "2025-11-10T12:29:09+01:00",
       "latitude": 52.52000800000001,
       "longitude": 13.404954,
       "street": "Mainzer Straße 20",
       "zip": "10247",
       "city": "Berlin",
       "country": "Deutschland",
-      "content_updated_at": "2025-06-26T13:11:50+02:00",
+      "content_updated_at": "2025-11-10T12:29:09+01:00",
       "slug": "permalink1",
       "name": "Organisation #1",
       "description": "not a blank description",

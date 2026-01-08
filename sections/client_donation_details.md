@@ -373,9 +373,9 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     "links": []
   },
   "message": "ww client donation is this one",
-  "token": "uEzfyTvGsRoMfnkDJ-km__MT",
+  "token": "vMEx-YVNjwRNBKz1Ht2wv2c9",
   "client_reference": null,
-  "created_at": "2025-06-26T13:12:26+02:00",
+  "created_at": "2025-11-10T12:29:57+01:00",
   "receiver_type": "Project",
   "receiver_id": 1,
   "receiver_title": "Project - my little project",
@@ -386,7 +386,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     },
     {
       "rel": "self",
-      "href": "https://api.betterplace.dev/de/api_v4/clients/ww-testclient/client_donations/uEzfyTvGsRoMfnkDJ-km__MT.json"
+      "href": "https://api.betterplace.dev/de/api_v4/clients/ww-testclient/client_donations/vMEx-YVNjwRNBKz1Ht2wv2c9.json"
     }
   ]
 }

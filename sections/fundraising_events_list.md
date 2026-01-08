@@ -735,9 +735,9 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "data": [
     {
       "id": 6,
-      "created_at": "2025-06-26T13:12:20+02:00",
-      "updated_at": "2025-06-26T13:12:20+02:00",
-      "content_updated_at": "2025-06-26T13:12:20+02:00",
+      "created_at": "2025-11-10T12:29:50+01:00",
+      "updated_at": "2025-11-29T09:00:24+01:00",
+      "content_updated_at": "2025-11-10T12:29:50+01:00",
       "title": "FunE - Fundraising event in Berlin",
       "description": "Description of FunE - Fundraising event in Berlin",
       "tax_deductible": true,
@@ -782,27 +782,27 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         "links": [
           {
             "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/fill_960x500_73c50bdf-423f-4ea0-b21f-073850f26a97.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/fill_960x500_8ff555f0-c52f-4891-8ad9-7057ee98a9bd.jpg"
           },
           {
             "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/fill_730x380_73c50bdf-423f-4ea0-b21f-073850f26a97.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/fill_730x380_8ff555f0-c52f-4891-8ad9-7057ee98a9bd.jpg"
           },
           {
             "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/fill_618x322_73c50bdf-423f-4ea0-b21f-073850f26a97.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/fill_618x322_8ff555f0-c52f-4891-8ad9-7057ee98a9bd.jpg"
           },
           {
             "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/fill_410x214_73c50bdf-423f-4ea0-b21f-073850f26a97.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/fill_410x214_8ff555f0-c52f-4891-8ad9-7057ee98a9bd.jpg"
           },
           {
             "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/fill_270x141_73c50bdf-423f-4ea0-b21f-073850f26a97.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/fill_270x141_8ff555f0-c52f-4891-8ad9-7057ee98a9bd.jpg"
           },
           {
             "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/crop_original_73c50bdf-423f-4ea0-b21f-073850f26a97.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/006/crop_original_8ff555f0-c52f-4891-8ad9-7057ee98a9bd.jpg"
           }
         ]
       },

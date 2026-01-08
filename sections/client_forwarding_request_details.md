@@ -211,10 +211,10 @@ Link to the related donation
 ```json
 {
   "id": 1,
-  "created_at": "2025-06-26T13:12:24+02:00",
-  "updated_at": "2025-06-28T04:15:14+02:00",
+  "created_at": "2025-11-10T12:29:55+01:00",
+  "updated_at": "2025-11-29T04:15:17+01:00",
   "confirmed_at": null,
-  "failed_at": "2025-06-28T04:15:14+02:00",
+  "failed_at": "2025-11-29T04:15:17+01:00",
   "state": "failed",
   "failure_code": "pool_empty",
   "failure_reason": "Amount Es können nicht mehr als 0,00 € zugeordnet werden.",

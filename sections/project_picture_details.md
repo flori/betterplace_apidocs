@@ -200,8 +200,8 @@ The parent object of this picture.
 ```json
 {
   "id": 1,
-  "created_at": "2025-06-26T13:12:11+02:00",
-  "updated_at": "2025-06-26T13:12:11+02:00",
+  "created_at": "2025-11-10T12:29:36+01:00",
+  "updated_at": "2025-11-10T12:29:36+01:00",
   "description": null,
   "links": [
     {

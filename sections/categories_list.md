@@ -129,8 +129,8 @@ Permalink to betterplace.org discover category
   "data": [
     {
       "id": 1,
-      "created_at": "2025-06-26T13:11:49+02:00",
-      "updated_at": "2025-06-26T13:11:49+02:00",
+      "created_at": "2025-11-10T12:29:07+01:00",
+      "updated_at": "2025-11-10T12:29:07+01:00",
       "name": "Highly interesting",
       "slug": null,
       "links": [

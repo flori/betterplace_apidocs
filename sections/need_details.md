@@ -234,8 +234,8 @@ Link to the regular donation form.
 ```json
 {
   "id": 1,
-  "created_at": "2025-06-26T13:12:07+02:00",
-  "updated_at": "2025-06-27T23:00:10+02:00",
+  "created_at": "2025-11-10T12:29:31+01:00",
+  "updated_at": "2025-11-28T23:00:20+01:00",
   "title": "Money for tools",
   "description": "tools to build some awesome houses",
   "completed": false,

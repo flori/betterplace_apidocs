@@ -389,8 +389,8 @@ The holder name for the SEPA transaction.
 ```json
 {
   "id": 1,
-  "created_at": "2025-06-26T13:12:25+02:00",
-  "updated_at": "2025-06-26T13:12:25+02:00",
+  "created_at": "2025-11-10T12:29:56+01:00",
+  "updated_at": "2025-11-10T12:29:56+01:00",
   "reference_id": 1,
   "iban": "DE61100500000191399744",
   "holder_name": "betterplace.org",

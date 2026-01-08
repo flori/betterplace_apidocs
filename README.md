@@ -369,7 +369,7 @@ betterplace.org has three deprecated APIs. For more information contact product@
 
 ## About betterplace.org
 
-Learn more about betterplace at https://www.betterplace.org/c/about-us/
+Learn more about betterplace at https://www.betterplace.org/c/ueber-uns/
 
 
 ## License of this documentation

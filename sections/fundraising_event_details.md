@@ -644,9 +644,9 @@ Maximum sized image. This is the original image with default-cropping or user-cr
 ```json
 {
   "id": 1,
-  "created_at": "2025-06-26T13:12:12+02:00",
-  "updated_at": "2025-06-27T10:33:05+02:00",
-  "content_updated_at": "2025-06-26T13:12:12+02:00",
+  "created_at": "2025-11-10T12:29:39+01:00",
+  "updated_at": "2025-11-29T09:00:23+01:00",
+  "content_updated_at": "2025-11-10T12:29:39+01:00",
   "title": "FunE - Kitty event has 1 project",
   "description": "Description of FunE - Kitty event has 1 project",
   "tax_deductible": true,
@@ -691,27 +691,27 @@ Maximum sized image. This is the original image with default-cropping or user-cr
     "links": [
       {
         "rel": "fill_960x500",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_960x500_f313ef89-016e-49e1-9916-98120893a5fa.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_960x500_d4e41ced-205e-486b-8d47-9b2b3de36b58.jpg"
       },
       {
         "rel": "fill_730x380",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_730x380_f313ef89-016e-49e1-9916-98120893a5fa.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_730x380_d4e41ced-205e-486b-8d47-9b2b3de36b58.jpg"
       },
       {
         "rel": "fill_618x322",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_618x322_f313ef89-016e-49e1-9916-98120893a5fa.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_618x322_d4e41ced-205e-486b-8d47-9b2b3de36b58.jpg"
       },
       {
         "rel": "fill_410x214",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_410x214_f313ef89-016e-49e1-9916-98120893a5fa.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_410x214_d4e41ced-205e-486b-8d47-9b2b3de36b58.jpg"
       },
       {
         "rel": "fill_270x141",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_270x141_f313ef89-016e-49e1-9916-98120893a5fa.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/fill_270x141_d4e41ced-205e-486b-8d47-9b2b3de36b58.jpg"
       },
       {
         "rel": "original",
-        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/crop_original_f313ef89-016e-49e1-9916-98120893a5fa.jpg"
+        "href": "https://betterplace-assets.betterplace.org/uploads/fundraising_event/profile_picture/000/000/001/crop_original_d4e41ced-205e-486b-8d47-9b2b3de36b58.jpg"
       }
     ]
   },

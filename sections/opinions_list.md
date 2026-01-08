@@ -89,6 +89,7 @@ Documented and supported filters are:
   <li><code>has_message:true/false</code> – did the donor add a message to her donation
   <li><code>company_donation:true/false</code> – is the donor a company
   <li><code>has_author_or_amount:true/false</code> – exclude anonymous donations with no amount shown
+  <li><code>has_amount:true/false</code> – donations with or without amount shown
   <li><code>since:datetime</code> – filter for donations that are newer than a certain datetime
 </ul>
 <a href="../README.md#request-parameter-format">Learn how to format the parameter</a>.
@@ -488,8 +489,8 @@ Sponsoring Logo
   "data": [
     {
       "id": 1,
-      "created_at": "2025-06-26T13:12:26+02:00",
-      "updated_at": "2025-06-26T13:12:26+02:00",
+      "created_at": "2025-11-10T12:29:56+01:00",
+      "updated_at": "2025-11-10T12:29:57+01:00",
       "donated_amount_in_cents": 50000,
       "score": "positive",
       "author": {
@@ -510,7 +511,7 @@ Sponsoring Logo
         "links": []
       },
       "message": "with &lt;3",
-      "confirmed_at": "2025-06-26T13:12:26+02:00",
+      "confirmed_at": "2025-11-10T12:29:56+01:00",
       "links": [
         {
           "rel": "project",

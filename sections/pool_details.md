@@ -132,8 +132,8 @@ Link to this resource itself
 ```json
 {
   "id": 2,
-  "created_at": "2025-06-26T13:12:24+02:00",
-  "updated_at": "2025-06-26T13:12:24+02:00",
+  "created_at": "2025-11-10T12:29:55+01:00",
+  "updated_at": "2025-11-10T12:29:55+01:00",
   "donated_amount_in_cents": 0,
   "forwarded_amount_in_cents": 0,
   "links": [

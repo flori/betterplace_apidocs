@@ -1214,20 +1214,189 @@ profile_picture.limit_450x235
   "total_pages": 3,
   "data": [
     {
-      "id": 11,
-      "created_at": "2025-06-26T13:12:29+02:00",
-      "updated_at": "2025-06-26T13:12:29+02:00",
+      "id": 1,
+      "created_at": "2025-11-10T12:29:10+01:00",
+      "updated_at": "2025-11-10T13:00:03+01:00",
       "latitude": 52.49000000000001,
       "longitude": 13.45,
       "street": null,
       "zip": "10123",
       "city": "Berlin",
       "country": "Deutschland",
-      "content_updated_at": "2025-06-26T13:12:29+02:00",
+      "content_updated_at": "2025-11-10T12:29:13+01:00",
+      "matching_events": [
+        {
+          "id": 1,
+          "matching_percentage": 50.0,
+          "banner_background_color": "#F6CE46",
+          "banner_text_color": "#282828",
+          "links": []
+        }
+      ],
+      "activated_at": "2025-11-10T12:29:10+01:00",
+      "title": "Project - my little project",
+      "description": "way cool project - my description aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "summary": "help people to live in peace and have cake",
+      "tax_deductible": true,
+      "donations_prohibited": false,
+      "completed_at": null,
+      "closed_at": null,
+      "open_amount_in_cents": 290100,
+      "donated_amount_in_cents": 510000,
+      "positive_opinions_count": 11,
+      "negative_opinions_count": 0,
+      "donations_count": 11,
+      "newsletter_subscriptions_count": 0,
+      "comments_count": 0,
+      "donor_count": 9,
+      "progress_percentage": 63,
+      "incomplete_need_count": 1,
+      "completed_need_count": 0,
+      "blog_post_count": 2,
+      "contact": {
+        "id": 1,
+        "name": "u. X",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "platform",
+            "href": "https://www.betterplace.dev/de/users/1"
+          },
+          {
+            "rel": "contact_data",
+            "href": "https://api.betterplace.dev/de/api_v4/users/1/contact_data.json"
+          }
+        ]
+      },
+      "carrier": {
+        "id": 1,
+        "name": "Organisation #1",
+        "city": "Berlin",
+        "country": "Deutschland",
+        "picture": {
+          "fallback": true,
+          "links": [
+            {
+              "rel": "fill_100x100",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/square_profile_picture/fill_100x100_default.jpg"
+            },
+            {
+              "rel": "original",
+              "href": "https://betterplace-assets.betterplace.org/assets/default/square_profile_picture/crop_original_default.jpg"
+            }
+          ]
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://api.betterplace.dev/de/api_v4/organisations/1.json"
+          }
+        ]
+      },
+      "profile_picture": {
+        "fallback": true,
+        "links": [
+          {
+            "rel": "fill_960x500",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/fill_960x500_9b11ca4f-e294-4d3b-b0db-2f4277d6f822.jpg"
+          },
+          {
+            "rel": "fill_730x380",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/fill_730x380_9b11ca4f-e294-4d3b-b0db-2f4277d6f822.jpg"
+          },
+          {
+            "rel": "fill_618x322",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/fill_618x322_9b11ca4f-e294-4d3b-b0db-2f4277d6f822.jpg"
+          },
+          {
+            "rel": "fill_410x214",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/fill_410x214_9b11ca4f-e294-4d3b-b0db-2f4277d6f822.jpg"
+          },
+          {
+            "rel": "fill_270x141",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/fill_270x141_9b11ca4f-e294-4d3b-b0db-2f4277d6f822.jpg"
+          },
+          {
+            "rel": "original",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/crop_original_9b11ca4f-e294-4d3b-b0db-2f4277d6f822.jpg"
+          },
+          {
+            "rel": "limit_1240x646",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/limit_1240x646_9b11ca4f-e294-4d3b-b0db-2f4277d6f822.jpg"
+          },
+          {
+            "rel": "limit_450x235",
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/limit_450x235_9b11ca4f-e294-4d3b-b0db-2f4277d6f822.jpg"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.betterplace.dev/de/api_v4/projects/1.json"
+        },
+        {
+          "rel": "platform",
+          "href": "https://www.betterplace.dev/de/projects/1-project-my-little-project"
+        },
+        {
+          "rel": "opinions",
+          "href": "https://api.betterplace.dev/de/api_v4/projects/1/opinions.json"
+        },
+        {
+          "rel": "pictures",
+          "href": "https://api.betterplace.dev/de/api_v4/projects/1/pictures.json"
+        },
+        {
+          "rel": "needs",
+          "href": "https://api.betterplace.dev/de/api_v4/projects/1/needs.json"
+        },
+        {
+          "rel": "blog_posts",
+          "href": "https://api.betterplace.dev/de/api_v4/projects/1/blog_posts.json"
+        },
+        {
+          "rel": "categories",
+          "href": "https://api.betterplace.dev/de/api_v4/projects/1/categories.json"
+        },
+        {
+          "rel": "new_client_donation",
+          "href": "https://www.betterplace.dev/de/donate/%7Bclient_id%7D/projects/1",
+          "templated": true
+        },
+        {
+          "rel": "new_donation",
+          "href": "https://www.betterplace.dev/de/donate/platform/projects/1"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "created_at": "2025-11-10T12:30:00+01:00",
+      "updated_at": "2025-11-10T12:30:00+01:00",
+      "latitude": 52.49000000000001,
+      "longitude": 13.45,
+      "street": null,
+      "zip": "10123",
+      "city": "Berlin",
+      "country": "Deutschland",
+      "content_updated_at": "2025-11-10T12:30:00+01:00",
       "matching_events": [],
-      "activated_at": "2025-06-26T13:12:29+02:00",
+      "activated_at": "2025-11-10T12:30:00+01:00",
       "title": "my little project",
-      "description": "way cool project - my description",
+      "description": "way cool project - my description aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
       "summary": "help people to live in peace and have cake",
       "tax_deductible": true,
       "donations_prohibited": false,
@@ -1376,19 +1545,19 @@ profile_picture.limit_450x235
     },
     {
       "id": 10,
-      "created_at": "2025-06-26T13:12:25+02:00",
-      "updated_at": "2025-06-26T13:12:25+02:00",
+      "created_at": "2025-11-10T12:29:56+01:00",
+      "updated_at": "2025-11-10T12:29:56+01:00",
       "latitude": 52.49000000000001,
       "longitude": 13.45,
       "street": null,
       "zip": "10123",
       "city": "Berlin",
       "country": "Deutschland",
-      "content_updated_at": "2025-06-26T13:12:25+02:00",
+      "content_updated_at": "2025-11-10T12:29:56+01:00",
       "matching_events": [],
-      "activated_at": "2025-06-26T13:12:25+02:00",
+      "activated_at": "2025-11-10T12:29:56+01:00",
       "title": "my little project",
-      "description": "way cool project - my description",
+      "description": "way cool project - my description aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
       "summary": "help people to live in peace and have cake",
       "tax_deductible": true,
       "donations_prohibited": false,
@@ -1532,167 +1701,6 @@ profile_picture.limit_450x235
         {
           "rel": "new_donation",
           "href": "https://www.betterplace.dev/de/donate/platform/projects/10"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "created_at": "2025-06-26T13:12:05+02:00",
-      "updated_at": "2025-06-27T10:33:07+02:00",
-      "latitude": 52.49000000000001,
-      "longitude": 13.45,
-      "street": null,
-      "zip": "10123",
-      "city": "Berlin",
-      "country": "Deutschland",
-      "content_updated_at": "2025-06-26T13:12:06+02:00",
-      "matching_events": [],
-      "activated_at": "2025-06-26T13:12:05+02:00",
-      "title": "Project - Fully funded",
-      "description": "way cool project - my description",
-      "summary": "help people to live in peace and have cake",
-      "tax_deductible": true,
-      "donations_prohibited": false,
-      "completed_at": "2025-06-26T13:12:06+02:00",
-      "closed_at": null,
-      "open_amount_in_cents": 0,
-      "donated_amount_in_cents": 999900,
-      "positive_opinions_count": 1,
-      "negative_opinions_count": 0,
-      "donations_count": 1,
-      "newsletter_subscriptions_count": 0,
-      "comments_count": 0,
-      "donor_count": 1,
-      "progress_percentage": 999,
-      "incomplete_need_count": 0,
-      "completed_need_count": 1,
-      "blog_post_count": 0,
-      "contact": {
-        "id": 1,
-        "name": "u. X",
-        "picture": {
-          "fallback": true,
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
-            },
-            {
-              "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/assets/default/user_profile_picture/default.svg"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "platform",
-            "href": "https://www.betterplace.dev/de/users/1"
-          },
-          {
-            "rel": "contact_data",
-            "href": "https://api.betterplace.dev/de/api_v4/users/1/contact_data.json"
-          }
-        ]
-      },
-      "carrier": {
-        "id": 1,
-        "name": "Organisation #1",
-        "city": "Berlin",
-        "country": "Deutschland",
-        "picture": {
-          "fallback": true,
-          "links": [
-            {
-              "rel": "fill_100x100",
-              "href": "https://betterplace-assets.betterplace.org/assets/default/square_profile_picture/fill_100x100_default.jpg"
-            },
-            {
-              "rel": "original",
-              "href": "https://betterplace-assets.betterplace.org/assets/default/square_profile_picture/crop_original_default.jpg"
-            }
-          ]
-        },
-        "links": [
-          {
-            "rel": "self",
-            "href": "https://api.betterplace.dev/de/api_v4/organisations/1.json"
-          }
-        ]
-      },
-      "profile_picture": {
-        "fallback": true,
-        "links": [
-          {
-            "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/009/fill_960x500_6daacca7-0475-44e7-822e-17b967b4789a.jpg"
-          },
-          {
-            "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/009/fill_730x380_6daacca7-0475-44e7-822e-17b967b4789a.jpg"
-          },
-          {
-            "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/009/fill_618x322_6daacca7-0475-44e7-822e-17b967b4789a.jpg"
-          },
-          {
-            "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/009/fill_410x214_6daacca7-0475-44e7-822e-17b967b4789a.jpg"
-          },
-          {
-            "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/009/fill_270x141_6daacca7-0475-44e7-822e-17b967b4789a.jpg"
-          },
-          {
-            "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/009/crop_original_6daacca7-0475-44e7-822e-17b967b4789a.jpg"
-          },
-          {
-            "rel": "limit_1240x646",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/009/limit_1240x646_6daacca7-0475-44e7-822e-17b967b4789a.jpg"
-          },
-          {
-            "rel": "limit_450x235",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/009/limit_450x235_6daacca7-0475-44e7-822e-17b967b4789a.jpg"
-          }
-        ]
-      },
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://api.betterplace.dev/de/api_v4/projects/9.json"
-        },
-        {
-          "rel": "platform",
-          "href": "https://www.betterplace.dev/de/projects/9-project-fully-funded"
-        },
-        {
-          "rel": "opinions",
-          "href": "https://api.betterplace.dev/de/api_v4/projects/9/opinions.json"
-        },
-        {
-          "rel": "pictures",
-          "href": "https://api.betterplace.dev/de/api_v4/projects/9/pictures.json"
-        },
-        {
-          "rel": "needs",
-          "href": "https://api.betterplace.dev/de/api_v4/projects/9/needs.json"
-        },
-        {
-          "rel": "blog_posts",
-          "href": "https://api.betterplace.dev/de/api_v4/projects/9/blog_posts.json"
-        },
-        {
-          "rel": "categories",
-          "href": "https://api.betterplace.dev/de/api_v4/projects/9/categories.json"
-        },
-        {
-          "rel": "new_client_donation",
-          "href": "https://www.betterplace.dev/de/donate/%7Bclient_id%7D/projects/9",
-          "templated": true
-        },
-        {
-          "rel": "new_donation",
-          "href": "https://www.betterplace.dev/de/donate/platform/projects/9"
         }
       ]
     }

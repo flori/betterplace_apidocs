@@ -213,7 +213,7 @@ The public face of this entity
           </a>
         </th>
       <td><code>null &#124; object</code></td>
-      <td><code></code></td>
+      <td><code>//betterplace-assets.betterplace.org ↪/uploads/user/profile_picture ↪/000/000/001 ↪/fill_100x100_original_tb.jpg</code></td>
 <td>
 
 TODO
@@ -741,13 +741,21 @@ Maximum sized image. This is the original image with default-cropping or user-cr
   "total_pages": 2,
   "data": [
     {
-      "id": 9,
-      "created_at": "2025-06-26T13:12:05+02:00",
-      "updated_at": "2025-06-27T10:33:07+02:00",
+      "id": 1,
+      "created_at": "2025-11-10T12:29:10+01:00",
+      "updated_at": "2025-11-10T13:00:03+01:00",
       "latitude": 52.49000000000001,
       "longitude": 13.45,
-      "matching_events": [],
-      "title": "Project - Fully funded",
+      "matching_events": [
+        {
+          "id": 1,
+          "matching_percentage": 50.0,
+          "banner_background_color": "#F6CE46",
+          "banner_text_color": "#282828",
+          "links": []
+        }
+      ],
+      "title": "Project - my little project",
       "type": "Project",
       "contact": {
         "id": 1,
@@ -776,37 +784,37 @@ Maximum sized image. This is the original image with default-cropping or user-cr
           }
         ]
       },
-      "progress_percentage": 999,
+      "progress_percentage": 63,
       "profile_picture": {
         "fallback": true,
         "links": [
           {
             "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/009/fill_960x500_6daacca7-0475-44e7-822e-17b967b4789a.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/fill_960x500_9b11ca4f-e294-4d3b-b0db-2f4277d6f822.jpg"
           },
           {
             "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/009/fill_730x380_6daacca7-0475-44e7-822e-17b967b4789a.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/fill_730x380_9b11ca4f-e294-4d3b-b0db-2f4277d6f822.jpg"
           },
           {
             "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/009/fill_618x322_6daacca7-0475-44e7-822e-17b967b4789a.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/fill_618x322_9b11ca4f-e294-4d3b-b0db-2f4277d6f822.jpg"
           },
           {
             "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/009/fill_410x214_6daacca7-0475-44e7-822e-17b967b4789a.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/fill_410x214_9b11ca4f-e294-4d3b-b0db-2f4277d6f822.jpg"
           },
           {
             "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/009/fill_270x141_6daacca7-0475-44e7-822e-17b967b4789a.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/fill_270x141_9b11ca4f-e294-4d3b-b0db-2f4277d6f822.jpg"
           },
           {
             "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/009/crop_original_6daacca7-0475-44e7-822e-17b967b4789a.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/001/crop_original_9b11ca4f-e294-4d3b-b0db-2f4277d6f822.jpg"
           }
         ]
       },
-      "donated_amount_in_cents": 999900,
+      "donated_amount_in_cents": 510000,
       "country": "Deutschland",
       "city": "Berlin",
       "carrier": {
@@ -834,27 +842,27 @@ Maximum sized image. This is the original image with default-cropping or user-cr
           }
         ]
       },
-      "donations_count": 1,
-      "open_amount_in_cents": 0,
+      "donations_count": 11,
+      "open_amount_in_cents": 650100,
       "links": [
         {
           "rel": "platform",
-          "href": "https://www.betterplace.dev/de/projects/9-project-fully-funded"
+          "href": "https://www.betterplace.dev/de/projects/1-project-my-little-project"
         },
         {
           "rel": "self",
-          "href": "https://api.betterplace.dev/de/api_v4/projects/9.json"
+          "href": "https://api.betterplace.dev/de/api_v4/projects/1.json"
         },
         {
           "rel": "pictures",
-          "href": "https://api.betterplace.dev/de/api_v4/projects/9/pictures.json"
+          "href": "https://api.betterplace.dev/de/api_v4/projects/1/pictures.json"
         }
       ]
     },
     {
       "id": 8,
-      "created_at": "2025-06-26T13:12:03+02:00",
-      "updated_at": "2025-06-27T10:33:03+02:00",
+      "created_at": "2025-11-10T12:29:25+01:00",
+      "updated_at": "2025-11-10T13:00:03+01:00",
       "latitude": 52.49000000000001,
       "longitude": 13.45,
       "matching_events": [],
@@ -893,27 +901,27 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         "links": [
           {
             "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/008/fill_960x500_0c70850a-4967-4aa3-9de4-e45e3a78e266.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/008/fill_960x500_aef2413c-e7f6-4c04-9958-ecd4f1da41ad.jpg"
           },
           {
             "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/008/fill_730x380_0c70850a-4967-4aa3-9de4-e45e3a78e266.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/008/fill_730x380_aef2413c-e7f6-4c04-9958-ecd4f1da41ad.jpg"
           },
           {
             "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/008/fill_618x322_0c70850a-4967-4aa3-9de4-e45e3a78e266.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/008/fill_618x322_aef2413c-e7f6-4c04-9958-ecd4f1da41ad.jpg"
           },
           {
             "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/008/fill_410x214_0c70850a-4967-4aa3-9de4-e45e3a78e266.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/008/fill_410x214_aef2413c-e7f6-4c04-9958-ecd4f1da41ad.jpg"
           },
           {
             "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/008/fill_270x141_0c70850a-4967-4aa3-9de4-e45e3a78e266.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/008/fill_270x141_aef2413c-e7f6-4c04-9958-ecd4f1da41ad.jpg"
           },
           {
             "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/008/crop_original_0c70850a-4967-4aa3-9de4-e45e3a78e266.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/008/crop_original_aef2413c-e7f6-4c04-9958-ecd4f1da41ad.jpg"
           }
         ]
       },
@@ -963,16 +971,16 @@ Maximum sized image. This is the original image with default-cropping or user-cr
       ]
     },
     {
-      "id": 6,
-      "created_at": "2025-06-26T13:12:01+02:00",
-      "updated_at": "2025-06-27T10:33:01+02:00",
+      "id": 5,
+      "created_at": "2025-11-10T12:29:19+01:00",
+      "updated_at": "2025-11-10T12:29:27+01:00",
       "latitude": 52.49000000000001,
       "longitude": 13.45,
       "matching_events": [],
-      "title": "Project - Project with some forwarded gold",
+      "title": "Project - Project with 0 donations",
       "type": "Project",
       "contact": {
-        "id": 3,
+        "id": 1,
         "name": "u. X",
         "picture": {
           "fallback": true,
@@ -990,50 +998,50 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         "links": [
           {
             "rel": "platform",
-            "href": "https://www.betterplace.dev/de/users/3"
+            "href": "https://www.betterplace.dev/de/users/1"
           },
           {
             "rel": "contact_data",
-            "href": "https://api.betterplace.dev/de/api_v4/users/3/contact_data.json"
+            "href": "https://api.betterplace.dev/de/api_v4/users/1/contact_data.json"
           }
         ]
       },
-      "progress_percentage": 20,
+      "progress_percentage": 0,
       "profile_picture": {
         "fallback": true,
         "links": [
           {
             "rel": "fill_960x500",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/006/fill_960x500_ddcb623c-e8a7-4e57-98c8-288de4cd3af6.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/005/fill_960x500_45c63a27-4971-4c8b-9a39-2ad7ae3578ea.jpg"
           },
           {
             "rel": "fill_730x380",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/006/fill_730x380_ddcb623c-e8a7-4e57-98c8-288de4cd3af6.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/005/fill_730x380_45c63a27-4971-4c8b-9a39-2ad7ae3578ea.jpg"
           },
           {
             "rel": "fill_618x322",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/006/fill_618x322_ddcb623c-e8a7-4e57-98c8-288de4cd3af6.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/005/fill_618x322_45c63a27-4971-4c8b-9a39-2ad7ae3578ea.jpg"
           },
           {
             "rel": "fill_410x214",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/006/fill_410x214_ddcb623c-e8a7-4e57-98c8-288de4cd3af6.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/005/fill_410x214_45c63a27-4971-4c8b-9a39-2ad7ae3578ea.jpg"
           },
           {
             "rel": "fill_270x141",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/006/fill_270x141_ddcb623c-e8a7-4e57-98c8-288de4cd3af6.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/005/fill_270x141_45c63a27-4971-4c8b-9a39-2ad7ae3578ea.jpg"
           },
           {
             "rel": "original",
-            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/006/crop_original_ddcb623c-e8a7-4e57-98c8-288de4cd3af6.jpg"
+            "href": "https://betterplace-assets.betterplace.org/uploads/project/profile_picture/000/000/005/crop_original_45c63a27-4971-4c8b-9a39-2ad7ae3578ea.jpg"
           }
         ]
       },
-      "donated_amount_in_cents": 10000,
+      "donated_amount_in_cents": 0,
       "country": "Deutschland",
       "city": "Berlin",
       "carrier": {
-        "id": 2,
-        "name": "Organisation #3",
+        "id": 1,
+        "name": "Organisation #1",
         "city": "Berlin",
         "country": "Deutschland",
         "picture": {
@@ -1052,24 +1060,24 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         "links": [
           {
             "rel": "self",
-            "href": "https://api.betterplace.dev/de/api_v4/organisations/2.json"
+            "href": "https://api.betterplace.dev/de/api_v4/organisations/1.json"
           }
         ]
       },
-      "donations_count": 1,
-      "open_amount_in_cents": 40000,
+      "donations_count": 0,
+      "open_amount_in_cents": 100000,
       "links": [
         {
           "rel": "platform",
-          "href": "https://www.betterplace.dev/de/projects/6-project-project-with-some-forwarded-gold"
+          "href": "https://www.betterplace.dev/de/projects/5-project-project-with-0-donations"
         },
         {
           "rel": "self",
-          "href": "https://api.betterplace.dev/de/api_v4/projects/6.json"
+          "href": "https://api.betterplace.dev/de/api_v4/projects/5.json"
         },
         {
           "rel": "pictures",
-          "href": "https://api.betterplace.dev/de/api_v4/projects/6/pictures.json"
+          "href": "https://api.betterplace.dev/de/api_v4/projects/5/pictures.json"
         }
       ]
     }
