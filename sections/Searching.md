@@ -843,7 +843,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         ]
       },
       "donations_count": 11,
-      "open_amount_in_cents": 650100,
+      "open_amount_in_cents": 290100,
       "links": [
         {
           "rel": "platform",
@@ -954,7 +954,7 @@ Maximum sized image. This is the original image with default-cropping or user-cr
         ]
       },
       "donations_count": 2,
-      "open_amount_in_cents": 390000,
+      "open_amount_in_cents": 350000,
       "links": [
         {
           "rel": "platform",
